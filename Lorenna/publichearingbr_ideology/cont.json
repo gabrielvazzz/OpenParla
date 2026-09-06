@@ -1,0 +1,19 @@
+[
+  {
+    "nome": "Arlindo Chinaglia",
+    "partido": "PT",
+    "estado": "São Paulo",
+    "contradicoes": [
+      {
+        "fala_a": "Apontou que, de 2012 a 2021, na soma das solicitações de remoção por país recebidas pela plataforma X, o Brasil figura em antepenúltimo da lista: \"Portanto, tentar caracterizar que, no Brasil de hoje, e desde 2012, haja uma atitude de censura é um exagero retórico que se transforma em mentira.\"",
+        "fala_b": "Argumentou que, assim como fez com Alexandre de Moraes no Brasil, o dono da rede X promoveu ataques do tipo em outros países.",
+        "indice_a": 1,
+        "indice_b": 2,
+        "similaridade_tematica": 0.5883,
+        "score_contradicao": 0.9115,
+        "sessao_id_a": 1,
+        "sessao_id_b": 1
+      }
+    ]
+  }
+]

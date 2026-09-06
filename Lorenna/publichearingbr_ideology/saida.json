@@ -1,0 +1,275 @@
+[
+  {
+    "nome": "Marcel van Hattem",
+    "cargo": "Deputado (Novo-RS)",
+    "estado": "Rio Grande do Sul",
+    "partido": "NOVO",
+    "opinioes": [
+      {
+        "opiniao": "Destacou que foi um dos parlamentares alvo de pedidos de remoção de conteúdo em processo sigiloso e que vai solicitar o fim do sigilo.",
+        "sessao_id": 1,
+        "assunto": "Acusações de censura contra Alexandre de Moraes por exigir bloqueio de contas na rede social X"
+      },
+      {
+        "opiniao": "Afirmou que está em curso \"um processo industrial de censura\" e de \"perseguição covarde contra desafetos\" do ministro Alexandre de Moraes.",
+        "sessao_id": 1,
+        "assunto": "Acusações de censura contra Alexandre de Moraes por exigir bloqueio de contas na rede social X"
+      },
+      {
+        "opiniao": "\"A censura não pode prevalecer, e a liberdade de expressão tem que ser regra, porque sem liberdade de expressão não há democracia, sem devido processo legal não há democracia.\"",
+        "sessao_id": 1,
+        "assunto": "Acusações de censura contra Alexandre de Moraes por exigir bloqueio de contas na rede social X"
+      },
+      {
+        "opiniao": "Afirmou que uma convidada indicada por Chinaglia foi convidada, mas não compareceu, assim como o representante da plataforma X.",
+        "sessao_id": 1,
+        "assunto": "Acusações de censura contra Alexandre de Moraes por exigir bloqueio de contas na rede social X"
+      },
+      {
+        "opiniao": "Defendeu a proposta de permitir o saque de recursos do FGTS para financiamento de um segundo imóvel: \"O projeto, além de dar mais liberdade para o trabalhador decidir o que fazer com o dinheiro depositado em sua conta, dinheiro gerado pelo suor do trabalho, vai permitir ao setor imobiliário que continue aquecido, mas por outros meios.\"",
+        "sessao_id": 66,
+        "assunto": "Financiamento de segundo imóvel com recursos do FGTS e seus impactos"
+      },
+      {
+        "opiniao": "Informou que os parlamentares vão se reunir para solucionar questões técnicas para viabilizar o envio do recurso: \"A dificuldade é encontrar uma forma de colocar os R$ 100 milhões que a bancada está disposta dos mais de R$ 300 milhões que tem disponível para uma única rubrica, porque obviamente há outras que precisam ser abertas na saúde, na segurança e para projetos de estrutura\".",
+        "sessao_id": 153,
+        "assunto": "Ampliação da linha de crédito do BNDES para grandes empresas afetadas por enchentes no Rio Grande do Sul"
+      },
+      {
+        "opiniao": "O Judiciário não está tendo o cuidado de individualizar as condutas dos presos: \"Cada um, mesmo aqueles que depredaram, que quebraram, tem que ser tratado de acordo com a proporcionalidade dos seus atos, e não de acordo com a conveniência da cabeça de um juiz, que ao mesmo tempo tem agido como vítima e como algoz.\"",
+        "sessao_id": 201,
+        "assunto": "Cobrança pela individualização das condutas dos presos nos atos de 8 de janeiro e negação de tentativa de golpe"
+      },
+      {
+        "opiniao": "Lamentou o não comparecimento de seis convidados ao debate, como o ministro Alexandre de Moraes e o diretor-geral da Polícia Federal, Andrei Rodrigues.",
+        "sessao_id": 201,
+        "assunto": "Cobrança pela individualização das condutas dos presos nos atos de 8 de janeiro e negação de tentativa de golpe"
+      }
+    ],
+    "posicionamento_politico_partido": "direita",
+    "posicionamento_politico_fala": [
+      "neutra",
+      "neutra",
+      "neutra",
+      "neutra",
+      "neutra",
+      "neutra",
+      "neutra",
+      "neutra"
+    ],
+    "posicionamento_politico_fala_detalhe": [
+      {
+        "label": "neutra",
+        "scores": {
+          "esquerda": 0.9634,
+          "centro-esquerda": 0.9648,
+          "centro": 0.9644,
+          "centro-direita": 0.9595,
+          "direita": 0.9663,
+          "neutra": 0.9712
+        },
+        "margin": 0.0049,
+        "top1": 0.9712
+      },
+      {
+        "label": "neutra",
+        "scores": {
+          "esquerda": 0.9624,
+          "centro-esquerda": 0.9561,
+          "centro": 0.9531,
+          "centro-direita": 0.9517,
+          "direita": 0.9614,
+          "neutra": 0.958
+        },
+        "margin": 0.001,
+        "top1": 0.9624
+      },
+      {
+        "label": "neutra",
+        "scores": {
+          "esquerda": 0.9673,
+          "centro-esquerda": 0.9658,
+          "centro": 0.9653,
+          "centro-direita": 0.9624,
+          "direita": 0.9683,
+          "neutra": 0.9663
+        },
+        "margin": 0.001,
+        "top1": 0.9683
+      },
+      {
+        "label": "neutra",
+        "scores": {
+          "esquerda": 0.9653,
+          "centro-esquerda": 0.9648,
+          "centro": 0.9678,
+          "centro-direita": 0.9609,
+          "direita": 0.9634,
+          "neutra": 0.9731
+        },
+        "margin": 0.0054,
+        "top1": 0.9731
+      },
+      {
+        "label": "neutra",
+        "scores": {
+          "esquerda": 0.9702,
+          "centro-esquerda": 0.9688,
+          "centro": 0.9658,
+          "centro-direita": 0.9663,
+          "direita": 0.9702,
+          "neutra": 0.9624
+        },
+        "margin": 0.0,
+        "top1": 0.9702
+      },
+      {
+        "label": "neutra",
+        "scores": {
+          "esquerda": 0.9688,
+          "centro-esquerda": 0.9707,
+          "centro": 0.9746,
+          "centro-direita": 0.9658,
+          "direita": 0.9683,
+          "neutra": 0.9736
+        },
+        "margin": 0.001,
+        "top1": 0.9746
+      },
+      {
+        "label": "neutra",
+        "scores": {
+          "esquerda": 0.9658,
+          "centro-esquerda": 0.9629,
+          "centro": 0.9653,
+          "centro-direita": 0.9536,
+          "direita": 0.9653,
+          "neutra": 0.9614
+        },
+        "margin": 0.0005,
+        "top1": 0.9658
+      },
+      {
+        "label": "neutra",
+        "scores": {
+          "esquerda": 0.9673,
+          "centro-esquerda": 0.9644,
+          "centro": 0.9663,
+          "centro-direita": 0.9595,
+          "direita": 0.9678,
+          "neutra": 0.9712
+        },
+        "margin": 0.0034,
+        "top1": 0.9712
+      }
+    ]
+  },
+  {
+    "nome": "Arlindo Chinaglia",
+    "cargo": "Deputado (PT-SP)",
+    "estado": "São Paulo",
+    "partido": "PT",
+    "opinioes": [
+      {
+        "opiniao": "Lamentou a ausência de contraditório na audiência, já que todos os convidados defenderam o mesmo ponto de vista.",
+        "sessao_id": 1,
+        "assunto": "Acusações de censura contra Alexandre de Moraes por exigir bloqueio de contas na rede social X"
+      },
+      {
+        "opiniao": "Apontou que, de 2012 a 2021, na soma das solicitações de remoção por país recebidas pela plataforma X, o Brasil figura em antepenúltimo da lista: \"Portanto, tentar caracterizar que, no Brasil de hoje, e desde 2012, haja uma atitude de censura é um exagero retórico que se transforma em mentira.\"",
+        "sessao_id": 1,
+        "assunto": "Acusações de censura contra Alexandre de Moraes por exigir bloqueio de contas na rede social X"
+      },
+      {
+        "opiniao": "Argumentou que, assim como fez com Alexandre de Moraes no Brasil, o dono da rede X promoveu ataques do tipo em outros países.",
+        "sessao_id": 1,
+        "assunto": "Acusações de censura contra Alexandre de Moraes por exigir bloqueio de contas na rede social X"
+      },
+      {
+        "opiniao": "Citou que a Comissão Europeia abriu processo contra o X por possíveis violações da recente lei de serviços digitais.",
+        "sessao_id": 1,
+        "assunto": "Acusações de censura contra Alexandre de Moraes por exigir bloqueio de contas na rede social X"
+      },
+      {
+        "opiniao": "\"A resposta do Musk foi atacar a presidente da comissão, que é eleita por todos os países da Comunidade Europeia.\"",
+        "sessao_id": 1,
+        "assunto": "Acusações de censura contra Alexandre de Moraes por exigir bloqueio de contas na rede social X"
+      }
+    ],
+    "posicionamento_politico_partido": "esquerda",
+    "posicionamento_politico_fala": [
+      "neutra",
+      "neutra",
+      "neutra",
+      "neutra",
+      "neutra"
+    ],
+    "posicionamento_politico_fala_detalhe": [
+      {
+        "label": "neutra",
+        "scores": {
+          "esquerda": 0.9746,
+          "centro-esquerda": 0.9731,
+          "centro": 0.9775,
+          "centro-direita": 0.9697,
+          "direita": 0.9736,
+          "neutra": 0.9834
+        },
+        "margin": 0.0059,
+        "top1": 0.9834
+      },
+      {
+        "label": "neutra",
+        "scores": {
+          "esquerda": 0.9619,
+          "centro-esquerda": 0.9609,
+          "centro": 0.9575,
+          "centro-direita": 0.9565,
+          "direita": 0.9619,
+          "neutra": 0.9619
+        },
+        "margin": 0.0,
+        "top1": 0.9619
+      },
+      {
+        "label": "neutra",
+        "scores": {
+          "esquerda": 0.959,
+          "centro-esquerda": 0.9585,
+          "centro": 0.9546,
+          "centro-direita": 0.9541,
+          "direita": 0.96,
+          "neutra": 0.9585
+        },
+        "margin": 0.001,
+        "top1": 0.96
+      },
+      {
+        "label": "neutra",
+        "scores": {
+          "esquerda": 0.9561,
+          "centro-esquerda": 0.9595,
+          "centro": 0.959,
+          "centro-direita": 0.9561,
+          "direita": 0.9604,
+          "neutra": 0.9629
+        },
+        "margin": 0.0024,
+        "top1": 0.9629
+      },
+      {
+        "label": "neutra",
+        "scores": {
+          "esquerda": 0.9512,
+          "centro-esquerda": 0.9521,
+          "centro": 0.9502,
+          "centro-direita": 0.9492,
+          "direita": 0.9531,
+          "neutra": 0.9551
+        },
+        "margin": 0.002,
+        "top1": 0.9551
+      }
+    ]
+  }
+]

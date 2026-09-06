@@ -1,0 +1,25 @@
+[
+  {
+    "nome": "Filipe Barros",
+    "cargo": "Deputado",
+    "estado": "Paraná",
+    "partido": "PL",
+    "opinioes": [
+      "Ressaltou que o Marco Civil da Internet é muito claro ao estabelecer que, se houver afronta à legislação, deve-se censurar uma publicação específica mediante decisão judicial motivada. Apontou que as decisões são genéricas."
+    ],
+    "posicionamento_politico_partido": "direita",
+    "posicionamento_politico_fala": null
+  },
+  {
+    "nome": "Maria Exemplo",
+    "cargo": "Deputada",
+    "estado": "Paraíba",
+    "partido": "PT",
+    "opinioes": [
+      "Sou a favor do aborto em qualquer circunstância.",
+      "Sou totalmente contra o aborto, defendo a vida."
+    ],
+    "posicionamento_politico_partido": "esquerda",
+    "posicionamento_politico_fala": null
+  }
+]
