@@ -120,3 +120,159 @@ IDEOLOGY_ANCHORS: dict[str, list[str]] = {
         "Passamos agora à leitura do expediente do dia.",
     ],
 }
+
+
+# Pares de posições opostas sobre a MESMA pauta. O classificador usa a
+# diferença entre os dois polos, e não a similaridade absoluta com rótulos
+# genéricos. Isso reduz o efeito observado no E5 em que todos os centróides
+# políticos ficam com cosseno muito alto e quase idêntico.
+#
+# Em cada pauta, "left" deve conter a posição associada ao polo esquerdo e
+# "right" sua oposição associada ao polo direito. Os exemplos precisam ser
+# semanticamente paralelos para que o eixo represente postura, não tópico.
+POLICY_STANCE_ANCHORS: dict[str, dict[str, list[str]]] = {
+    "privatizacao": {
+        "left": [
+            "Sou contra privatizações e defendo empresas estatais fortes.",
+            "Setores estratégicos devem permanecer sob controle público.",
+            "O patrimônio público não deve ser transferido à iniciativa privada.",
+        ],
+        "right": [
+            "Sou favorável à privatização das empresas públicas.",
+            "A iniciativa privada deve administrar as empresas estatais.",
+            "O patrimônio estatal deve ser vendido para reduzir o tamanho do Estado.",
+        ],
+    },
+    "papel_do_estado": {
+        "left": [
+            "O Estado deve ampliar sua atuação na economia e nos serviços públicos.",
+            "Defendo investimento público e planejamento estatal para desenvolver o país.",
+            "O governo deve intervir na economia para reduzir desigualdades.",
+        ],
+        "right": [
+            "O Estado deve reduzir sua atuação e deixar mais espaço ao mercado.",
+            "Defendo menos intervenção estatal e mais liberdade econômica.",
+            "O governo deve ser menor e a iniciativa privada deve liderar a economia.",
+        ],
+    },
+    "tributacao": {
+        "left": [
+            "Defendo impostos maiores sobre ricos e grandes fortunas.",
+            "A tributação deve ser progressiva para redistribuir renda.",
+            "Grandes patrimônios e lucros devem pagar proporcionalmente mais impostos.",
+        ],
+        "right": [
+            "Defendo a redução de impostos e uma carga tributária menor.",
+            "É preciso reduzir tributos sobre empresas e patrimônio.",
+            "Menos impostos estimulam investimento, emprego e crescimento.",
+        ],
+    },
+    "direitos_trabalhistas": {
+        "left": [
+            "Os direitos trabalhistas devem ser ampliados e protegidos.",
+            "Sou contra flexibilizar leis trabalhistas e reduzir direitos dos empregados.",
+            "Sindicatos fortes e proteção legal são essenciais para os trabalhadores.",
+        ],
+        "right": [
+            "As leis trabalhistas devem ser flexibilizadas para gerar empregos.",
+            "Defendo menos encargos e liberdade de negociação entre empresa e empregado.",
+            "A legislação trabalhista precisa ser reduzida para aumentar a competitividade.",
+        ],
+    },
+    "programas_sociais": {
+        "left": [
+            "O governo deve ampliar programas de transferência de renda.",
+            "Políticas sociais universais são essenciais para combater a desigualdade.",
+            "O Estado deve aumentar os benefícios destinados à população vulnerável.",
+        ],
+        "right": [
+            "Programas de transferência de renda devem ser reduzidos e temporários.",
+            "Benefícios sociais excessivos geram dependência e devem ser limitados.",
+            "A assistência estatal deve ser mínima e focada apenas em casos extremos.",
+        ],
+    },
+    "aborto": {
+        "left": [
+            "Defendo a legalização do aborto e a autonomia das mulheres.",
+            "O aborto deve ser descriminalizado e tratado como questão de saúde pública.",
+            "A mulher deve ter o direito de decidir pela interrupção da gravidez.",
+        ],
+        "right": [
+            "Sou contra a legalização do aborto e defendo a vida desde a concepção.",
+            "O aborto deve continuar proibido pela legislação.",
+            "A interrupção voluntária da gravidez não deve ser permitida.",
+        ],
+    },
+    "armas": {
+        "left": [
+            "Sou contra ampliar o acesso da população a armas de fogo.",
+            "O porte de armas deve ser mais restrito.",
+            "É preciso controlar e reduzir a circulação de armas entre civis.",
+        ],
+        "right": [
+            "Defendo o direito da população de possuir armas para legítima defesa.",
+            "O cidadão deve ter acesso facilitado a armas de fogo.",
+            "Sou favorável à ampliação do porte e da posse de armas.",
+        ],
+    },
+    "drogas": {
+        "left": [
+            "Defendo a descriminalização do porte de drogas para uso pessoal.",
+            "A política de drogas deve priorizar saúde pública e redução de danos.",
+            "O usuário de drogas não deve ser tratado como criminoso.",
+        ],
+        "right": [
+            "Sou contra descriminalizar o porte de drogas para uso pessoal.",
+            "A política de drogas deve endurecer a repressão e as penas.",
+            "Usuários e traficantes devem enfrentar leis mais rigorosas.",
+        ],
+    },
+    "direitos_lgbt": {
+        "left": [
+            "Defendo igualdade de direitos e casamento para pessoas LGBT.",
+            "O Estado deve combater a discriminação por orientação sexual e identidade de gênero.",
+            "Famílias formadas por pessoas do mesmo sexo devem ter os mesmos direitos.",
+        ],
+        "right": [
+            "Sou contra ampliar o casamento e a adoção para casais do mesmo sexo.",
+            "O Estado deve preservar o conceito tradicional de família.",
+            "Políticas de identidade de gênero não devem ser promovidas pelo governo.",
+        ],
+    },
+    "cotas": {
+        "left": [
+            "Defendo cotas raciais e políticas afirmativas nas universidades.",
+            "Ações afirmativas são necessárias para reparar desigualdades históricas.",
+            "O Estado deve ampliar políticas específicas para grupos racialmente discriminados.",
+        ],
+        "right": [
+            "Sou contra cotas raciais e defendo critérios sem distinção de raça.",
+            "O acesso à universidade não deve usar critérios raciais.",
+            "Políticas públicas não devem conceder benefícios com base em raça.",
+        ],
+    },
+    "meio_ambiente": {
+        "left": [
+            "A proteção ambiental deve prevalecer mesmo com custos econômicos.",
+            "O agronegócio precisa de fiscalização ambiental mais rigorosa.",
+            "É necessário restringir atividades econômicas para proteger florestas e povos tradicionais.",
+        ],
+        "right": [
+            "Regras ambientais devem ser flexibilizadas para permitir o desenvolvimento econômico.",
+            "O agronegócio deve ter menos restrições e burocracia ambiental.",
+            "A exploração econômica deve avançar sem excesso de fiscalização ambiental.",
+        ],
+    },
+    "reforma_agraria": {
+        "left": [
+            "Defendo a reforma agrária e a redistribuição de terras improdutivas.",
+            "Grandes propriedades improdutivas devem ser desapropriadas para assentamentos.",
+            "É necessário reduzir a concentração fundiária no país.",
+        ],
+        "right": [
+            "Sou contra desapropriações para reforma agrária e defendo a propriedade privada.",
+            "A propriedade rural deve ser protegida contra ocupações e redistribuição estatal.",
+            "O governo não deve tomar terras privadas para criar assentamentos.",
+        ],
+    },
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "nome": "Florentino Neto",
+    "partido": "PT",
+    "estado": "Piauí",
+    "contradicoes": [
+      {
+        "fala_a": "Argumentou que não há censura em curso, porque os processos podem ser contestados no âmbito do Supremo Tribunal Federal: \"Não podemos ter uma sociedade baseada em ameaças e mentiras. Temos que estabelecer parâmetros mínimos para a convivência nessas plataformas.\"",
+        "fala_b": "Defendeu a regulamentação das redes sociais, para proteger os usuários contra excessos praticados: \"Não vejo razão para termos dificuldades em colocarmos à disposição dos usuários recursos para que eles possam denunciar serviços ilegais da plataforma.\"",
+        "indice_a": 0,
+        "indice_b": 1,
+        "similaridade_tematica": 0.643,
+        "score_contradicao": 0.9838,
+        "score_a_para_b": 0.9706,
+        "score_b_para_a": 0.9971,
+        "pauta_politica": null,
+        "reversao_politica": false,
+        "sessao_id_a": 1,
+        "sessao_id_b": 1,
+        "assunto_a": "Acusações de censura contra Alexandre de Moraes por exigir bloqueio de contas na rede social X",
+        "assunto_b": "Acusações de censura contra Alexandre de Moraes por exigir bloqueio de contas na rede social X"
+      }
+    ]
+  }
+]

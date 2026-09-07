@@ -18,6 +18,7 @@ import ideology_classifier as ic
 import contradiction_detector as cd
 from ideology_classifier import IdeologyClassifier
 from contradiction_detector import ContradictionDetector
+from party_alignment import find_party_contradictions
 
 
 # ---------------------------------------------------------------------
@@ -65,13 +66,21 @@ def test_ideology_classifier():
     ic.SentenceTransformer = _FakeModel  # monkeypatch
 
     anchors = {
-        "esquerda": ["texto ancora esquerda", "outra fala esquerda"],
-        "direita": ["texto ancora direita", "outra fala direita"],
-        "centro": ["texto ancora centro"],
         "neutra": ["texto ancora neutra procedural"],
     }
+    policy_anchors = {
+        "pauta_teste": {
+            "left": ["posição esquerda"],
+            "right": ["posição direita"],
+        }
+    }
 
-    clf = IdeologyClassifier(anchors=anchors, margin_threshold=0.01, min_abs_similarity=0.5)
+    clf = IdeologyClassifier(
+        anchors=anchors,
+        policy_anchors=policy_anchors,
+        policy_evidence_threshold=0.1,
+        topic_margin_threshold=0.1,
+    )
 
     # Caso claro de "direita"
     r = clf.classify("Esta fala fala claramente de direita economica")
@@ -88,6 +97,20 @@ def test_ideology_classifier():
     # Fala vazia -> neutra
     r = clf.classify("   ")
     assert r.label == "neutra"
+
+    # Partido de esquerda + fala inequivocamente à direita.
+    opinioes = [{"opiniao": "posição direita", "sessao_id": 7, "assunto": "teste"}]
+    conflitos = find_party_contradictions(
+        "esquerda", opinioes, ["posição direita"], [clf.classify("posição direita")]
+    )
+    assert len(conflitos) == 1
+    assert conflitos[0].sessao_id == 7
+
+    # Mesmo lado não é contradição fala-partido.
+    sem_conflito = find_party_contradictions(
+        "direita", opinioes, ["posição direita"], [clf.classify("posição direita")]
+    )
+    assert sem_conflito == []
 
     print("[OK] IdeologyClassifier: todos os casos de teste passaram.")
 
@@ -118,9 +141,11 @@ class _FakeTopicModel:
 
 
 def _fake_nli_pipeline(*a, **kw):
-    def _call(text, truncation=True):
-        # Espera formato "premissa</s></s>hipotese"
-        premise, hyp = text.split("</s></s>")
+    def _one(item):
+        if isinstance(item, dict):
+            premise, hyp = item["text"], item["text_pair"]
+        else:
+            premise, hyp = item.split("</s></s>")
         p, h = premise.lower(), hyp.lower()
         # Regra sintética: se uma fala é "a favor do aborto" e a outra
         # é "contra o aborto", é contradição.
@@ -128,16 +153,21 @@ def _fake_nli_pipeline(*a, **kw):
             favor_p = "a favor" in p
             favor_h = "a favor" in h
             if favor_p != favor_h:
-                return [[{"label": "contradiction", "score": 0.95},
-                         {"label": "entailment", "score": 0.02},
-                         {"label": "neutral", "score": 0.03}]]
+                return [{"label": "contradiction", "score": 0.95},
+                        {"label": "entailment", "score": 0.02},
+                        {"label": "neutral", "score": 0.03}]
             else:
-                return [[{"label": "entailment", "score": 0.9},
-                         {"label": "contradiction", "score": 0.05},
-                         {"label": "neutral", "score": 0.05}]]
-        return [[{"label": "neutral", "score": 0.9},
-                 {"label": "contradiction", "score": 0.05},
-                 {"label": "entailment", "score": 0.05}]]
+                return [{"label": "entailment", "score": 0.9},
+                        {"label": "contradiction", "score": 0.05},
+                        {"label": "neutral", "score": 0.05}]
+        return [{"label": "neutral", "score": 0.9},
+                {"label": "contradiction", "score": 0.05},
+                {"label": "entailment", "score": 0.05}]
+
+    def _call(text, truncation=True, batch_size=None):
+        if isinstance(text, list):
+            return [_one(item) for item in text]
+        return [_one(text)]
 
     return _call
 
@@ -168,6 +198,21 @@ def test_contradiction_detector():
 
     # Uma única fala -> nunca há contradição
     assert det.find_contradictions(["única fala"]) == []
+
+    # Score alto em apenas uma direção não deve virar falso positivo.
+    def asymmetric_nli(inputs, truncation=True, batch_size=None):
+        outputs = []
+        for item in inputs:
+            high = item["text"].startswith("Primeira")
+            outputs.append([
+                {"label": "contradiction", "score": 0.90 if high else 0.01},
+                {"label": "neutral", "score": 0.09 if high else 0.98},
+                {"label": "entailment", "score": 0.01},
+            ])
+        return outputs
+
+    det.nli = asymmetric_nli
+    assert det.find_contradictions(["Primeira fala", "Segunda fala"]) == []
 
     print("[OK] ContradictionDetector: todos os casos de teste passaram.")
 

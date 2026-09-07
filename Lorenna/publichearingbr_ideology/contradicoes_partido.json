@@ -1,0 +1,183 @@
+[
+  {
+    "nome": "Padre João",
+    "partido": "PT",
+    "estado": "Minas Gerais",
+    "posicionamento_politico_partido": "esquerda",
+    "contradicoes": [
+      {
+        "indice": 6,
+        "fala": "Cobrou a modernização da legislação, uma vez que os medicamentos disponíveis, que são importados, têm um preço muito elevado, não sendo acessíveis às famílias mais vulneráveis: \"Muitos países já avançaram no processo do uso da maconha, não só medicinal, mas também cosmético, na indústria têxtil e na agricultura. E estamos aqui, acuados por uma hipocrisia religiosa, negando aos pobres um medicamento tão importante\".",
+        "sessao_id": 146,
+        "assunto": "Liberação da produção de Cannabis para fins medicinais",
+        "posicionamento_partido": "esquerda",
+        "posicionamento_fala": "centro-direita",
+        "score_partido": -1.0,
+        "score_fala": 0.2539,
+        "distancia": 1.2539,
+        "pauta": "drogas",
+        "evidencia_pauta": 0.0214
+      }
+    ]
+  },
+  {
+    "nome": "Dr. Zacharias Calil",
+    "partido": "UNIÃO",
+    "estado": "Goiás",
+    "posicionamento_politico_partido": "centro-direita",
+    "contradicoes": [
+      {
+        "indice": 2,
+        "fala": "\"Houve aumento de cerca de 40% de 2012 a 2021, e as pessoas com 60 ou mais saíram de 22,3 milhões para 31,2 milhões. Até 2030, poderão ultrapassar os 41 milhões.\"",
+        "sessao_id": 60,
+        "assunto": "Benefícios e desafios do Programa QualiSUS Cardio para o atendimento a idosos no SUS",
+        "posicionamento_partido": "centro-direita",
+        "posicionamento_fala": "centro-esquerda",
+        "score_partido": 0.5,
+        "score_fala": -0.6356,
+        "distancia": 1.1356,
+        "pauta": "programas_sociais",
+        "evidencia_pauta": 0.0176
+      }
+    ]
+  },
+  {
+    "nome": "Pastor Henrique Vieira",
+    "partido": "PSOL",
+    "estado": "Rio de Janeiro",
+    "posicionamento_politico_partido": "esquerda",
+    "contradicoes": [
+      {
+        "indice": 0,
+        "fala": "Disse que proibir a formação de famílias de pessoas do mesmo sexo é impor uma moral do fundamentalismo religioso para toda a sociedade: \"Eu não sou do campo conservador, não é minha formação inclusive religiosa, mas eu quero fazer um convite a todos os conservadores para que estejam aqui defendendo o Estado laico, a cidadania, a diversidade e a derrota desse parecer. Taticamente eu considero importante que esse projeto não vem de conservadores, vem de fundamentalistas e extremistas religiosos, é outra coisa.\"",
+        "sessao_id": 48,
+        "assunto": "Discussão sobre o Projeto de Lei 580/07 e a regulamentação da união homoafetiva",
+        "posicionamento_partido": "esquerda",
+        "posicionamento_fala": "centro-direita",
+        "score_partido": -1.0,
+        "score_fala": 0.6844,
+        "distancia": 1.6844,
+        "pauta": "direitos_lgbt",
+        "evidencia_pauta": 0.0315
+      }
+    ]
+  },
+  {
+    "nome": "Delegado Paulo Bilynskyj",
+    "partido": "PL",
+    "estado": "São Paulo",
+    "posicionamento_politico_partido": "direita",
+    "contradicoes": [
+      {
+        "indice": 0,
+        "fala": "Criticou o Decreto 11.615/23, que afeta os CACs quanto ao acesso a armas e munições.",
+        "sessao_id": 103,
+        "assunto": "Esclarecimentos do Ministro da Justiça, Ricardo Lewandowski, sobre a fuga de presídio em Mossoró, vetos à saidinha de presos e decreto sobre clubes de atiradores",
+        "posicionamento_partido": "direita",
+        "posicionamento_fala": "esquerda",
+        "score_partido": 1.0,
+        "score_fala": -0.8729,
+        "distancia": 1.8729,
+        "pauta": "armas",
+        "evidencia_pauta": 0.0232
+      },
+      {
+        "indice": 1,
+        "fala": "Questiona a proibição de clubes de tiro a um quilômetro de escolas e as restrições de acordo com o calibre das armas: \"Se essa proibição entrar em efeito, todos os clubes de tiro do Brasil têm que fechar. E eles vão se mudar para onde, ministro, se já foi feito investimento massivo na construção desses estabelecimentos?\"",
+        "sessao_id": 103,
+        "assunto": "Esclarecimentos do Ministro da Justiça, Ricardo Lewandowski, sobre a fuga de presídio em Mossoró, vetos à saidinha de presos e decreto sobre clubes de atiradores",
+        "posicionamento_partido": "direita",
+        "posicionamento_fala": "esquerda",
+        "score_partido": 1.0,
+        "score_fala": -0.8235,
+        "distancia": 1.8235,
+        "pauta": "armas",
+        "evidencia_pauta": 0.0278
+      }
+    ]
+  },
+  {
+    "nome": "Sanderson",
+    "partido": "PL",
+    "estado": "Rio Grande do Sul",
+    "posicionamento_politico_partido": "direita",
+    "contradicoes": [
+      {
+        "indice": 6,
+        "fala": "Citou o contrabando de armas que ocorre pela via marítima, por meio dos portos.",
+        "sessao_id": 205,
+        "assunto": "Recursos e melhorias na política de enfrentamento aos crimes nas fronteiras do Brasil",
+        "posicionamento_partido": "direita",
+        "posicionamento_fala": "centro-esquerda",
+        "score_partido": 1.0,
+        "score_fala": -0.3566,
+        "distancia": 1.3566,
+        "pauta": "armas",
+        "evidencia_pauta": 0.0192
+      }
+    ]
+  },
+  {
+    "nome": "Coronel Fernanda",
+    "partido": "PL",
+    "estado": "Mato Grosso",
+    "posicionamento_politico_partido": "direita",
+    "contradicoes": [
+      {
+        "indice": 0,
+        "fala": "Manifestou preocupação com a regularização das ocupações em glebas públicas rurais, principalmente nos casos em que ocorre sobreposição a florestas públicas.",
+        "sessao_id": 124,
+        "assunto": "Política de regularização fundiária de terras públicas na Amazônia Legal",
+        "posicionamento_partido": "direita",
+        "posicionamento_fala": "centro-esquerda",
+        "score_partido": 1.0,
+        "score_fala": -0.3281,
+        "distancia": 1.3281,
+        "pauta": "reforma_agraria",
+        "evidencia_pauta": 0.0237
+      }
+    ]
+  },
+  {
+    "nome": "Geraldo Mendes",
+    "partido": "UNIÃO",
+    "estado": "Paraná",
+    "posicionamento_politico_partido": "centro-direita",
+    "contradicoes": [
+      {
+        "indice": 0,
+        "fala": "É preciso vencer o discurso de que os reservatórios das usinas hidrelétricas prejudicam o meio ambiente: \"É um grande equivoco que o ‘usineiro’ não tem responsabilidade ambiental. Pelo contrário, nós somos os maiores preservadores ambientais do mundo para poder ter uma boa qualidade de produção de energia.\"",
+        "sessao_id": 173,
+        "assunto": "Retomada da construção de usinas hidrelétricas com grandes reservatórios no Brasil",
+        "posicionamento_partido": "centro-direita",
+        "posicionamento_fala": "centro-esquerda",
+        "score_partido": 0.5,
+        "score_fala": -0.3956,
+        "distancia": 0.8956,
+        "pauta": "meio_ambiente",
+        "evidencia_pauta": 0.0193
+      }
+    ]
+  },
+  {
+    "nome": "Átila Lira",
+    "partido": "PP",
+    "estado": "Piauí",
+    "posicionamento_politico_partido": "direita",
+    "contradicoes": [
+      {
+        "indice": 4,
+        "fala": "O impacto social compensaria o investimento de R$ 7 bilhões para a subvenção das bolsas de estudo: \"Socialmente, eu acho que é um investimento muito positivo para que a gente possa fazer com que o Brasil melhore seus índices educacionais, pelo menos próximo aos nossos países vizinhos, que chegam a níveis de 30%, 40%, 50% de jovens no ensino superior, e hoje a gente não chega a 20%.\"",
+        "sessao_id": 196,
+        "assunto": "Financiamento estudantil e a necessidade de políticas públicas para ampliar o acesso ao ensino superior no Brasil",
+        "posicionamento_partido": "direita",
+        "posicionamento_fala": "centro-esquerda",
+        "score_partido": 1.0,
+        "score_fala": -0.677,
+        "distancia": 1.677,
+        "pauta": "programas_sociais",
+        "evidencia_pauta": 0.0193
+      }
+    ]
+  }
+]

@@ -1,33 +1,15 @@
-"""
-contradiction_detector.py
+"""Detecta contradições entre falas do mesmo deputado.
 
-Detecta contradições entre falas de um mesmo deputado: pares de
-opiniões que tratam do mesmo tema, mas assumem posições opostas
-(ex.: a favor do aborto em uma fala, contra em outra).
+O detector combina três sinais:
 
-Isto é uma heurística de duas etapas, de engenharia própria (não vem
-de um paper específico):
+1. similaridade temática para não comparar assuntos diferentes;
+2. reversão no mesmo eixo de política pública, quando disponível;
+3. NLI com premissa/hipótese passadas como par real ao tokenizer.
 
-1. Filtro de tópico: só comparamos pares de falas cuja similaridade
-   temática (embedding genérico "sentence-transformers", SEM a
-   instrução de ideologia) supere um limiar. Isso evita rodar o
-   modelo de NLI — que é mais caro e menos preciso em textos longos e
-   heterogêneos — em pares de falas sobre assuntos completamente
-   diferentes, e reduz falsos positivos (uma fala sobre economia e
-   outra sobre segurança pública não são "contraditórias", são só
-   sobre temas diferentes).
-2. Para os pares que passam no filtro de tópico, rodamos um modelo de
-   NLI multilíngue (entailment / neutro / contradição) nas duas
-   direções (A como premissa e B como hipótese, e vice-versa) e usamos
-   o maior score de "contradiction" das duas direções, já que a ordem
-   pode afetar o resultado do NLI.
-
-Trate os limiares (TOPIC_SIM_THRESHOLD, CONTRADICTION_THRESHOLD) como
-ponto de partida — ajuste-os observando exemplos reais do seu corpus.
-Um "contradiction" alto do NLI indica incompatibilidade textual, não
-necessariamente uma contradição de posição política real (ex.: o
-deputado pode estar citando a opinião de outra pessoa) — recomendo
-revisão manual dos pares reportados antes de tirar conclusões.
+A decisão usa a média geométrica das DUAS direções do NLI. Usar o máximo,
+como na implementação anterior, gerava falsos positivos quando apenas uma
+ordem era interpretada incorretamente pelo modelo; usar o mínimo, por outro
+lado, descartava contradições reais por pequenas assimetrias do NLI.
 """
 
 from __future__ import annotations
@@ -39,17 +21,14 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 from transformers import pipeline
 
+from ideology_classifier import ClassificationResult
+
 
 TOPIC_MODEL_NAME = "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
 NLI_MODEL_NAME = "MoritzLaurer/mDeBERTa-v3-base-mnli-xnli"
-
-# Similaridade temática mínima para considerar que duas falas tratam
-# do "mesmo assunto" e, portanto, vale a pena checar contradição.
-TOPIC_SIM_THRESHOLD = 0.55
-
-# Score mínimo de "contradiction" do NLI (máximo entre as duas
-# direções) para reportar o par como contraditório.
+TOPIC_SIM_THRESHOLD = 0.62
 CONTRADICTION_THRESHOLD = 0.70
+POLICY_REVERSAL_STRENGTH = 0.25
 
 
 @dataclass
@@ -60,6 +39,10 @@ class ContradictionPair:
     indice_b: int
     topic_similarity: float
     contradiction_score: float
+    contradiction_a_b: float
+    contradiction_b_a: float
+    policy_issue: str | None
+    policy_reversal: bool
 
 
 class ContradictionDetector:
@@ -70,6 +53,7 @@ class ContradictionDetector:
         topic_sim_threshold: float = TOPIC_SIM_THRESHOLD,
         contradiction_threshold: float = CONTRADICTION_THRESHOLD,
         device: str | None = None,
+        batch_size: int = 8,
     ):
         self.topic_model = SentenceTransformer(topic_model_name, device=device)
         self.nli = pipeline(
@@ -80,53 +64,109 @@ class ContradictionDetector:
         )
         self.topic_sim_threshold = topic_sim_threshold
         self.contradiction_threshold = contradiction_threshold
-
-    # -- similaridade temática -------------------------------------------
+        self.batch_size = batch_size
 
     def _topic_similarity_matrix(self, texts: list[str]) -> np.ndarray:
         embs = self.topic_model.encode(texts, normalize_embeddings=True)
         return embs @ embs.T
 
-    # -- NLI ---------------------------------------------------------------
+    @staticmethod
+    def _contradiction_from_output(raw) -> float:
+        while raw and isinstance(raw[0], list):
+            raw = raw[0]
+        scores = {entry["label"].lower(): entry["score"] for entry in raw}
+        return float(scores.get("contradiction", 0.0))
 
-    def _contradiction_score(self, premise: str, hypothesis: str) -> float:
-        raw = self.nli(f"{premise}</s></s>{hypothesis}", truncation=True)
-        # A pipeline com top_k=None retorna uma lista de dicts
-        # {"label": ..., "score": ...} para cada classe; dependendo da
-        # versão do transformers, pode vir aninhada em outra lista.
-        entries = raw[0] if isinstance(raw[0], list) else raw
-        scores = {e["label"].lower(): e["score"] for e in entries}
-        return scores.get("contradiction", 0.0)
+    def _bidirectional_scores(
+        self, pairs: list[tuple[str, str]]
+    ) -> list[tuple[float, float]]:
+        if not pairs:
+            return []
 
-    # -- API pública -------------------------------------------------------
+        inputs = []
+        for text_a, text_b in pairs:
+            inputs.append({"text": text_a, "text_pair": text_b})
+            inputs.append({"text": text_b, "text_pair": text_a})
 
-    def find_contradictions(self, opinioes: list[str]) -> list[ContradictionPair]:
+        raw_outputs = self.nli(
+            inputs,
+            truncation=True,
+            batch_size=self.batch_size,
+        )
+        scores = [self._contradiction_from_output(raw) for raw in raw_outputs]
+        return [(scores[i], scores[i + 1]) for i in range(0, len(scores), 2)]
+
+    @staticmethod
+    def _is_policy_reversal(
+        first: ClassificationResult,
+        second: ClassificationResult,
+    ) -> tuple[bool, str | None]:
+        same_issue = first.issue is not None and first.issue == second.issue
+        if not same_issue:
+            return False, None
+        if first.ideology_score is None or second.ideology_score is None:
+            return False, first.issue
+
+        strong = (
+            first.stance_strength >= POLICY_REVERSAL_STRENGTH
+            and second.stance_strength >= POLICY_REVERSAL_STRENGTH
+        )
+        opposite = first.ideology_score * second.ideology_score < 0
+        return strong and opposite, first.issue
+
+    def find_contradictions(
+        self,
+        opinioes: list[str],
+        classifications: list[ClassificationResult] | None = None,
+    ) -> list[ContradictionPair]:
         n = len(opinioes)
         if n < 2:
             return []
+        if classifications is not None and len(classifications) != n:
+            raise ValueError("classifications deve ter o mesmo tamanho de opinioes")
 
         sim_matrix = self._topic_similarity_matrix(opinioes)
-        found: list[ContradictionPair] = []
+        candidates = []
 
         for i, j in combinations(range(n), 2):
-            topic_sim = float(sim_matrix[i, j])
-            if topic_sim < self.topic_sim_threshold:
-                continue
-
-            score_ij = self._contradiction_score(opinioes[i], opinioes[j])
-            score_ji = self._contradiction_score(opinioes[j], opinioes[i])
-            score = max(score_ij, score_ji)
-
-            if score >= self.contradiction_threshold:
-                found.append(
-                    ContradictionPair(
-                        opiniao_a=opinioes[i],
-                        opiniao_b=opinioes[j],
-                        indice_a=i,
-                        indice_b=j,
-                        topic_similarity=topic_sim,
-                        contradiction_score=score,
-                    )
+            topic_similarity = float(sim_matrix[i, j])
+            policy_reversal = False
+            policy_issue = None
+            if classifications is not None:
+                policy_reversal, policy_issue = self._is_policy_reversal(
+                    classifications[i], classifications[j]
                 )
 
+            if topic_similarity < self.topic_sim_threshold and not policy_reversal:
+                continue
+            candidates.append(
+                (i, j, topic_similarity, policy_reversal, policy_issue)
+            )
+
+        text_pairs = [(opinioes[i], opinioes[j]) for i, j, *_ in candidates]
+        nli_scores = self._bidirectional_scores(text_pairs)
+        found = []
+
+        for candidate, (score_a_b, score_b_a) in zip(candidates, nli_scores):
+            i, j, topic_similarity, policy_reversal, policy_issue = candidate
+            # A média geométrica pune fortemente uma direção baixa sem exigir
+            # que as duas probabilidades sejam idênticas.
+            score = float(np.sqrt(score_a_b * score_b_a))
+            if score < self.contradiction_threshold:
+                continue
+
+            found.append(
+                ContradictionPair(
+                    opiniao_a=opinioes[i],
+                    opiniao_b=opinioes[j],
+                    indice_a=i,
+                    indice_b=j,
+                    topic_similarity=topic_similarity,
+                    contradiction_score=score,
+                    contradiction_a_b=score_a_b,
+                    contradiction_b_a=score_b_a,
+                    policy_issue=policy_issue,
+                    policy_reversal=policy_reversal,
+                )
+            )
         return found

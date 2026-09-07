@@ -1,10 +1,9 @@
 """
 pipeline.py
 
-Script principal: lê o JSON de deputados (cada um com um campo
-"opinioes", lista de falas), classifica a orientação política de cada
-fala individualmente e detecta contradições entre falas do mesmo
-deputado.
+Script principal: lê o JSON de deputados, classifica a orientação de cada
+fala e gera relatórios separados para (1) oposição entre fala e partido e
+(2) contradição entre falas do mesmo deputado.
 
 ATENÇÃO — decisão de estrutura de dados: no seu exemplo, "opinioes" é
 uma lista, mas "posicionamento_politico_fala" aparecia como um único
@@ -19,7 +18,8 @@ Uso:
     python pipeline.py \
         --input deputados.json \
         --output-classificado deputados_classificados.json \
-        --output-contradicoes contradicoes.json
+        --output-contradicoes contradicoes_falas.json \
+        --output-contradicoes-partido contradicoes_partido.json
 """
 
 from __future__ import annotations
@@ -29,6 +29,7 @@ import json
 
 from ideology_classifier import IdeologyClassifier
 from contradiction_detector import ContradictionDetector
+from party_alignment import find_party_contradictions
 
 
 def load_json(path: str) -> list[dict]:
@@ -55,10 +56,17 @@ def sessao_da_opiniao(opiniao):
     return None
 
 
+def assunto_da_opiniao(opiniao):
+    if isinstance(opiniao, dict):
+        return opiniao.get("assunto")
+    return None
+
+
 def run(
     input_path: str,
     output_classificado_path: str,
     output_contradicoes_path: str,
+    output_contradicoes_partido_path: str = "contradicoes_partido.json",
     max_deputados: int | None = None,
 ) -> None:
     deputados = load_json(input_path)
@@ -70,14 +78,26 @@ def run(
     classifier = IdeologyClassifier()
     detector = ContradictionDetector()
 
-    contradicoes_output = []
+    contradicoes_falas_output = []
+    contradicoes_partido_output = []
 
+    preparados = []
+    todos_textos = []
     for dep in deputados:
         opinioes = dep.get("opinioes", [])
         textos = [texto_da_opiniao(o) for o in opinioes]
+        preparados.append((dep, opinioes, textos))
+        todos_textos.extend(textos)
+
+    # Uma única chamada em lote evita centenas de invocações pequenas do E5.
+    todos_resultados = classifier.classify_batch(todos_textos)
+    cursor = 0
+
+    for dep, opinioes, textos in preparados:
+        resultados = todos_resultados[cursor:cursor + len(textos)]
+        cursor += len(textos)
 
         # Classifica cada fala individualmente.
-        resultados = classifier.classify_batch(textos)
         dep["posicionamento_politico_fala"] = [r.label for r in resultados]
         # Scores brutos por fala, guardados para auditoria/calibração
         # posterior dos thresholds — remova este campo se não precisar.
@@ -85,10 +105,29 @@ def run(
             r.to_dict() for r in resultados
         ]
 
+        oposicoes_partido = find_party_contradictions(
+            dep.get("posicionamento_politico_partido"),
+            opinioes,
+            textos,
+            resultados,
+        )
+        if oposicoes_partido:
+            contradicoes_partido_output.append(
+                {
+                    "nome": dep.get("nome"),
+                    "partido": dep.get("partido"),
+                    "estado": dep.get("estado"),
+                    "posicionamento_politico_partido": dep.get(
+                        "posicionamento_politico_partido"
+                    ),
+                    "contradicoes": [p.to_dict() for p in oposicoes_partido],
+                }
+            )
+
         # Detecta contradições entre as falas do mesmo deputado.
-        pares = detector.find_contradictions(textos)
+        pares = detector.find_contradictions(textos, resultados)
         if pares:
-            contradicoes_output.append(
+            contradicoes_falas_output.append(
                 {
                     "nome": dep.get("nome"),
                     "partido": dep.get("partido"),
@@ -101,8 +140,14 @@ def run(
                             "indice_b": p.indice_b,
                             "similaridade_tematica": round(p.topic_similarity, 4),
                             "score_contradicao": round(p.contradiction_score, 4),
+                            "score_a_para_b": round(p.contradiction_a_b, 4),
+                            "score_b_para_a": round(p.contradiction_b_a, 4),
+                            "pauta_politica": p.policy_issue,
+                            "reversao_politica": p.policy_reversal,
                             "sessao_id_a": sessao_da_opiniao(opinioes[p.indice_a]),
                             "sessao_id_b": sessao_da_opiniao(opinioes[p.indice_b]),
+                            "assunto_a": assunto_da_opiniao(opinioes[p.indice_a]),
+                            "assunto_b": assunto_da_opiniao(opinioes[p.indice_b]),
                         }
                         for p in pares
                     ],
@@ -110,13 +155,18 @@ def run(
             )
 
     save_json(deputados, output_classificado_path)
-    save_json(contradicoes_output, output_contradicoes_path)
+    save_json(contradicoes_falas_output, output_contradicoes_path)
+    save_json(contradicoes_partido_output, output_contradicoes_partido_path)
 
     print(f"[OK] {len(deputados)} deputados processados.")
     print(f"[OK] Classificações salvas em: {output_classificado_path}")
     print(
-        f"[OK] {len(contradicoes_output)} deputado(s) com contradições "
-        f"detectadas. Salvo em: {output_contradicoes_path}"
+        f"[OK] {len(contradicoes_falas_output)} deputado(s) com contradições "
+        f"entre falas. Salvo em: {output_contradicoes_path}"
+    )
+    print(
+        f"[OK] {len(contradicoes_partido_output)} deputado(s) com oposição "
+        f"fala-partido. Salvo em: {output_contradicoes_partido_path}"
     )
 
 
@@ -127,6 +177,10 @@ if __name__ == "__main__":
         "--output-classificado", default="deputados_classificados.json"
     )
     parser.add_argument("--output-contradicoes", default="contradicoes.json")
+    parser.add_argument(
+        "--output-contradicoes-partido",
+        default="contradicoes_partido.json",
+    )
     parser.add_argument(
         "--max-deputados",
         type=int,
@@ -140,5 +194,6 @@ if __name__ == "__main__":
         args.input,
         args.output_classificado,
         args.output_contradicoes,
+        args.output_contradicoes_partido,
         max_deputados=args.max_deputados,
     )
