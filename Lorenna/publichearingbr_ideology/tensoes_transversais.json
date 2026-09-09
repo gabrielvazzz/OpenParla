@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Danilo Forte",
+    "partido": "UNIÃO",
+    "estado": "Ceará",
+    "tensoes": [
+      {
+        "pauta_esquerda": "programas_sociais",
+        "pauta_direita": "tributacao",
+        "score_esquerda": -0.4,
+        "score_direita": 0.4,
+        "forca_esquerda": 0.4,
+        "forca_direita": 0.4,
+        "indices_falas_esquerda": [
+          3
+        ],
+        "indices_falas_direita": [
+          5
+        ],
+        "severidade": "tensao"
+      }
+    ]
+  }
+]

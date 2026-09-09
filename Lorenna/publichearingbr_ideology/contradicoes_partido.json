@@ -10,13 +10,52 @@
         "fala": "Cobrou a modernização da legislação, uma vez que os medicamentos disponíveis, que são importados, têm um preço muito elevado, não sendo acessíveis às famílias mais vulneráveis: \"Muitos países já avançaram no processo do uso da maconha, não só medicinal, mas também cosmético, na indústria têxtil e na agricultura. E estamos aqui, acuados por uma hipocrisia religiosa, negando aos pobres um medicamento tão importante\".",
         "sessao_id": 146,
         "assunto": "Liberação da produção de Cannabis para fins medicinais",
-        "posicionamento_partido": "esquerda",
+        "severidade": "contradicao",
+        "origem": "classificador",
+        "posicionamento_partido": "centro-esquerda",
+        "posicionamento_partido_pauta": "drogas",
         "posicionamento_fala": "centro-direita",
-        "score_partido": -1.0,
+        "score_partido": -0.5,
         "score_fala": 0.2539,
-        "distancia": 1.2539,
+        "distancia": 0.7539,
         "pauta": "drogas",
-        "evidencia_pauta": 0.0214
+        "evidencia_pauta": 0.0214,
+        "trechos_transcricao": [
+          "Quanto tempo a indústria farmacêutica e o capital já investiram em pesquisa, como se fosse feita pelas universidades, que fazem uma pesquisa de 10 anos, e alguém vai lá e rouba todo esse processo? Isso que aconteceu. Ainda se soma com os nossos irmãos, que vieram da África e foram escravizados. A soma desses saberes nos dá uma oportunidade ímpar, sem contar o clima favorável. Quantos países avançaram no processo do uso da maconha, não só medicinal, mas também na área de cosméticos, na indústria têxtil e na própria agricultura? Quantos avanços estão acontecendo, enquanto estamos aqui acuados por uma hipocrisia religiosa, negando aos pobres um medicamento tão importante? Nós estamos negando aos pobres, porque o rico compra em dólar.",
+          "Então, nós estamos discutindo aqui drogas ilícitas, na verdade. Se está aprisionada a maconha, por que não liberar a cocaína? A cocaína tem efeitos medicinais, importantes efeitos medicinais. Por que não liberar o ópio, a papoula, aquela plantinha tão bonita? Ela é mais bonita que a maconha. E porque não se libera o plantio? Porque se ela produz heroína, ela também tem a morfina, que é um derivado usado do ponto de vista medicinal — todas o são.",
+          "Terraplanismos à parte, não se trata mais de uma questão de saúde. Não há dúvida sobre o uso medicinal dessa planta. Se houvesse dúvida, ela não seria vendida na farmácia e não haveria centenas de medicamentos que poderiam ser importados. Se tem uma coisa que está certa, que foi falada aqui pelo Deputado, é que, de fato, é uma questão de dinheiro, porque esse medicamento está na farmácia, mas a maioria da população não pode plantar. É também uma questão de dinheiro porque já perdemos a oportunidade de estar na vanguarda desse mercado, que é um dos mercados mais vibrantes e que mais crescem no mundo inteiro.",
+          "Então, nós buscamos esse amparo legal, da Justiça, para essas famílias, para essas associações, para essas lideranças do movimento pró-regulamentação da maconha aqui no Brasil, pró-regulamentação do uso medicinal também."
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Ivan Valente",
+    "partido": "PSOL",
+    "estado": "São Paulo",
+    "posicionamento_politico_partido": "esquerda",
+    "contradicoes": [
+      {
+        "indice": 1,
+        "fala": "Defende a capacidade estratégica da Petrobras.",
+        "sessao_id": 44,
+        "assunto": "Exploração de petróleo na Margem Equatorial, próxima à foz do Rio Amazonas",
+        "severidade": "tensao",
+        "origem": "indicio_lexical",
+        "posicionamento_partido": "esquerda",
+        "posicionamento_partido_pauta": "meio_ambiente",
+        "posicionamento_fala": "neutra",
+        "score_partido": -1.0,
+        "score_fala": 0.4,
+        "distancia": 1.4,
+        "pauta": "meio_ambiente",
+        "evidencia_pauta": 1.0,
+        "trechos_transcricao": [
+          "Presidente, a minha ponderação inicial é que a discussão é complexa. Não acho que a PETROBRAS não tem capacidade. Eu sou do tempo da PETROBRAS nacional, estratégica, estatal, tecnológica, e vou sempre defender a PETROBRAS e a sua capacidade estratégica. Eu quero afirmar isso de antemão.",
+          "Nós sabemos que a PETROBRAS, Daniele, tem os melhores técnicos; da capacidade de vocês. Não temos dúvidas sobre a capacidade técnica da PETROBRAS. Se há uma empresa com capacidade para fazer os melhores estudos e apresentar as melhores soluções na área de óleo e de gás no Brasil, esta empresa é a PETROBRAS.",
+          "Este é o recado final da PETROBRAS. Primeiro, estamos aqui para conciliar todos os interesses, estamos aqui para dialogar. A PETROBRAS é uma empresa brasileira com orgulho e é reconhecida mundialmente pela sua tecnologia e sua capacidade de superação. Estamos aqui sempre para conciliar e para buscar o diálogo.",
+          "Então, a mensagem que eu deixo aqui é que a PETROBRAS quer conciliar. A PETROBRAS entrou com pedido de reconsideração. Nós temos capacidade de atender todas as exigências do IBAMA. E queremos deixar esta mensagem aqui: queremos dar continuidade a esse trabalho, entendendo que é possível convergir."
+        ]
       }
     ]
   },
@@ -31,13 +70,52 @@
         "fala": "\"Houve aumento de cerca de 40% de 2012 a 2021, e as pessoas com 60 ou mais saíram de 22,3 milhões para 31,2 milhões. Até 2030, poderão ultrapassar os 41 milhões.\"",
         "sessao_id": 60,
         "assunto": "Benefícios e desafios do Programa QualiSUS Cardio para o atendimento a idosos no SUS",
+        "severidade": "contradicao",
+        "origem": "classificador",
         "posicionamento_partido": "centro-direita",
+        "posicionamento_partido_pauta": "programas_sociais",
         "posicionamento_fala": "centro-esquerda",
         "score_partido": 0.5,
         "score_fala": -0.6356,
         "distancia": 1.1356,
         "pauta": "programas_sociais",
-        "evidencia_pauta": 0.0176
+        "evidencia_pauta": 0.0176,
+        "trechos_transcricao": [
+          "O segundo grande desafio é que, graças e sobretudo ao SUS, nós evitamos milhares, talvez centenas de milhares de mortes adicionais por COVID. Mas também, em função da forma como o SUS foi depauperado nos últimos 4 anos, 14 milhões de pessoas apresentam doenças cardiovasculares e 30 milhões de procedimentos deixaram de ser feitos entre 2020 e início de 2021. Em função da COVID, esses problemas estão escalando e, por isso, houve um aumento de mortes por doenças cardiovasculares. Não foram só mortes ocasionadas por um vírus malvado, mas também pelas sequelas e pelo atraso no diagnóstico de doenças outras, inclusive cardiovasculares, que deixaram de ser adequadamente prevenidas e tratadas.",
+          "Outro alerta que tem sido pauta das nossas atividades são as valvopatias degenerativas.Até o Dr. Mangione, agora, nos deu uma aula de como elas atuam. Segundo a Sociedade Brasileira de Cardiologia, de 1990 a 2019, houve um aumento de mais de 50% das doenças das válvulas cardíacas não reumáticas no Brasil, principalmente entre homens com idade mais avançada. Considerando-se somente a estenose aórtica, esse aumento foi de 201,8%, o que nitidamente indica um impacto no envelhecimento da população brasileira.",
+          "E diria mais: a forma mais comum de demência é a doença de Alzheimer, e nós ainda sabemos pouco sobre a sua etiologia, estamos apenas engatinhando nisso. Houve boas notícias nos últimos 3, 4 dias de talvez termos um tratamento, inalcançável ao preço que está hoje, para diminuir em 27% o risco dessa doença que escalará dos 50 milhões que há no mundo para mais de 150 milhões nas próximas 3 décadas.",
+          "Estamos, aqui diante de um problema extraordinariamente importante, não só por dizer respeito a uma doença que tem mortalidade tão alta — 30% das mortes, no Brasil, se dão por doenças cardiovasculares —, mas também porque podemos prever que haverá aumento significativo dessas mortes, já que a maioria delas se dá entre pessoas de 60 a 79 anos e, daí, para cima. De forma que, com o envelhecimento populacional, podemos prever que essa situação só irá escalar."
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Márcio Marinho",
+    "partido": "REPUBLICANOS",
+    "estado": "Bahia",
+    "posicionamento_politico_partido": "direita",
+    "contradicoes": [
+      {
+        "indice": 0,
+        "fala": "Defendeu apoio público para o estímulo da prática das artes marciais nas escolas e comunidades. Afirmou que é preciso investir em convênios nessa área: \"Se gasta tanto com armas, armando a população, armando o cidadão, ou até própria a polícia, e se gasta tão pouco numa arma muito mais poderosa que é a inclusão em projetos sociais\".",
+        "sessao_id": 40,
+        "assunto": "Políticas públicas para levar artes marciais às escolas brasileiras",
+        "severidade": "tensao",
+        "origem": "indicio_lexical",
+        "posicionamento_partido": "direita",
+        "posicionamento_partido_pauta": "armas",
+        "posicionamento_fala": "neutra",
+        "score_partido": 1.0,
+        "score_fala": -0.4,
+        "distancia": 1.4,
+        "pauta": "armas",
+        "evidencia_pauta": 1.0,
+        "trechos_transcricao": [
+          "Já falava o Bernardino da dificuldade de se manter um projeto social. É importante que haja o braço do poder público, seja municipal, estadual ou federal, já que, às vezes, como foi dito por ele, ele tira do próprio bolso para manter um projeto, quando, na verdade, determinados esportes que são praticados pela comunidade poderiam ser financiados por convênios. Gasta-se tanto com armas — armando a população, armando o cidadão ou até a própria Polícia — e tão pouco com uma arma muito mais poderosa, que é a inclusão em projetos sociais, a que todos os professores são dedicadíssimos, não só em relação à disciplina, todos os dias — do respeito ao pai, do respeito à mãe, do respeito ao próximo —, mas, acima de tudo, a fazer, a partir da prática de esporte, cidadãos melhores para o mundo.",
+          "Portanto, é fundamental que sejam promovidas ações e projetos que levem as artes marciais para as comunidades carentes e escolas públicas, possibilitando que mais pessoas tenham acesso a essa prática transformadora.",
+          "Hoje temos artes marciais dentro de clubes, dentro de academias, em projetos sociais, que é exatamente o que mantém a grande possibilidade que nós temos hoje. Vamos imaginar: se vamos a uma região de vulnerabilidade social, ali você pode ter um campo de várzea para o futebol amador, você pode até ter uma quadra, que não pode estar com muita qualidade, mas ela existe. Mas um tatame você não vai ver. Vocês já entraram em algum bairro, em alguma periferia, e viram um tatame para o público? Vocês não vão ver, porque ele está sempre dentro de algum lugar.",
+          "Quanto à inclusão das artes marciais nas escolas, nós temos um trabalho muito bacana na cidade de Cascavel, no Paraná, onde há essa inclusão. Nós temos alguns atletas hoje, como o Tiago Camilo e o João Derly, com institutos que estão até usando emendas parlamentares."
+        ]
       }
     ]
   },
@@ -52,13 +130,52 @@
         "fala": "Disse que proibir a formação de famílias de pessoas do mesmo sexo é impor uma moral do fundamentalismo religioso para toda a sociedade: \"Eu não sou do campo conservador, não é minha formação inclusive religiosa, mas eu quero fazer um convite a todos os conservadores para que estejam aqui defendendo o Estado laico, a cidadania, a diversidade e a derrota desse parecer. Taticamente eu considero importante que esse projeto não vem de conservadores, vem de fundamentalistas e extremistas religiosos, é outra coisa.\"",
         "sessao_id": 48,
         "assunto": "Discussão sobre o Projeto de Lei 580/07 e a regulamentação da união homoafetiva",
+        "severidade": "contradicao",
+        "origem": "classificador",
         "posicionamento_partido": "esquerda",
+        "posicionamento_partido_pauta": "direitos_lgbt",
         "posicionamento_fala": "centro-direita",
         "score_partido": -1.0,
         "score_fala": 0.6844,
         "distancia": 1.6844,
         "pauta": "direitos_lgbt",
-        "evidencia_pauta": 0.0315
+        "evidencia_pauta": 0.0315,
+        "trechos_transcricao": [
+          "E aqui, Deputada Erika Kokay, quero fazer um debate. Eu tenho falado isso em entrevistas. Eu não sou do campo conservador — essa não é minha formação, inclusive religiosa —, mas eu quero fazer um convite a todos os conservadores para que estejam aqui defendendo o estado laico, a cidadania, a diversidade e a derrota desse parecer.",
+          "Eu quero colocar uma coisa para vocês que taticamente eu considero importante: esse projeto não vem de conservadores; esse projeto vem de fundamentalistas e extremistas religiosos. É outra coisa.(Palmas.)",
+          "Se me perguntam, Deputada Erika, se sou conservador, eu digo \"não\". Aqui não se trata de pessoas que estão organizando a sua vida a partir daquilo que acreditam. Trata-se de pessoas que querem interferir no Estado para impor à sociedade aquilo que acreditam. É um patamar além do conservadorismo. Eu quero caracterizar como extremismo religioso.",
+          "Termino no meu último minuto, 40 segundos, mais a boa vontade do Presidente... É brincadeira, já vou me encaminhar para o final. Ainda, se vocês me permitem, para fazer um contraponto ao fundamentalismo religioso como o projeto de poder, eu queria lembrar para milhares de pessoas que estão e que nos verão, porque isso aqui vai entrar para a história: nós vamos ganhar, em termos de STF, mas eu não quero ganhar só em termos de STF. Eu quero ganhar como concepção de sociedade e derrotar os valores culturais da extrema direita e do fanatismo religioso. Por isso esse debate me parece tão importante e necessário."
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Danilo Forte",
+    "partido": "UNIÃO",
+    "estado": "Ceará",
+    "posicionamento_politico_partido": "centro-direita",
+    "contradicoes": [
+      {
+        "indice": 3,
+        "fala": "Há consenso sobre a migração da Tarifa Social de Energia Elétrica (TSEE) para o orçamento da União. Hoje esse subsídio é custeado pela conta de energia dos consumidores brasileiros.",
+        "sessao_id": 104,
+        "assunto": "Participação da Câmara na definição das regras de renovação das concessões das distribuidoras de energia elétrica",
+        "severidade": "tensao",
+        "origem": "indicio_lexical",
+        "posicionamento_partido": "centro-direita",
+        "posicionamento_partido_pauta": "programas_sociais",
+        "posicionamento_fala": "neutra",
+        "score_partido": 0.5,
+        "score_fala": -0.4,
+        "distancia": 0.9,
+        "pauta": "programas_sociais",
+        "evidencia_pauta": 1.0,
+        "trechos_transcricao": [
+          "No que se refere aos desafios da tarifa de energia elétrica, temos que modernizar o sistema. Isso é fato. Nós temos hoje um nível reduzido de digitalização, que permitiria maior comodidade para os consumidores, permitiria maior conveniência, permitiria maior busca de soluções, tanto pela conveniência quanto pela economia de energia elétrica. Mas, definitivamente, a tarifa de energia elétrica não tem espaço para modernizações.",
+          "E, hoje, o maior encargo é a Conta de Desenvolvimento Energético — CDE. Ela está quase alcançando os 40 bilhões de reais por ano. Se não existisse CDE na nossa tarifa de energia, a conta média dos brasileiros poderia ser reduzida em torno de 13%. Então, esse é realmente um caminho efetivo que pode reduzir a conta de luz.",
+          "Existem alguns consensos. Primeiro, tarifa social é responsabilidade da União. Eu quis trazer esse debate, no ano passado, para o Orçamento Geral da União, quando fui Relator da LDO. O Governo não topou a ideia. Hoje estamos vendo que a tarifa social tem que ser tratada pelo conjunto da sociedade no Orçamento Geral da União.",
+          "Nós apresentamos este eslaide, na semana passada, para o Presidente da República.Nós temos preocupação com tudo isso. E o que nós pedimos? Nós pedimos que o que for política pública deve sair da tarifa de energia elétrica e deve ir para o Orçamento Geral da União, como combustível na CCEE e a universalização que foi dita pelo IDEC. Isso é política pública na veia e tem que estar dentro do Orçamento Geral da União!Eu trouxe para os senhores, acerca das contribuições, tudo que foi criado nesta Casa e que está gerando esse impacto de 47 bilhões de reais para os consumidores de energia. Precisamos colocar um foco nesses detalhes e precisamos ter a coragem de pensar um novo modelo para o setor elétrico, que tire os esqueletos de dentro do armário, para que possamos linearizar, e isso tem que ser bom para todos: para a Dona Maria, para o Seu João, para a Quitéria, para a indústria, para o comércio!"
+        ]
       }
     ]
   },
@@ -73,26 +190,44 @@
         "fala": "Criticou o Decreto 11.615/23, que afeta os CACs quanto ao acesso a armas e munições.",
         "sessao_id": 103,
         "assunto": "Esclarecimentos do Ministro da Justiça, Ricardo Lewandowski, sobre a fuga de presídio em Mossoró, vetos à saidinha de presos e decreto sobre clubes de atiradores",
+        "severidade": "contradicao",
+        "origem": "classificador",
         "posicionamento_partido": "direita",
+        "posicionamento_partido_pauta": "armas",
         "posicionamento_fala": "esquerda",
         "score_partido": 1.0,
         "score_fala": -0.8729,
         "distancia": 1.8729,
         "pauta": "armas",
-        "evidencia_pauta": 0.0232
+        "evidencia_pauta": 0.0232,
+        "trechos_transcricao": [
+          "Por último em relação ao decreto, Ministro, a questão do calibre 9 milímetros. Se V.Exa. não dispõe de nenhum segurança que utiliza um calibre menor que o 9 milímetros, como o 380, por exemplo, por que o senhor deseja que o cidadão não tenha mais acesso a esse calibre? Eu acho que isso é algo que deve ser considerado também.",
+          "Eu vou ter que falar um pouco rapidamente. Eu quero fazer só uma pergunta, por conta das inúmeras narrativas e mentiras que veiculam sobre a questão dos CACs, como a última que nós ouvimos agora, que as armas dos CACs sustentam organização criminosa, e o próprio recadastramento realizado na Polícia Federal, que atingiu o número de 99,6% de armas recadastradas. Isso mostra que é uma narrativa, que é uma mentira, como várias outras, o que nós enfrentamos por aí.",
+          "Disse anteriormente que os CACs, goste-se ou não dos CACs, existem. Simplesmente não dá para erradicá-los da realidade. É preciso, V.Exas. haverão de convir, regulamentar o exercício daqueles que estão inscritos como CACs, porque também não pode ser um \"liberou geral\". Não é? É preciso haver requisitos. V.Exas., que são legisladores, mais do que ninguém sabem que a ação humana precisa ser regulamentada por uma lei ou por um decreto, enfim, por uma norma jurídica qualquer.",
+          "Eu quero trazer uma matéria do jornalEstadãosobre os CACs. E eu sei que muita gente defendeu os CACS aqui. Diz assim: \"CACs: Exército liberou armas para 5,2 mil condenados por tráfico de drogas e outros crimes\". É uma matéria longa, em cima de um relatório do TCU, que diz que, no período de 2019 a 2022, 5.235 pessoas em cumprimento de pena puderam obter, renovar ou manter o chamado Certificado de Registro. Essas pessoas estavam presas, Deputado Alberto Fraga."
+        ]
       },
       {
         "indice": 1,
         "fala": "Questiona a proibição de clubes de tiro a um quilômetro de escolas e as restrições de acordo com o calibre das armas: \"Se essa proibição entrar em efeito, todos os clubes de tiro do Brasil têm que fechar. E eles vão se mudar para onde, ministro, se já foi feito investimento massivo na construção desses estabelecimentos?\"",
         "sessao_id": 103,
         "assunto": "Esclarecimentos do Ministro da Justiça, Ricardo Lewandowski, sobre a fuga de presídio em Mossoró, vetos à saidinha de presos e decreto sobre clubes de atiradores",
+        "severidade": "contradicao",
+        "origem": "classificador",
         "posicionamento_partido": "direita",
+        "posicionamento_partido_pauta": "armas",
         "posicionamento_fala": "esquerda",
         "score_partido": 1.0,
         "score_fala": -0.8235,
         "distancia": 1.8235,
         "pauta": "armas",
-        "evidencia_pauta": 0.0278
+        "evidencia_pauta": 0.0278,
+        "trechos_transcricao": [
+          "O SR. DELEGADO PAULO BILYNSKYJ(PL - SP) - Se essa proibição tiver efeito, todos os clubes de tiro, não só de São Paulo, mas de todo o Brasil, têm que fechar. E eles vão se mudar para onde, Ministro, se já foi feito um investimento massivo na construção desses estabelecimentos? Um clube de tiro precisa ter cofres, precisa ter controle de segurança na entrada, precisa ter vigilância armada, precisa ter paredes blindadas. Esses custos são altíssimos. Eles devem se mudar por qual motivo? Não existe registro de ocorrência policial envolvendo clubes de tiro e escolas.Essa é uma determinação, com todo o respeito, sem pé nem cabeça. Ela não tem justificativa no mundo real. O senhor está numa Pasta que não é a Pasta da cultura, não é a Pasta de algo abstrato. O senhor está numa Pasta do mundo real. Os seus auxiliares policiais viveram, em algum ponto da carreira, o mundo real e é nele que temos que basear as nossas decisões.",
+          "Sem desrespeitar a macropolítica restritiva, nós entendemos que essa questão da habitualidade por calibre registrado, como está posta hoje, estimula o cidadão a ir para o clube de tiro com dezenas de equipamentos, se ele tiver, e não apenas com um. Outrora, sobretudo no Governo Dilma, a habitualidade era da pessoa, do atirador, assim como ocorre com a CNH — você tem CNH e pode dirigir qualquer carro, não tem que ter uma CNH para cada carro que vai dirigir, o que não faz sentido. Atiradores teriam que esperar 2 anos para conseguir cumprir essa habitualidade. Portanto, habitualidade por calibre; distância de 1 quilômetro das escolas dos clubes de tiros, que são os locais adequados para que essa atividade se desenvolva; calibres como o que foi citado, de 9 milímetros; calibre 22LR, o calibre menos potente que existe no Brasil — o critério seria o de 1.620 joules, e o calibre tem pouco menos de 200 joules, quase igual ao da funda de Davi na testa de Golias, que tem 97 joules; exigência do CR, o Certificado de Registro, para armas de ar comprimido, o que nunca foi exigido — as pessoas não querem ter armas, mas está senda exigido delas essa questão do ar comprimido; dificuldade para a transição do acervo para o acervo de coleção, tendo em vista que o acervo de coleção é inerte, que não se compra munição para eles, que não se transita com essas armas.",
+          "Um segundo ponto do decreto, Sr. Ministro, é a famosa habitualidade por calibres. Essa outra exigência faz com que pessoas que fizeram um grande investimento e que possuem armas de fogo de diversos calibres tenham que participar de inúmeras competições durante o ano simplesmente para manter os seus armamentos. Essa exigência foi criada, obviamente, para desestimular a liberdade de aquisição de calibres. Isso é algo desnecessário. Vamos alterar esse texto para \"calibres permitidos e restritos\". Assim já se dá uma sinalização muito positiva de compreensão da situação do tiro esportivo no Brasil.",
+          "Em primeiro lugar, a distância mínima estabelecida pelo decreto, de 1 quilômetro entre clubes de tiro, que são os únicos locais em que é autorizada a prática do tiro desportivo, e escolas, essa determinação proibitiva do decreto..."
+        ]
       }
     ]
   },
@@ -107,13 +242,44 @@
         "fala": "Citou o contrabando de armas que ocorre pela via marítima, por meio dos portos.",
         "sessao_id": 205,
         "assunto": "Recursos e melhorias na política de enfrentamento aos crimes nas fronteiras do Brasil",
+        "severidade": "contradicao",
+        "origem": "classificador",
         "posicionamento_partido": "direita",
+        "posicionamento_partido_pauta": "armas",
         "posicionamento_fala": "centro-esquerda",
         "score_partido": 1.0,
         "score_fala": -0.3566,
         "distancia": 1.3566,
         "pauta": "armas",
-        "evidencia_pauta": 0.0192
+        "evidencia_pauta": 0.0192,
+        "trechos_transcricao": [
+          "Eu tive a oportunidade de trabalhar, pela Polícia Federal, em algumas operações, a maioria no Rio de Janeiro, e sabemos que os portos brasileiros são muito vulneráveis — muito vulneráveis. E em não se fazendo presente o Estado, o Brasil se transforma em chamariz para toda sorte de crime, inclusive o tráfico de drogas. Mas, no caso dos portos do Rio de Janeiro, há muito tráfico de armas.",
+          "E a Operação Albatroz é uma operação permanente lá na zona primária. Fomos convidados pela Receita Federal e também pela Polícia Federal. E atuamos também, no litoral paranaense, nos portos e marinas, que são locais de grande exportação de cocaína, drogas e armas para o continente europeu. Então, estamos atuando junto com esses órgãos nestas três fases: núcleo de produção de conhecimento, atuação integrada e atuação estratégica dos nossos operadores.",
+          "Mas não é só isso. O crime ocorre em grandes volumes e em volumes pequenos. Quero chamar a atenção dos senhores para o volume de entrada no País pela via postal. É um número astronômico: 176 milhões de volumes ingressam no País por ano. Isso reflete, em grande parte, o desenvolvimento doe-commerce, o comércio digital, que, em sua grande maioria, por questões de custo, utiliza a via postal. Ali também há dados sobre remessa expressa. À direita, vemos todas as estruturas utilizadas para exercer esse controle.",
+          "Conheço esta matéria, trabalhei na Polícia Federal por8 anos em áreas de fronteira; 5 anos em Bagé, fronteira entre Brasil e Uruguai, e mais 3 anos em Santo Ângelo, fronteira entre Brasil e Argentina. Portanto, sei das necessidades e das vulnerabilidades que o Brasil, pelo seu tamanho continental, apresenta frente ao crime organizado transfronteiriço. Temos problemas no Sul do Brasil, no extremo sul, lá com o Uruguai, com o tráfico de armas, inclusive. Na fronteira do Paraná, meu amigo Coronel Ulysses, em Foz do Iguaçu, etc., temos um problema forte com contrabando, tráfico de drogas e também tráfico de armas. Em Mato Grosso, temos o tráfico de drogas e tráfico de armas. Subindo para a Amazônia — Rondônia e Acre — temos problemas seríssimos também com o tráfico de drogas, sobretudo. E há também a questão marítima."
+        ]
+      },
+      {
+        "indice": 5,
+        "fala": "Listou alguns desafios que o País enfrenta na fronteira: \"Temos problemas no Sul do Brasil, no extremo sul, na fronteira com Uruguai, tráfico de armas inclusive. Temos na fronteira do Paraná, em Foz do Iguaçu, problema forte com contrabando e tráfico de drogas e também tráfico de armas. No Mato Grosso, tráfico de drogas e tráfico de armas. Subindo, na Amazônia, Rondônia, Acre, problemas seríssimos de tráfico de drogas.\"",
+        "sessao_id": 205,
+        "assunto": "Recursos e melhorias na política de enfrentamento aos crimes nas fronteiras do Brasil",
+        "severidade": "tensao",
+        "origem": "indicio_lexical",
+        "posicionamento_partido": "direita",
+        "posicionamento_partido_pauta": "armas",
+        "posicionamento_fala": "neutra",
+        "score_partido": 1.0,
+        "score_fala": -0.4,
+        "distancia": 1.4,
+        "pauta": "armas",
+        "evidencia_pauta": 1.0,
+        "trechos_transcricao": [
+          "Conheço esta matéria, trabalhei na Polícia Federal por8 anos em áreas de fronteira; 5 anos em Bagé, fronteira entre Brasil e Uruguai, e mais 3 anos em Santo Ângelo, fronteira entre Brasil e Argentina. Portanto, sei das necessidades e das vulnerabilidades que o Brasil, pelo seu tamanho continental, apresenta frente ao crime organizado transfronteiriço. Temos problemas no Sul do Brasil, no extremo sul, lá com o Uruguai, com o tráfico de armas, inclusive. Na fronteira do Paraná, meu amigo Coronel Ulysses, em Foz do Iguaçu, etc., temos um problema forte com contrabando, tráfico de drogas e também tráfico de armas. Em Mato Grosso, temos o tráfico de drogas e tráfico de armas. Subindo para a Amazônia — Rondônia e Acre — temos problemas seríssimos também com o tráfico de drogas, sobretudo. E há também a questão marítima.",
+          "No Baixo Acre, nós temos, em Capixaba, problemas com o tráfico de drogas e o contrabando de armas. Ainda na região do Baixo Acre, no Município de Plácido de Castro, nós temos problemas com o tráfico de drogas — é a porta de entrada do tráfico boliviano — e com veículos roubados.",
+          "Gostaria de destacar algo que pode ter passado despercebido. Sobre a apresentação que o Coronel Cleudo fez, é importante salientar que, tirando o Distrito Federal — onde os presídios são federais —, Acre, Mato Grosso do Sul, Mato Grosso, Paraná e Rondônia são os Estados com as maiores populações carcerárias, exatamente porque são Estados fronteiriços, próximos aos produtores de drogas e de entorpecentes, que vigoram nas fronteiras do nosso País.",
+          "Historicamente, o Programa Vigia começou para tratar da nossa situação na região de Maringá. A delegacia de Maringá é responsável por 88 Municípios, e alguns deles estão em faixa de fronteira. Tínhamos um problema no Rio Paraná, que eram os barcos que vinham do Paraguai com contrabando de drogas, armas e munição, em uma afronta direta à soberania do nosso País. Cerca de 300 lanchas passavam embaixo da Ponte Ayrton Senna e iam para todas as regiões. Diante daquilo, tivemos que montar essa estrutura."
+        ]
       }
     ]
   },
@@ -128,13 +294,22 @@
         "fala": "Manifestou preocupação com a regularização das ocupações em glebas públicas rurais, principalmente nos casos em que ocorre sobreposição a florestas públicas.",
         "sessao_id": 124,
         "assunto": "Política de regularização fundiária de terras públicas na Amazônia Legal",
+        "severidade": "contradicao",
+        "origem": "classificador",
         "posicionamento_partido": "direita",
+        "posicionamento_partido_pauta": "reforma_agraria",
         "posicionamento_fala": "centro-esquerda",
         "score_partido": 1.0,
         "score_fala": -0.3281,
         "distancia": 1.3281,
         "pauta": "reforma_agraria",
-        "evidencia_pauta": 0.0237
+        "evidencia_pauta": 0.0237,
+        "trechos_transcricao": [
+          "A SRA. CORONEL FERNANDA(PL - MT) - A nova regra criada através do Decreto nº 11.688, de 2023, que impede a regularização fundiária de ocupantes das glebas públicas federais que tenham sobreposição, como florestas públicas do tipo B, segundo a Lei nº 11.284, de 2006, está de acordo com o previsto na Lei nº 11.952, de 2009?",
+          "A SRA. CORONEL FERNANDA(PL - MT) - Meu quarto questionamento: o INCRA tem levantamento de quantas ocupações em glebas públicas federais serão afetadas e terão a regularização inviabilizada, em função da sobreposição em floresta pública? Se sim, pergunto: quantas famílias serão afetadas? Qual o tamanho médio dessas parcelas? Qual o percentual, em relação ao total das parcelas inseridas no GPF?",
+          "Então o decreto foi necessário, trouxe algumas inovações, especialmente, na necessidade de identificar o CAR ativo daqueles que estão com requerimento para a regularização, na verificação dos embargos tanto em âmbito federal quanto estadual e, ainda, na sobreposição das áreas que estão em regularização com florestas públicas.",
+          "O SR. CÉSAR FERNANDO SCHIAVON ALDRIGHI- Nós regularizamos 1.359 requerimentos de regularização em glebas públicas."
+        ]
       }
     ]
   },
@@ -149,13 +324,52 @@
         "fala": "É preciso vencer o discurso de que os reservatórios das usinas hidrelétricas prejudicam o meio ambiente: \"É um grande equivoco que o ‘usineiro’ não tem responsabilidade ambiental. Pelo contrário, nós somos os maiores preservadores ambientais do mundo para poder ter uma boa qualidade de produção de energia.\"",
         "sessao_id": 173,
         "assunto": "Retomada da construção de usinas hidrelétricas com grandes reservatórios no Brasil",
+        "severidade": "contradicao",
+        "origem": "classificador",
         "posicionamento_partido": "centro-direita",
+        "posicionamento_partido_pauta": "meio_ambiente",
         "posicionamento_fala": "centro-esquerda",
         "score_partido": 0.5,
         "score_fala": -0.3956,
         "distancia": 0.8956,
         "pauta": "meio_ambiente",
-        "evidencia_pauta": 0.0193
+        "evidencia_pauta": 0.0193,
+        "trechos_transcricao": [
+          "É um grande equívoco falar que o usineiro não tem responsabilidade ambiental; pelo contrário, nós somos um dos maiores preservadores ambientais do mundo. Para poder haver uma boa qualidade de geração de energia, garantimos a parte de barragem e de reservatórios.",
+          "As Pequenas Centrais Hidrelétricas, as PCHs, construídas a fio de água, e, eventualmente, uma grande, a fio de água também, não têm esse poder de reservação e de fazer esse trabalho. Então, as PCHs sem reservatórios não têm essa competência para fazer o controle da vazão.",
+          "Nós temos a entrada de algumas usinas hidrelétricas com uma regularização não tão importante. Temos percebido a diminuição da capacidade do sistema brasileiro em fazer esse grande controle, ter essa grande bateria. Não temos conseguido assegurar que o nosso sistema tenha essa bateria por meio do reservatório.",
+          "Atualmente, o planejamento começa a ter problemas operacionais, com a redução relativa dos reservatórios em operação em relação à demanda de energia sempre crescente. Enquanto novas fontes entram nos sistemas interligados, não houve a solução de regularidade de sua produção. Essa função continuará sendo imputada aos reservatórios das hidrelétricas, que segue sem a devida remuneração por esses atributos."
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Mauricio do Vôlei",
+    "partido": "PL",
+    "estado": "Minas Gerais",
+    "posicionamento_politico_partido": "direita",
+    "contradicoes": [
+      {
+        "indice": 0,
+        "fala": "Defendeu a taxação das casas de apostas esportivas: \"Se a gente não regulamentar as apostas, elas vão continuar operando normalmente, sem nenhuma contrapartida para o País.\"",
+        "sessao_id": 175,
+        "assunto": "Revisão da alíquota de taxação das operadoras de apostas esportivas no Brasil",
+        "severidade": "tensao",
+        "origem": "indicio_lexical",
+        "posicionamento_partido": "direita",
+        "posicionamento_partido_pauta": "tributacao",
+        "posicionamento_fala": "neutra",
+        "score_partido": 1.0,
+        "score_fala": -0.4,
+        "distancia": 1.4,
+        "pauta": "tributacao",
+        "evidencia_pauta": 1.0,
+        "trechos_transcricao": [
+          "Eu apanho todos os dias por defender a regulamentação. Pessoal, se nós não regulamentarmos essas casas de apostas, elas vão continuar operando da mesma forma, sem nenhuma contrapartida para o País, sem nenhuma contrapartida para o Estado, para o Município, para as novas gerações. Eu quero que as pessoas entendam isso. Qual é a nossa luta? É pelo bem do País, é pelo bem das próximas gerações, é pelo investimento na base, que hoje falta. O vôlei está caindo, o futebol está caindo — tudo bem, o futebol não está caindo, mas os outros esportes secundários estão caindo, porque não há investimento na base. E desses bilhões de reais que estão saindo do Brasil seriam 3% para o Ministério do Esporte, que hoje tem um investimento pífio. Isso vai fazer muita diferença na vida dos brasileiros, vocês podem ter certeza disso.",
+          "Como eu dizia, Dr. Manssur, é muito fácil as pessoas chegarem para mim e falarem assim:\"Mas você é a favor da taxação, de mais taxação no Brasil\". E eu digo:\"Não, gente. Eu não sou a favor de taxação. Eu sou a favor dessa regulamentação, para captar recursos para o nosso País\". Aí dizem:\"Eu faço o que eu quiser com o meu dinheiro\".\"Meu irmão, você faz o que você quiser com o seu dinheiro. Se você quiser jogar no lixo, você joga. Eu não estou nem aí para o que você faz com o seu dinheiro. Eu me importo com o que o Brasil está recebendo nessa contrapartida dessas casas de apostas esportivas.\"",
+          "Então, quando se fala:\"Ah, o Brasil vai arrecadar 'x' bilhões de reais com a regulamentação das apostas esportivas\", talvez esse número, a metodologia utilizada, esteja considerando todos os valores de todas verticais circulantes nas casas de apostas, e não apenas apostas esportivas. E essa divisão é muito difícil fazer.",
+          "Quero dizer aos senhores e às senhoras que, no último dia 24 de julho de 2023, o Governo Federal, por meio do Ministério da Fazenda, desonerou-se de uma obrigação que deveria ter sido cumprida desde 2020, a da regulamentação das apostas de cota fixa, apostas esportivas que foram previstas na Lei nº 13.756, de 2018. Já existirem no Brasil desde muito antes. Essa lei de 2018 conferia especificamente ao Ministério da Fazenda, digo, ao então Ministério da Economia, nos meses subsequentes, a obrigação de regulamentar essa atividade no prazo de 2 anos, prorrogável por 2 anos, e isso não foi feito."
+        ]
       }
     ]
   },
@@ -170,13 +384,22 @@
         "fala": "O impacto social compensaria o investimento de R$ 7 bilhões para a subvenção das bolsas de estudo: \"Socialmente, eu acho que é um investimento muito positivo para que a gente possa fazer com que o Brasil melhore seus índices educacionais, pelo menos próximo aos nossos países vizinhos, que chegam a níveis de 30%, 40%, 50% de jovens no ensino superior, e hoje a gente não chega a 20%.\"",
         "sessao_id": 196,
         "assunto": "Financiamento estudantil e a necessidade de políticas públicas para ampliar o acesso ao ensino superior no Brasil",
+        "severidade": "contradicao",
+        "origem": "classificador",
         "posicionamento_partido": "direita",
+        "posicionamento_partido_pauta": "programas_sociais",
         "posicionamento_fala": "centro-esquerda",
-        "score_partido": 1.0,
+        "score_partido": 0.75,
         "score_fala": -0.677,
-        "distancia": 1.677,
+        "distancia": 1.427,
         "pauta": "programas_sociais",
-        "evidencia_pauta": 0.0193
+        "evidencia_pauta": 0.0193,
+        "trechos_transcricao": [
+          "Eu acredito que é superpossível. O impacto será de aproximadamente 6,5 bilhões de reais, mas, socialmente, é um investimento altíssimo, um investimento muito positivo para que possamos fazer com que o Brasil melhore seus índices educacionais, pelo menos próximo ao dos nossos países vizinhos, que chegam a 30%, 40%, 50% de jovens no ensino superior, sendo que o País hoje não chega a 20%.",
+          "Em relação aos impactos financeiros, realmente a ideia da remissão da dívida, na verdade, trata do aluno que é carente. Ele está no FIES tradicional e, provavelmente, estará inadimplente. A ideia é que, se ele conseguir a bolsa do Programa de Apoio ao Estudante, ele migre para o programa de bolsas e a sua dívida seja remida ou anistiada, por conta da bolsa. Assim, estaremos regularizando a vida do estudante e também tirando esse passivo do Governo. É claro que há um investimento do Governo, sabemos disso. Há um impacto financeiro, mas em um programa como esse temos que entender o impacto social no futuro: a ampliação do índice de alunos matriculados no ensino superior e, é claro, a formação dos nossos jovens.",
+          "Em síntese, podemos e devemos ter no Brasil as bolsas do PROUNI, com as universidades públicas fazendo um papel fundamental não só na expansão do ensino superior, mas na pesquisa, no desenvolvimento, e também esse novo programa proposto pelo PL.",
+          "Nós temos o FIES, que foi um programa criado ainda pelo Ministro Paulo Renato, que foi modificado, aperfeiçoado, fortalecido com o Ministro Haddad, atingiu números expressivos e mudou a vida do ensino superior e dos jovens do nosso Brasil. Entretanto, esse programa, com a sua modificação de 2017, no Governo do Temer, deixou de ser um programa social, como anteriormente era, e ficou sendo um programa um pouco bancário, o que fez com que muitos alunos não concluíssem suas inscrições, com que muitos alunos nem tivessem interesse em entrar no programa; e para os que entraram se tornou um programa que incentiva, inclusive, a inadimplência. Não é um programa sustentável, além de ter poucas vagas. Nós sabemos que o Governo oferece entre 60 mil e 70 mil vagas, mas hoje — número de hoje, que eu obtive em uma reunião no Ministério da Educação — nós não atingimos, Prof. Celso, em torno de 36 mil matrículas."
+        ]
       }
     ]
   }

@@ -38,9 +38,9 @@ Uso:
     python preparar_dados.py \
         [--saida deputados.json] \
         [--arquivo-local PUBLICHEARINGBR_LDS.jsonl] \
-        [--incluir-nao-deputados]
+        [--incluir-nao-deputados] \
+        [--enriquecer-transcricao]
 """
-
 from __future__ import annotations
 
 import argparse
@@ -51,6 +51,8 @@ from collections import defaultdict
 from pathlib import Path
 
 import requests
+
+import enriquecedor
 
 # ---------------------------------------------------------------------------
 # Configuração do dataset
@@ -365,6 +367,13 @@ def main() -> None:
         help="Inclui também ministros, jornalistas e outros envolvidos "
              "(por padrão, mantém apenas quem tem 'Deputad' no cargo).",
     )
+    parser.add_argument(
+        "--enriquecer-transcricao",
+        action="store_true",
+        help="Casa cada opinião com os trechos REAIS da transcrição da "
+             "mesma sessão (adiciona o campo 'trechos_transcricao' a cada "
+             "opinião, equivalente aos 'chunks_proximos' do NLI).",
+    )
     args = parser.parse_args()
 
     caminho = obter_arquivo_local_ou_baixar(args.arquivo_local)
@@ -381,6 +390,17 @@ def main() -> None:
         1 for d in deputados
         if d["posicionamento_politico_partido"] == PARTIDO_DESCONHECIDO
     )
+
+    if args.enriquecer_transcricao:
+        sessoes_por_id = {
+            s.get("id"): s.get("transcricao", "")
+            for s in sessoes
+            if s.get("id") is not None and s.get("transcricao")
+        }
+        deputados = enriquecedor.enriquecer(deputados, sessoes_por_id)
+        com_trechos, total = enriquecedor.resumo_enriquecimento(deputados)
+        print(f"[ok] Enriquecimento: {com_trechos}/{total} opiniões casadas "
+              f"com trechos da transcrição.")
 
     print(f"[ok] {len(deputados)} deputados, {n_opinioes} opiniões no total.")
     print(f"[ok] {n_sem_partido} sem partido extraído do cargo; "

@@ -1,0 +1,50 @@
+[
+  {
+    "nome": "Bia Kicis",
+    "partido": "PL",
+    "estado": "Distrito Federal",
+    "falas": [
+      {
+        "indice": 0,
+        "fala": "Os parlamentares não são 'antivacinas'.",
+        "sessao_id": 15,
+        "assunto": "Obrigatoriedade da vacinação contra Covid-19 em crianças de 6 meses a 5 anos a partir de 2024",
+        "termo_negado": "antivacinas",
+        "expressao": "não são 'antivacinas",
+        "pauta": null,
+        "posicao_fala": "neutra",
+        "severidade": "tensao",
+        "trechos_transcricao": [
+          "Aqui não está em jogo questão de ideologia, não, São as minhas filhas. E se vocês a amam mais do que eu, vocês digam.",
+          "Srs. Parlamentares, há dois médicos aqui que eu conheço. Esses médicos aqui são verdadeiros e defendem a família brasileira!",
+          "Não podemos ultrapassar, de forma nenhuma, os 20 minutos, mesmo na prorrogação, porque vários Parlamentares vão querer fazer suas perguntas, e os senhores vão ter mais tempo depois nas respostas.",
+          "Eu agradeço o posicionamento e peço: vamos refletir, pois são vidas que nós podemos estar colocando em risco. Não sabemos ainda exatamente as consequências dessas vacinas que nós tomamos, e o resultado final, infelizmente, não conhecemos."
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Fábio Félix",
+    "partido": "PSOL",
+    "estado": "",
+    "falas": [
+      {
+        "indice": 0,
+        "fala": "Afirmou que, se o caso é questionar o STF, que isso seja feito de outro jeito e não às custas dos direitos da comunidade LGBT: \"Nenhum parlamentar da extrema direita, do fundamentalismo ou os palestrantes tiveram coragem de fazer ataques diretos aos nossos direitos civis. Tergiversaram, vacilaram, questionaram o STF, chamaram de atalho a forma como a decisão foi tomada. Mas, se não questionam o conteúdo, se vossa excelência não é contra os direitos civis do meu casamento, esse projeto precisa ir para o arquivo.\"",
+        "sessao_id": 48,
+        "assunto": "Discussão sobre o Projeto de Lei 580/07 e a regulamentação da união homoafetiva",
+        "termo_negado": "contra",
+        "expressao": "não é contra",
+        "pauta": "direitos_lgbt",
+        "posicao_fala": "centro",
+        "severidade": "tensao",
+        "trechos_transcricao": [
+          "Nenhum Parlamentar da extrema direita, do fundamentalismo ou palestrante teve coragem de fazer ataques diretos aos nossos direitos civis. Tergiversaram, vacilaram, questionaram o Supremo Tribunal Federal, chamaram de atalho a forma como a decisão foi tomada.",
+          "Mas se não questionam o conteúdo, se V.Exa. não é contra os direitos civis do meu casamento, esse projeto precisa ir para o arquivo. Que façam outro projeto impedindo o casamento religioso. Vamos debater. Que façam outros projetos relacionados às pautas que eles tocaram aqui. Houve Parlamentar trazendo a questão da infância e adolescência. Houve Parlamentar trazendo a questão da banalização de símbolos religiosos na parada LGBT. Houve Parlamentar dizendo que foi ofendido por ativistas LGBTs em outros contextos. Que processem os ativistas LGBTs, mas o Parlamento aqui não pode ser usado como revanche. Os nossos direitos não podem ser atacados por revanchismo, porque não assumiram aqui a posição deles em relação ao tema, não tiveram a coragem de ser taxativos contra os direitos civis. Então, o Parlamento não pode ser usado dessa forma.",
+          "Termino no meu último minuto, 40 segundos, mais a boa vontade do Presidente... É brincadeira, já vou me encaminhar para o final. Ainda, se vocês me permitem, para fazer um contraponto ao fundamentalismo religioso como o projeto de poder, eu queria lembrar para milhares de pessoas que estão e que nos verão, porque isso aqui vai entrar para a história: nós vamos ganhar, em termos de STF, mas eu não quero ganhar só em termos de STF. Eu quero ganhar como concepção de sociedade e derrotar os valores culturais da extrema direita e do fanatismo religioso. Por isso esse debate me parece tão importante e necessário.",
+          "Quando o Ministro reconheceu no STF as famílias homoafetivas, dali começamos a conquista dos nossos direitos. Em 10 anos, eu posso dizer que esta Casa foi silenciosa. Esta Casa, durante todos os últimos anos, foi silenciosa. Não teve coragem de votar nenhum projeto que falasse sobre a população LGBTQIA+ e agora decide votar um projeto que é inconstitucional, que claramente vem aqui querer tirar um direito nosso que já foi conquistado, como foi criminalizada a LGBTQIA+fobia."
+        ]
+      }
+    ]
+  }
+]

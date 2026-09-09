@@ -2,8 +2,10 @@
 pipeline.py
 
 Script principal: lê o JSON de deputados, classifica a orientação de cada
-fala e gera relatórios separados para (1) oposição entre fala e partido e
-(2) contradição entre falas do mesmo deputado.
+fala e gera relatórios separados para (1) oposição entre fala e partido
+(com severidade "contradicao"/"tensao" avaliada pauta por pauta),
+(2) contradição entre falas do mesmo deputado, (3) tensão transversal
+entre pautas no mesmo deputado e (4) falas defensivas (negação de rótulo).
 
 ATENÇÃO — decisão de estrutura de dados: no seu exemplo, "opinioes" é
 uma lista, mas "posicionamento_politico_fala" aparecia como um único
@@ -19,7 +21,9 @@ Uso:
         --input deputados.json \
         --output-classificado deputados_classificados.json \
         --output-contradicoes contradicoes_falas.json \
-        --output-contradicoes-partido contradicoes_partido.json
+        --output-contradicoes-partido contradicoes_partido.json \
+        --output-tensoes-transversais tensoes_transversais.json \
+        --output-falas-defensivas falas_defensivas.json
 """
 
 from __future__ import annotations
@@ -29,7 +33,16 @@ import json
 
 from ideology_classifier import IdeologyClassifier
 from contradiction_detector import ContradictionDetector
-from party_alignment import find_party_contradictions
+from party_alignment import find_party_divergences
+from padroes_politicos import (
+    find_cross_issue_tensions,
+    detect_defensive_speech,
+)
+from indicios import (
+    indicio_da_fala,
+    party_divergences_from_indicios,
+    cross_issue_tensions_from_indicios,
+)
 
 
 def load_json(path: str) -> list[dict]:
@@ -62,11 +75,20 @@ def assunto_da_opiniao(opiniao):
     return None
 
 
+def trechos_da_opiniao(opiniao):
+    """Trechos literais da transcrição casados com a opinião (enriquecimento)."""
+    if isinstance(opiniao, dict):
+        return opiniao.get("trechos_transcricao", [])
+    return []
+
+
 def run(
     input_path: str,
     output_classificado_path: str,
     output_contradicoes_path: str,
     output_contradicoes_partido_path: str = "contradicoes_partido.json",
+    output_tensoes_transversais_path: str = "tensoes_transversais.json",
+    output_falas_defensivas_path: str = "falas_defensivas.json",
     max_deputados: int | None = None,
 ) -> None:
     deputados = load_json(input_path)
@@ -80,6 +102,8 @@ def run(
 
     contradicoes_falas_output = []
     contradicoes_partido_output = []
+    tensoes_transversais_output = []
+    falas_defensivas_output = []
 
     preparados = []
     todos_textos = []
@@ -105,13 +129,19 @@ def run(
             r.to_dict() for r in resultados
         ]
 
-        oposicoes_partido = find_party_contradictions(
-            dep.get("posicionamento_politico_partido"),
+        divergencias = find_party_divergences(
+            dep.get("partido"),
             opinioes,
             textos,
             resultados,
         )
-        if oposicoes_partido:
+        # Indícios léxicos cobrem falas que o e5 deixou "neutra" (resumos
+        # narrativos sem pauta nas âncoras). Sempre sinal fraco ("tensao").
+        indicios = [indicio_da_fala(t) for t in textos]
+        divergencias += party_divergences_from_indicios(
+            dep.get("partido"), opinioes, textos, resultados, indicios
+        )
+        if divergencias:
             contradicoes_partido_output.append(
                 {
                     "nome": dep.get("nome"),
@@ -120,7 +150,51 @@ def run(
                     "posicionamento_politico_partido": dep.get(
                         "posicionamento_politico_partido"
                     ),
-                    "contradicoes": [p.to_dict() for p in oposicoes_partido],
+                    "contradicoes": [
+                        {
+                            **p.to_dict(),
+                            "trechos_transcricao": trechos_da_opiniao(
+                                opinioes[p.indice]
+                            ),
+                        }
+                        for p in divergencias
+                    ],
+                }
+            )
+
+        # Tensão transversal: posições fortes e opostas em pautas diferentes.
+        tensoes = find_cross_issue_tensions(opinioes, textos, resultados)
+        if not tensoes:
+            tensoes = cross_issue_tensions_from_indicios(
+                opinioes, textos, resultados, indicios
+            )
+        if tensoes:
+            tensoes_transversais_output.append(
+                {
+                    "nome": dep.get("nome"),
+                    "partido": dep.get("partido"),
+                    "estado": dep.get("estado"),
+                    "tensoes": [t.to_dict() for t in tensoes],
+                }
+            )
+
+        # Fala defensiva: negação de rótulo ("não somos antivacinas").
+        defensivas = detect_defensive_speech(opinioes, textos, resultados)
+        if defensivas:
+            falas_defensivas_output.append(
+                {
+                    "nome": dep.get("nome"),
+                    "partido": dep.get("partido"),
+                    "estado": dep.get("estado"),
+                    "falas": [
+                        {
+                            **d.to_dict(),
+                            "trechos_transcricao": trechos_da_opiniao(
+                                opinioes[d.indice]
+                            ),
+                        }
+                        for d in defensivas
+                    ],
                 }
             )
 
@@ -157,6 +231,18 @@ def run(
     save_json(deputados, output_classificado_path)
     save_json(contradicoes_falas_output, output_contradicoes_path)
     save_json(contradicoes_partido_output, output_contradicoes_partido_path)
+    save_json(tensoes_transversais_output, output_tensoes_transversais_path)
+    save_json(falas_defensivas_output, output_falas_defensivas_path)
+
+    n_divergencias = sum(
+        len(c["contradicoes"]) for c in contradicoes_partido_output
+    )
+    n_contradicao = sum(
+        1
+        for c in contradicoes_partido_output
+        for d in c["contradicoes"]
+        if d.get("severidade") == "contradicao"
+    )
 
     print(f"[OK] {len(deputados)} deputados processados.")
     print(f"[OK] Classificações salvas em: {output_classificado_path}")
@@ -166,7 +252,16 @@ def run(
     )
     print(
         f"[OK] {len(contradicoes_partido_output)} deputado(s) com oposição "
-        f"fala-partido. Salvo em: {output_contradicoes_partido_path}"
+        f"fala-partido ({n_divergencias} divergência(s), das quais "
+        f"{n_contradicao} forte(s)). Salvo em: {output_contradicoes_partido_path}"
+    )
+    print(
+        f"[OK] {len(tensoes_transversais_output)} deputado(s) com tensão "
+        f"transversal entre pautas. Salvo em: {output_tensoes_transversais_path}"
+    )
+    print(
+        f"[OK] {len(falas_defensivas_output)} deputado(s) com falas "
+        f"defensivas. Salvo em: {output_falas_defensivas_path}"
     )
 
 
@@ -182,6 +277,14 @@ if __name__ == "__main__":
         default="contradicoes_partido.json",
     )
     parser.add_argument(
+        "--output-tensoes-transversais",
+        default="tensoes_transversais.json",
+    )
+    parser.add_argument(
+        "--output-falas-defensivas",
+        default="falas_defensivas.json",
+    )
+    parser.add_argument(
         "--max-deputados",
         type=int,
         default=None,
@@ -195,5 +298,7 @@ if __name__ == "__main__":
         args.output_classificado,
         args.output_contradicoes,
         args.output_contradicoes_partido,
+        args.output_tensoes_transversais,
+        args.output_falas_defensivas,
         max_deputados=args.max_deputados,
     )
