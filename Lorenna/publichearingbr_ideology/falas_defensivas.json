@@ -1,1 +1,115 @@
-[]
+[
+  {
+    "nome": "Bia Kicis",
+    "partido": "PL",
+    "estado": "Distrito Federal",
+    "falas": [
+      {
+        "indice": 2,
+        "fala": "É favorável à vacinação e a seus filhos são vacinados, mas defende vacinas com anos de segurança e eficácia comprovadas.",
+        "sessao_id": 15,
+        "assunto": "Obrigatoriedade de vacinação contra a COVID-19 para crianças de 6 meses a 5 anos e sua inclusão no Programa Nacional de Imunizações (PNI).",
+        "termo_negado": "antivax",
+        "expressao": "não somos antivax",
+        "pauta": null,
+        "posicao_fala": "neutra",
+        "severidade": "tensao",
+        "trechos_transcricao": [
+          "Perdoem-me aqueles que acham que as crianças pertencem ao Estado e não aos pais. As crianças pertencem à família, e o Estado tem que zelar pelo bem-estar da família, pelo bem-estar das crianças.\n E quero deixar muito claro que aqui nós somos favoráveis à vacinação. Meus filhos são vacinados. Até minha cachorrinha é vacinada.",
+          "Mas quem tem olhos e não está doutrinado e com a mente fechada está vendo o que está acontecendo no mundo. O mundo não está obrigando nem adultos nem crianças a tomar essa vacina. É preciso continuar estudando, sem desacreditar a imunidade natural que nós temos.\n Inclusive, eu quero concluir, falando do Dr. Gert Vanden Bosch, PhD, que diz o seguinte:“Não vacinem seus filhos, eu imploro, porque essa vacina vai fazer com que as crianças, que são equipadas com anticorpos inatos, percam essa possibilidade de educar o sistema imunológico, inclusive para outras doenças”. Ele fala que nãoénem o efeito colateral que existe, o pior é a questão do ataque ao sistema imunológico inato das crianças.",
+          "Se acreditássemos que a vacina contra COVID-19 iria preservar a vida dos bebês, nós seríamos favoráveis. Nós não somos antivax aqui, não. Não existe esse movimento antivax. Ele até existe, mas nós não fazemos parte dele. Como eu disse, até a minha cachorrinha é vacinada.\n",
+          "Até minha cachorrinha é vacinada. Eu sou vacinada. Porém, tomamos aquelas vacinas que até hoje estão incluídas no PNI, vacinas com anos, anos e anos de segurança, de eficácia.\n Eu e o Deputado Delegado Paulo Bilynskyj, aqui presente, somos autores — inclusive, gostaríamos até de ouvir o Diretor sobre isto — de um projeto de lei que veda a inclusão no PNI de vacinas não imunizantes. Nós acreditamos, quando levamos nossos filhos para tomarem uma vacina contra a poliomielite, que eles não adquirirão a poliomielite, e um dos motivos deste debate é que nós temos aqui, por exemplo, uma Deputada que esses dias publicou que não poderia vir trabalhar porque estava com COVID, apesar de ter tomado cinco doses da vacina contra a doença.\n"
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Airton Faleiro",
+    "partido": "PT",
+    "estado": "Pará",
+    "falas": [
+      {
+        "indice": 3,
+        "fala": "Defende a regulamentação do mercado de carbono, acreditando que a ausência de regulamentação prejudica os mais fracos, como os povos indígenas, populações tradicionais e agricultores familiares.",
+        "sessao_id": 158,
+        "assunto": "Regulamentação do mercado de carbono",
+        "termo_negado": "contra",
+        "expressao": "não sou contra",
+        "pauta": null,
+        "posicao_fala": "neutra",
+        "severidade": "tensao",
+        "trechos_transcricao": [
+          "Falo de regulamentação nacional e de regulamentação nos Estados, em que pesem algumas iniciativas de alguns Estados.\n Na minha opinião, tudo o que não tem regulamentação é frágil. Sempre os mais fracos perdem diante da falta de regulamentação. Então, eu fico me perguntando: para os povos indígenas, para as populações tradicionais, para os agricultores familiares — estou falando da área rural —, qual é o cenário de permanecer com o que eu chamo de \"mercado voluntário\" dando as cartas? Eu sou defensor da regulamentação.",
+          "Como eu havia anunciado, quero fazer aqui alguns comentários sobre a temática do pagamento por sequestro de carbono. A primeira observação — e que nos motivou a requerer esta audiência pública — foi o entendimento de que o debate do sequestro do carbono não é um tema novo do ponto de vista da história recente. Nós não estamos começando agora essa discussão. Se isso é verdade, por outro lado, também é verdade que a ausência de regulamentação é gritante. Falo de regulamentação nacional e de regulamentação nos Estados, em que pesem algumas iniciativas de alguns Estados.\n",
+          "Senhoras e senhores, boa tarde.\n Declaro aberta a reunião de audiência pública da Comissão da Amazônia e dos Povos Originários e Tradicionais destinada a debater sobre a regulamentação do mercado de carbono.\n Ressalto que a presente audiência decorre da aprovação, nesta Comissão, do Requerimento nº 72, de 2023, de minha autoria, subscrito pelo Deputado Defensor Stélio Dener.\n Gostaria de agradecer a presença dos membros deste colegiado, dos demais Parlamentares que estão participando presencialmente ou virtualmente e de todos e todas que nos acompanham.\n",
+          "Acho melhor que haja uma regulamentação federal e que os Estados se guiem por isso. Contudo, também não sou contra, diante da ausência da regulamentação mais geral, os Estados tomarem iniciativa.\n Claro que, pela composição da nossa Mesa aqui, a nossa maior tendência é debater a partir do meio rural, mas os estudos dão conta de que o nosso maior problema de emissão é da indústria, e não do meio rural. Peguei alguns dados: desmatamento representa apenas 15% das emissões globais.\n Mas, quando se desce para a realidade brasileira, Letícia, já muda: ele representa 50% das emissões."
+        ]
+      },
+      {
+        "indice": 5,
+        "fala": "Prefere uma regulamentação federal em vez de estadual para evitar fragilidade na regulamentação.",
+        "sessao_id": 158,
+        "assunto": "Regulamentação do mercado de carbono",
+        "termo_negado": "contra",
+        "expressao": "não sou contra",
+        "pauta": null,
+        "posicao_fala": "neutra",
+        "severidade": "tensao",
+        "trechos_transcricao": [
+          "Não adianta dizer que isso não existe. Existe um movimento global e aqui no Brasil para que não se regulamente, para que o mercado voluntário se sobreponha e que mercados institucionais não se consolidem, não prevaleçam.\n Também já vi — é minha opinião e é para vocês comentarem — movimentos de Estados e Governadores dizerem:\"Não, é melhor deixar que os Estados regulamentem fora, livres de uma regulação federal\". Eu, pelo menos, acho isso arriscado. Acho melhor que haja uma regulamentação federal e que os Estados se guiem por isso.",
+          "Falo de regulamentação nacional e de regulamentação nos Estados, em que pesem algumas iniciativas de alguns Estados.\n Na minha opinião, tudo o que não tem regulamentação é frágil. Sempre os mais fracos perdem diante da falta de regulamentação. Então, eu fico me perguntando: para os povos indígenas, para as populações tradicionais, para os agricultores familiares — estou falando da área rural —, qual é o cenário de permanecer com o que eu chamo de \"mercado voluntário\" dando as cartas? Eu sou defensor da regulamentação.",
+          "Eu sou defensor da regulamentação. Não estou aqui fazendo uma audiência pública para dizer que não temos que regulamentar, pelo contrário.\n Acho que a iniciativa do PL 412, que tem como Relatora a Senadora Leila Barros, que foi o que ganhou mais corpo no debate — também há outro projeto tramitando —, inclusive com sinalizações de apoio do Governo ou até mesmo apoio do Governo com contribuições, é louvável. Ocorre que, no processo de regulamentação, nós precisamos também enfrentar um debate. Não adianta dizer que isso não existe.",
+          "Acho melhor que haja uma regulamentação federal e que os Estados se guiem por isso. Contudo, também não sou contra, diante da ausência da regulamentação mais geral, os Estados tomarem iniciativa.\n Claro que, pela composição da nossa Mesa aqui, a nossa maior tendência é debater a partir do meio rural, mas os estudos dão conta de que o nosso maior problema de emissão é da indústria, e não do meio rural. Peguei alguns dados: desmatamento representa apenas 15% das emissões globais.\n Mas, quando se desce para a realidade brasileira, Letícia, já muda: ele representa 50% das emissões."
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Daniel Agrobom",
+    "partido": "PL",
+    "estado": "Goiás",
+    "falas": [
+      {
+        "indice": 1,
+        "fala": "A importância de ouvir motoristas de aplicativos para construir a melhor solução em conjunto.",
+        "sessao_id": 87,
+        "assunto": "Debate sobre o Projeto de Lei Complementar nº 12 de 2024, que regulamenta a relação de trabalho intermediado por empresas operadoras de aplicativos de transporte.",
+        "termo_negado": "contra",
+        "expressao": "não somos contra",
+        "pauta": null,
+        "posicao_fala": "neutra",
+        "severidade": "tensao",
+        "trechos_transcricao": [
+          "Nós, da Frente Parlamentar, estamos abertos aos debates, às conversas, tanto para ouvir os Parlamentares, o pessoal da Comissão, o Presidente, o Relator, como também, diariamente, os motoristas de aplicativos, para que possamos, com eles, apresentar a melhor solução, junto com o Deputado Marinho, o Luizinho, o Macena, entre outros. Nós estamos abertos para ouvi-los, levar nossas posições e, juntos, construir o melhor projeto, o melhor relatório, que atenda não só aos motoristas, mas também ao Governo.\n Nós não somos contra isso, desde que os motoristas sejam valorizados da melhor forma possível.\n Obrigado, Presidente.\n Obrigado a todos.(Palmas.)",
+          "Portanto, se dez pessoas fizerem um chamado neste momento, serão dez preços diferentes para o mesmo trajeto.\n Nós precisamos olhar para isto porque, se for este o caso, isto dá a oportunidade às plataformas de colocarem o preço que elas quiserem. Imaginem colocar um preço mínimo, fazendo-se uma lei que dê a oportunidade a eles de cobrarem um preço mínimo muito abaixo da realidade!\n O que nós e os motoristas de aplicativos queremos é que venha um projeto que realmente dê autonomia e segurança para eles trabalharem, para terem transparência no trabalho que estão fazendo, já que eles mal sabem o que vão receber da corrida que vão fazer, e principalmente uma remuneração justa, que é o que nós queremos, que é o que eles querem.\n Nenhum motorista de aplicativo é contra a regulamentação, todos são favoráveis.",
+          "São eles que estão trabalhando, eles é que trabalham, eles é que precisam desta regulamentação.\n Como regulamentar uma classe se nem essa própria classe está aceitando esta regulamentação?! Não pode! Nós precisamos fazer algo que realmente atenda a esta categoria.\n Nós, da Frente Parlamentar, estamos abertos aos debates, às conversas, tanto para ouvir os Parlamentares, o pessoal da Comissão, o Presidente, o Relator, como também, diariamente, os motoristas de aplicativos, para que possamos, com eles, apresentar a melhor solução, junto com o Deputado Marinho, o Luizinho, o Macena, entre outros.",
+          "Por isso, eu chamo a atenção de todos os Parlamentares, para que possamos debater da melhor forma possível, fazer o que estamos fazendo aqui hoje, com mais clareza, e que o que estamos falando seja realmente levado às mesas de negociações. Senão, nós simplesmente ficaremos apenas falando, falando, e isso não será levado às mesas de discussão. Às vezes, o que está sendo levado é o que já está no papel. Portanto, precisamos levar à discussão o que nós estamos ouvindo aqui dos motoristas. São eles que estão trabalhando, eles é que trabalham, eles é que precisam desta regulamentação.\n"
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Renato Roseno",
+    "partido": "PSOL",
+    "estado": "",
+    "falas": [
+      {
+        "indice": 2,
+        "fala": "Há um risco de colonização na produção de hidrogênio verde que beneficia mais a Europa do que as comunidades locais.",
+        "sessao_id": 178,
+        "assunto": "Impactos socioambientais da construção de parques de energia eólica nas comunidades locais",
+        "termo_negado": "contra",
+        "expressao": "não somos contra",
+        "pauta": null,
+        "posicao_fala": "neutra",
+        "severidade": "tensao",
+        "trechos_transcricao": [
+          "Adryane desenvolveu junto com os seus pares uma metodologia chamada cartografia social, em que as comunidades são autoras da cartografia.\n Há possibilidade de vivermos agora um processo de colonização da produção do hidrogênio verde. E, Deputada, ele não pode ser verde só para o europeu da Europa Central. Sabemos que há uma geopolítica da energia que coloca o Nordeste brasileiro como uma etapa assimétrica, uma etapa subalternizada nesse jogo. Entre a Península Ibérica e o norte da Europa há construção de infraestrutura.",
+          "Entre a Península Ibérica e o norte da Europa há construção de infraestrutura. Até 2030, por exemplo, prevê-se a construção de um gasoduto que terá o investimento de 2 bilhões de euros aproximadamente. Obviamente, isso vai fazer com que, em determinadas áreas, especialmente no Caribe, na África ocidental e, notadamente, no Nordeste brasileiro, haja um avanço intensivo de produção de infraestrutura industrialde tancagem e de processamento do hidrogênio verde que vai substituir o gás natural russo na Europa central, mas isso vai deixar uma externalidade negativa muito grande entre nós. Repito que não somos contra a transição energética, mas queremos que ela seja feita da maneira mais adequada possível.\n Eu quero me dirigir às companheiras pescadoras do movimento de pescadores e pescadoras, ao Instituto Terramar, que é uma instituição fundamental da sociedade civil brasileira para a defesa de povos e mares.",
+          "Se nós não cuidarmos disso, vamos chegar ao paradoxo em que comunidades inteiras vão ter o seu orçamento doméstico onerado para pagar energia elétrica, mesmo estando situadas em frente a centenas de torresoffshore. Elas não vão se beneficiar, vão perder a sua renda, vão ter o seu ecossistema alterado e não vão ter nenhum benefício nesse processo.\n Deputada, como V.Exa. disse, precisamos lutar contra todas as formas de manutenção de lógicas coloniais. A energia certa tem que ser feita do jeito certo, e o jeito certo é com justiça socioambiental.\n",
+          "Não é possível que, na transição energética, a produção da energia certa seja desenvolvida do jeito errado. Não é possível manter uma lógica de colonialismo energético e ambiental. Não é possível manter a lógica de racismo ambiental e de injustiça ambiental.\n Portanto, nós que estamos aqui no Ceará, um dos Estados mais afetados por essa transição na costa brasileira, queremos participar desse processo, queremos que as comunidades sejam ouvidas e queremos que o processo de transição seja feito com as comunidades, também em benefício delas, para não gerar injustiças energéticas. Se nós não cuidarmos disso, vamos chegar ao paradoxo em que comunidades inteiras vão ter o seu orçamento doméstico onerado para pagar energia elétrica, mesmo estando situadas em frente a centenas de torresoffshore."
+        ]
+      }
+    ]
+  }
+]

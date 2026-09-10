@@ -22,10 +22,14 @@ from __future__ import annotations
 
 import re
 from collections import defaultdict
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 
 from ideology_classifier import ClassificationResult, IdeologyClassifier
-from party_alignment import PartyContradiction, party_position_for_issue
+from party_alignment import (
+    PartyContradiction,
+    party_global_label,
+    party_position_for_issue,
+)
 from padroes_politicos import (
     CrossIssueTension,
     CROSS_ISSUE_MIN_POSITION,
@@ -47,6 +51,14 @@ class Indicio:
 
 # (regex, issue, lado, forca, descricao). Ordem importa: primeiro match ganha.
 _RULES: list[tuple[re.Pattern, str, int, float, str]] = [
+    (
+        re.compile(
+            r"(?:criticou|critica).{0,100}(?:suspens[ãa]o|restriç(?:ão|ões)"
+            r"|proibiç(?:ão|ões)).{0,140}(?:arma|armamento|porte|posse|aquisiç)",
+            re.IGNORECASE,
+        ),
+        "armas", +1, 0.4, "crítica a restrição de acesso a armas",
+    ),
     (
         re.compile(
             r"(?:se gasta|gastamos|gasta|criticou|contra).{0,60}"
@@ -115,6 +127,32 @@ def indicio_da_fala(texto: str) -> Indicio | None:
     return None
 
 
+def reconciliar_resultado_com_indicio(
+    resultado: ClassificationResult, indicio: Indicio | None
+) -> ClassificationResult:
+    """Corrige uma inversão do modelo quando uma regra específica a contradiz."""
+    if (
+        indicio is None
+        or resultado.issue != indicio.issue
+        or resultado.ideology_score is None
+        or resultado.ideology_score * indicio.score >= 0
+    ):
+        return resultado
+
+    score = indicio.score
+    scores = IdeologyClassifier._label_scores(score)
+    ranked = sorted(scores.items(), key=lambda item: item[1], reverse=True)
+    return replace(
+        resultado,
+        label=ranked[0][0],
+        scores=scores,
+        margin=ranked[0][1] - ranked[1][1],
+        top1=ranked[0][1],
+        ideology_score=score,
+        stance_strength=abs(score),
+    )
+
+
 def party_divergences_from_indicios(
     partido: str | None,
     opinioes: list,
@@ -145,7 +183,9 @@ def party_divergences_from_indicios(
 
         sessao_id = opiniao.get("sessao_id") if isinstance(opiniao, dict) else None
         assunto = opiniao.get("assunto") if isinstance(opiniao, dict) else None
-        label = IdeologyClassifier._label_from_score(party_score)
+        label = party_global_label(partido)
+        if label is None:
+            continue
         found.append(
             PartyContradiction(
                 indice=indice,

@@ -128,6 +128,7 @@ def find_cross_issue_tensions(
 # longo para o mais curto (alternância preferencial do regex).
 TERMOS_NEGADOS: tuple[str, ...] = (
     "a favor", "anti-vacina", "antivacina", "favorável", "favoravel",
+    "antivax",
     "contra", "comunista", "fascista", "racista", "homofóbico",
     "homofobico", "machista", "nazista", "golpista", "corrupto",
     "corrupta", "extremista", "radical", "negacionista", "terrorista",
@@ -175,13 +176,19 @@ def detect_defensive_speech(
     opinioes: list,
     textos: list[str],
     resultados: list[ClassificationResult],
+    textos_contexto: list[str] | None = None,
 ) -> list[DefensiveSpeech]:
-    """Sinaliza falas com o padrão "não +(somos/sou/...) + rótulo"."""
+    """Sinaliza falas com o padrão "não +(somos/sou/...) + rótulo".
+
+    ``textos_contexto`` permite examinar a transcrição sem substituir a fala
+    resumida que será exibida no relatório.
+    """
     encontrados: list[DefensiveSpeech] = []
-    for indice, (opiniao, texto, resultado) in enumerate(
-        zip(opinioes, textos, resultados)
+    fontes = textos_contexto if textos_contexto is not None else textos
+    for indice, (opiniao, texto, contexto, resultado) in enumerate(
+        zip(opinioes, textos, fontes, resultados)
     ):
-        for m in PADRAO_NEGACAO.finditer(texto):
+        for m in PADRAO_NEGACAO.finditer(contexto):
             sessao_id = (
                 opiniao.get("sessao_id") if isinstance(opiniao, dict) else None
             )

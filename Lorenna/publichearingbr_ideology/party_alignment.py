@@ -88,6 +88,12 @@ def party_position_for_issue(
     return base
 
 
+def party_global_label(partido: str | None) -> str | None:
+    """Rótulo estável do partido, independente da pauta analisada."""
+    score = PARTY_GLOBAL_POSITION.get(partido or "")
+    return IdeologyClassifier._label_from_score(score) if score is not None else None
+
+
 @dataclass
 class PartyContradiction:
     indice: int
@@ -105,7 +111,6 @@ class PartyContradiction:
     origem: str = "classificador"
 
     def to_dict(self) -> dict:
-        label = IdeologyClassifier._label_from_score(self.score_partido)
         return {
             "indice": self.indice,
             "fala": self.fala,
@@ -113,7 +118,9 @@ class PartyContradiction:
             "assunto": self.assunto,
             "severidade": self.severidade,
             "origem": self.origem,
-            "posicionamento_partido": label,
+            # O rótulo do partido é sempre sua posição global. O score mantém
+            # o eventual ajuste específico da pauta usado na comparação.
+            "posicionamento_partido": self.posicionamento_partido,
             "posicionamento_partido_pauta": self.pauta,
             "posicionamento_fala": self.posicionamento_fala,
             "score_partido": round(self.score_partido, 4),
@@ -225,7 +232,9 @@ def find_party_divergences(
         if not opposite_sides:
             continue
 
-        label = IdeologyClassifier._label_from_score(party_score)
+        label = party_global_label(partido)
+        if label is None:
+            continue
 
         if (
             resultado.stance_strength >= min_speech_strength

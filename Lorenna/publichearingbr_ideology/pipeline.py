@@ -41,6 +41,7 @@ from padroes_politicos import (
 from indicios import (
     indicio_da_fala,
     party_divergences_from_indicios,
+    reconciliar_resultado_com_indicio,
     cross_issue_tensions_from_indicios,
 )
 
@@ -121,6 +122,12 @@ def run(
         resultados = todos_resultados[cursor:cursor + len(textos)]
         cursor += len(textos)
 
+        indicios = [indicio_da_fala(t) for t in textos]
+        resultados = [
+            reconciliar_resultado_com_indicio(resultado, indicio)
+            for resultado, indicio in zip(resultados, indicios)
+        ]
+
         # Classifica cada fala individualmente.
         dep["posicionamento_politico_fala"] = [r.label for r in resultados]
         # Scores brutos por fala, guardados para auditoria/calibração
@@ -137,7 +144,6 @@ def run(
         )
         # Indícios léxicos cobrem falas que o e5 deixou "neutra" (resumos
         # narrativos sem pauta nas âncoras). Sempre sinal fraco ("tensao").
-        indicios = [indicio_da_fala(t) for t in textos]
         divergencias += party_divergences_from_indicios(
             dep.get("partido"), opinioes, textos, resultados, indicios
         )
@@ -179,7 +185,13 @@ def run(
             )
 
         # Fala defensiva: negação de rótulo ("não somos antivacinas").
-        defensivas = detect_defensive_speech(opinioes, textos, resultados)
+        textos_contexto = [
+            "\n".join([texto, *trechos_da_opiniao(opiniao)])
+            for texto, opiniao in zip(textos, opinioes)
+        ]
+        defensivas = detect_defensive_speech(
+            opinioes, textos, resultados, textos_contexto
+        )
         if defensivas:
             falas_defensivas_output.append(
                 {

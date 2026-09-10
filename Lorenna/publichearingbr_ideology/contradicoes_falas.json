@@ -1,0 +1,94 @@
+[
+  {
+    "nome": "Arlindo Chinaglia",
+    "partido": "PT",
+    "estado": "São Paulo",
+    "contradicoes": [
+      {
+        "fala_a": "Criticou a posição de Israel no conflito com a Palestina, destacando a necessidade de resolver a questão de forma negociada.",
+        "fala_b": "Defendeu a posição histórica da ONU de dois Estados e ressaltou o sofrimento do povo palestino.",
+        "indice_a": 1,
+        "indice_b": 2,
+        "similaridade_tematica": 0.6259,
+        "score_contradicao": 0.8663,
+        "score_a_para_b": 0.9584,
+        "score_b_para_a": 0.7831,
+        "pauta_politica": null,
+        "reversao_politica": false,
+        "sessao_id_a": 116,
+        "sessao_id_b": 116,
+        "assunto_a": "Conflito Israel-Palestina e a política externa brasileira",
+        "assunto_b": "Conflito Israel-Palestina e a política externa brasileira"
+      }
+    ]
+  },
+  {
+    "nome": "Daniel Agrobom",
+    "partido": "PL",
+    "estado": "Goiás",
+    "contradicoes": [
+      {
+        "fala_a": "Abriu a audiência pública para esclarecimentos sobre o Decreto nº 11.688.",
+        "fala_b": "Presidiu a audiência pública e organizou a discussão sobre a PEC 169/19.",
+        "indice_a": 4,
+        "indice_b": 6,
+        "similaridade_tematica": 0.6829,
+        "score_contradicao": 0.976,
+        "score_a_para_b": 0.9925,
+        "score_b_para_a": 0.9598,
+        "pauta_politica": null,
+        "reversao_politica": false,
+        "sessao_id_a": 124,
+        "sessao_id_b": 137,
+        "assunto_a": "Regularização fundiária de áreas rurais situadas na Amazônia Legal e os impactos do Decreto nº 11.688, de 5 de setembro de 2023",
+        "assunto_b": "Discussão sobre a Proposta de Emenda à Constituição nº 169/19, que altera o art. 37 da Constituição Federal para permitir a acumulação remunerada de um cargo de professor com outro de qualquer natureza."
+      }
+    ]
+  },
+  {
+    "nome": "Gilson Daniel",
+    "partido": "PODE",
+    "estado": "Espírito Santo",
+    "contradicoes": [
+      {
+        "fala_a": "Menciona a aprovação de um projeto de lei que aloca 50% dos recursos das apostas não reclamadas para o Fundo de Calamidade Pública.",
+        "fala_b": "Mencionou o Projeto de Lei 920/23, que destina 5% dos acordos judiciais e extrajudiciais a um fundo de calamidade pública.",
+        "indice_a": 4,
+        "indice_b": 7,
+        "similaridade_tematica": 0.7315,
+        "score_contradicao": 0.8752,
+        "score_a_para_b": 0.7697,
+        "score_b_para_a": 0.9951,
+        "pauta_politica": null,
+        "reversao_politica": false,
+        "sessao_id_a": 113,
+        "sessao_id_b": 118,
+        "assunto_a": "Prevenção e auxílio a desastres e calamidades naturais",
+        "assunto_b": "Prevenção e auxílio a vítimas de desastres e calamidades naturais no Brasil."
+      }
+    ]
+  },
+  {
+    "nome": "João Carlos Bacelar",
+    "partido": "PL",
+    "estado": "Bahia",
+    "contradicoes": [
+      {
+        "fala_a": "Defende a convocação do Diretor Presidente da ENEL Brasil.",
+        "fala_b": "Propõe a caducidade do contrato da ENEL em São Paulo.",
+        "indice_a": 2,
+        "indice_b": 3,
+        "similaridade_tematica": 0.7392,
+        "score_contradicao": 0.9952,
+        "score_a_para_b": 0.9952,
+        "score_b_para_a": 0.9952,
+        "pauta_politica": null,
+        "reversao_politica": false,
+        "sessao_id_a": 133,
+        "sessao_id_b": 133,
+        "assunto_a": "Debate sobre a interrupção do serviço de distribuição de energia elétrica no Estado de São Paulo em 3 de novembro de 2023 e as ações da ENEL.",
+        "assunto_b": "Debate sobre a interrupção do serviço de distribuição de energia elétrica no Estado de São Paulo em 3 de novembro de 2023 e as ações da ENEL."
+      }
+    ]
+  }
+]

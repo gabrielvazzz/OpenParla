@@ -1,0 +1,62 @@
+[
+  {
+    "nome": "Silvia Waiãpi",
+    "partido": "PL",
+    "estado": "Amapá",
+    "posicionamento_politico_partido": "direita",
+    "contradicoes": [
+      {
+        "indice": 1,
+        "fala": "Destaca as dificuldades enfrentadas pela população do Norte do Brasil devido às políticas ambientais restritivas.",
+        "sessao_id": 115,
+        "assunto": "Efeitos das mudanças climáticas sobre o planeta Terra e o território brasileiro",
+        "severidade": "contradicao",
+        "origem": "classificador",
+        "posicionamento_partido": "direita",
+        "posicionamento_partido_pauta": "meio_ambiente",
+        "posicionamento_fala": "centro-esquerda",
+        "score_partido": 0.5,
+        "score_fala": -0.5631,
+        "distancia": 1.0631,
+        "pauta": "meio_ambiente",
+        "evidencia_pauta": 0.0212,
+        "trechos_transcricao": [
+          ", então vamos construir de madeira. Não se pode arrancar madeira da floresta, não se pode derrubar árvore. Então nós ficamos sem socorro, sem acesso, sem saneamento, sem saúde, em nome de uma política ambiental para manter a estabilidade climática do mundo, mas em benefício principalmente de países desenvolvidos economicamente.\n A minha preocupação é, primeiro, com o Brasil, com o povo brasileiro, principalmente o povo do Norte, que não tem saneamento básico, que não tem saúde, que não tem ensino de qualidade, um povo cuja possibilidade de sobrevivência, na sua própria região, é dificultada. Eu vejo, tanto no Sul quanto no Sudeste e no Centro-Oeste, homens e mulheres protegidos em seus apartamentos, comendo comida pedida por iFood, com água quente, podendo beber água gelada, em detrimento do povo do Norte.",
+          "Eu vejo, tanto no Sul quanto no Sudeste e no Centro-Oeste, homens e mulheres protegidos em seus apartamentos, comendo comida pedida por iFood, com água quente, podendo beber água gelada, em detrimento do povo do Norte. Lá não temos isso. Se eu estiver na minha aldeia, no Itapé, e quiser fazer xixi e cocô, eu vou ter que fazer na água, porque nós não temos saneamento.\n Para quem nós estamos defendendo estabilidade climática, estabilidade econômica, proteção da natureza, proteção do mundo, se o povo do Norte é quem está pagando a conta mais cara para manter a estabilidade econômica e a boa vida em países desenvolvidos economicamente?\n Esta é apenas uma reflexão de uma mulher indígena do Norte brasileiro, a principal área afetada, quando se fala em manutenção do clima.",
+          "Observamos que todos esses países, em reuniões e reuniões, cobram do Brasil um posicionamento. Entretanto, eles não deixam de emitir os gases, não fecham as suas fábricas para plantar árvores, mas impedem o Brasil, o povo brasileiro...\n Falo como mulher do Norte, mulher da floresta. Nós não podemos sequer derrubar uma árvore para fazer um roçado.\n Eu tive um acidente recentemente na Transamazônica, onde o carro capotou, caiu da ponte.",
+          "Boa tarde. Agradeço pela oportunidade e pela deferência para poder comentar este período. Já parabenizo pela preocupação todos os cientistas aqui representados e parabenizo a Presidência da Mesa pelo fato de trazer este tema à discussão.\n Nós tanto discutimos sobre responsabilidades e falamos tanto sobre o Brasil, mas não tive nenhuma resposta do quanto a China, a Índia, a Alemanha, a França, a Noruega e outros países têm atuado para a diminuição da emissão de gás carbônico na atmosfera. Observamos que todos esses países, em reuniões e reuniões, cobram do Brasil um posicionamento."
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Átila Lira",
+    "partido": "PP",
+    "estado": "Piauí",
+    "posicionamento_politico_partido": "direita",
+    "contradicoes": [
+      {
+        "indice": 0,
+        "fala": "O projeto de lei busca criar um novo programa de bolsas para ampliar o acesso dos jovens carentes ao ensino superior.",
+        "sessao_id": 196,
+        "assunto": "Debate sobre o Projeto de Lei nº 2.961, de 2022, que cria o Programa de Apoio ao Estudante da Educação Superior e altera a Lei nº 10.260, de 12 de julho de 2001, que dispõe sobre o Fundo de Financiamento ao Estudante do Ensino Superior (FIES).",
+        "severidade": "contradicao",
+        "origem": "classificador",
+        "posicionamento_partido": "direita",
+        "posicionamento_partido_pauta": "programas_sociais",
+        "posicionamento_fala": "esquerda",
+        "score_partido": 0.75,
+        "score_fala": -0.7614,
+        "distancia": 1.5114,
+        "pauta": "programas_sociais",
+        "evidencia_pauta": 0.0205,
+        "trechos_transcricao": [
+          "Mais uma vez, bom dia a todos!\n Esta audiência pública foi solicitada por mim e por alguns Parlamentares, em decorrência de ser um assunto de alta relevância, que trata de ensino superior e de acesso ao ensino superior, e também porque esse projeto de lei altera um programa que é muito forte, o mais forte hoje, o FIES. Na sua implementação, ele faz uma pequena modificação na Lei do FIES.\n A ideia desse projeto de lei, do qual eu sou Relator, é poder criar um novo programa de bolsas para que possamos ampliar o acesso dos jovens ao ensino superior, principalmente dos jovens carentes.\n O que nós temos hoje no Brasil?",
+          "Hoje, esse aluno termina entrando no FIES e ele não tem condição de cumpri-lo, o que gera inadimplência, um passivo. Isso termina gerando um problema: o aluno não conclui o curso, o financiamento fica perdido, há um passivo para o Governo, e o aluno vai para as estatísticas de falta de esperança. Se esse aluno for custeado 100%, com acompanhamento, regulamentação, fiscalização, teremos condições de fazer com que ele conclua o seu curso superior em locais aonde as instituições públicas não chegam, com a ampliação do seu acesso.\n A nossa ideia é dobrar a oferta de vagas, através desse programa de apoio ao estudante, um programa que vai ser muito mais barato para a sociedade. Se conseguirmos aumentar 100 mil vagas/ano para esse programa, nós ainda vamos estar muito aquém do que foi oferecido na época do Governo da Dilma, que chegou a 700 mil vagas/ano.\n",
+          "A ou B. Penso que, pela sua forma estrutural, sua origem de formação, não dá agilidade para que haja ampliação das matrículas, sem falar, é claro, que o poder público não consegue estar em todas as regiões do País. Programas como o FIES e o PROUNI oferecem vagas para o ensino superior em lugares onde nunca vai haver instituições públicas no Brasil. A capilaridade do setor privado é algo a ser parabenizado, porque consegue estar presente em todas as regiões do nosso País, em cidades de 10 mil habitantes, 50 mil habitantes, dando esperança a um jovem que nunca teria condições de entrar no ensino superior.\n O intuito do Programa de Apoio ao Estudante do Ensino Superior é criar vagas, custeadas 100%, em bolsas integrais e parciais para alunos de baixa renda, com até 1,5 salário mínimo. Hoje, esse aluno termina entrando no FIES e ele não tem condição de cumpri-lo, o que gera inadimplência, um passivo.",
+          "Se conseguirmos aumentar 100 mil vagas/ano para esse programa, nós ainda vamos estar muito aquém do que foi oferecido na época do Governo da Dilma, que chegou a 700 mil vagas/ano.\n Eu acredito que é superpossível. O impacto será de aproximadamente 6,5 bilhões de reais, mas, socialmente, é um investimento altíssimo, um investimento muito positivo para que possamos fazer com que o Brasil melhore seus índices educacionais, pelo menos próximo ao dos nossos países vizinhos, que chegam a 30%, 40%, 50% de jovens no ensino superior, sendo que o País hoje não chega a 20%.\n A ideia desse programa é tentar sensibilizar o Governo, porque queremos construí-lo juntos. Esta audiência pública é uma primeira etapa."
+        ]
+      }
+    ]
+  }
+]
