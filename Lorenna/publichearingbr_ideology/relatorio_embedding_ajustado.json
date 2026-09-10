@@ -1,0 +1,248 @@
+{
+  "dataset": {
+    "falas": 884,
+    "deputados": 216
+  },
+  "lda": {
+    "topicos": [
+      {
+        "topico": 0,
+        "termos": [
+          "racismo",
+          "tributaria",
+          "transito",
+          "brasileiras",
+          "frente",
+          "parlamentar",
+          "seguranca",
+          "regulamentacao",
+          "indigena",
+          "importancia",
+          "deve",
+          "destaca"
+        ],
+        "falas": 57
+      },
+      {
+        "topico": 1,
+        "termos": [
+          "aereas",
+          "importancia",
+          "critica",
+          "prestacao",
+          "publico",
+          "defender",
+          "afirmou",
+          "comissao",
+          "enfatizou",
+          "popular",
+          "ministro",
+          "atendimento"
+        ],
+        "falas": 62
+      },
+      {
+        "topico": 2,
+        "termos": [
+          "defende",
+          "critica",
+          "falta",
+          "governo",
+          "relata",
+          "problemas",
+          "discussao",
+          "enel",
+          "pela",
+          "debate",
+          "importancia",
+          "trabalho"
+        ],
+        "falas": 74
+      },
+      {
+        "topico": 3,
+        "termos": [
+          "brasil",
+          "importancia",
+          "governo",
+          "qualidade",
+          "discutir",
+          "importante",
+          "debate",
+          "audiencia",
+          "sociais",
+          "redes",
+          "destaca",
+          "concessoes"
+        ],
+        "falas": 64
+      },
+      {
+        "topico": 4,
+        "termos": [
+          "importancia",
+          "presenca",
+          "tema",
+          "dados",
+          "audiencia",
+          "destacou",
+          "agradeceu",
+          "doencas",
+          "enfatiza",
+          "populacao",
+          "direitos",
+          "sociedade"
+        ],
+        "falas": 73
+      },
+      {
+        "topico": 5,
+        "termos": [
+          "contra",
+          "necessidade",
+          "violencia",
+          "politicas",
+          "mencionou",
+          "mulheres",
+          "publica",
+          "criticou",
+          "saude",
+          "publicas",
+          "garantir",
+          "energetica"
+        ],
+        "falas": 83
+      },
+      {
+        "topico": 6,
+        "termos": [
+          "participacao",
+          "agradeceu",
+          "importancia",
+          "pela",
+          "direitos",
+          "humanos",
+          "publica",
+          "enel",
+          "saude",
+          "ministro",
+          "defende",
+          "essencial"
+        ],
+        "falas": 84
+      },
+      {
+        "topico": 7,
+        "termos": [
+          "convidados",
+          "participantes",
+          "preocupacao",
+          "audiencia",
+          "critica",
+          "questao",
+          "importancia",
+          "parabenizou",
+          "publica",
+          "precos",
+          "brasil",
+          "altos"
+        ],
+        "falas": 80
+      },
+      {
+        "topico": 8,
+        "termos": [
+          "publicas",
+          "politicas",
+          "inclusao",
+          "pessoas",
+          "necessidade",
+          "educacao",
+          "deficiencia",
+          "importancia",
+          "desastres",
+          "direitos",
+          "enfatizou",
+          "regulamentacao"
+        ],
+        "falas": 98
+      },
+      {
+        "topico": 9,
+        "termos": [
+          "pelo",
+          "importancia",
+          "federal",
+          "destaca",
+          "governo",
+          "extincao",
+          "municipios",
+          "publica",
+          "justica",
+          "cotas",
+          "audiencia",
+          "critica"
+        ],
+        "falas": 57
+      },
+      {
+        "topico": 10,
+        "termos": [
+          "necessidade",
+          "infraestrutura",
+          "importancia",
+          "destacou",
+          "energia",
+          "publicos",
+          "consumidores",
+          "servicos",
+          "falta",
+          "eficiencia",
+          "transparencia",
+          "desenvolvimento"
+        ],
+        "falas": 54
+      },
+      {
+        "topico": 11,
+        "termos": [
+          "coletivo",
+          "necessidade",
+          "populacao",
+          "transporte",
+          "importancia",
+          "mental",
+          "outras",
+          "criancas",
+          "escolas",
+          "violencia",
+          "destacou",
+          "sociedade"
+        ],
+        "falas": 43
+      },
+      {
+        "topico": 12,
+        "termos": [
+          "lei",
+          "durante",
+          "importancia",
+          "audiencia",
+          "destacou",
+          "questiona",
+          "sugestoes",
+          "ressaltou",
+          "direito",
+          "defesa",
+          "crimes",
+          "trazidas"
+        ],
+        "falas": 55
+      }
+    ]
+  },
+  "candidatos": {
+    "tfidf": 461,
+    "embedding": 461
+  }
+}
