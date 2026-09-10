@@ -59,16 +59,14 @@ import enriquecedor
 # ---------------------------------------------------------------------------
 
 REPO_ID = "unicamp-dl/PublicHearingBR"
-ARQUIVO_DATASET = "PublicHearingBR_LDS.jsonl"
-URL_DATASET = (
-    f"https://huggingface.co/datasets/{REPO_ID}/resolve/main/{ARQUIVO_DATASET}"
-)
+ARQUIVO_LDS = "PublicHearingBR_LDS.jsonl"
+ARQUIVO_NLI = "PublicHearingBR_NLI.jsonl"
 
 # Caminhos já existentes no repositório que podem conter o arquivo baixado.
 CAMINHOS_LOCAIS_PADRAO = [
-    Path("data") / ARQUIVO_DATASET,
-    Path("../Leo/data") / ARQUIVO_DATASET,
-    Path("../Leo/data") / "PublicHearingBR_LDS.jsonl",
+    Path("data"),
+    Path("../Leo/data"),
+    Path("../../Leo/data"),
 ]
 
 # ---------------------------------------------------------------------------
@@ -194,7 +192,10 @@ def baixar_arquivo(url: str, destino: Path, chunk_size: int = 1 << 16) -> Path:
     return destino
 
 
-def obter_arquivo_local_ou_baixar(arquivo_local: str | None) -> Path:
+def obter_arquivo_local_ou_baixar(
+    arquivo_local: str | None,
+    nome_arquivo: str,
+) -> Path:
     """Prioriza arquivo local se existir; senão, baixa do HuggingFace."""
     if arquivo_local:
         path = Path(arquivo_local)
@@ -203,13 +204,15 @@ def obter_arquivo_local_ou_baixar(arquivo_local: str | None) -> Path:
             return path
         print(f"[!] {path} não existe; baixando do HuggingFace.")
 
-    for cand in CAMINHOS_LOCAIS_PADRAO:
+    for diretorio in CAMINHOS_LOCAIS_PADRAO:
+        cand = diretorio / nome_arquivo
         if cand.exists():
             print(f"[ok] Usando arquivo local: {cand.resolve()}")
             return cand
 
-    destino = Path("data") / ARQUIVO_DATASET
-    return baixar_arquivo(URL_DATASET, destino)
+    destino = Path("data") / nome_arquivo
+    url = f"https://huggingface.co/datasets/{REPO_ID}/resolve/main/{nome_arquivo}"
+    return baixar_arquivo(url, destino)
 
 
 # ---------------------------------------------------------------------------
@@ -346,6 +349,108 @@ def processar_metadados(
     return deputados
 
 
+def processar_nli(
+    sessoes: list[dict],
+    incluir_nao_deputados: bool = False,
+    cargos_lds: dict[tuple[int, str], str] | None = None,
+) -> list[dict]:
+    """Prepara falas extraídas da transcrição e validadas manualmente.
+
+    ``verificacao_manual`` é ``True`` quando a opinião é alucinação. Por
+    isso, apenas o valor estrito ``False`` é aceito como evidência confiável.
+    """
+    agrupado: dict[str, dict] = {}
+
+    for sessao in sessoes:
+        sessao_id = sessao.get("id")
+        metadados = sessao.get("metadados_extraidos") or {}
+        assunto = metadados.get("assunto", "")
+
+        for env in metadados.get("envolvidos", []):
+            cargo = env.get("cargo", "") or ""
+            nome = (env.get("nome", "") or "").strip()
+            if not nome or (not incluir_nao_deputados and not eh_deputado(cargo)):
+                continue
+
+            chave = normalizar(nome)
+            partido, uf = extrair_partido_estado(cargo)
+            if not partido and cargos_lds:
+                cargo_lds = cargos_lds.get((sessao_id, chave), "")
+                partido, uf = extrair_partido_estado(cargo_lds)
+            reg = agrupado.get(chave)
+            if reg is None:
+                reg = {
+                    "nome": nome,
+                    "cargo": cargo,
+                    "estado": UFS.get(uf, ""),
+                    "partido": partido or "",
+                    "opinioes": [],
+                }
+                agrupado[chave] = reg
+            elif not reg["partido"] and partido:
+                reg["partido"] = partido
+                reg["estado"] = UFS.get(uf, "")
+
+            for opiniao in env.get("opinioes", []) or []:
+                if not isinstance(opiniao, dict):
+                    continue
+                verificacao = opiniao.get("verificacao_alucinacao") or {}
+                if verificacao.get("verificacao_manual") is not False:
+                    continue
+                texto = (opiniao.get("opiniao") or "").strip()
+                if not texto:
+                    continue
+                reg["opinioes"].append(
+                    {
+                        "opiniao": texto,
+                        "sessao_id": sessao_id,
+                        "assunto": assunto,
+                        "trechos_transcricao": [
+                            trecho for trecho in opiniao.get("chunks_proximos", [])
+                            if isinstance(trecho, str) and trecho.strip()
+                        ],
+                    }
+                )
+
+    deputados = []
+    for reg in agrupado.values():
+        unicas, vistas = [], set()
+        for opiniao_obj in reg["opinioes"]:
+            texto = opiniao_obj["opiniao"]
+            if texto not in vistas:
+                vistas.add(texto)
+                unicas.append(opiniao_obj)
+
+        partido = reg["partido"]
+        deputados.append(
+            {
+                "nome": reg["nome"],
+                "cargo": reg["cargo"],
+                "estado": reg["estado"],
+                "partido": partido,
+                "opinioes": unicas,
+                "posicionamento_politico_partido": PARTIDO_IDEOLOGIA.get(
+                    partido, PARTIDO_DESCONHECIDO
+                ),
+                "posicionamento_politico_fala": None,
+            }
+        )
+    return deputados
+
+
+def cargos_lds_por_sessao(sessoes: list[dict]) -> dict[tuple[int, str], str]:
+    """Indexa os cargos do LDS para suprir siglas ausentes no NLI."""
+    cargos = {}
+    for sessao in sessoes:
+        sessao_id = sessao.get("id")
+        for envolvido in (sessao.get("metadados") or {}).get("envolvidos", []):
+            nome = (envolvido.get("nome", "") or "").strip()
+            cargo = envolvido.get("cargo", "") or ""
+            if nome and cargo:
+                cargos[(sessao_id, normalizar(nome))] = cargo
+    return cargos
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -356,6 +461,13 @@ def main() -> None:
                     "do pipeline de posicionamento político."
     )
     parser.add_argument("--saida", default="deputados.json")
+    parser.add_argument(
+        "--fonte",
+        choices=("nli", "lds"),
+        default="nli",
+        help="Fonte das falas: NLI usa opiniões extraídas da transcrição e "
+             "validadas manualmente; LDS usa metadados da matéria.",
+    )
     parser.add_argument(
         "--arquivo-local",
         default=None,
@@ -376,13 +488,24 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    caminho = obter_arquivo_local_ou_baixar(args.arquivo_local)
+    nome_arquivo = ARQUIVO_NLI if args.fonte == "nli" else ARQUIVO_LDS
+    caminho = obter_arquivo_local_ou_baixar(args.arquivo_local, nome_arquivo)
 
     print(f"Carregando sessões de {caminho} ...")
     sessoes = carregar_sessoes(caminho)
     print(f"[ok] {len(sessoes)} sessões carregadas.")
 
-    deputados = processar_metadados(sessoes, args.incluir_nao_deputados)
+    if args.fonte == "nli":
+        caminho_lds = caminho.parent / ARQUIVO_LDS
+        cargos_lds = {}
+        if caminho_lds.exists():
+            cargos_lds = cargos_lds_por_sessao(carregar_sessoes(caminho_lds))
+            print(f"[ok] Cargos partidários do LDS carregados: {caminho_lds}")
+        deputados = processar_nli(
+            sessoes, args.incluir_nao_deputados, cargos_lds
+        )
+    else:
+        deputados = processar_metadados(sessoes, args.incluir_nao_deputados)
 
     n_opinioes = sum(len(d["opinioes"]) for d in deputados)
     n_sem_partido = sum(1 for d in deputados if not d["partido"])
@@ -391,7 +514,7 @@ def main() -> None:
         if d["posicionamento_politico_partido"] == PARTIDO_DESCONHECIDO
     )
 
-    if args.enriquecer_transcricao:
+    if args.enriquecer_transcricao and args.fonte == "lds":
         sessoes_por_id = {
             s.get("id"): s.get("transcricao", "")
             for s in sessoes
@@ -400,7 +523,9 @@ def main() -> None:
         deputados = enriquecedor.enriquecer(deputados, sessoes_por_id)
         com_trechos, total = enriquecedor.resumo_enriquecimento(deputados)
         print(f"[ok] Enriquecimento: {com_trechos}/{total} opiniões casadas "
-              f"com trechos da transcrição.")
+               f"com trechos da transcrição.")
+    elif args.enriquecer_transcricao:
+        print("[ok] O NLI já inclui os chunks de transcrição validados.")
 
     print(f"[ok] {len(deputados)} deputados, {n_opinioes} opiniões no total.")
     print(f"[ok] {n_sem_partido} sem partido extraído do cargo; "

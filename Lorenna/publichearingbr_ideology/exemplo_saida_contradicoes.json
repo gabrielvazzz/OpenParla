@@ -1,0 +1,25 @@
+[
+  {
+    "nome": "Maria Exemplo",
+    "partido": "PT",
+    "estado": "Paraíba",
+    "contradicoes": [
+      {
+        "fala_a": "Sou a favor do aborto em qualquer circunstância.",
+        "fala_b": "Sou totalmente contra o aborto, defendo a vida.",
+        "indice_a": 0,
+        "indice_b": 1,
+        "similaridade_tematica": 1.0,
+        "score_contradicao": 0.95,
+        "score_a_para_b": 0.95,
+        "score_b_para_a": 0.95,
+        "pauta_politica": null,
+        "reversao_politica": false,
+        "sessao_id_a": null,
+        "sessao_id_b": null,
+        "assunto_a": null,
+        "assunto_b": null
+      }
+    ]
+  }
+]
