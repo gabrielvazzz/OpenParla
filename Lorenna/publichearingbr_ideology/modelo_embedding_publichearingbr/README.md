@@ -139,22 +139,6 @@ widget:
     \ Não avaliaram. Gente, pelo amor de Deus!"
 - source_sentence: Relata diversas reclamações de consumidores sobre a falta de energia.
   sentences:
-  - "ter vindo a esta Casa hoje, para discutir assuntos tão importantes com referência\
-    \ ao nosso País. Agradeço-lhe o compromisso firmado entre V.Exa. e este Parlamentar,\
-    \ pelas construções referentes às moradias em Santa Catarina, mais precisamente\
-    \ na cidade de Joinville. Certamente, iremos discutir isso a fundo. Separei 8\
-    \ milhões de reais para destinar a essas moradias.\nSeparei 8 milhões de reais\
-    \ para destinar a essas moradias. Temos os terrenos doados pela Prefeitura. Agora\
-    \ vamos dar andamento a esse processo.\n Aliás, uma das pessoas propositoras está\
-    \ aqui, que nos ajuda muito, o Sr. Silvino Dal Bó, que está sempre cuidando de\
-    \ todas essas construções habitacionais pelo Governo Federal. Agradeço a ele e\
-    \ a V.Exa.\nMarca-se o início de uma nova história do transporte no Brasil, que\
-    \ é o que nós queremos: acabar com as discussões e arrumar as soluções. Chegou\
-    \ a hora de pararmos de procurar culpados. Vamos encontrar a solução para o problema.\n\
-    \ Muito obrigado, Sr. Presidente.(Palmas.)\nEle não faz parte da CVT.(Risos.)\n\
-    \ É brincadeira! Todos foram convidados. Foi uma honra contarmos com grandes presenças.\
-    \ Marca-se o início de uma nova história do transporte no Brasil, que é o que\
-    \ nós queremos: acabar com as discussões e arrumar as soluções."
   - "Parabéns! Deixo os nossos agradecimentos.\n Concedo a palavra à Sra. Sonia Guajajara,\
     \ também para as considerações finais.\n Obrigada, Sonia. Parabéns mais uma vez\
     \ pelo seu trabalho e pela sua contribuição.\n\nMeus parabéns pela sua garra e\
@@ -171,6 +155,22 @@ widget:
     \ esta audiência pública.\n A senhora falou muito bem. É necessário instrumentalizar\
     \ as mulheres indígenas dos seus direitos, para que elas tenham conhecimento das\
     \ leis e daquilo que está à disposição e que, muitas vezes, elas não têm conhecimento."
+  - "ter vindo a esta Casa hoje, para discutir assuntos tão importantes com referência\
+    \ ao nosso País. Agradeço-lhe o compromisso firmado entre V.Exa. e este Parlamentar,\
+    \ pelas construções referentes às moradias em Santa Catarina, mais precisamente\
+    \ na cidade de Joinville. Certamente, iremos discutir isso a fundo. Separei 8\
+    \ milhões de reais para destinar a essas moradias.\nSeparei 8 milhões de reais\
+    \ para destinar a essas moradias. Temos os terrenos doados pela Prefeitura. Agora\
+    \ vamos dar andamento a esse processo.\n Aliás, uma das pessoas propositoras está\
+    \ aqui, que nos ajuda muito, o Sr. Silvino Dal Bó, que está sempre cuidando de\
+    \ todas essas construções habitacionais pelo Governo Federal. Agradeço a ele e\
+    \ a V.Exa.\nMarca-se o início de uma nova história do transporte no Brasil, que\
+    \ é o que nós queremos: acabar com as discussões e arrumar as soluções. Chegou\
+    \ a hora de pararmos de procurar culpados. Vamos encontrar a solução para o problema.\n\
+    \ Muito obrigado, Sr. Presidente.(Palmas.)\nEle não faz parte da CVT.(Risos.)\n\
+    \ É brincadeira! Todos foram convidados. Foi uma honra contarmos com grandes presenças.\
+    \ Marca-se o início de uma nova história do transporte no Brasil, que é o que\
+    \ nós queremos: acabar com as discussões e arrumar as soluções."
   - "Presidente Rodrigo de Castro, Sras. e Srs. Parlamentares, este é um assunto gravíssimo.\n\
     \ Eu tenho na minha mesa mais de 600 denúncias que recebi — 600 denúncias de falta\
     \ de energia elétrica em São Paulo. Os relatos que temos aqui das pessoas são\
@@ -299,9 +299,9 @@ print(embeddings.shape)
 # Get the similarity scores for the embeddings
 similarities = model.similarity(embeddings, embeddings)
 print(similarities)
-# tensor([[1.0000, 0.5944, 0.0779],
-#         [0.5944, 1.0000, 0.3884],
-#         [0.0779, 0.3884, 1.0000]])
+# tensor([[1.0000, 0.5671, 0.0912],
+#         [0.5671, 1.0000, 0.4435],
+#         [0.0912, 0.4435, 1.0000]])
 ```
 <!--
 ### Direct Usage (Transformers)
@@ -352,13 +352,13 @@ You can finetune this model on your own dataset.
   |:---------|:-----------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------|
   | type     | string                                                                             | string                                                                               |
   | modality | text                                                                               | text                                                                                 |
-  | details  | <ul><li>min: 11 tokens</li><li>mean: 23.56 tokens</li><li>max: 48 tokens</li></ul> | <ul><li>min: 128 tokens</li><li>mean: 128.0 tokens</li><li>max: 128 tokens</li></ul> |
+  | details  | <ul><li>min: 12 tokens</li><li>mean: 24.36 tokens</li><li>max: 49 tokens</li></ul> | <ul><li>min: 128 tokens</li><li>mean: 128.0 tokens</li><li>max: 128 tokens</li></ul> |
 * Samples:
-  | sentence_0                                                                                                                         | sentence_1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-  |:-----------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-  | <code>Mencionou a possibilidade de uma segunda rodada de discussões sobre o Marco Legal da Inovação.</code>                        | <code>E já deixamos esta oportunidade em aberto para que tenhamos uma segunda rodada a fim de discutirmos e fazermos essa reflexão sobre o nosso Marco Legal da Inovação.<br> Antes de encerrar os nossos trabalhos, nós consultamos o Plenário sobre a possibilidade de aproveitarmos o painel de presença para a nossa reunião deliberativa.(Pausa. )<br> Aprovado, portanto, o aproveitamento do painel.<br> Lembramos que, em instantes, iniciaremos a nossa reunião.<br><br>Passamos, então, ao encerramento da audiência.<br> Agradeço aos nossos colegas pela presença, pela participação; agradeço às equipes, às assessorias, aos profissionais da imprensa, ao público em geral e, mais uma vez, aos nossos palestrantes pelas importantes contribuições que foram trazidas. Sem dúvida alguma, essa foi uma das principais audiências que nós tivemos, em termos de participação. Inclusive, nós recebemos muitas mensagens de entidades e também de instituições, de talentos que gostariam de participar. E já deixamos esta oportunidade em aberto...</code> |
-  | <code>Ressaltou a necessidade de um maior número de delegacias especializadas e varas criminais para proteção das mulheres.</code> | <code>Porque não têm estrutura.<br> Enquanto fui Procuradora na Secretaria da Mulher, nesta Casa, eu me dediquei muito, Anna, à relação das políticas públicas com as mulheres. Ela é muito deficitária. Corri atrás das delegacias especializadas de proteção à mulher. Como é possível, num país com 5.760 Municípios, haver só 381 delegacias especializadas?<br>Como é possível, num país com 5.760 Municípios, haver só 381 delegacias especializadas? Só havia essa quantidade, pode ser que esse número tenha aumentado este ano. Como elas vão dar conta deste País? E as varas criminais? Nós só tínhamos 113 varas criminais, e várias eram uma expansão de uma vara da família, de uma vara da criança e do adolescente.<br><br>Ele foi muito atencioso e eficaz. Nós criamos um protocolo no qual, quando a mulher faz a denúncia aqui na Câmara, essa denúncia é automaticamente comunicada ao CNJ. Onde é que mais param os processos? No Judiciário. Nós precisamos chegar à ponta, proteger as mulheres, especificamente as com deficiênci...</code>       |
-  | <code>A segurança viária deve ser prioridade nas ações públicas, especialmente para pedestres e ciclistas.</code>                  | <code>Percebemos que as altas velocidades permitidas aos automóveis nas cidades brasileiras são o principal fator do número alarmante de mortes e lesões no trânsito e que nenhuma morte no trânsito é aceitável.<br> A segurança viária, em especial a dos usuários vulneráveis, como os pedestres e ciclistas, deve ser prioridade nas ações públicas. Acreditamos também que não será com o aumento no número de radares eletrônicos que acontecerá essa mudança, mas sim com a conscientização da população para o benefício de um trânsito mais seguro para todos.<br> Segundo a Organização Mundial da Saúde — OMS, que está presente aqui hoje, a velocidade é um dos principais fatores de risco no trânsito, e os usuários mais vulneráveis são os pedestres, ciclistas e motociclistas, sendo eles as principais vítimas. Cerca de 1,2 milhão de pessoas morrem no trânsito por ano no mundo.<br>Como podemos dar maior segurança na mobilidade dos ciclistas nas vias urbanas?<br> Quem gostaria de responder?<br> Vocês contribuíram muito com pa...</code>    |
+  | sentence_0                                                                                                                                                | sentence_1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+  |:----------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+  | <code>Destacou a importância de discutir as consequências para o consumidor e as condições de trabalho dos motoristas de aplicativos.</code>              | <code>Primeiro, quero agradecer, novamente,à TV Câmara, pela cobertura, e aos presentes.<br> O foco principal desta audiência pública é discutir as consequências,os prós e os contras no direito do consumidor. Quais são as consequências para o consumidor? Não é nenhuma espécie de correção, nada a falar das suas explicações, mas muito se diz ou se reclama ou se concorda em relação aos motoristas e em relação às plataformas, mas pouco se discute em relação aos consumidores. Essa é a perspectiva que se pensou para realizar esta Comissão.<br><br>Lucas Dias, motorista de aplicativo, criador do Uber Histórias. Fiquei curioso demais.<br> Não, gente, Uber Histórias é um...<br> Eu acho que tem que regulamentar também, regulamentar e taxar.<br> Com a palavra.<br><br>Boa tarde a todos.<br> Declaro aberta a reunião.<br> Esta reunião de audiência pública foi convocada conforme os Requerimentos nº 5 e nº 14, de 2024, de autoria do Deputado Gilson Marques, para debater a relação de trabalho intermediado por empresas operadoras de aplica...</code> |
+  | <code>Enfatizou a necessidade de políticas públicas para combater a violência e o preconceito contra idosos.</code>                                       | <code>Ao lado da Deputada Maria Cristina, na semana passada eu apresentei um projeto de lei que cria um mecanismo para o combate à violência contra a pessoa idosa, com vista a aumentar o controle e a defesa do idoso contra a violência psicológica, a violência física e a violência financeira.<br> Eu acho que esta audiência é muito importante. Este tema trata de um problema que nós estamos combatendo, é um tema bem atual. Eu estou muito feliz por realizar esta audiência, que serve como uma conscientização, um ensinamento e um alerta para o que está acontecendo no Brasil. A Patrícia falou aqui várias vezes do que aconteceu com ela e que não sabia como chamar.<br><br>Segundo a Organização Mundial da Saúde — OMS, um a cada seis idosos já sofreu algum tipo de violência, incluindo o etarismo. A pressão social para determinar e controlar como a pessoa deve se comportar enquanto envelhece é inaceitável. Por isso, precisamos debater e encontrar caminhos para combater o preconceito e a violência contra a pessoa...</code>                      |
+  | <code>Destaca a importância de tratar a questão da fauna exótica invasora de forma desideologizada para evitar a destruição da pecuária no Brasil.</code> | <code>Pelas duas primeiras exposições, ficou evidente que, se não tratarmos essa matéria de maneira desideologizada — e tenho convicção da minha ideologia, assim como o lado de lá também tem —, se não descermos do palanque ideológico para tratar com responsabilidade esse tema, vamos destruir a pecuária do Brasil.<br> É fundamental e urgente que isso aconteça, porque é inadmissível que, desde janeiro deste ano, o manejo esteja sendo ferido — e ferido de morte — no Brasil. Eu desafio — e tenho contato, assim como você, com a grande maioria dos manejadores e caçadores do Brasil — qualquer um a afirmar que, em qualquer Estado do Brasil, essas pessoas estejam saindo para fazer um serviço de utilidade pública com tranquilidade e segurança, sem medo de serem presos ilegalmente. E o número de manejadores em ação desde janeiro despencou, porque as pessoas estão com medo.<br> E nós estamos caminhando a passos largos para condenar à extinção a pecuária do Brasil.<br>E nós estamos caminhando a passos largos para...</code>                      |
 * Loss: [<code>MultipleNegativesRankingLoss</code>](https://sbert.net/docs/package_reference/sentence_transformer/losses.html#multiplenegativesrankingloss) with these parameters:
   ```json
   {
@@ -490,7 +490,7 @@ You can finetune this model on your own dataset.
 </details>
 
 ### Training Time
-- **Training**: 12.4 seconds
+- **Training**: 12.2 seconds
 
 ### Framework Versions
 - Python: 3.14.7

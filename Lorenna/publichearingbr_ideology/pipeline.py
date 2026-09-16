@@ -90,6 +90,7 @@ def run(
     output_contradicoes_partido_path: str = "contradicoes_partido.json",
     output_tensoes_transversais_path: str = "tensoes_transversais.json",
     output_falas_defensivas_path: str = "falas_defensivas.json",
+    topic_model: str | None = None,
     max_deputados: int | None = None,
 ) -> None:
     deputados = load_json(input_path)
@@ -99,7 +100,11 @@ def run(
               f"(--max-deputados).")
 
     classifier = IdeologyClassifier()
-    detector = ContradictionDetector()
+    detector = (
+        ContradictionDetector(topic_model_name=topic_model)
+        if topic_model
+        else ContradictionDetector()
+    )
 
     contradicoes_falas_output = []
     contradicoes_partido_output = []
@@ -297,6 +302,11 @@ if __name__ == "__main__":
         default="falas_defensivas.json",
     )
     parser.add_argument(
+        "--topic-model",
+        default=None,
+        help="Modelo SentenceTransformer usado para similaridade temática.",
+    )
+    parser.add_argument(
         "--max-deputados",
         type=int,
         default=None,
@@ -312,5 +322,6 @@ if __name__ == "__main__":
         args.output_contradicoes_partido,
         args.output_tensoes_transversais,
         args.output_falas_defensivas,
+        args.topic_model,
         max_deputados=args.max_deputados,
     )

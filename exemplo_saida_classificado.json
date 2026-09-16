@@ -1,0 +1,73 @@
+[
+  {
+    "nome": "Filipe Barros",
+    "cargo": "Deputado",
+    "estado": "Paraná",
+    "partido": "PL",
+    "opinioes": [
+      "Ressaltou que o Marco Civil da Internet é muito claro ao estabelecer que, se houver afronta à legislação, deve-se censurar uma publicação específica mediante decisão judicial motivada. Apontou que as decisões são genéricas."
+    ],
+    "posicionamento_politico_partido": "direita",
+    "posicionamento_politico_fala": [
+      "neutra"
+    ],
+    "posicionamento_politico_fala_detalhe": [
+      {
+        "label": "neutra",
+        "scores": {
+          "esquerda": 1.0,
+          "centro-esquerda": 1.0,
+          "centro": 1.0,
+          "centro-direita": 1.0,
+          "direita": 1.0,
+          "neutra": 1.0
+        },
+        "margin": 0.0,
+        "top1": 1.0
+      }
+    ]
+  },
+  {
+    "nome": "Maria Exemplo",
+    "cargo": "Deputada",
+    "estado": "Paraíba",
+    "partido": "PT",
+    "opinioes": [
+      "Sou a favor do aborto em qualquer circunstância.",
+      "Sou totalmente contra o aborto, defendo a vida."
+    ],
+    "posicionamento_politico_partido": "esquerda",
+    "posicionamento_politico_fala": [
+      "neutra",
+      "neutra"
+    ],
+    "posicionamento_politico_fala_detalhe": [
+      {
+        "label": "neutra",
+        "scores": {
+          "esquerda": 1.0,
+          "centro-esquerda": 1.0,
+          "centro": 1.0,
+          "centro-direita": 1.0,
+          "direita": 1.0,
+          "neutra": 1.0
+        },
+        "margin": 0.0,
+        "top1": 1.0
+      },
+      {
+        "label": "neutra",
+        "scores": {
+          "esquerda": 1.0,
+          "centro-esquerda": 1.0,
+          "centro": 1.0,
+          "centro-direita": 1.0,
+          "direita": 1.0,
+          "neutra": 1.0
+        },
+        "margin": 0.0,
+        "top1": 1.0
+      }
+    ]
+  }
+]
