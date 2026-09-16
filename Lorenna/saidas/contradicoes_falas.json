@@ -1,0 +1,142 @@
+[
+  {
+    "nome": "Arlindo Chinaglia",
+    "partido": "PT",
+    "estado": "São Paulo",
+    "contradicoes": [
+      {
+        "fala_a": "Criticou a posição de Israel no conflito com a Palestina, destacando a necessidade de resolver a questão de forma negociada.",
+        "fala_b": "Defendeu a posição histórica da ONU de dois Estados e ressaltou o sofrimento do povo palestino.",
+        "indice_a": 1,
+        "indice_b": 2,
+        "similaridade_tematica": 0.6259,
+        "score_contradicao": 0.8619,
+        "score_a_para_b": 0.9584,
+        "score_b_para_a": 0.7752,
+        "pauta_politica": null,
+        "reversao_politica": false,
+        "sessao_id_a": 116,
+        "sessao_id_b": 116,
+        "assunto_a": "Conflito Israel-Palestina e a política externa brasileira",
+        "assunto_b": "Conflito Israel-Palestina e a política externa brasileira",
+        "trechos_transcricao_a": [
+          "Eu quero pedir, Presidente, o acréscimo do tempo, mas espero não usá-lo totalmente.\n Pois bem, Sr. Ministro, primeiro, o Governo de Israel não representa todo o povo judeu. Neste sentido, quando o Presidente Biden, tardiamente, na minha opinião, registra que Israel está perdendo apoio, penso que o Presidente Biden tem que ser cobrado, quando, isoladamente — é claro, os Estados Unidos têm poder para isto, são as regras —, vetou aquela proposta brasileira que, de 15 votos, teve 12, 2 abstenções e o veto norte-americano. O fato é que, de lá para cá, a maior parte dos 8 mil palestinos morreu assassinada. Como V.Exa.",
+          "Eu acho que esta é a questão da Palestina. Eu acho que há um comodismo, uma situação e uma indignação para proteger tanto a população palestina, como a população de Israel. O problema é que há divergências políticas e concepções que eu entendo perfeitamente.\n Finalmente, eu quero fazer uma pergunta a V.Exa. Eu avalio que o acordo entre o MERCOSUL e a União Europeia ainda tem salvação.",
+          "Se é por um processo democrático, e não de guerra, eu queria fazer na forma de pergunta, confesso minha ignorância.\n A Assembleia-Geral da ONU se reúne de tempos em tempos, escolhe quem vai ser o Conselho de Segurança da ONU, elege o Secretário-Geral e outras coisas que eu não saberia. Então, não seria o caso de o Brasil tomar a iniciativa de fazer uma espécie de assembleia permanente da ONU, para discutir exatamente como possibilidade real do acordo de paz a criação do Estado palestino? Enquanto este não for criado, não haverá paz, porque, ao contrário, seria acreditar que um povo dominado não vai reagir. Não só reage, como está morrendo gente ali a todo momento, porque o povo palestino luta legitimamente por sua terra.\n",
+          "Como V.Exa. mesmo registrou, 70% dos mortos são mulheres e crianças. Trata-se de uma barbárie!\n Muitas vezes, nos debates surgem, naturalmente, críticas ao Hamas, que, neste caso específico, o merece, ainda que, eu diria, o argumento jurídico, até mesmo político, que é apresentado, mas eu acho que foi um erro grave, é que, em território ocupado, como é a Faixa de Gaza, há o direito à legitima defesa, portanto, à luta pelo território. Esta é a questão central, que já dura mais de 70 anos, como V.Exa."
+        ],
+        "trechos_transcricao_b": [
+          "Se é por um processo democrático, e não de guerra, eu queria fazer na forma de pergunta, confesso minha ignorância.\n A Assembleia-Geral da ONU se reúne de tempos em tempos, escolhe quem vai ser o Conselho de Segurança da ONU, elege o Secretário-Geral e outras coisas que eu não saberia. Então, não seria o caso de o Brasil tomar a iniciativa de fazer uma espécie de assembleia permanente da ONU, para discutir exatamente como possibilidade real do acordo de paz a criação do Estado palestino? Enquanto este não for criado, não haverá paz, porque, ao contrário, seria acreditar que um povo dominado não vai reagir. Não só reage, como está morrendo gente ali a todo momento, porque o povo palestino luta legitimamente por sua terra.\n",
+          "Eu quero pedir, Presidente, o acréscimo do tempo, mas espero não usá-lo totalmente.\n Pois bem, Sr. Ministro, primeiro, o Governo de Israel não representa todo o povo judeu. Neste sentido, quando o Presidente Biden, tardiamente, na minha opinião, registra que Israel está perdendo apoio, penso que o Presidente Biden tem que ser cobrado, quando, isoladamente — é claro, os Estados Unidos têm poder para isto, são as regras —, vetou aquela proposta brasileira que, de 15 votos, teve 12, 2 abstenções e o veto norte-americano. O fato é que, de lá para cá, a maior parte dos 8 mil palestinos morreu assassinada. Como V.Exa.",
+          "Esta é a questão central, que já dura mais de 70 anos, como V.Exa. também registrou.\n Em 1947, a ONU decidiu por dois Estados: o Estado da Palestina e o Estado de Israel. Como todo mundo sabe, o Estado da Palestina não existe, mas há elementos de informação que a maior parte da população do mundo e até mesmo, creio, do Parlamento não sabe, porque começou ainda em 1907, quando da destruição do Império Otomano, aliado que era dos alemães. O Primeiro-Ministro inglês decidiu que os judeus deveriam ter seu lar na terra histórica da Palestina.\n",
+          "Esta é a questão.\n Eu quero registrar que o Presidente Lula tem tido uma coragem, diria, que é preciso ser observada e reconhecida. Digo isso porque o Brasil, já faz alguns anos, reconhece o Estado da Palestina, tanto é que eles têm aqui uma embaixada. Se não me engano, esse reconhecimento se deu no Governo Lula a partir de 2010.\n Portanto, eu creio que o Brasil tem autoridade, tanto do ponto de vista histórico do Itamaraty, como por aquilo que o Presidente Lula vem defendendo nos seus sucessivos Governos."
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Daniel Agrobom",
+    "partido": "PL",
+    "estado": "Goiás",
+    "contradicoes": [
+      {
+        "fala_a": "Abriu a audiência pública para esclarecimentos sobre o Decreto nº 11.688.",
+        "fala_b": "Presidiu a audiência pública e organizou a discussão sobre a PEC 169/19.",
+        "indice_a": 4,
+        "indice_b": 6,
+        "similaridade_tematica": 0.6829,
+        "score_contradicao": 0.9759,
+        "score_a_para_b": 0.9923,
+        "score_b_para_a": 0.9598,
+        "pauta_politica": null,
+        "reversao_politica": false,
+        "sessao_id_a": 124,
+        "sessao_id_b": 137,
+        "assunto_a": "Regularização fundiária de áreas rurais situadas na Amazônia Legal e os impactos do Decreto nº 11.688, de 5 de setembro de 2023",
+        "assunto_b": "Discussão sobre a Proposta de Emenda à Constituição nº 169/19, que altera o art. 37 da Constituição Federal para permitir a acumulação remunerada de um cargo de professor com outro de qualquer natureza.",
+        "trechos_transcricao_a": [
+          "Bom dia a todos.\n Declaro aberta a presente reunião de audiência pública para esclarecimentos sobre o Decreto nº 11.688, de 5 de setembro de 023, que dispõe sobre a regularização fundiária de áreas rurais situadas em terra da União, no âmbito da Amazônia Legal, e seus impactos para o desenvolvimento da região, com a presença do Presidente do Instituto Nacional de Colonização e Reforma Agrária — INCRA, o Sr. César Fernando Schiavon Aldrighi, a quem convido para tomar assento à mesa.\n Gostaria também, nesta oportunidade, de convidar a Sra. Shirley Anny Abreu do Nascimento, Diretora da Secretaria de Governança Fundiária, Desenvolvimento Territorial e Socioambiental do Ministério do Desenvolvimento Agrário e Agricultura Familiar.\n A audiência atende ao Requerimento nº 37, de 2023, de autoria da Deputada Coronel Fernanda. Inicialmente, gostaria de agradecer a presença de todos os Srs.",
+          "Agradeço os esclarecimentos prestados pelo Sr. César Aldrighi e também pela Sra. Shirley Abreu.\n Gostaria também de agradecer a presença do Deputado Henderson e dizer que dou por recebido aqui os dois ofícios e já os passo à Secretaria, onde ficará para que os colegas Deputados possam também depois tomar conhecimento. Esses ofícios tratam de orientações acerca das alterações na regularização fundiária ocorrida devido à edição do Decreto nº 11.688, de 5 de setembro de 2023.\n Encerrada a exposição,",
+          "Informo, ainda, que o convidado disporá de 20 minutos para a sua exposição e durante esse tempo não poderá ser aparteado. Somente após encerrada a exposição, os Deputados poderão fazer suas interpelações estritamente quanto ao assunto objeto da audiência pública, tendo cada um o prazo de 3 minutos e o interpelado igual tempo para responder, facultadas a réplica e a tréplica pelo mesmo prazo.\n O requerimento é de autoria da nobre Deputada Coronel Fernanda, que está presente virtualmente. As considerações sobre o tema da audiência envolvem a regularização fundiária de áreas rurais situadas na Amazônia Legal.\n Eu gostaria de consultar a nobre Deputada Coronel Fernanda se ela está nos ouvindo e se ela gostaria de fazer uso da palavra neste momento.\n",
+          "Presidente do INCRA, o Sr. César Aldrighi, pela valiosa contribuição e pelos esclarecimentos prestados. Agradeço também aos demais presentes que contribuíram para o êxito desta audiência. Da mesma forma, quero agradecer também à Sra. Shirley Abreu pelos esclarecimentos e aos nobres colegas Deputados.\n Declaro encerrada esta reunião.\n"
+        ],
+        "trechos_transcricao_b": [
+          "Passa-se à audiência pública.\n Daremos início à audiência pública com o objetivo de discutir os impactos da alteração constitucional proposta pela PEC 169/19, permitindo ao servidor acumular cargo de professor.\n Agradeço a presença de todos.\n Convido para tomar assento à mesa o Sr. Heder Silva e Noronha, Assessor da Subsecretaria de Gestão Administrativa do Ministério da Educação.\n Já está conosco na Mesa o Sr. José Pinheiro de Queiroz Neto, do Conselho Superior do Instituto Federal de Educação, Ciência e Tecnologia do Amazonas — IFAM.\n",
+          "Já está conosco na Mesa o Sr. José Pinheiro de Queiroz Neto, do Conselho Superior do Instituto Federal de Educação, Ciência e Tecnologia do Amazonas — IFAM.\n Informo ainda que, de modo virtual, está presente o Sr. Alessio Costa Lima, Presidente da União Nacional dos Dirigentes Municipais de Educação — UNDIME.\n Vamos passar às regras da audiência pública.\n Para melhor andamento dos trabalhos, esclareço que adotaremos os seguintes procedimentos: em conformidade com a decisão da Presidência da Casa, não será mais permitida a divisão de tempo para Comunicação de Liderança; o tempo concedido ao convidado será de 20 minutos, prorrogáveis a juízo da Comissão; o Relator será o primeiro a usar da palavra, por 10 minutos; o autor do requerimento terá o prazo também de 10 minutos; cada membro inscrito terá 5 minutos, cada não membro inscrito terá 3 minutos.\n",
+          "Expediente.\n Informo que a sinopse do expediente recebido encontra-se à disposição na página da Comissão na Internet.\n Passa-se à Ordem do Dia.\n Esclareço que na Ordem do Dia de hoje está prevista a realização de audiência pública que cumpre decisão do colegiado, em atendimento aos Requerimentos nºs 1 e 2, de 2023, de autoria do Deputado Capitão Alberto Neto.\n Passa-se à audiência pública.\n",
+          "Deputados que aqui estiveram, aos assessores e a todas as pessoas.\n Nada mais havendo a tratar, encerro a reunião, antes convocando os membros para reunião de audiência pública no dia 21 de novembro, terça-feira, às 15 horas, em plenário a ser informado posteriormente.\n Declaro encerrada a presente reunião."
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "Gilson Daniel",
+    "partido": "PODE",
+    "estado": "Espírito Santo",
+    "contradicoes": [
+      {
+        "fala_a": "Menciona a aprovação de um projeto de lei que aloca 50% dos recursos das apostas não reclamadas para o Fundo de Calamidade Pública.",
+        "fala_b": "Mencionou o Projeto de Lei 920/23, que destina 5% dos acordos judiciais e extrajudiciais a um fundo de calamidade pública.",
+        "indice_a": 4,
+        "indice_b": 7,
+        "similaridade_tematica": 0.7315,
+        "score_contradicao": 0.8752,
+        "score_a_para_b": 0.7697,
+        "score_b_para_a": 0.9951,
+        "pauta_politica": null,
+        "reversao_politica": false,
+        "sessao_id_a": 113,
+        "sessao_id_b": 118,
+        "assunto_a": "Prevenção e auxílio a desastres e calamidades naturais",
+        "assunto_b": "Prevenção e auxílio a vítimas de desastres e calamidades naturais no Brasil.",
+        "trechos_transcricao_a": [
+          "Então, nós conseguimos aprovar esse projeto, que colocou duas fontes de recursos no Fundo Nacional para Calamidades Públicas.\n E nós conseguimos, no Plenário da Câmara dos Deputados, com o apoio dos Deputados da Casa, fazer uma alteração na Lei de Apostas, colocando 50% dos recursos das apostas não reclamadas em 90 dias no Fundo de Calamidade Pública. Então, o fundo hoje tem três fontes de recursos. A partir daí, o Ministério da Integração pode normatizar o recebimento desses recursos, pode-se organizar o fundo e pode haver recursos não só para a pronta resposta, mas também para avançar no trabalho de prevenção, que é a nossa principal tarefa nesta Comissão a essa discussão.\n Quero passar a palavra aos expositores.",
+          "Então, a intenção da audiência pública de hoje, com a presença da Sra. Vera Campelo, do Sr. Pedro Henrique, é para que possamos saber o que o Ministério está fazendo em relação a essa pauta, o que há de projeto.\n Nós sabemos que há uma informação de investimentos por intermédio do PAC, mas a Comissão precisa tomar conhecimento até para ver qual o trabalho que precisa ser feito nesta Casa, para alocar mais recursos para a prevenção de desastres.\n Eu fui autor de um projeto de lei que foi aprovado aqui na Câmara dos Deputados, aprovado também de forma unânime no Senado Federal e sancionado pelo Presidente Lula, que tem por objetivo colocar fontes de recursos no Fundo Nacional para Calamidades Públicas. O fundo foi criado em 1969 e não existia, até então, nenhuma fonte de recursos destinada a ele, que está na integração. Então, nós conseguimos aprovar esse projeto, que colocou duas fontes de recursos no Fundo Nacional para Calamidades Públicas.\n",
+          "E eu tive a oportunidade de ir a Roca Sales, onde me chamou atenção um fato.\n Às vezes, nós fazemos uma ação aqui na Câmara e não sabemos o reflexo que ela tem lá no Município de um Estado que pode não ser o nosso. Eu me lembro bem de que fiz uma emenda numa medida provisória que veio do Governo Federal, mais especificamente do Ministério da Educação, para a retomada das obras paralisadas do FNDE, como creches, escolas e quadras. Eu fiz uma emenda a essa medida provisória do Governo para que, nos Municípios que tivessem casos de calamidade pública e emergência, as Prefeituras fossem priorizadas no repasse dos recursos de obras inacabadas e paralisadas do FNDE. Fiz essa emenda e consegui aprová-la em plenário.\n",
+          "Agradeço ao Deputado Jorge.\n Eu queria, Vera, só fazer um questionamento sobre algo que você apresentou: o programa em que, em caso de desastre, quando há pessoas desabrigadas e desalojadas, o Ministério repassa 20 mil reais para um grupo de 50 pessoas.\n Eu fui Prefeito por 8 anos e sei que, às vezes, os Municípios — o Deputado Jorge lembrou muito bem isto em sua fala — não têm a orientação de saber como captar tal recurso. Mesmo sendo um valor baixo para o número de 50 pessoas desabrigadas, isso auxilia o Município que tem muita dificuldade financeira, principalmente na compra de alimentos, de colchões, de materiais básicos para atendimento a essas famílias. Então, eu gostaria que você falasse sobre essa questão dos 20 mil reais.\n"
+        ],
+        "trechos_transcricao_b": [
+          "No caso do meu Estado, o Governador destinou agora 200 milhões de reais para a prevenção de desastres, por meio de um fundo chamado Fundo Cidades, de transferência fundo a fundo. Mas a maior parte dos investimentos ocorre na pronta resposta, quando já há mortes, quando já há pessoas que perderam suas casas, que perderam seus móveis. Então, esta é uma pauta que nós precisamos debater.\n Nós temos um projeto — eu vou dialogando, Wolnei, depois você pode falar um pouquinho sobre isso —, o PL 920/23, de nossa autoria, que foi votado nesta Casa de forma unânime, também foi votado no Senado Federal sem nenhuma alteração e foi sancionado pelo Presidente com um veto. Esse veto deve estar na pauta do Congresso Nacional agora — eu queria saudar o Deputado Pedro Aihara, que está aqui presente — e deve ser votado esta semana, na quinta-feira, na sessão do Congresso.",
+          "Esse veto deve estar na pauta do Congresso Nacional agora — eu queria saudar o Deputado Pedro Aihara, que está aqui presente — e deve ser votado esta semana, na quinta-feira, na sessão do Congresso. Com o veto, o Governo retira a mais importante fonte de recursos do projeto, a que coloca mais recursos, que é o caso de Mariana. No projeto, numa das fontes de recursos, 5% dos acordos judiciais e extrajudiciais serão destinados a um fundo de calamidade pública.\n Nós já temos uma experiência com relação a isso no País. Há um acordo, no caso de Brumadinho, assinado pelo Governo de Minas Gerais de 37 bilhões de reais.",
+          "Quando tive a oportunidade de assumir aqui como Deputado Federal, o meu primeiro projeto foi para pegar parte desses recursos e destiná-la realmente à política pública na prevenção de desastres, na pronta resposta, no atendimento às vítimas, no atendimento à população, no atendimento aos Municípios, que é o Fundo para Calamidades Públicas, gerenciado pelo Governo Federal, por meio do Ministério da Integração.\n Então, eu queria alertar os Deputados que estão aqui sobre o veto a ser votado. Na votação da sessão do Congresso, o voto é numa cédula, e os Deputados têm que ficar atentos porque elas quase sempre acompanham o veto do Governo, e esse veto precisa ser derrubado. Ele é importante e pega 5% do maior acordo mundial que deve ser assinado, de 100 bilhões de reais, e os coloca para fazer política pública de prevenção de desastres neste País, para o que chamo a atenção. Depois queria também ouvir o Wolnei com relação à importância disso para a Secretaria Nacional de Proteção e Defesa Civil, para o Ministério da Integração, das políticas públicas que estão sendo pensadas por meio do trabalho que já estão executando lá.\n",
+          "Há um acordo, no caso de Brumadinho, assinado pelo Governo de Minas Gerais de 37 bilhões de reais. Desses 37 bilhões de reais, se vocês lerem o acordo, que está disponível na Internet, não há nenhum centavo para a prevenção de desastres. Há obra de todos os tipos, até atendimento apet— e aí não estou dizendo que isso não seja importante —, mas não há 1 real para a prevenção de desastres, dos 37 bilhões de reais do acordo do desastre de Brumadinho. Está aqui o Deputado Pedro Aihara, que conhece bem o que eu estou falando porque trabalhou efetivamente nesse desastre. Ele esteve lá, em campo, no momento de uma tragédia muito forte no Estado de Minas Gerais.\n"
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "João Carlos Bacelar",
+    "partido": "PL",
+    "estado": "Bahia",
+    "contradicoes": [
+      {
+        "fala_a": "Defende a convocação do Diretor Presidente da ENEL Brasil.",
+        "fala_b": "Propõe a caducidade do contrato da ENEL em São Paulo.",
+        "indice_a": 2,
+        "indice_b": 3,
+        "similaridade_tematica": 0.7392,
+        "score_contradicao": 0.9953,
+        "score_a_para_b": 0.9952,
+        "score_b_para_a": 0.9953,
+        "pauta_politica": null,
+        "reversao_politica": false,
+        "sessao_id_a": 133,
+        "sessao_id_b": 133,
+        "assunto_a": "Debate sobre a interrupção do serviço de distribuição de energia elétrica no Estado de São Paulo em 3 de novembro de 2023 e as ações da ENEL.",
+        "assunto_b": "Debate sobre a interrupção do serviço de distribuição de energia elétrica no Estado de São Paulo em 3 de novembro de 2023 e as ações da ENEL.",
+        "trechos_transcricao_a": [
+          "Vejo chegar aqui o Líder do meu partido, o Deputado Altineu Côrtes. Tenho aqui a proposição de uma CPI da ENEL já em curso, Deputado Côrtes, de cujo requerimento foram autores V.Exa. e o Deputado Antonio Carlos Rodrigues.\n Eu peço aos nossos pares que assinem a criação desta CPI para que, se possível, a ENEL volte para o seu país, já que é uma das piores operadoras de distribuição de energia no Brasil. Nós vamos pedir a caducidade do seu contrato porque, assim, ela terá respeito por esta Casa.\n",
+          "Nós vamos pedir a caducidade do seu contrato porque, assim, ela terá respeito por esta Casa.\n Muito obrigado.\n Pela ordem, Presidente.\n Com toda a vênia ao Deputado Aureo, é um desrespeito à Nação brasileira o Presidente da ENEL — que tem várias distribuidoras no Brasil, não só em São Paulo, como no Rio de Janeiro, Ceará e em outros Estados da Nação — não vir aqui.\n Então, Deputado Aureo, com todo o respeito que tenho por V.Exa.",
+          "Esse Presidente da Enel, o italiano Nicola Cotugno, foi à Assembleia Legislativa do Estado de São Paulo e, com desdém, disse que não tinha que pedir desculpas à população de São Paulo nem à população brasileira. O Presidente da Enel falou que a causa foi o excesso de vento. Ele se esqueceu de fazer a contingência. Ele se esqueceu de investir. Ele esqueceu que distribuiu lucros exorbitantes para o exterior.\n",
+          "Com todo o respeito ao Sr. Max, que está aqui e é o CEO da Enel São Paulo, quem tinha de vir era o Diretor Presidente da Enel Brasil. Se ele não fala português, poderíamos disponibilizar um tradutor. Esperávamos que ele respeitasse esta Casa. Ele faltou com respeito à Assembleia Legislativa do Estado de São Paulo."
+        ],
+        "trechos_transcricao_b": [
+          "Eu acho que o próximo encaminhamento que nós temos que fazer aqui, nesta Casa, é pedir a caducidade do contrato da Enel no Estado de São Paulo.\n Recebi manifestações do Governador Tarcísio de Freitas e do Prefeito Ricardo Nunes sobre o nosso projeto de lei que versa sobre a renovação das distribuições. Trata-se do Projeto de Lei nº 4.831, em 2023. Recebemos o apoio de todos os Governadores. Ontem, no Fórum Nacional dos Secretários Estaduais de Minas e Energia, comandado pelo Deputado licenciado Hugo Leal, atual Secretário de Energia e Economia do Mar do Estado do Rio de Janeiro — onde também há descompasso —, fui ovacionado por causa desse projeto de lei.\n",
+          "Nós vamos pedir a caducidade do seu contrato porque, assim, ela terá respeito por esta Casa.\n Muito obrigado.\n Pela ordem, Presidente.\n Com toda a vênia ao Deputado Aureo, é um desrespeito à Nação brasileira o Presidente da ENEL — que tem várias distribuidoras no Brasil, não só em São Paulo, como no Rio de Janeiro, Ceará e em outros Estados da Nação — não vir aqui.\n Então, Deputado Aureo, com todo o respeito que tenho por V.Exa.",
+          "Ele faltou com respeito à Assembleia Legislativa do Estado de São Paulo. Aqui, nesta Casa, temos lei e nós vamos fazer com que ela seja cumprida.\n Lembro o que aconteceu — e vou concluir, Sr. Presidente — no Estado do Amazonas, onde a empresa distribuidora teve o pedido de caducidade concedido. Eu acho que o próximo encaminhamento que nós temos que fazer aqui, nesta Casa, é pedir a caducidade do contrato da Enel no Estado de São Paulo.\n",
+          "Se ele pensa que vai fazer daqui uma Casa sem lei, ele está completamente equivocado. Se fosse em seu país, ele já estaria preso pelo desmando, pelo que fez e pela forma como agiu. Se fosse na Itália, esse Presidente já estaria preso.\n Acho que o próximo passo é pedirmos a caducidade do contrato da ENEL no Brasil, pela falta de investimento e de capacitação, pela não valorização do consumidor brasileiro e, acima de tudo, do consumidor de São Paulo e do Rio de Janeiro.\n Vejo chegar aqui o Líder do meu partido, o Deputado Altineu Côrtes."
+        ]
+      }
+    ]
+  }
+]

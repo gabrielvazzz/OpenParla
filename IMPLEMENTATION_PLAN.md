@@ -24,7 +24,7 @@ The substantive implementation is on `origin/lorenna`, not on `main`:
 
 - `Leo/preprocessamento_por_estado.ipynb` downloads and partitions
   PublicHearingBR data by state.
-- `Lorenna/publichearingbr_ideology/preparar_dados.py` aggregates statements
+- `Lorenna/preparar_dados.py` aggregates statements
   by deputy and assigns a reference ideology to each party.
 - `ideology_classifier.py` compares statement embeddings with centroids built
   from ideology anchors.
