@@ -30,7 +30,8 @@ The substantive implementation is on `origin/lorenna`, not on `main`:
   from ideology anchors.
 - `contradiction_detector.py` filters statement pairs by embedding similarity,
   then scores candidate pairs with multilingual NLI.
-- `pipeline.py` writes classified statements and detected contradiction pairs.
+- `pipeline.py` writes classified statements and candidate incompatible pairs
+  marked for human review.
 
 Before feature work, promote this work into an integration branch or merge it
 into `main` with its full history intact. Do not copy generated data manually.

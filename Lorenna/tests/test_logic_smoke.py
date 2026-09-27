@@ -352,13 +352,12 @@ def test_indicios_com_textos_reais():
     ind = indicio_da_fala("Defendeu a taxação das casas de apostas esportivas.")
     assert ind is not None and ind.issue == "tributacao" and ind.lado == -1
 
-    # Danilo Forte (UNIÃO): subsídio social (esquerda) + resistência a
-    # aumento de tributos (direita) em falas diferentes.
+    # A simples descrição de um subsídio não é apoio a ele e não deve
+    # determinar uma posição política.
     f_social = "Há consenso sobre a migração da Tarifa Social de Energia "\
         "Elétrica para o orçamento da União. Hoje esse subsídio é custeado "\
         "pela conta de energia dos consumidores."
-    ind = indicio_da_fala(f_social)
-    assert ind is not None and ind.issue == "programas_sociais" and ind.lado == -1
+    assert indicio_da_fala(f_social) is None
     f_trib = "Matérias impopulares e que não têm a simpatia do Parlamento com "\
         "relação a aumento de tributos."
     ind = indicio_da_fala(f_trib)
@@ -395,8 +394,7 @@ def test_indicios_partido_e_transversal():
     assert d[0].origem == "indicio_lexical"
     assert d[0].pauta == "armas"
 
-    # Danilo Forte: UNIÃO. Indício de subsídio (esq) x resistência a tributos
-    # (dir) em falas diferentes -> tensão transversal.
+    # Menção a subsídio sem posicionamento explícito não cria tensão.
     textos = [
         "Há consenso sobre a migração da Tarifa Social de Energia Elétrica "
         "para o orçamento da União.",
@@ -408,12 +406,11 @@ def test_indicios_partido_e_transversal():
                 for i, t in enumerate(textos)]
     resultados = [fake_result(0.0, None, strength=0.0) for _ in textos]
     indicios = [indicio_da_fala(t) for t in textos]
-    assert indicios[0].issue == "programas_sociais" and indicios[0].lado == -1
+    assert indicios[0] is None
     assert indicios[1].issue == "tributacao" and indicios[1].lado == +1
-    t = cross_issue_tensions_from_indicios(opinioes, textos, resultados, indicios)
-    assert len(t) == 1
-    assert t[0].pauta_esquerda == "programas_sociais"
-    assert t[0].pauta_direita == "tributacao"
+    assert cross_issue_tensions_from_indicios(
+        opinioes, textos, resultados, indicios
+    ) == []
 
     # Capitão Alberto Neto (PL): sem indícios -> nada dispara.
     ca = [{"opiniao": "Criticou a possibilidade de extinção do "

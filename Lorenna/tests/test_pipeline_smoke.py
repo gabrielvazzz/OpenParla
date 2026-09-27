@@ -82,8 +82,10 @@ assert isinstance(classificado[0]["posicionamento_politico_fala"], list)
 assert len(classificado[0]["posicionamento_politico_fala"]) == 1
 assert len(contradicoes) == 1
 assert contradicoes[0]["nome"] == "Maria Exemplo"
-assert len(contradicoes[0]["contradicoes"]) == 1
-par = contradicoes[0]["contradicoes"][0]
+assert len(contradicoes[0]["pares_potencialmente_incompativeis"]) == 1
+par = contradicoes[0]["pares_potencialmente_incompativeis"][0]
+assert par["review_required"] is True
+assert par["tipo"] == "candidate_incompatible_pair"
 assert par["trechos_transcricao_a"] == []
 assert par["trechos_transcricao_b"] == []
 

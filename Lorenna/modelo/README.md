@@ -139,22 +139,6 @@ widget:
     \ Não avaliaram. Gente, pelo amor de Deus!"
 - source_sentence: Relata diversas reclamações de consumidores sobre a falta de energia.
   sentences:
-  - "Parabéns! Deixo os nossos agradecimentos.\n Concedo a palavra à Sra. Sonia Guajajara,\
-    \ também para as considerações finais.\n Obrigada, Sonia. Parabéns mais uma vez\
-    \ pelo seu trabalho e pela sua contribuição.\n\nMeus parabéns pela sua garra e\
-    \ determinação. Depois, vamos seguir aqui com o debate.\n Agora eu concedo a palavra,\
-    \ por 8 minutos, para sua exposição, à Sra. Maria Aureni Gonzaga da Silva, que\
-    \ é Coordenadora de Gênero, Assuntos Geracionais e Participação Social da FUNAI.\n\
-    \ Por favor.\n Muito bem!\nA situação é estarrecedora, como já foi dito aqui por\
-    \ todos os convidados que a antecederam.\n Parabéns, Deputada! Muito obrigada\
-    \ pela sua colaboração.\n Dando continuidade, concedo a palavra, para que faça\
-    \ sua exposição, ao Sr. Ernani Gomes, Diretor do Departamento de Saúde da SESAI\
-    \ — Secretaria Especial de Saúde Indígena, do Ministério da Saúde. É o último\
-    \ expositor e falará por 8 minutos.\n\nMuito bem! Meus parabéns!\n Agradeço imensamente\
-    \ à Sra. Maria Aureni por sua participação e colaboração com este debate, com\
-    \ esta audiência pública.\n A senhora falou muito bem. É necessário instrumentalizar\
-    \ as mulheres indígenas dos seus direitos, para que elas tenham conhecimento das\
-    \ leis e daquilo que está à disposição e que, muitas vezes, elas não têm conhecimento."
   - "ter vindo a esta Casa hoje, para discutir assuntos tão importantes com referência\
     \ ao nosso País. Agradeço-lhe o compromisso firmado entre V.Exa. e este Parlamentar,\
     \ pelas construções referentes às moradias em Santa Catarina, mais precisamente\
@@ -171,6 +155,22 @@ widget:
     \ É brincadeira! Todos foram convidados. Foi uma honra contarmos com grandes presenças.\
     \ Marca-se o início de uma nova história do transporte no Brasil, que é o que\
     \ nós queremos: acabar com as discussões e arrumar as soluções."
+  - "Parabéns! Deixo os nossos agradecimentos.\n Concedo a palavra à Sra. Sonia Guajajara,\
+    \ também para as considerações finais.\n Obrigada, Sonia. Parabéns mais uma vez\
+    \ pelo seu trabalho e pela sua contribuição.\n\nMeus parabéns pela sua garra e\
+    \ determinação. Depois, vamos seguir aqui com o debate.\n Agora eu concedo a palavra,\
+    \ por 8 minutos, para sua exposição, à Sra. Maria Aureni Gonzaga da Silva, que\
+    \ é Coordenadora de Gênero, Assuntos Geracionais e Participação Social da FUNAI.\n\
+    \ Por favor.\n Muito bem!\nA situação é estarrecedora, como já foi dito aqui por\
+    \ todos os convidados que a antecederam.\n Parabéns, Deputada! Muito obrigada\
+    \ pela sua colaboração.\n Dando continuidade, concedo a palavra, para que faça\
+    \ sua exposição, ao Sr. Ernani Gomes, Diretor do Departamento de Saúde da SESAI\
+    \ — Secretaria Especial de Saúde Indígena, do Ministério da Saúde. É o último\
+    \ expositor e falará por 8 minutos.\n\nMuito bem! Meus parabéns!\n Agradeço imensamente\
+    \ à Sra. Maria Aureni por sua participação e colaboração com este debate, com\
+    \ esta audiência pública.\n A senhora falou muito bem. É necessário instrumentalizar\
+    \ as mulheres indígenas dos seus direitos, para que elas tenham conhecimento das\
+    \ leis e daquilo que está à disposição e que, muitas vezes, elas não têm conhecimento."
   - "Presidente Rodrigo de Castro, Sras. e Srs. Parlamentares, este é um assunto gravíssimo.\n\
     \ Eu tenho na minha mesa mais de 600 denúncias que recebi — 600 denúncias de falta\
     \ de energia elétrica em São Paulo. Os relatos que temos aqui das pessoas são\
@@ -299,9 +299,9 @@ print(embeddings.shape)
 # Get the similarity scores for the embeddings
 similarities = model.similarity(embeddings, embeddings)
 print(similarities)
-# tensor([[1.0000, 0.5671, 0.0912],
-#         [0.5671, 1.0000, 0.4435],
-#         [0.0912, 0.4435, 1.0000]])
+# tensor([[1.0000, 0.6132, 0.0732],
+#         [0.6132, 1.0000, 0.3946],
+#         [0.0732, 0.3946, 1.0000]])
 ```
 <!--
 ### Direct Usage (Transformers)
@@ -352,13 +352,13 @@ You can finetune this model on your own dataset.
   |:---------|:-----------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------|
   | type     | string                                                                             | string                                                                               |
   | modality | text                                                                               | text                                                                                 |
-  | details  | <ul><li>min: 12 tokens</li><li>mean: 24.36 tokens</li><li>max: 49 tokens</li></ul> | <ul><li>min: 128 tokens</li><li>mean: 128.0 tokens</li><li>max: 128 tokens</li></ul> |
+  | details  | <ul><li>min: 12 tokens</li><li>mean: 23.71 tokens</li><li>max: 54 tokens</li></ul> | <ul><li>min: 128 tokens</li><li>mean: 128.0 tokens</li><li>max: 128 tokens</li></ul> |
 * Samples:
-  | sentence_0                                                                                                                                                | sentence_1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-  |:----------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-  | <code>Destacou a importância de discutir as consequências para o consumidor e as condições de trabalho dos motoristas de aplicativos.</code>              | <code>Primeiro, quero agradecer, novamente,à TV Câmara, pela cobertura, e aos presentes.<br> O foco principal desta audiência pública é discutir as consequências,os prós e os contras no direito do consumidor. Quais são as consequências para o consumidor? Não é nenhuma espécie de correção, nada a falar das suas explicações, mas muito se diz ou se reclama ou se concorda em relação aos motoristas e em relação às plataformas, mas pouco se discute em relação aos consumidores. Essa é a perspectiva que se pensou para realizar esta Comissão.<br><br>Lucas Dias, motorista de aplicativo, criador do Uber Histórias. Fiquei curioso demais.<br> Não, gente, Uber Histórias é um...<br> Eu acho que tem que regulamentar também, regulamentar e taxar.<br> Com a palavra.<br><br>Boa tarde a todos.<br> Declaro aberta a reunião.<br> Esta reunião de audiência pública foi convocada conforme os Requerimentos nº 5 e nº 14, de 2024, de autoria do Deputado Gilson Marques, para debater a relação de trabalho intermediado por empresas operadoras de aplica...</code> |
-  | <code>Enfatizou a necessidade de políticas públicas para combater a violência e o preconceito contra idosos.</code>                                       | <code>Ao lado da Deputada Maria Cristina, na semana passada eu apresentei um projeto de lei que cria um mecanismo para o combate à violência contra a pessoa idosa, com vista a aumentar o controle e a defesa do idoso contra a violência psicológica, a violência física e a violência financeira.<br> Eu acho que esta audiência é muito importante. Este tema trata de um problema que nós estamos combatendo, é um tema bem atual. Eu estou muito feliz por realizar esta audiência, que serve como uma conscientização, um ensinamento e um alerta para o que está acontecendo no Brasil. A Patrícia falou aqui várias vezes do que aconteceu com ela e que não sabia como chamar.<br><br>Segundo a Organização Mundial da Saúde — OMS, um a cada seis idosos já sofreu algum tipo de violência, incluindo o etarismo. A pressão social para determinar e controlar como a pessoa deve se comportar enquanto envelhece é inaceitável. Por isso, precisamos debater e encontrar caminhos para combater o preconceito e a violência contra a pessoa...</code>                      |
-  | <code>Destaca a importância de tratar a questão da fauna exótica invasora de forma desideologizada para evitar a destruição da pecuária no Brasil.</code> | <code>Pelas duas primeiras exposições, ficou evidente que, se não tratarmos essa matéria de maneira desideologizada — e tenho convicção da minha ideologia, assim como o lado de lá também tem —, se não descermos do palanque ideológico para tratar com responsabilidade esse tema, vamos destruir a pecuária do Brasil.<br> É fundamental e urgente que isso aconteça, porque é inadmissível que, desde janeiro deste ano, o manejo esteja sendo ferido — e ferido de morte — no Brasil. Eu desafio — e tenho contato, assim como você, com a grande maioria dos manejadores e caçadores do Brasil — qualquer um a afirmar que, em qualquer Estado do Brasil, essas pessoas estejam saindo para fazer um serviço de utilidade pública com tranquilidade e segurança, sem medo de serem presos ilegalmente. E o número de manejadores em ação desde janeiro despencou, porque as pessoas estão com medo.<br> E nós estamos caminhando a passos largos para condenar à extinção a pecuária do Brasil.<br>E nós estamos caminhando a passos largos para...</code>                      |
+  | sentence_0                                                                                                                                     | sentence_1                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+  |:-----------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+  | <code>Declara aberta a reunião para debater os desafios na educação de meninas e mulheres negras.</code>                                       | <code>Bom dia a todas e a todos.<br> Bom dia para quem nos acompanha pelos meios de comunicação.<br> Declaro aberta a presente reunião extraordinária de audiência pública da Comissão de Educação, atendendo ao Requerimento nº 140, de 2023, de autoria da Deputada Dandara, aprovado em 28 de junho de 2023, e subscrito pela Deputada Professora Luciene Cavalcante, para debatermos acerca dos desafios para a garantia do direito à educação de meninas e mulheres negras.<br> Informo ainda que esta reunião de audiência pública é semipresencial. A Mesa será composta por convidados que vão estar aqui presencialmente e por convidados que vão estar no Zoom.<br><br>A Deputada Dandara também não está presente. Ela está acompanhando o Presidente Lula no encontro da ONU. Então nós vamos ter a honra de conduzir os trabalhos desta audiência pública.<br> Lembro aos Deputados e Deputadas que nos acompanham e a todos os nossos ouvintes que esta audiência pública tem o objetivo de debater acerca dos desafios para a garantia do direito...</code> |
+  | <code>Afirmou que as Forças Armadas brasileiras têm um distúrbio de personalidade funcional, não sabendo se são militares ou policiais.</code> | <code>Fizeram e fazem de tudo. Imiscuem-se nas entranhas do Estado. Dessa forma, elas se desvirtuam da sua missão precípua.<br> Eu digo que são Forças Armadas portadoras de distúrbio de personalidade funcional. Não sabem se são policiais, não sabem se são militares.<br>Então, acredito que a quarentena deva ser obrigatória e equivaler ao tempo de um mandato.<br> A quarentena, de maneira bem clara, deve ajudar o militar a tratar do seu distúrbio de personalidade funcional. Digo distúrbio de personalidade funcional porque ele não sabe se é policial, ele não sabe se é assistente social...<br>... ele não sabe se é militar, não sabe se é construtor de obras públicas, se é administrador público ou se é fiscal de urna, enfim. É preciso definir isso.<br>Não sabem se são policiais, não sabem se são militares. Essa distinção é fundamental, porque o militar lida com um inimigo estrangeiro, e o policial lida com um cidadão. São duas culturas distintas, dois equipamentos distintos. Ao reivindicar para si a função consti...</code>    |
+  | <code>Enfatizou a necessidade de políticas públicas para promover a atividade física como essencial.</code>                                    | <code>Até antes de o Nelson falar e o Gustavo reforçar, eu já havia anotado aqui para passar para a minha assessoria, a fim de pensarmos numa legislação que coloque a atividade física como essencial no nosso País.(Palmas.)<br>E que nós nunca mais passemos por isso que passamos nos últimos anos.<br> Então, nós vamos trabalhar de mãos dadas com vocês, com a assessoria aqui da nossa Comissão do Esporte, que é muito competente também para nos ajudar, para que possamos ter força, não só apresentar um projeto, porque projeto há milhares aqui, mas ter força, união, para conseguir ver isso no futuro próximo aprovado.<br> Quero, inclusive, pedir ao meu amigo Deputado Dr. Luiz Ovando que trabalhemos juntos para ser proponentes dessa ação aqui no Parlamento. E precisamos pensar também a longo prazo, porque as falas de vocês hoje — da Monica, do Nelson, do Gustavo, do Tiago, do Panche, e agora vamos ter a fala do Ailton — nos levam a ter que pensar urgentemente numa política nacional de promoção da saúde por mei...</code>          |
 * Loss: [<code>MultipleNegativesRankingLoss</code>](https://sbert.net/docs/package_reference/sentence_transformer/losses.html#multiplenegativesrankingloss) with these parameters:
   ```json
   {
@@ -490,11 +490,11 @@ You can finetune this model on your own dataset.
 </details>
 
 ### Training Time
-- **Training**: 12.2 seconds
+- **Training**: 11.7 seconds
 
 ### Framework Versions
 - Python: 3.14.7
-- Sentence Transformers: 6.0.1
+- Sentence Transformers: 6.1.0
 - Transformers: 5.17.0
 - PyTorch: 2.14.0+cu130
 - Accelerate: 1.15.0

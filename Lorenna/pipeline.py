@@ -6,6 +6,7 @@ fala e gera relatórios separados para (1) oposição entre fala e partido
 (com severidade "contradicao"/"tensao" avaliada pauta por pauta),
 (2) contradição entre falas do mesmo deputado, (3) tensão transversal
 entre pautas no mesmo deputado e (4) falas defensivas (negação de rótulo).
+Todos os resultados são candidatos para revisão humana, não conclusões factuais.
 
 ATENÇÃO — decisão de estrutura de dados: no seu exemplo, "opinioes" é
 uma lista, mas "posicionamento_politico_fala" aparecia como um único
@@ -108,8 +109,8 @@ def run(
         else ContradictionDetector()
     )
 
-    contradicoes_falas_output = []
-    contradicoes_partido_output = []
+    pares_incompativeis_output = []
+    divergencias_partido_output = []
     tensoes_transversais_output = []
     falas_defensivas_output = []
 
@@ -155,7 +156,7 @@ def run(
             dep.get("partido"), opinioes, textos, resultados, indicios
         )
         if divergencias:
-            contradicoes_partido_output.append(
+            divergencias_partido_output.append(
                 {
                     "nome": dep.get("nome"),
                     "partido": dep.get("partido"),
@@ -163,9 +164,11 @@ def run(
                     "posicionamento_politico_partido": dep.get(
                         "posicionamento_politico_partido"
                     ),
-                    "contradicoes": [
+                    "candidatos_divergencia_partidaria": [
                         {
                             **p.to_dict(),
+                            "review_required": True,
+                            "tipo": "candidate_party_divergence",
                             "trechos_transcricao": trechos_da_opiniao(
                                 opinioes[p.indice]
                             ),
@@ -187,7 +190,14 @@ def run(
                     "nome": dep.get("nome"),
                     "partido": dep.get("partido"),
                     "estado": dep.get("estado"),
-                    "tensoes": [t.to_dict() for t in tensoes],
+                    "tensoes": [
+                        {
+                            **t.to_dict(),
+                            "review_required": True,
+                            "tipo": "candidate_cross_issue_tension",
+                        }
+                        for t in tensoes
+                    ],
                 }
             )
 
@@ -208,6 +218,8 @@ def run(
                     "falas": [
                         {
                             **d.to_dict(),
+                            "review_required": True,
+                            "tipo": "candidate_defensive_speech",
                             "trechos_transcricao": trechos_da_opiniao(
                                 opinioes[d.indice]
                             ),
@@ -220,13 +232,15 @@ def run(
         # Detecta contradições entre as falas do mesmo deputado.
         pares = detector.find_contradictions(textos, resultados)
         if pares:
-            contradicoes_falas_output.append(
+            pares_incompativeis_output.append(
                 {
                     "nome": dep.get("nome"),
                     "partido": dep.get("partido"),
                     "estado": dep.get("estado"),
-                    "contradicoes": [
+                    "pares_potencialmente_incompativeis": [
                         {
+                            "review_required": True,
+                            "tipo": "candidate_incompatible_pair",
                             "fala_a": p.opiniao_a,
                             "fala_b": p.opiniao_b,
                             "indice_a": p.indice_a,
@@ -254,29 +268,30 @@ def run(
             )
 
     save_json(deputados, output_classificado_path)
-    save_json(contradicoes_falas_output, output_contradicoes_path)
-    save_json(contradicoes_partido_output, output_contradicoes_partido_path)
+    save_json(pares_incompativeis_output, output_contradicoes_path)
+    save_json(divergencias_partido_output, output_contradicoes_partido_path)
     save_json(tensoes_transversais_output, output_tensoes_transversais_path)
     save_json(falas_defensivas_output, output_falas_defensivas_path)
 
     n_divergencias = sum(
-        len(c["contradicoes"]) for c in contradicoes_partido_output
+        len(c["candidatos_divergencia_partidaria"])
+        for c in divergencias_partido_output
     )
     n_contradicao = sum(
         1
-        for c in contradicoes_partido_output
-        for d in c["contradicoes"]
+        for c in divergencias_partido_output
+        for d in c["candidatos_divergencia_partidaria"]
         if d.get("severidade") == "contradicao"
     )
 
     print(f"[OK] {len(deputados)} deputados processados.")
     print(f"[OK] Classificações salvas em: {output_classificado_path}")
     print(
-        f"[OK] {len(contradicoes_falas_output)} deputado(s) com contradições "
-        f"entre falas. Salvo em: {output_contradicoes_path}"
+        f"[OK] {len(pares_incompativeis_output)} deputado(s) com pares "
+        f"potencialmente incompatíveis para revisão. Salvo em: {output_contradicoes_path}"
     )
     print(
-        f"[OK] {len(contradicoes_partido_output)} deputado(s) com oposição "
+        f"[OK] {len(divergencias_partido_output)} deputado(s) com possível divergência "
         f"fala-partido ({n_divergencias} divergência(s), das quais "
         f"{n_contradicao} forte(s)). Salvo em: {output_contradicoes_partido_path}"
     )
@@ -299,7 +314,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--output-contradicoes",
-        default=str(DIRETORIO_SAIDAS / "contradicoes_falas.json"),
+        default=str(DIRETORIO_SAIDAS / "pares_potencialmente_incompativeis.json"),
     )
     parser.add_argument(
         "--output-contradicoes-partido",

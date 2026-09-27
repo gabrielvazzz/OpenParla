@@ -3,8 +3,10 @@
     "nome": "Gilson Daniel",
     "partido": "PODE",
     "estado": "Espírito Santo",
-    "contradicoes": [
+    "pares_potencialmente_incompativeis": [
       {
+        "review_required": true,
+        "tipo": "candidate_incompatible_pair",
         "fala_a": "Menciona a aprovação de um projeto de lei que aloca 50% dos recursos das apostas não reclamadas para o Fundo de Calamidade Pública.",
         "fala_b": "Mencionou o Projeto de Lei 920/23, que destina 5% dos acordos judiciais e extrajudiciais a um fundo de calamidade pública.",
         "indice_a": 4,
@@ -26,8 +28,10 @@
     "nome": "Jorge Solla",
     "partido": "PT",
     "estado": "Bahia",
-    "contradicoes": [
+    "pares_potencialmente_incompativeis": [
       {
+        "review_required": true,
+        "tipo": "candidate_incompatible_pair",
         "fala_a": "Critica a gestão anterior do governo em relação à saúde e cobertura vacinal.",
         "fala_b": "Elogia os esforços do atual governo para reconstruir o sistema de saúde e aumentar a cobertura vacinal.",
         "indice_a": 5,
@@ -49,8 +53,10 @@
     "nome": "João Carlos Bacelar",
     "partido": "PL",
     "estado": "Bahia",
-    "contradicoes": [
+    "pares_potencialmente_incompativeis": [
       {
+        "review_required": true,
+        "tipo": "candidate_incompatible_pair",
         "fala_a": "Defende a convocação do Diretor Presidente da ENEL Brasil.",
         "fala_b": "Propõe a caducidade do contrato da ENEL em São Paulo.",
         "indice_a": 2,

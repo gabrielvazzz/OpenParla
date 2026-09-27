@@ -50,8 +50,6 @@ import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
-import requests
-
 import enriquecedor
 
 REPO_ID = "unicamp-dl/PublicHearingBR"
@@ -150,6 +148,8 @@ def normalizar(texto: str) -> str:
 
 def baixar_arquivo(url: str, destino: Path, chunk_size: int = 1 << 16) -> Path:
     """Baixa o arquivo com barra de progresso simples."""
+    import requests
+
     print(f"Baixando {url}")
     destino.parent.mkdir(parents=True, exist_ok=True)
     with requests.get(url, stream=True, timeout=120) as r:
@@ -190,28 +190,34 @@ def obter_arquivo_local_ou_baixar(
 
 
 PADRAO_PARENTESES = re.compile(r"\(([^()]*)\)")
+PADRAO_SIGLAS = re.compile(r"[a-z0-9]+")
+PADRAO_UF = re.compile(r"(?<![A-Z])([A-Z]{2})(?![A-Z])")
 
 
 def extrair_partido_estado(cargo: str) -> tuple[str | None, str | None]:
-    """Retorna (partido, uf) extraídos de um cargo tipo '(Partido-UF)'."""
+    """Retorna (partido, UF) de formatos como ``(PT-SP)`` e ``pelo PT-SP``."""
+
+    ufs = [sigla for sigla in PADRAO_UF.findall(cargo.upper()) if sigla in UFS]
+    uf = ufs[-1] if ufs else None
 
     for grupo in PADRAO_PARENTESES.findall(cargo):
-
         partes = [p.strip() for p in grupo.split("-")]
-
         if len(partes) == 2 and partes[1] in UFS:
             partido = _canonico(partes[0])
-
             if partido:
                 return partido, partes[1]
-
-        # Caso "(Partido)" sem UF
         partido = _canonico(grupo)
-
         if partido:
-            return partido, None
+            return partido, uf
 
-    return None, None
+    # O corpus também traz afiliações fora de parênteses, por exemplo
+    # "Bloco/PT - RJ" e "Deputado pelo PSOL-RJ".
+    for token in PADRAO_SIGLAS.findall(normalizar(cargo)):
+        partido = _canonico(token)
+        if partido:
+            return partido, uf
+
+    return None, uf
 
 
 def _canonico(nome: str) -> str | None:

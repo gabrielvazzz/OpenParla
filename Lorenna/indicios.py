@@ -94,14 +94,6 @@ _RULES: list[tuple[re.Pattern, str, int, float, str]] = [
     ),
     (
         re.compile(
-            r"(?:Tarifa Social|transferência de renda|subsídio"
-            r"|benefícios sociais|programas sociais)",
-            re.IGNORECASE,
-        ),
-        "programas_sociais", -1, 0.4, "defesa de subsídio social",
-    ),
-    (
-        re.compile(
             r"capacidade estratégica da Petrobras|aposta na produção"
             r" de petróleo|autossuficiência.{0,40}petróleo",
             re.IGNORECASE,

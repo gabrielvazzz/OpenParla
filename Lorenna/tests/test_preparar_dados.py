@@ -5,7 +5,12 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from preparar_dados import processar_nli
+from preparar_dados import extrair_partido_estado, processar_nli
+
+
+def test_extrair_partido_estado_aceita_formatos_fora_de_parenteses():
+    assert extrair_partido_estado("Deputado pelo PSOL-RJ") == ("PSOL", "RJ")
+    assert extrair_partido_estado("Deputado Federal Bloco/PT - SP") == ("PT", "SP")
 
 
 def test_processar_nli_usa_somente_opinioes_validadas():
@@ -75,6 +80,7 @@ def test_processar_nli_completa_partido_com_lds_da_mesma_sessao():
 
 
 if __name__ == "__main__":
+    test_extrair_partido_estado_aceita_formatos_fora_de_parenteses()
     test_processar_nli_usa_somente_opinioes_validadas()
     test_processar_nli_completa_partido_com_lds_da_mesma_sessao()
     print("[OK] Preparação NLI: todos os casos de teste passaram.")
