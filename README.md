@@ -85,41 +85,6 @@ Os arquivos gerados em `Lorenna/saidas/` são:
 
 Todos os itens candidatos incluem `review_required: true`. Eles não são prova de contradição, mudança de posição ou posicionamento oficial.
 
-## Explorar os dados de scraping
-
-Os dados em `scrapping/` contêm discursos, votos e cadastro de deputados. O notebook `exploracao_scrapping.ipynb` mostra inventário, esquema e amostras dos arquivos.
-
-Para converter os discursos ao formato de entrada do pipeline, execute:
-
-```bash
-python3 processar_scrapping.py
-```
-
-As entradas anuais e agregadas são salvas em `saidas_scrapping/`. O pipeline atual aceita falas textuais; votos nominais não são usados como entrada direta.
-
-## API local
-
-Após gerar as saídas, inicie a API para navegar pelos artefatos e consultar falas semelhantes:
-
-```bash
-uvicorn Lorenna.app:app --reload
-```
-
-Com o servidor ativo, acesse `http://127.0.0.1:8000/docs`. A rota `/dados` lista os JSONs disponíveis; `/opinioes` lista falas; e `/opinioes/{id}/proximas` recupera falas semanticamente próximas.
-
-## Testes
-
-Execute a suíte a partir da raiz:
-
-```bash
-PYTHONPATH=Lorenna pytest Lorenna/tests -q
-```
-
-O teste lógico independente de downloads pode ser executado com:
-
-```bash
-python3 Lorenna/tests/test_logic_smoke.py
-```
 
 ## Estrutura
 
