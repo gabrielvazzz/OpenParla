@@ -1,0 +1,77 @@
+[
+  {
+    "nome": "Gilson Daniel",
+    "partido": "PODE",
+    "estado": "Espírito Santo",
+    "pares_potencialmente_incompativeis": [
+      {
+        "review_required": true,
+        "tipo": "candidate_incompatible_pair",
+        "fala_a": "Menciona a aprovação de um projeto de lei que aloca 50% dos recursos das apostas não reclamadas para o Fundo de Calamidade Pública.",
+        "fala_b": "Mencionou o Projeto de Lei 920/23, que destina 5% dos acordos judiciais e extrajudiciais a um fundo de calamidade pública.",
+        "indice_a": 4,
+        "indice_b": 7,
+        "similaridade_tematica": 0.6933,
+        "score_contradicao": 0.8752,
+        "score_a_para_b": 0.7697,
+        "score_b_para_a": 0.9951,
+        "pauta_politica": null,
+        "reversao_politica": false,
+        "sessao_id_a": 113,
+        "sessao_id_b": 118,
+        "assunto_a": "Prevenção e auxílio a desastres e calamidades naturais",
+        "assunto_b": "Prevenção e auxílio a vítimas de desastres e calamidades naturais no Brasil."
+      }
+    ]
+  },
+  {
+    "nome": "Jorge Solla",
+    "partido": "PT",
+    "estado": "Bahia",
+    "pares_potencialmente_incompativeis": [
+      {
+        "review_required": true,
+        "tipo": "candidate_incompatible_pair",
+        "fala_a": "Critica a gestão anterior do governo em relação à saúde e cobertura vacinal.",
+        "fala_b": "Elogia os esforços do atual governo para reconstruir o sistema de saúde e aumentar a cobertura vacinal.",
+        "indice_a": 5,
+        "indice_b": 6,
+        "similaridade_tematica": 0.6246,
+        "score_contradicao": 0.984,
+        "score_a_para_b": 0.9995,
+        "score_b_para_a": 0.9687,
+        "pauta_politica": null,
+        "reversao_politica": false,
+        "sessao_id_a": 140,
+        "sessao_id_b": 140,
+        "assunto_a": "Debate sobre o risco de surtos de doenças nas Américas",
+        "assunto_b": "Debate sobre o risco de surtos de doenças nas Américas"
+      }
+    ]
+  },
+  {
+    "nome": "João Carlos Bacelar",
+    "partido": "PL",
+    "estado": "Bahia",
+    "pares_potencialmente_incompativeis": [
+      {
+        "review_required": true,
+        "tipo": "candidate_incompatible_pair",
+        "fala_a": "Defende a convocação do Diretor Presidente da ENEL Brasil.",
+        "fala_b": "Propõe a caducidade do contrato da ENEL em São Paulo.",
+        "indice_a": 2,
+        "indice_b": 3,
+        "similaridade_tematica": 0.6976,
+        "score_contradicao": 0.9952,
+        "score_a_para_b": 0.9952,
+        "score_b_para_a": 0.9952,
+        "pauta_politica": null,
+        "reversao_politica": false,
+        "sessao_id_a": 133,
+        "sessao_id_b": 133,
+        "assunto_a": "Debate sobre a interrupção do serviço de distribuição de energia elétrica no Estado de São Paulo em 3 de novembro de 2023 e as ações da ENEL.",
+        "assunto_b": "Debate sobre a interrupção do serviço de distribuição de energia elétrica no Estado de São Paulo em 3 de novembro de 2023 e as ações da ENEL."
+      }
+    ]
+  }
+]

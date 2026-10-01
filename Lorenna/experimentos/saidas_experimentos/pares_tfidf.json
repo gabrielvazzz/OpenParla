@@ -1,0 +1,4612 @@
+[
+  {
+    "fala_a_id": "5:3",
+    "fala_b_id": "5:7",
+    "deputado": "Bia Kicis",
+    "similaridade": 0.8034,
+    "fala_a": "Critica a obrigatoriedade da vacinação contra a COVID-19 para crianças e defende o direito dos pais de decidirem sobre a vacinação dos filhos.",
+    "fala_b": "Critica a obrigatoriedade da vacinação contra a COVID-19 para crianças.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "87:0",
+    "fala_b_id": "87:2",
+    "deputado": "Soraya Santos",
+    "similaridade": 0.6765,
+    "fala_a": "Enfatizou a importância da tecnologia no tratamento de AIDS no Brasil.",
+    "fala_b": "Defendeu a associação de tecnologia com o tratamento médico.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "44:13",
+    "fala_b_id": "44:14",
+    "deputado": "Erika Kokay",
+    "similaridade": 0.5434,
+    "fala_a": "Destacou a importância do acolhimento familiar e a necessidade de fortalecer e divulgar o programa Família Acolhedora.",
+    "fala_b": "Defendeu a priorização do acolhimento em família acolhedora sobre o acolhimento institucional.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "131:0",
+    "fala_b_id": "131:1",
+    "deputado": "Magda Mofatto",
+    "similaridade": 0.5391,
+    "fala_a": "Destacou a importância de buscar o diálogo com o Governo sobre o PERSE.",
+    "fala_b": "Criticou a ausência de diálogo com o Governo atual sobre o PERSE.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "39:1",
+    "fala_b_id": "39:3",
+    "deputado": "Célia Xakriabá",
+    "similaridade": 0.5329,
+    "fala_a": "A luta pelo território indígena está diretamente ligada à luta pela educação indígena.",
+    "fala_b": "A importância da criação de uma universidade indígena para fortalecer a educação indígena.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "32:1",
+    "fala_b_id": "32:2",
+    "deputado": "Duda Salabert",
+    "similaridade": 0.5151,
+    "fala_a": "Minas Gerais, seu estado, também sofre com crimes de mineradoras, como os casos de Brumadinho e Mariana.",
+    "fala_b": "Há uma relação íntima entre os crimes ambientais em Maceió e em Minas Gerais, demonstrando um padrão criminoso e irresponsável das mineradoras.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "151:1",
+    "fala_b_id": "151:4",
+    "deputado": "Idilvan Alencar",
+    "similaridade": 0.51,
+    "fala_a": "É necessário que a seleção de diretores seja baseada em critérios técnicos para garantir a competência dos gestores escolares.",
+    "fala_b": "A necessidade de observatórios e canais de denúncia para garantir que a seleção de diretores seja feita corretamente.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "207:0",
+    "fala_b_id": "207:2",
+    "deputado": "Any Ortiz",
+    "similaridade": 0.4933,
+    "fala_a": "Objetivo da audiência é debater competitividade e concorrência nos mercados digitais.",
+    "fala_b": "Preocupação com a rápida dinâmica dos mercados digitais e o impacto da legislação sobre a competitividade.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "156:5",
+    "fala_b_id": "156:6",
+    "deputado": "Jorge Solla",
+    "similaridade": 0.4757,
+    "fala_a": "Critica a gestão anterior do governo em relação à saúde e cobertura vacinal.",
+    "fala_b": "Elogia os esforços do atual governo para reconstruir o sistema de saúde e aumentar a cobertura vacinal.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "53:1",
+    "fala_b_id": "53:2",
+    "deputado": "Jorge Braz",
+    "similaridade": 0.4754,
+    "fala_a": "O movimento 'right to repair' começou nos EUA em 2017 e garante o direito ao conserto de automóveis.",
+    "fala_b": "A economia circular é uma base importante para a ideia do 'right to repair'.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "186:0",
+    "fala_b_id": "186:2",
+    "deputado": "Silvia Cristina",
+    "similaridade": 0.4752,
+    "fala_a": "A prevenção é o melhor remédio para o câncer de mama.",
+    "fala_b": "O câncer de mama é o que mais mata mulheres no Brasil e no mundo.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "44:13",
+    "fala_b_id": "44:15",
+    "deputado": "Erika Kokay",
+    "similaridade": 0.4735,
+    "fala_a": "Destacou a importância do acolhimento familiar e a necessidade de fortalecer e divulgar o programa Família Acolhedora.",
+    "fala_b": "Apontou a necessidade de cofinanciamento e capacitação das entidades para o programa Família Acolhedora.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "39:6",
+    "fala_b_id": "39:7",
+    "deputado": "Célia Xakriabá",
+    "similaridade": 0.4655,
+    "fala_a": "A Comissão aprovou três emendas orçamentárias para o Plano de Gestão Territorial e Ambiental.",
+    "fala_b": "A PNGATI dialoga com bioeconomia e com a gestão territorial e ambiental das terras indígenas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "7:0",
+    "fala_b_id": "7:1",
+    "deputado": "Capitão Alberto Neto",
+    "similaridade": 0.4653,
+    "fala_a": "Críticas ao fim do Saque-Aniversário, argumentando que beneficia os trabalhadores.",
+    "fala_b": "Afirma que o Saque-Aniversário injeta dinheiro na economia e ajuda trabalhadores a pagar dívidas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "130:4",
+    "fala_b_id": "130:7",
+    "deputado": "Gilson Daniel",
+    "similaridade": 0.4649,
+    "fala_a": "Menciona a aprovação de um projeto de lei que aloca 50% dos recursos das apostas não reclamadas para o Fundo de Calamidade Pública.",
+    "fala_b": "Mencionou o Projeto de Lei 920/23, que destina 5% dos acordos judiciais e extrajudiciais a um fundo de calamidade pública.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "117:1",
+    "fala_b_id": "117:2",
+    "deputado": "Eduardo Barbosa",
+    "similaridade": 0.4614,
+    "fala_a": "Destacou a importância de uma política governamental adequada para atender pessoas com TDAH sem rotulá-las como incapazes.",
+    "fala_b": "Defendeu que uma abordagem adequada pode garantir uma vida ativa e produtiva para pessoas com TDAH.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "98:0",
+    "fala_b_id": "98:1",
+    "deputado": "Rodrigo Coelho",
+    "similaridade": 0.4611,
+    "fala_a": "O turismo religioso movimenta cerca de 15 bilhões de reais por ano no Brasil.",
+    "fala_b": "Santa Catarina foi o quarto Estado que mais faturou em viagens ligadas ao turismo religioso em 2021, com mais de 834 milhões de reais.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "210:0",
+    "fala_b_id": "210:2",
+    "deputado": "Átila Lira",
+    "similaridade": 0.4597,
+    "fala_a": "O projeto de lei busca criar um novo programa de bolsas para ampliar o acesso dos jovens carentes ao ensino superior.",
+    "fala_b": "É necessário sensibilizar o governo para a importância do projeto de lei como forma de ampliar o acesso à educação superior.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "39:3",
+    "fala_b_id": "39:8",
+    "deputado": "Célia Xakriabá",
+    "similaridade": 0.453,
+    "fala_a": "A importância da criação de uma universidade indígena para fortalecer a educação indígena.",
+    "fala_b": "Destacou a relevância do tema do encarceramento indígena, mencionando dados preocupantes sobre a população indígena aprisionada, especialmente em Mato Grosso do Sul.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "16:0",
+    "fala_b_id": "16:2",
+    "deputado": "Daniela Reinehr",
+    "similaridade": 0.4512,
+    "fala_a": "Comemora as vitórias e aperfeiçoamentos na inclusão de pessoas com deficiência ao longo dos anos.",
+    "fala_b": "Destaca a necessidade de promover a inclusão de pessoas com deficiência na educação, mercado de trabalho e esporte.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "34:0",
+    "fala_b_id": "34:1",
+    "deputado": "Henrique Vieira",
+    "similaridade": 0.4484,
+    "fala_a": "Crítica à lógica política da extrema direita, afirmando que há relações simbólicas e objetivas com o crime organizado.",
+    "fala_b": "Defesa da democracia e pluralidade, afirmando que a extrema direita nega a diversidade e a república.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "112:0",
+    "fala_b_id": "112:3",
+    "deputado": "Daniel Agrobom",
+    "similaridade": 0.4469,
+    "fala_a": "Destaca a necessidade de uma regulamentação que realmente atenda à categoria dos motoristas de aplicativos.",
+    "fala_b": "Destaca a importância de defender os motoristas de aplicativo na regulamentação.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "209:0",
+    "fala_b_id": "209:1",
+    "deputado": "Bruno Ganem",
+    "similaridade": 0.4464,
+    "fala_a": "Reafirmou a importância do bem-estar animal e sua crescente relevância na política e na sociedade.",
+    "fala_b": "Destacou o aumento da bancada de bem-estar animal na Câmara dos Deputados.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "186:3",
+    "fala_b_id": "186:4",
+    "deputado": "Silvia Cristina",
+    "similaridade": 0.4369,
+    "fala_a": "Criticou a alta nos preços das passagens aéreas em Rondônia e a falta de respostas das companhias aéreas.",
+    "fala_b": "Mencionou a judicialização frequente devido à falta de resposta adequada das companhias aéreas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "217:1",
+    "fala_b_id": "217:2",
+    "deputado": "Meire Serafim",
+    "similaridade": 0.4291,
+    "fala_a": "Os acessos a tratamentos e recursos através da saúde pública são limitados.",
+    "fala_b": "A audiência pública visa discutir a necessidade de ampliação do acesso a recursos e tratamentos para a distonia.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "194:0",
+    "fala_b_id": "194:1",
+    "deputado": "Alice Portugal",
+    "similaridade": 0.4279,
+    "fala_a": "Defende a ampliação da licença parental para pós-graduandos, com ou sem bolsa.",
+    "fala_b": "A contagem de tempo para aposentadoria para pós-graduandos deve ser garantida, similar ao que é feito com médicos residentes.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "85:0",
+    "fala_b_id": "85:1",
+    "deputado": "Fábio Félix",
+    "similaridade": 0.4262,
+    "fala_a": "Destaca a importância de discutir os direitos civis dos LGBTs.",
+    "fala_b": "Defende o direito ao casamento homoafetivo como uma questão de direitos civis fundamentais.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "48:6",
+    "fala_b_id": "48:9",
+    "deputado": "Zé Silva",
+    "similaridade": 0.424,
+    "fala_a": "A produção de alimentos deve estar alinhada com a preservação do meio ambiente.",
+    "fala_b": "A produção de alimentos deve incluir bem-estar animal e evitar a remoção de florestas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "72:0",
+    "fala_b_id": "72:1",
+    "deputado": "Romero Rodrigues",
+    "similaridade": 0.4238,
+    "fala_a": "A criação da zona franca ajudará a criar um ambiente favorável à tributação e fortalecerá a vinicultura no Rio Grande do Sul.",
+    "fala_b": "A consolidação da zona franca fortalecerá o turismo de visitação e a produção de uva e vinho na região.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "130:3",
+    "fala_b_id": "130:6",
+    "deputado": "Gilson Daniel",
+    "similaridade": 0.4235,
+    "fala_a": "Enfatiza a necessidade de recursos financeiros específicos para a prevenção de desastres.",
+    "fala_b": "Defendeu o financiamento à prevenção de desastres, ressaltando que é mais barato investir na prevenção do que na resposta aos desastres.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "101:4",
+    "fala_b_id": "101:5",
+    "deputado": "Orlando Silva",
+    "similaridade": 0.419,
+    "fala_a": "É fundamental tratar das recomendações recebidas pelo Brasil no âmbito da Revisão Periódica Universal sobre os direitos da população em situação de rua.",
+    "fala_b": "Enfatiza a importância de discutir e implementar políticas públicas para melhorar a situação da população em situação de rua.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "30:9",
+    "fala_b_id": "30:11",
+    "deputado": "Rogério Correia",
+    "similaridade": 0.415,
+    "fala_a": "O combate ao trabalho análogo a escravo é imprescindível para extirpar esta prática desumana.",
+    "fala_b": "Casos de trabalho análogo a escravo nas lavouras de café em Minas Gerais têm crescido, comprometendo a competitividade internacional dos produtos brasileiros.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "31:2",
+    "fala_b_id": "31:3",
+    "deputado": "Ivan Valente",
+    "similaridade": 0.4005,
+    "fala_a": "A mineração no Brasil é marcada pela impunidade das grandes empresas como Samarco, Vale e Braskem.",
+    "fala_b": "A Braskem, assim como outras grandes mineradoras, não quer prestar satisfação à Câmara dos Deputados.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "130:3",
+    "fala_b_id": "130:5",
+    "deputado": "Gilson Daniel",
+    "similaridade": 0.3999,
+    "fala_a": "Enfatiza a necessidade de recursos financeiros específicos para a prevenção de desastres.",
+    "fala_b": "Sublinha a importância de alocar mais recursos para a prevenção de desastres e garantir a segurança das famílias que moram em áreas de risco.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "182:0",
+    "fala_b_id": "182:3",
+    "deputado": "Lêda Borges",
+    "similaridade": 0.3986,
+    "fala_a": "Agradeceu a presença dos participantes e reafirmou o compromisso do Parlamento em avançar nas legislações específicas.",
+    "fala_b": "Parabenizou os participantes e reafirmou o compromisso com o projeto de lei em tramitação.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "102:5",
+    "fala_b_id": "102:10",
+    "deputado": "Talíria Petrone",
+    "similaridade": 0.3968,
+    "fala_a": "Não podemos aceitar uma colonialidade que insiste em permanecer no nosso modelo de desenvolvimento, mesmo na transição energética.",
+    "fala_b": "É fundamental que mudemos o modelo de desenvolvimento predatório, baseado numa lógica produtivista, desenvolvimentista, que é insustentável.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "177:0",
+    "fala_b_id": "177:1",
+    "deputado": "Nikolas Ferreira",
+    "similaridade": 0.3924,
+    "fala_a": "Criticou a atuação do Ministro da Justiça em relação aos manifestantes do dia 8 de janeiro.",
+    "fala_b": "Afirmou que o Ministro é contundente contra manifestantes, mas omisso em relação ao crime organizado.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "105:2",
+    "fala_b_id": "105:3",
+    "deputado": "Elias Vaz",
+    "similaridade": 0.3919,
+    "fala_a": "Critica a falta de comprometimento histórico do poder público, especialmente do Governo Federal, com a questão do transporte público.",
+    "fala_b": "Critica a renúncia fiscal para a indústria automobilística, sugerindo que esses recursos poderiam ser usados para subsidiar o transporte público.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "44:9",
+    "fala_b_id": "44:11",
+    "deputado": "Erika Kokay",
+    "similaridade": 0.391,
+    "fala_a": "A importância de reconhecer e valorizar os mestres e mestras da cultura popular.",
+    "fala_b": "O papel da cultura popular na resistência e na construção da identidade nacional.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "36:3",
+    "fala_b_id": "36:4",
+    "deputado": "Juninho do Pneu",
+    "similaridade": 0.3886,
+    "fala_a": "Questionou sobre a quantidade de voos atrasados e cancelados entre 2021 e 2023, os motivos desses cancelamentos e atrasos, e a quantidade de passageiros prejudicados.",
+    "fala_b": "Perguntou sobre as ações da ANAC diante desses atrasos e cancelamentos e as variações de reajuste nas passagens aéreas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "156:5",
+    "fala_b_id": "156:8",
+    "deputado": "Jorge Solla",
+    "similaridade": 0.3807,
+    "fala_a": "Critica a gestão anterior do governo em relação à saúde e cobertura vacinal.",
+    "fala_b": "Defende a utilização de dados individualizados para melhorar a cobertura vacinal.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "41:5",
+    "fala_b_id": "41:6",
+    "deputado": "Tarcísio Motta",
+    "similaridade": 0.3784,
+    "fala_a": "A Lei Paulo Gustavo e a Lei Aldir Blanc foram vitais para o sustento de políticas culturais.",
+    "fala_b": "A Lei Paulo Gustavo tem que ser comemorada por apoiar especialmente o audiovisual, que gera emprego, renda e cultura.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "56:0",
+    "fala_b_id": "56:1",
+    "deputado": "Pastor Henrique Vieira",
+    "similaridade": 0.3751,
+    "fala_a": "Destacou o compromisso com a pauta da juventude negra e a necessidade de políticas públicas transversais e multidisciplinares.",
+    "fala_b": "Enfatizou a importância de garantir não apenas a sobrevivência, mas a vida plena e digna para a juventude negra.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "105:1",
+    "fala_b_id": "105:2",
+    "deputado": "Elias Vaz",
+    "similaridade": 0.375,
+    "fala_a": "Afirma que o problema do transporte público se agravou com a pandemia, mas que já existia anteriormente.",
+    "fala_b": "Critica a falta de comprometimento histórico do poder público, especialmente do Governo Federal, com a questão do transporte público.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "173:0",
+    "fala_b_id": "173:1",
+    "deputado": "Kiko Celeguim",
+    "similaridade": 0.3733,
+    "fala_a": "Destacou os desafios do transporte coletivo e da mobilidade urbana nas regiões metropolitanas.",
+    "fala_b": "Sugeriu a criação de uma autoridade metropolitana para coordenar o transporte coletivo.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "47:2",
+    "fala_b_id": "47:4",
+    "deputado": "Carlos Giannazi",
+    "similaridade": 0.3688,
+    "fala_a": "Parabeniza a iniciativa da Deputada Luciene Cavalcante em organizar a audiência pública e em apresentar proposta de emenda à Constituição para revogar o artigo 109 da Emenda Constitucional nº 103.",
+    "fala_b": "Defende a necessidade de revogação da Emenda Constitucional nº 103 para proteger os direitos dos aposentados e pensionistas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "5:2",
+    "fala_b_id": "5:3",
+    "deputado": "Bia Kicis",
+    "similaridade": 0.3634,
+    "fala_a": "É favorável à vacinação e a seus filhos são vacinados, mas defende vacinas com anos de segurança e eficácia comprovadas.",
+    "fala_b": "Critica a obrigatoriedade da vacinação contra a COVID-19 para crianças e defende o direito dos pais de decidirem sobre a vacinação dos filhos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "37:0",
+    "fala_b_id": "37:2",
+    "deputado": "Bebeto",
+    "similaridade": 0.3618,
+    "fala_a": "Os acidentes de trânsito são um problema constante nas rodovias e nas capitais brasileiras.",
+    "fala_b": "É fundamental discutir a velocidade no trânsito para reduzir o número de acidentes e suas consequências.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "188:1",
+    "fala_b_id": "188:2",
+    "deputado": "Nicoletti",
+    "similaridade": 0.355,
+    "fala_a": "Criticou a falta de aumento no número de voos e os altos preços das passagens apesar dos incentivos concedidos.",
+    "fala_b": "Apelou por maior regularidade e redução de preços dos voos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "120:2",
+    "fala_b_id": "120:5",
+    "deputado": "Padre João",
+    "similaridade": 0.352,
+    "fala_a": "A cadeia de produção de Cannabis sativa para uso medicinal é essencial para o desenvolvimento regional das comunidades de agricultores familiares.",
+    "fala_b": "A política pública deve priorizar a produção local, promovendo a inclusão social e a geração de renda para agricultores familiares.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "69:1",
+    "fala_b_id": "69:2",
+    "deputado": "Dr. Zacharias Calil",
+    "similaridade": 0.3515,
+    "fala_a": "Estimular o esporte paralímpico em ambientes educacionais promove inclusão e respeito à diversidade.",
+    "fala_b": "A inclusão e o desenvolvimento do esporte para pessoas com deficiência são de grande relevância.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "156:6",
+    "fala_b_id": "156:8",
+    "deputado": "Jorge Solla",
+    "similaridade": 0.3507,
+    "fala_a": "Elogia os esforços do atual governo para reconstruir o sistema de saúde e aumentar a cobertura vacinal.",
+    "fala_b": "Defende a utilização de dados individualizados para melhorar a cobertura vacinal.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "69:5",
+    "fala_b_id": "69:7",
+    "deputado": "Dr. Zacharias Calil",
+    "similaridade": 0.3504,
+    "fala_a": "É crucial reconhecer a gravidade do Edema Macular Diabético (EMD) e garantir atendimento adequado e acessível a todos os pacientes.",
+    "fala_b": "Deve haver um sistema de financiamento adequado que cubra os custos dos medicamentos, procedimentos e acompanhamento oftalmológico dos pacientes com EMD.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "118:0",
+    "fala_b_id": "118:1",
+    "deputado": "Luis Miranda",
+    "similaridade": 0.3442,
+    "fala_a": "Aumentou a preocupação com crimes cibernéticos, especialmente crimes antidemocráticos.",
+    "fala_b": "Os crimes cibernéticos agora incluem manipulação de opinião pública e fake news, além dos tradicionais furtos e invasões de contas bancárias.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "151:0",
+    "fala_b_id": "151:4",
+    "deputado": "Idilvan Alencar",
+    "similaridade": 0.3372,
+    "fala_a": "A seleção de diretores é obrigatória segundo a lei do FUNDEB, e não mais uma opção.",
+    "fala_b": "A necessidade de observatórios e canais de denúncia para garantir que a seleção de diretores seja feita corretamente.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "105:0",
+    "fala_b_id": "105:2",
+    "deputado": "Elias Vaz",
+    "similaridade": 0.3371,
+    "fala_a": "Defende que o transporte público deve ser entendido como uma política pública, não apenas como uma relação entre empresa e usuário.",
+    "fala_b": "Critica a falta de comprometimento histórico do poder público, especialmente do Governo Federal, com a questão do transporte público.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "112:2",
+    "fala_b_id": "112:3",
+    "deputado": "Daniel Agrobom",
+    "similaridade": 0.3356,
+    "fala_a": "Critica a exclusão dos representantes dos motoristas de aplicativo do grupo de trabalho.",
+    "fala_b": "Destaca a importância de defender os motoristas de aplicativo na regulamentação.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "37:1",
+    "fala_b_id": "37:2",
+    "deputado": "Bebeto",
+    "similaridade": 0.3327,
+    "fala_a": "Proposições como a criação de um corredor exclusivo para motos são importantes para reduzir acidentes.",
+    "fala_b": "É fundamental discutir a velocidade no trânsito para reduzir o número de acidentes e suas consequências.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "47:2",
+    "fala_b_id": "47:3",
+    "deputado": "Carlos Giannazi",
+    "similaridade": 0.3321,
+    "fala_a": "Parabeniza a iniciativa da Deputada Luciene Cavalcante em organizar a audiência pública e em apresentar proposta de emenda à Constituição para revogar o artigo 109 da Emenda Constitucional nº 103.",
+    "fala_b": "Critica a Emenda Constitucional nº 103 por permitir que Municípios e Estados confisquem aposentadorias e pensões, considerando essa medida uma abertura para abusos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "31:1",
+    "fala_b_id": "31:3",
+    "deputado": "Ivan Valente",
+    "similaridade": 0.3297,
+    "fala_a": "Há uma CPI aberta no Senado Federal sobre a questão da Braskem e proposta de abertura de CPI na Câmara dos Deputados.",
+    "fala_b": "A Braskem, assim como outras grandes mineradoras, não quer prestar satisfação à Câmara dos Deputados.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "90:0",
+    "fala_b_id": "90:1",
+    "deputado": "Castro Neto",
+    "similaridade": 0.3289,
+    "fala_a": "Destacou a importância do debate sobre etarismo, um preconceito que afeta tanto idosos quanto jovens.",
+    "fala_b": "Enfatizou a necessidade de políticas públicas para combater a violência e o preconceito contra idosos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "29:0",
+    "fala_b_id": "29:3",
+    "deputado": "Tereza Nelma",
+    "similaridade": 0.3287,
+    "fala_a": "Enfatizou a invisibilidade da violência contra mulheres com deficiência, especialmente contra aquelas com deficiência intelectual.",
+    "fala_b": "Alertou sobre a falta de pesquisas e políticas públicas direcionadas às mulheres com deficiência.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "112:0",
+    "fala_b_id": "112:1",
+    "deputado": "Daniel Agrobom",
+    "similaridade": 0.3282,
+    "fala_a": "Destaca a necessidade de uma regulamentação que realmente atenda à categoria dos motoristas de aplicativos.",
+    "fala_b": "A importância de ouvir motoristas de aplicativos para construir a melhor solução em conjunto.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "46:5",
+    "fala_b_id": "46:7",
+    "deputado": "Professora Luciene Cavalcante",
+    "similaridade": 0.3257,
+    "fala_a": "Os policiais penais exercem uma função essencial na segurança pública.",
+    "fala_b": "O SINDICOP conseguiu aprovar uma PEC que traz reconhecimento aos policiais penais no estado de São Paulo, mas os aumentos salariais foram desiguais em comparação com outras forças de segurança.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "188:0",
+    "fala_b_id": "188:1",
+    "deputado": "Nicoletti",
+    "similaridade": 0.3249,
+    "fala_a": "Destacou as dificuldades enfrentadas pelo Estado de Roraima em relação aos voos e preços das passagens aéreas.",
+    "fala_b": "Criticou a falta de aumento no número de voos e os altos preços das passagens apesar dos incentivos concedidos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "188:0",
+    "fala_b_id": "188:2",
+    "deputado": "Nicoletti",
+    "similaridade": 0.3229,
+    "fala_a": "Destacou as dificuldades enfrentadas pelo Estado de Roraima em relação aos voos e preços das passagens aéreas.",
+    "fala_b": "Apelou por maior regularidade e redução de preços dos voos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "158:0",
+    "fala_b_id": "158:2",
+    "deputado": "Jadyel Alencar",
+    "similaridade": 0.3199,
+    "fala_a": "Enfatiza a importância do debate aberto, inclusivo e transparente sobre as rádios comunitárias.",
+    "fala_b": "Reafirma o compromisso de seguir ouvindo os técnicos e defendendo as rádios comunitárias.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "207:2",
+    "fala_b_id": "207:6",
+    "deputado": "Any Ortiz",
+    "similaridade": 0.3198,
+    "fala_a": "Preocupação com a rápida dinâmica dos mercados digitais e o impacto da legislação sobre a competitividade.",
+    "fala_b": "Questiona o impacto da Lei de Mercados Digitais na indústria da tecnologia e prestação de serviços na União Europeia após 9 meses de vigência.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "99:0",
+    "fala_b_id": "99:2",
+    "deputado": "Paulo Teixeira",
+    "similaridade": 0.3152,
+    "fala_a": "A audiência pública foi organizada para debater a extinção de Varas da Justiça do Trabalho.",
+    "fala_b": "Destacou a necessidade de se discutir o acesso à Justiça do Trabalho em todo o Brasil.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "31:0",
+    "fala_b_id": "31:1",
+    "deputado": "Ivan Valente",
+    "similaridade": 0.3143,
+    "fala_a": "A questão da Braskem é mais uma crônica de desastres anunciados.",
+    "fala_b": "Há uma CPI aberta no Senado Federal sobre a questão da Braskem e proposta de abertura de CPI na Câmara dos Deputados.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "30:9",
+    "fala_b_id": "30:10",
+    "deputado": "Rogério Correia",
+    "similaridade": 0.3118,
+    "fala_a": "O combate ao trabalho análogo a escravo é imprescindível para extirpar esta prática desumana.",
+    "fala_b": "A crescente fragilização da atuação estatal e precarização das condições de trabalho aumentam a vulnerabilidade ao trabalho escravo.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "137:0",
+    "fala_b_id": "137:1",
+    "deputado": "Dayany Bittencourt",
+    "similaridade": 0.3113,
+    "fala_a": "Critica a falta de respeito pela voz dos motoristas na elaboração do projeto.",
+    "fala_b": "Reafirma que os motoristas não querem ligação com sindicatos e buscam respeito, dignidade e segurança.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "46:6",
+    "fala_b_id": "46:8",
+    "deputado": "Professora Luciene Cavalcante",
+    "similaridade": 0.3104,
+    "fala_a": "A ausência de regulamentação da profissão dos policiais penais contribui para o adoecimento em massa desses servidores.",
+    "fala_b": "A privatização de serviços essenciais, como os aparelhos de Raios X, piora a qualidade do serviço e causa adoecimento dos policiais penais.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "48:0",
+    "fala_b_id": "48:1",
+    "deputado": "Zé Silva",
+    "similaridade": 0.31,
+    "fala_a": "A audiência pública foi destinada a discutir as consequências da seca em Minas Gerais.",
+    "fala_b": "Destacou a importância de discutir medidas concretas para enfrentar a seca.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "212:0",
+    "fala_b_id": "212:1",
+    "deputado": "Vitor Lippi",
+    "similaridade": 0.3089,
+    "fala_a": "Afirmou que ciência e tecnologia não dão votos, mas geram empregos, renda e desenvolvimento.",
+    "fala_b": "Defendeu a prioridade absoluta do governo e do parlamento para educação de qualidade, ciência, tecnologia e inovação.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "47:5",
+    "fala_b_id": "47:6",
+    "deputado": "Carlos Giannazi",
+    "similaridade": 0.308,
+    "fala_a": "É urgente regulamentar a Polícia Penal em São Paulo para garantir direitos e melhorias salariais aos servidores do sistema prisional.",
+    "fala_b": "Os servidores do sistema prisional são mal remunerados e sofrem com superlotação, ameaças e assédio moral.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "101:0",
+    "fala_b_id": "101:1",
+    "deputado": "Orlando Silva",
+    "similaridade": 0.3072,
+    "fala_a": "A situação dos trabalhadores lesionados é um tema crucial, relacionado à segurança e saúde no trabalho.",
+    "fala_b": "É necessário romper com a precarização do trabalho e garantir a preservação da integridade física e da saúde mental dos trabalhadores.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "96:0",
+    "fala_b_id": "96:2",
+    "deputado": "Rejane Dias",
+    "similaridade": 0.3054,
+    "fala_a": "Destaca a importância dos esclarecimentos sobre os procedimentos adotados pela CONITEC e pelo Ministério da Saúde.",
+    "fala_b": "Ressalta que a doença é grave e leva à morte, tornando essencial o envolvimento do Ministério da Saúde.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "151:0",
+    "fala_b_id": "151:1",
+    "deputado": "Idilvan Alencar",
+    "similaridade": 0.3052,
+    "fala_a": "A seleção de diretores é obrigatória segundo a lei do FUNDEB, e não mais uma opção.",
+    "fala_b": "É necessário que a seleção de diretores seja baseada em critérios técnicos para garantir a competência dos gestores escolares.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "8:8",
+    "fala_b_id": "8:9",
+    "deputado": "Alexandre Lindenmeyer",
+    "similaridade": 0.304,
+    "fala_a": "Preocupação com a diminuição da natalidade e aumento da população idosa, enfatizando a necessidade de preparação do Estado brasileiro.",
+    "fala_b": "Desafios em garantir qualidade de vida para a população idosa no futuro.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "82:4",
+    "fala_b_id": "82:5",
+    "deputado": "Ricardo Salles",
+    "similaridade": 0.2995,
+    "fala_a": "Expressou preocupação com a questão da Venezuela e a Guiana, questionando as medidas preparatórias do Brasil em caso de agressão venezuelana.",
+    "fala_b": "Destacou a importância do Brasil se posicionar firmemente sobre a soberania da Guiana.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "120:2",
+    "fala_b_id": "120:4",
+    "deputado": "Padre João",
+    "similaridade": 0.2993,
+    "fala_a": "A cadeia de produção de Cannabis sativa para uso medicinal é essencial para o desenvolvimento regional das comunidades de agricultores familiares.",
+    "fala_b": "O uso de Cannabis medicinal é justificado por sua eficiência comprovada em diversas condições de saúde, beneficiando especialmente os mais pobres que não podem arcar com os altos custos dos medicamentos importados.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "10:3",
+    "fala_b_id": "10:5",
+    "deputado": "Airton Faleiro",
+    "similaridade": 0.2984,
+    "fala_a": "Defende a regulamentação do mercado de carbono, acreditando que a ausência de regulamentação prejudica os mais fracos, como os povos indígenas, populações tradicionais e agricultores familiares.",
+    "fala_b": "Prefere uma regulamentação federal em vez de estadual para evitar fragilidade na regulamentação.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "182:2",
+    "fala_b_id": "182:7",
+    "deputado": "Lêda Borges",
+    "similaridade": 0.2956,
+    "fala_a": "Mencionou a necessidade de debate sobre a saúde da mulher no climatério e na menopausa.",
+    "fala_b": "Criticou a progressão de pena para crimes de violência contra a mulher.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "116:1",
+    "fala_b_id": "116:2",
+    "deputado": "Capitão Fábio Abreu",
+    "similaridade": 0.2946,
+    "fala_a": "Questionou a relação entre TDAH e TEA, e a possível conexão entre adoção e predisposição ao TDAH.",
+    "fala_b": "Ressaltou a necessidade de garantir acesso a medicamentos para pessoas com TDAH.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "89:1",
+    "fala_b_id": "89:4",
+    "deputado": "Lídice da Mata",
+    "similaridade": 0.2901,
+    "fala_a": "A necessidade de integração das ações de extensão nas políticas públicas de Estado.",
+    "fala_b": "Defendeu a importância da integração do jovem ao processo político a partir dos 16 anos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "187:0",
+    "fala_b_id": "187:2",
+    "deputado": "Neto Carletto",
+    "similaridade": 0.2879,
+    "fala_a": "Solicitou a exposição de dados sobre os custos e dificuldades das empresas aéreas.",
+    "fala_b": "Destacou a importância de conhecer todos os benefícios concedidos pelo governo às empresas aéreas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "135:1",
+    "fala_b_id": "135:2",
+    "deputado": "Reimont",
+    "similaridade": 0.2872,
+    "fala_a": "Fala sobre a necessidade de políticas públicas que garantam a dignidade e a inclusão dos idosos.",
+    "fala_b": "Enfatiza a importância de discutir o envelhecimento com dignidade e a mobilidade urbana adequada para idosos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "5:3",
+    "fala_b_id": "5:10",
+    "deputado": "Bia Kicis",
+    "similaridade": 0.2866,
+    "fala_a": "Critica a obrigatoriedade da vacinação contra a COVID-19 para crianças e defende o direito dos pais de decidirem sobre a vacinação dos filhos.",
+    "fala_b": "Alega que a vacinação obrigatória não é praticada em outros países.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "10:1",
+    "fala_b_id": "10:2",
+    "deputado": "Airton Faleiro",
+    "similaridade": 0.2858,
+    "fala_a": "Celebra os avanços no combate ao trabalho precário e à formalização do emprego.",
+    "fala_b": "Importância de assegurar que o Bolsa Família não seja um impedimento para a formalização do trabalho.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "128:2",
+    "fala_b_id": "128:4",
+    "deputado": "Hugo Leal",
+    "similaridade": 0.2847,
+    "fala_a": "Destaca a necessidade de uma maior participação dos Estados e Municípios na regulação e fiscalização das concessões.",
+    "fala_b": "Defende mudanças legislativas para melhorar a gestão e fiscalização das concessões de energia.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "149:0",
+    "fala_b_id": "149:2",
+    "deputado": "Antonio Brito",
+    "similaridade": 0.2846,
+    "fala_a": "A luta contra a tuberculose é uma prioridade.",
+    "fala_b": "É necessário aumentar o orçamento destinado ao combate à tuberculose.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "84:0",
+    "fala_b_id": "84:1",
+    "deputado": "Max Maciel",
+    "similaridade": 0.283,
+    "fala_a": "A Lei Paulo Gustavo é essencial para a produção audiovisual nas periferias.",
+    "fala_b": "É necessário equipar auditórios e espaços culturais para democratizar o acesso ao cinema e à produção audiovisual.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "74:0",
+    "fala_b_id": "74:2",
+    "deputado": "Manuel Domingos Neto",
+    "similaridade": 0.2823,
+    "fala_a": "Defendeu uma revisão profunda dos instrumentos de força do Estado e uma nova concepção de defesa nacional.",
+    "fala_b": "Destacou a necessidade de uma reforma simultânea da defesa nacional e da segurança pública.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "54:4",
+    "fala_b_id": "54:5",
+    "deputado": "Gisela Simona",
+    "similaridade": 0.2817,
+    "fala_a": "A audiência foi convocada para debater golpes e fraudes no sistema financeiro.",
+    "fala_b": "O objetivo é buscar alternativas para que as fraudes não continuem acontecendo da forma que estão.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "196:0",
+    "fala_b_id": "196:1",
+    "deputado": "Franciane Bayer",
+    "similaridade": 0.279,
+    "fala_a": "Critica o uso de portarias e resoluções pelo Governo para tratar de temas como aborto e drogas.",
+    "fala_b": "Questiona a prioridade do Governo em relação a temas de saúde pública.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "26:4",
+    "fala_b_id": "26:5",
+    "deputado": "Lucas Ramos",
+    "similaridade": 0.2786,
+    "fala_a": "Defendeu a importância da FIOCRUZ na produção e pesquisa de medicamentos.",
+    "fala_b": "Afirmou que a universalização do acesso a medicamentos deve ser uma prioridade.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "46:5",
+    "fala_b_id": "46:8",
+    "deputado": "Professora Luciene Cavalcante",
+    "similaridade": 0.2784,
+    "fala_a": "Os policiais penais exercem uma função essencial na segurança pública.",
+    "fala_b": "A privatização de serviços essenciais, como os aparelhos de Raios X, piora a qualidade do serviço e causa adoecimento dos policiais penais.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "16:0",
+    "fala_b_id": "16:1",
+    "deputado": "Daniela Reinehr",
+    "similaridade": 0.2781,
+    "fala_a": "Comemora as vitórias e aperfeiçoamentos na inclusão de pessoas com deficiência ao longo dos anos.",
+    "fala_b": "Enfatiza a importância da formação de novos profissionais para atender à crescente demanda de pessoas com deficiência.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "74:0",
+    "fala_b_id": "74:1",
+    "deputado": "Manuel Domingos Neto",
+    "similaridade": 0.2771,
+    "fala_a": "Defendeu uma revisão profunda dos instrumentos de força do Estado e uma nova concepção de defesa nacional.",
+    "fala_b": "Criticou a primazia da força terrestre sobre a capacidade aeronaval.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "179:0",
+    "fala_b_id": "179:1",
+    "deputado": "Marcos Pollon",
+    "similaridade": 0.2767,
+    "fala_a": "Destaca a importância de tratar a questão da fauna exótica invasora de forma desideologizada para evitar a destruição da pecuária no Brasil.",
+    "fala_b": "Menciona que o manejo de fauna exótica está sendo comprometido desde janeiro devido a novas políticas governamentais.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "182:2",
+    "fala_b_id": "182:6",
+    "deputado": "Lêda Borges",
+    "similaridade": 0.2749,
+    "fala_a": "Mencionou a necessidade de debate sobre a saúde da mulher no climatério e na menopausa.",
+    "fala_b": "Defendeu a necessidade de Delegacias Especializadas de Atendimento à Mulher (DEAMs) em todas as cidades brasileiras.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "90:1",
+    "fala_b_id": "90:2",
+    "deputado": "Castro Neto",
+    "similaridade": 0.2714,
+    "fala_a": "Enfatizou a necessidade de políticas públicas para combater a violência e o preconceito contra idosos.",
+    "fala_b": "Mencionou a apresentação do Projeto de Lei nº 2.419, de 2023, para especificar as formas de violência contra idosos e acelerar a adoção de medidas protetivas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "91:2",
+    "fala_b_id": "91:4",
+    "deputado": "Márcio Jerry",
+    "similaridade": 0.2691,
+    "fala_a": "Propôs a realização de uma reunião para extrair encaminhamentos concretos e ações que possam avançar as políticas para pessoas com deficiência.",
+    "fala_b": "Anunciou a realização de um seminário para debater a inclusão das pessoas com deficiência em nível federal, estadual e municipal.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "166:0",
+    "fala_b_id": "166:1",
+    "deputado": "Mário Heringer",
+    "similaridade": 0.2661,
+    "fala_a": "Critica a privatização e aponta problemas na gestão ambiental e energética.",
+    "fala_b": "Defende a necessidade de mudar a matriz energética para evitar futuros problemas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "207:0",
+    "fala_b_id": "207:4",
+    "deputado": "Any Ortiz",
+    "similaridade": 0.2661,
+    "fala_a": "Objetivo da audiência é debater competitividade e concorrência nos mercados digitais.",
+    "fala_b": "É essencial que a Câmara promova um debate amplo e aprofundado sobre regulamentação dos mercados digitais, buscando aprendizado e cooperação internacional.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "16:7",
+    "fala_b_id": "16:9",
+    "deputado": "Daniela Reinehr",
+    "similaridade": 0.2657,
+    "fala_a": "A portaria nos traz uma preocupação muito séria porque invade de forma muito agressiva a nossa economia.",
+    "fala_b": "Não podemos deixar passar em branco uma situação que interfere drasticamente nessa relação de trabalho e em nossa economia, especialmente no comércio.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "101:2",
+    "fala_b_id": "101:3",
+    "deputado": "Orlando Silva",
+    "similaridade": 0.2655,
+    "fala_a": "O Governo impôs normas regulamentares sem consultar as centrais sindicais, piorando o ambiente de trabalho.",
+    "fala_b": "A Câmara dos Deputados precisa adotar medidas legislativas que protejam o ambiente de trabalho.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "170:0",
+    "fala_b_id": "170:1",
+    "deputado": "Zé Trovão",
+    "similaridade": 0.2622,
+    "fala_a": "Agradeceu ao Ministro pelo compromisso com as construções de moradias em Santa Catarina.",
+    "fala_b": "Destacou a destinação de 8 milhões de reais para moradias em Joinville.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "61:0",
+    "fala_b_id": "61:3",
+    "deputado": "Amaro Neto",
+    "similaridade": 0.2616,
+    "fala_a": "Defende a obrigatoriedade do diploma de jornalismo para garantir um exercício ético, responsável e profissional da profissão.",
+    "fala_b": "Considera o diploma um instrumento fundamental para a valorização da profissão e a inserção mais segura e justa no mercado de trabalho.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "8:6",
+    "fala_b_id": "8:8",
+    "deputado": "Alexandre Lindenmeyer",
+    "similaridade": 0.2567,
+    "fala_a": "Importância do debate sobre o planejamento do Estado brasileiro em relação às mudanças demográficas.",
+    "fala_b": "Preocupação com a diminuição da natalidade e aumento da população idosa, enfatizando a necessidade de preparação do Estado brasileiro.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "52:0",
+    "fala_b_id": "52:2",
+    "deputado": "Prof. Paulo Fernando",
+    "similaridade": 0.2546,
+    "fala_a": "A Comissão de Legislação Participativa aprovou o Requerimento nº 94, de 2023, para discutir a utilização da inteligência artificial nos processos eleitorais.",
+    "fala_b": "Há a necessidade de regulamentação e fiscalização do uso da inteligência artificial para garantir a lisura do processo eleitoral.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "20:5",
+    "fala_b_id": "20:7",
+    "deputado": "Danilo Forte",
+    "similaridade": 0.2536,
+    "fala_a": "Destacou a importância do diálogo e competência do Ministro Bento na superação da crise hídrica sem apagões ou racionamento de energia.",
+    "fala_b": "Enfatizou a necessidade de um diálogo sobre a precificação e eficiência na prestação de serviços de energia.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "64:0",
+    "fala_b_id": "64:1",
+    "deputado": "Rosângela Moro",
+    "similaridade": 0.2531,
+    "fala_a": "Requereu a audiência pública devido à preocupação com a saúde mental das crianças e adolescentes.",
+    "fala_b": "Destacou a relação entre saúde mental e padrões de beleza estabelecidos pelas redes sociais.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "52:1",
+    "fala_b_id": "52:2",
+    "deputado": "Prof. Paulo Fernando",
+    "similaridade": 0.2522,
+    "fala_a": "A inteligência artificial já foi usada em eleições nos Estados Unidos e na Argentina, e há projetos de lei tramitando na Câmara dos Deputados e no Senado sobre o tema.",
+    "fala_b": "Há a necessidade de regulamentação e fiscalização do uso da inteligência artificial para garantir a lisura do processo eleitoral.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "15:1",
+    "fala_b_id": "15:2",
+    "deputado": "Andreia Siqueira",
+    "similaridade": 0.2521,
+    "fala_a": "Relata seus esforços para promover políticas públicas que garantam a inclusão e desenvolvimento das pessoas com TEA.",
+    "fala_b": "Destaca a importância da educação, saúde e oportunidades no mercado de trabalho para pessoas com TEA.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "121:2",
+    "fala_b_id": "121:3",
+    "deputado": "Gilvan da Federal",
+    "similaridade": 0.2518,
+    "fala_a": "Solicitou apoio do Ministro para a aprovação da Lei Orgânica da Polícia Federal.",
+    "fala_b": "Criticou a detenção de um jornalista português pela Polícia Federal e questionou se isso se tornaria uma prática comum.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "217:0",
+    "fala_b_id": "217:2",
+    "deputado": "Meire Serafim",
+    "similaridade": 0.2472,
+    "fala_a": "A distonia é uma condição neurológica debilitante que causa contrações musculares involuntárias, resultando em movimentos repetitivos e posturas anormais.",
+    "fala_b": "A audiência pública visa discutir a necessidade de ampliação do acesso a recursos e tratamentos para a distonia.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "35:4",
+    "fala_b_id": "35:5",
+    "deputado": "Dandara",
+    "similaridade": 0.2448,
+    "fala_a": "A importância de reforçar a função acadêmica exercida pela extensão universitária.",
+    "fala_b": "A extensão deve ser vista como um espaço problematizador, investigador e dialógico.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "96:3",
+    "fala_b_id": "96:6",
+    "deputado": "Rejane Dias",
+    "similaridade": 0.2433,
+    "fala_a": "Explicou que a audiência pública é para debater formas de aumentar a proteção dos direitos das crianças e das mulheres indígenas.",
+    "fala_b": "Apoiou a ideia da criação de uma CPI para investigar a violência contra as crianças, mulheres e povos indígenas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "216:0",
+    "fala_b_id": "216:1",
+    "deputado": "Cabo Gilberto Silva",
+    "similaridade": 0.2406,
+    "fala_a": "Critica as prisões arbitrárias e inconstitucionais.",
+    "fala_b": "Defende que houve abusos de direitos humanos nas prisões de 8 de janeiro.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "28:3",
+    "fala_b_id": "28:5",
+    "deputado": "Iza Arruda",
+    "similaridade": 0.2405,
+    "fala_a": "Enfatiza a importância da discussão sobre surtos de doenças nas Américas.",
+    "fala_b": "Destaca a relevância da presença do Dr. Jarbas Barbosa para a discussão.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "20:4",
+    "fala_b_id": "20:5",
+    "deputado": "Danilo Forte",
+    "similaridade": 0.24,
+    "fala_a": "Manifestou preocupação com a crise energética e a decisão política de substituir o Ministério de Minas e Energia.",
+    "fala_b": "Destacou a importância do diálogo e competência do Ministro Bento na superação da crise hídrica sem apagões ou racionamento de energia.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "71:1",
+    "fala_b_id": "71:2",
+    "deputado": "Luiz Lima",
+    "similaridade": 0.239,
+    "fala_a": "É importante valorizar os municípios que já têm políticas públicas voltadas ao paradesporto.",
+    "fala_b": "A Secretaria Nacional de Paradesporto deve ser abraçada e receber um orçamento adequado.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "102:8",
+    "fala_b_id": "102:11",
+    "deputado": "Talíria Petrone",
+    "similaridade": 0.239,
+    "fala_a": "Vivemos um momento muito dramático de extremos climáticos Brasil afora, mundo afora.",
+    "fala_b": "Precisamos de políticas públicas e programas que atendam emergencialmente quem vivencia as consequências desses eventos extremos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "191:1",
+    "fala_b_id": "191:3",
+    "deputado": "Reginete Bispo",
+    "similaridade": 0.2375,
+    "fala_a": "Destaca a necessidade de superação do racismo e machismo nas escolas.",
+    "fala_b": "Enfatizou a necessidade de políticas públicas para enfrentar a desigualdade e o racismo.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "20:7",
+    "fala_b_id": "20:11",
+    "deputado": "Danilo Forte",
+    "similaridade": 0.237,
+    "fala_a": "Enfatizou a necessidade de um diálogo sobre a precificação e eficiência na prestação de serviços de energia.",
+    "fala_b": "Enfatiza a necessidade de transparência e eficiência na aplicação dos recursos públicos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "124:4",
+    "fala_b_id": "124:5",
+    "deputado": "Sanderson",
+    "similaridade": 0.2365,
+    "fala_a": "As prisões em massa sem individualização são um abuso.",
+    "fala_b": "Denuncia a desmoralização do ordenamento jurídico brasileiro devido às arbitrariedades nas prisões.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "129:0",
+    "fala_b_id": "129:1",
+    "deputado": "Rafael Pezenti",
+    "similaridade": 0.2363,
+    "fala_a": "O PROAGRO tem sido suporte para milhões de pequenos agricultores e sofreu alterações substanciais desde o ano passado.",
+    "fala_b": "A audiência pública foi convocada devido a reclamações e sugestões de agricultores familiares sobre as novas regras do PROAGRO.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "160:0",
+    "fala_b_id": "160:3",
+    "deputado": "João Carlos Bacelar",
+    "similaridade": 0.2357,
+    "fala_a": "Critica o desrespeito da ENEL com os consumidores e o governo.",
+    "fala_b": "Propõe a caducidade do contrato da ENEL em São Paulo.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "150:0",
+    "fala_b_id": "150:4",
+    "deputado": "Coronel Fernanda",
+    "similaridade": 0.233,
+    "fala_a": "Agradeceu ao Presidente do INCRA por sua presença e destacou a importância do tema.",
+    "fala_b": "Denunciou que o Superintendente do INCRA estaria exigindo filiação ao PT para atendimento das pessoas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "54:2",
+    "fala_b_id": "54:5",
+    "deputado": "Gisela Simona",
+    "similaridade": 0.2322,
+    "fala_a": "Há necessidade de alternativas para evitar longos tempos de espera por peças em concessionárias.",
+    "fala_b": "O objetivo é buscar alternativas para que as fraudes não continuem acontecendo da forma que estão.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "196:1",
+    "fala_b_id": "196:2",
+    "deputado": "Franciane Bayer",
+    "similaridade": 0.2317,
+    "fala_a": "Questiona a prioridade do Governo em relação a temas de saúde pública.",
+    "fala_b": "Defende que temas polêmicos devem ser debatidos no Legislativo.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "10:7",
+    "fala_b_id": "10:8",
+    "deputado": "Airton Faleiro",
+    "similaridade": 0.2312,
+    "fala_a": "Enfatizou a importância da audiência pública para o aperfeiçoamento de projetos de lei, destacando a participação da sociedade nesse processo.",
+    "fala_b": "Afirmou que a audiência pública é um espaço para escuta e participação da sociedade, além de ser um espaço de aprimoramento das proposições legislativas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "102:0",
+    "fala_b_id": "102:2",
+    "deputado": "Talíria Petrone",
+    "similaridade": 0.2309,
+    "fala_a": "A audiência pública foi convocada devido à possibilidade da construção de quatro termelétricas a gás e 36 torres de transmissão na Baía de Sepetiba.",
+    "fala_b": "A construção das termelétricas está em desacordo com a legislação ambiental e não considerou o impacto ambiental nem a opinião das comunidades locais.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "216:1",
+    "fala_b_id": "216:2",
+    "deputado": "Cabo Gilberto Silva",
+    "similaridade": 0.2302,
+    "fala_a": "Defende que houve abusos de direitos humanos nas prisões de 8 de janeiro.",
+    "fala_b": "Argumenta que não houve golpe de Estado, mas sim depredação do patrimônio público.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "91:2",
+    "fala_b_id": "91:3",
+    "deputado": "Márcio Jerry",
+    "similaridade": 0.2299,
+    "fala_a": "Propôs a realização de uma reunião para extrair encaminhamentos concretos e ações que possam avançar as políticas para pessoas com deficiência.",
+    "fala_b": "Enfatizou a necessidade de um federalismo de políticas de defesa para pessoas com deficiência, promovendo uma relação federativa entre União, Estados e Municípios.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "54:2",
+    "fala_b_id": "54:3",
+    "deputado": "Gisela Simona",
+    "similaridade": 0.228,
+    "fala_a": "Há necessidade de alternativas para evitar longos tempos de espera por peças em concessionárias.",
+    "fala_b": "As oficinas devidamente credenciadas devem poder realizar reparos sem o monopólio das concessionárias.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "140:1",
+    "fala_b_id": "140:3",
+    "deputado": "Ismael Alexandrino",
+    "similaridade": 0.2267,
+    "fala_a": "A sociedade civil deve ser ouvida e respeitada.",
+    "fala_b": "Educação deve ser um eixo estruturante para políticas públicas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "37:0",
+    "fala_b_id": "37:1",
+    "deputado": "Bebeto",
+    "similaridade": 0.2243,
+    "fala_a": "Os acidentes de trânsito são um problema constante nas rodovias e nas capitais brasileiras.",
+    "fala_b": "Proposições como a criação de um corredor exclusivo para motos são importantes para reduzir acidentes.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "48:3",
+    "fala_b_id": "48:5",
+    "deputado": "Zé Silva",
+    "similaridade": 0.2243,
+    "fala_a": "A nova legislação em relação à chegada do 5G no Brasil é fundamental para a conectividade no meio rural.",
+    "fala_b": "A conectividade no campo é crucial para a inovação e a eficiência na agricultura.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "153:0",
+    "fala_b_id": "153:1",
+    "deputado": "Saulo Pedroso",
+    "similaridade": 0.2225,
+    "fala_a": "A portaria sinaliza a falta de previsibilidade em relação às ações do Governo e a maneira como tratam as relações entre trabalhador e empregador.",
+    "fala_b": "O Governo precisa mostrar tranquilidade, clareza e objetividade nas suas propostas, e se tiver que fazer alguma mudança, que não seja de maneira abrupta.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "189:0",
+    "fala_b_id": "189:1",
+    "deputado": "Lula da Fonte",
+    "similaridade": 0.2221,
+    "fala_a": "Criticou a alta das passagens aéreas e afirmou que as empresas aéreas praticam oligopólio.",
+    "fala_b": "Destacou a redução de alíquotas de PIS e COFINS sobre o transporte aéreo como incentivo para as companhias aéreas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "117:0",
+    "fala_b_id": "117:1",
+    "deputado": "Eduardo Barbosa",
+    "similaridade": 0.2217,
+    "fala_a": "Afirmou que o TDAH não deve ser considerado uma deficiência, exceto quando associado a outras deficiências.",
+    "fala_b": "Destacou a importância de uma política governamental adequada para atender pessoas com TDAH sem rotulá-las como incapazes.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "28:3",
+    "fala_b_id": "28:7",
+    "deputado": "Iza Arruda",
+    "similaridade": 0.2209,
+    "fala_a": "Enfatiza a importância da discussão sobre surtos de doenças nas Américas.",
+    "fala_b": "O teste do pezinho é fundamental para detectar doenças e garantir tratamento precoce.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "62:0",
+    "fala_b_id": "62:1",
+    "deputado": "Daniel Trzeciak",
+    "similaridade": 0.2205,
+    "fala_a": "Critica a decisão do STF de 2009 que dispensou a obrigatoriedade do diploma para jornalistas.",
+    "fala_b": "Argumenta que todas as profissões regulamentadas precisam da valorização do diploma.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "23:5",
+    "fala_b_id": "23:6",
+    "deputado": "Arnaldo Jardim",
+    "similaridade": 0.2204,
+    "fala_a": "Apoia a decisão de adiar a audiência até a presença do Presidente da ENEL.",
+    "fala_b": "Critica a gestão temerária da ENEL.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "192:0",
+    "fala_b_id": "192:2",
+    "deputado": "Caio Vianna",
+    "similaridade": 0.2204,
+    "fala_a": "A blockchain é uma tecnologia promissora para promover transparência, segurança e rastreabilidade nos serviços públicos.",
+    "fala_b": "A utilização de blockchain pode simplificar processos, garantir segurança e reduzir custos, como na transferência de propriedade de veículos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "69:3",
+    "fala_b_id": "69:6",
+    "deputado": "Dr. Zacharias Calil",
+    "similaridade": 0.2201,
+    "fala_a": "Ressalta a importância do diagnóstico precoce para melhores resultados no tratamento.",
+    "fala_b": "O SUS precisa revisar e atualizar seus protocolos clínicos para incluir diretrizes claras para o diagnóstico, tratamento e acompanhamento do EMD.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "22:1",
+    "fala_b_id": "22:3",
+    "deputado": "Joaquim Passarinho",
+    "similaridade": 0.2192,
+    "fala_a": "Destacou a importância da não cumulatividade de impostos.",
+    "fala_b": "Reforçou que a legislação tributária deve ser feita para o pagador de impostos, beneficiando a sociedade brasileira.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "64:0",
+    "fala_b_id": "64:3",
+    "deputado": "Rosângela Moro",
+    "similaridade": 0.2175,
+    "fala_a": "Requereu a audiência pública devido à preocupação com a saúde mental das crianças e adolescentes.",
+    "fala_b": "Propôs a inclusão de educação sobre saúde mental na grade curricular da educação básica.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "30:10",
+    "fala_b_id": "30:11",
+    "deputado": "Rogério Correia",
+    "similaridade": 0.2169,
+    "fala_a": "A crescente fragilização da atuação estatal e precarização das condições de trabalho aumentam a vulnerabilidade ao trabalho escravo.",
+    "fala_b": "Casos de trabalho análogo a escravo nas lavouras de café em Minas Gerais têm crescido, comprometendo a competitividade internacional dos produtos brasileiros.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "123:0",
+    "fala_b_id": "123:1",
+    "deputado": "Alberto Fraga",
+    "similaridade": 0.2165,
+    "fala_a": "Destacou a necessidade de respeito mútuo durante a audiência.",
+    "fala_b": "Afirmou a importância da atuação da Comissão e garantiu que o Ministro Lewandowski não seria destratado durante a sessão.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "52:0",
+    "fala_b_id": "52:1",
+    "deputado": "Prof. Paulo Fernando",
+    "similaridade": 0.216,
+    "fala_a": "A Comissão de Legislação Participativa aprovou o Requerimento nº 94, de 2023, para discutir a utilização da inteligência artificial nos processos eleitorais.",
+    "fala_b": "A inteligência artificial já foi usada em eleições nos Estados Unidos e na Argentina, e há projetos de lei tramitando na Câmara dos Deputados e no Senado sobre o tema.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "196:0",
+    "fala_b_id": "196:2",
+    "deputado": "Franciane Bayer",
+    "similaridade": 0.2151,
+    "fala_a": "Critica o uso de portarias e resoluções pelo Governo para tratar de temas como aborto e drogas.",
+    "fala_b": "Defende que temas polêmicos devem ser debatidos no Legislativo.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "121:0",
+    "fala_b_id": "121:1",
+    "deputado": "Gilvan da Federal",
+    "similaridade": 0.2125,
+    "fala_a": "Critica a defesa de terroristas e ataca os participantes da audiência que denunciaram Israel.",
+    "fala_b": "Defende o direito de Israel se proteger contra ataques do Hamas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "64:1",
+    "fala_b_id": "64:3",
+    "deputado": "Rosângela Moro",
+    "similaridade": 0.2123,
+    "fala_a": "Destacou a relação entre saúde mental e padrões de beleza estabelecidos pelas redes sociais.",
+    "fala_b": "Propôs a inclusão de educação sobre saúde mental na grade curricular da educação básica.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "36:0",
+    "fala_b_id": "36:2",
+    "deputado": "Juninho do Pneu",
+    "similaridade": 0.2106,
+    "fala_a": "As altas velocidades nas cidades brasileiras são um dos principais fatores de mortes e lesões no trânsito.",
+    "fala_b": "A conscientização da população é essencial para um trânsito mais seguro, além do uso de radares eletrônicos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "35:5",
+    "fala_b_id": "35:6",
+    "deputado": "Dandara",
+    "similaridade": 0.2082,
+    "fala_a": "A extensão deve ser vista como um espaço problematizador, investigador e dialógico.",
+    "fala_b": "É fundamental democratizar o acesso à ciência através da extensão.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "160:0",
+    "fala_b_id": "160:2",
+    "deputado": "João Carlos Bacelar",
+    "similaridade": 0.2075,
+    "fala_a": "Critica o desrespeito da ENEL com os consumidores e o governo.",
+    "fala_b": "Defende a convocação do Diretor Presidente da ENEL Brasil.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "150:2",
+    "fala_b_id": "150:4",
+    "deputado": "Coronel Fernanda",
+    "similaridade": 0.2063,
+    "fala_a": "Afirmou que o INCRA começou a trabalhar novamente com o governo Lula.",
+    "fala_b": "Denunciou que o Superintendente do INCRA estaria exigindo filiação ao PT para atendimento das pessoas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "161:0",
+    "fala_b_id": "161:2",
+    "deputado": "Alex Manente",
+    "similaridade": 0.2042,
+    "fala_a": "Critica a ausência do CEO nacional da ENEL na audiência.",
+    "fala_b": "Apoia a criação de uma CPI para investigar a ENEL.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "134:5",
+    "fala_b_id": "134:6",
+    "deputado": "Jorge Goetten",
+    "similaridade": 0.2041,
+    "fala_a": "A audiência pública visa debater a manutenção da taxa de juros e o impacto da inflação para as micro e pequenas empresas.",
+    "fala_b": "Citou que é comum a limitação da taxa de juros na economia mundial, conforme estudo do Banco Mundial, mencionando exemplos de Portugal e Reino Unido.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "176:0",
+    "fala_b_id": "176:1",
+    "deputado": "Delegado Éder Mauro",
+    "similaridade": 0.2039,
+    "fala_a": "Criticou o uso da Polícia Federal pelo Ministro da Justiça e pelo Governo Lula.",
+    "fala_b": "Defendeu a autonomia da Polícia Federal e expressou respeito pela instituição.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "55:1",
+    "fala_b_id": "55:2",
+    "deputado": "Benedita da Silva",
+    "similaridade": 0.2034,
+    "fala_a": "Enfatizou a necessidade de políticas afirmativas para a população negra e a resistência às desigualdades históricas.",
+    "fala_b": "Destacou o impacto da violência e da discriminação racial na juventude negra e a necessidade de ações concretas para mitigar esses problemas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "29:1",
+    "fala_b_id": "29:3",
+    "deputado": "Tereza Nelma",
+    "similaridade": 0.2033,
+    "fala_a": "Defendeu a inclusão do projeto Eu Me Protejo nas políticas públicas e sua divulgação nas escolas.",
+    "fala_b": "Alertou sobre a falta de pesquisas e políticas públicas direcionadas às mulheres com deficiência.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "150:3",
+    "fala_b_id": "150:4",
+    "deputado": "Coronel Fernanda",
+    "similaridade": 0.2026,
+    "fala_a": "Fez vários questionamentos sobre o impacto do Decreto nº 11.688 e as ações do INCRA.",
+    "fala_b": "Denunciou que o Superintendente do INCRA estaria exigindo filiação ao PT para atendimento das pessoas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "35:0",
+    "fala_b_id": "35:3",
+    "deputado": "Dandara",
+    "similaridade": 0.2011,
+    "fala_a": "O PIBID contribuiu enormemente para a formação e deve ser fortalecido.",
+    "fala_b": "A luta inclui a aprovação do PL 3.970/21 para tornar o PIBID uma política nacional e sua inclusão no novo Plano Nacional de Educação (PNE).",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "23:0",
+    "fala_b_id": "23:1",
+    "deputado": "Arnaldo Jardim",
+    "similaridade": 0.2007,
+    "fala_a": "A não cumulatividade e a manutenção da carga tributária são diretrizes importantes na regulamentação.",
+    "fala_b": "O protagonismo do Parlamento foi fundamental nas reformas previdenciária e tributária.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "136:0",
+    "fala_b_id": "136:2",
+    "deputado": "Sâmia Bomfim",
+    "similaridade": 0.1988,
+    "fala_a": "Apoia a regulamentação que amplie direitos e possibilidades para trabalhadores de aplicativos.",
+    "fala_b": "Destaca a necessidade de um processo mais amplo de escuta e mobilização dos trabalhadores.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "51:0",
+    "fala_b_id": "51:1",
+    "deputado": "Luizianne Lins",
+    "similaridade": 0.1983,
+    "fala_a": "Há um projeto de lei de sua autoria e da Deputada Ana Perugini sobre a economia do cuidado.",
+    "fala_b": "A política pública de cuidado deve ser uma prioridade na reconstrução do Brasil.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "149:0",
+    "fala_b_id": "149:1",
+    "deputado": "Antonio Brito",
+    "similaridade": 0.1978,
+    "fala_a": "A luta contra a tuberculose é uma prioridade.",
+    "fala_b": "A Comissão Externa sobre Propostas para Análise do Enfrentamento da Tuberculose é essencial para acompanhar os compromissos internacionais do Brasil.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "109:3",
+    "fala_b_id": "109:4",
+    "deputado": "Augusto Coutinho",
+    "similaridade": 0.1975,
+    "fala_a": "Parabenizou a postura do governo brasileiro em relação ao conflito Israel-Palestina, destacando a eficiência na repatriação de cidadãos brasileiros.",
+    "fala_b": "Agradeceu ao Ministro das Relações Exteriores e ao Ministro da Defesa pela atenção dada aos brasileiros no conflito.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "144:1",
+    "fala_b_id": "144:3",
+    "deputado": "Jonas Donizette",
+    "similaridade": 0.1969,
+    "fala_a": "Destacou a importância do Brasil participar de fóruns internacionais de debate de política externa, dadas as dimensões territoriais e econômicas do país.",
+    "fala_b": "Defendeu a postura do governo brasileiro de sempre buscar a paz em conflitos internacionais e mencionou a divisão política interna como um desafio.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "117:0",
+    "fala_b_id": "117:2",
+    "deputado": "Eduardo Barbosa",
+    "similaridade": 0.1967,
+    "fala_a": "Afirmou que o TDAH não deve ser considerado uma deficiência, exceto quando associado a outras deficiências.",
+    "fala_b": "Defendeu que uma abordagem adequada pode garantir uma vida ativa e produtiva para pessoas com TDAH.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "213:0",
+    "fala_b_id": "213:4",
+    "deputado": "Ana Pimentel",
+    "similaridade": 0.1967,
+    "fala_a": "Criticou a hipocrisia dos que defendem a vida mas ignoram a violência sexual contra meninas.",
+    "fala_b": "Criticou a naturalização da violência pelo Estado e a polarização entre cidadãos e polícia.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "199:0",
+    "fala_b_id": "199:1",
+    "deputado": "Evair Vieira de Melo",
+    "similaridade": 0.1961,
+    "fala_a": "A taxa de aprovação do último REVALIDA foi de apenas 3,75%, a menor desde o início do exame em 2011.",
+    "fala_b": "O REVALIDA é necessário para que brasileiros ou estrangeiros formados em medicina no exterior possam trabalhar no Brasil.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "53:2",
+    "fala_b_id": "53:4",
+    "deputado": "Jorge Braz",
+    "similaridade": 0.1887,
+    "fala_a": "A economia circular é uma base importante para a ideia do 'right to repair'.",
+    "fala_b": "A importância de desenvolver uma base legislativa auxiliar no Brasil.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "145:2",
+    "fala_b_id": "145:4",
+    "deputado": "Julio Lopes",
+    "similaridade": 0.1874,
+    "fala_a": "Relata problemas climáticos como causadores de interrupções de energia.",
+    "fala_b": "Critica a falta de solução prática e realista para os problemas enfrentados.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "128:3",
+    "fala_b_id": "128:4",
+    "deputado": "Hugo Leal",
+    "similaridade": 0.1863,
+    "fala_a": "Critica a falta de avaliação contínua das concessões de longa duração.",
+    "fala_b": "Defende mudanças legislativas para melhorar a gestão e fiscalização das concessões de energia.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "168:0",
+    "fala_b_id": "168:1",
+    "deputado": "Prof. Reginaldo Veras",
+    "similaridade": 0.1863,
+    "fala_a": "Propôs uma emenda à PEC para permitir que professores atuem como microempreendedores individuais (MEI), regularizando atividades como palestras e consultorias.",
+    "fala_b": "Argumentou que isso tiraria muitos professores da ilegalidade e resolveria questões de declaração de renda extra.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "89:1",
+    "fala_b_id": "89:2",
+    "deputado": "Lídice da Mata",
+    "similaridade": 0.1859,
+    "fala_a": "A necessidade de integração das ações de extensão nas políticas públicas de Estado.",
+    "fala_b": "Defendeu a inclusão da extensão na prioridade da pauta do Ministério da Educação.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "187:2",
+    "fala_b_id": "187:3",
+    "deputado": "Neto Carletto",
+    "similaridade": 0.1856,
+    "fala_a": "Destacou a importância de conhecer todos os benefícios concedidos pelo governo às empresas aéreas.",
+    "fala_b": "Questionou os altos preços das passagens aéreas e a cobrança de bagagem.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "23:4",
+    "fala_b_id": "23:7",
+    "deputado": "Arnaldo Jardim",
+    "similaridade": 0.1852,
+    "fala_a": "Destaca a importância de considerar o ciclo de vida dos combustíveis e das tecnologias adotadas.",
+    "fala_b": "Destaca a importância de discutir a renovação das concessões de distribuição de energia.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "26:1",
+    "fala_b_id": "26:2",
+    "deputado": "Lucas Ramos",
+    "similaridade": 0.1848,
+    "fala_a": "Destacou a importância do comércio eletrônico para a economia brasileira.",
+    "fala_b": "Afirmou a necessidade de modernizar a legislação vigente para adequar-se às novas realidades do comércio digital.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "213:0",
+    "fala_b_id": "213:3",
+    "deputado": "Ana Pimentel",
+    "similaridade": 0.1846,
+    "fala_a": "Criticou a hipocrisia dos que defendem a vida mas ignoram a violência sexual contra meninas.",
+    "fala_b": "Ressaltou a importância da audiência para debater e buscar avanços nas políticas públicas de combate à violência contra as mulheres.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "22:0",
+    "fala_b_id": "22:3",
+    "deputado": "Joaquim Passarinho",
+    "similaridade": 0.184,
+    "fala_a": "É essencial que os projetos complementares da reforma tributária não elevem a carga tributária atual.",
+    "fala_b": "Reforçou que a legislação tributária deve ser feita para o pagador de impostos, beneficiando a sociedade brasileira.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "26:7",
+    "fala_b_id": "26:8",
+    "deputado": "Lucas Ramos",
+    "similaridade": 0.1829,
+    "fala_a": "Enfatiza a necessidade de construção de um debate pautado no diálogo e na inclusão de todas as partes interessadas.",
+    "fala_b": "Reconhece a dedicação do Ministro do Trabalho, Luiz Marinho, na construção de uma redação interessante para todos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "88:3",
+    "fala_b_id": "88:4",
+    "deputado": "Daiana Santos",
+    "similaridade": 0.1812,
+    "fala_a": "É necessário debater a situação da falta de vagas no sistema público de creches.",
+    "fala_b": "Devemos considerar a diversidade das famílias brasileiras ao criar modelos de creches.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "115:1",
+    "fala_b_id": "115:2",
+    "deputado": "Fábio Trad",
+    "similaridade": 0.1807,
+    "fala_a": "Agradeceu a contribuição de Yuri Maia e ressaltou a importância de suas sugestões para o aprimoramento do Projeto de Lei nº 2.630/2021.",
+    "fala_b": "Destacou a necessidade de reunir o maior número possível de contribuições e sugestões para elaborar uma lei eficaz, inteligente e justa.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "22:2",
+    "fala_b_id": "22:3",
+    "deputado": "Joaquim Passarinho",
+    "similaridade": 0.1801,
+    "fala_a": "Enfatizou a necessidade de um amplo debate para que as sugestões da sociedade sejam analisadas e integradas à legislação.",
+    "fala_b": "Reforçou que a legislação tributária deve ser feita para o pagador de impostos, beneficiando a sociedade brasileira.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "128:2",
+    "fala_b_id": "128:3",
+    "deputado": "Hugo Leal",
+    "similaridade": 0.1799,
+    "fala_a": "Destaca a necessidade de uma maior participação dos Estados e Municípios na regulação e fiscalização das concessões.",
+    "fala_b": "Critica a falta de avaliação contínua das concessões de longa duração.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "89:1",
+    "fala_b_id": "89:3",
+    "deputado": "Lídice da Mata",
+    "similaridade": 0.1796,
+    "fala_a": "A necessidade de integração das ações de extensão nas políticas públicas de Estado.",
+    "fala_b": "Afirmou que a extensão universitária é fundamental para a permanência dos estudantes.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "76:6",
+    "fala_b_id": "76:7",
+    "deputado": "Glauber Braga",
+    "similaridade": 0.1781,
+    "fala_a": "Parabenizou a operação de repatriação de brasileiros, mas criticou a posição do Brasil em relação ao Estado de Israel.",
+    "fala_b": "Questionou por que o Brasil não classifica as ações de Israel como terrorismo, dado o alto número de mortes de civis palestinos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "80:3",
+    "fala_b_id": "80:4",
+    "deputado": "Rodrigo Agostinho",
+    "similaridade": 0.1779,
+    "fala_a": "A transição energética deve ser acelerada para abandonar o carvão e os combustíveis fósseis.",
+    "fala_b": "Não faz sentido para o Brasil, que possui uma matriz energética limpa, investir em larga escala no gás.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "8:1",
+    "fala_b_id": "8:2",
+    "deputado": "Alexandre Lindenmeyer",
+    "similaridade": 0.1771,
+    "fala_a": "Defende a regulamentação dos trabalhadores de aplicativo, garantindo direitos trabalhistas como 13º salário e férias.",
+    "fala_b": "Apoio ao patamar mínimo de remuneração para motoristas de aplicativo.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "80:0",
+    "fala_b_id": "80:1",
+    "deputado": "Rodrigo Agostinho",
+    "similaridade": 0.1764,
+    "fala_a": "Ressaltou que o IBAMA não está se recusando a autorizar a exploração de petróleo na região, mas está seguindo critérios técnicos rigorosos.",
+    "fala_b": "Afirmou que a região da Margem Equatorial é sensível e exige uma análise detalhada dos impactos ambientais.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "125:0",
+    "fala_b_id": "125:1",
+    "deputado": "Rodolfo Nogueira",
+    "similaridade": 0.1762,
+    "fala_a": "Criticou a fuga de presos de Mossoró como um reflexo do descaso do Governo com a segurança pública.",
+    "fala_b": "Questionou o Ministro sobre as medidas tomadas após a fuga e sobre a construção de muralhas em presídios.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "25:0",
+    "fala_b_id": "25:3",
+    "deputado": "Aguinaldo Ribeiro",
+    "similaridade": 0.1755,
+    "fala_a": "A construção da reforma tributária envolveu amplo diálogo e a participação de diversas frentes parlamentares.",
+    "fala_b": "A reforma tributária visa criar um ambiente de negócios favorável, gerando emprego e renda, e aumentando a arrecadação para políticas sociais.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "162:2",
+    "fala_b_id": "162:3",
+    "deputado": "Max Lemos",
+    "similaridade": 0.1724,
+    "fala_a": "Aponta falhas na prestação de serviços e falta de investimentos.",
+    "fala_b": "Ressalta a necessidade de segurança jurídica para investimentos privados no setor.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "38:0",
+    "fala_b_id": "38:1",
+    "deputado": "Jilmar Tatto",
+    "similaridade": 0.1715,
+    "fala_a": "Reduzir a velocidade máxima nas vias urbanas é essencial para diminuir o número de acidentes.",
+    "fala_b": "Políticas de redução de velocidade podem economizar recursos significativos para o sistema de saúde e previdência.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "160:2",
+    "fala_b_id": "160:3",
+    "deputado": "João Carlos Bacelar",
+    "similaridade": 0.1707,
+    "fala_a": "Defende a convocação do Diretor Presidente da ENEL Brasil.",
+    "fala_b": "Propõe a caducidade do contrato da ENEL em São Paulo.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "149:1",
+    "fala_b_id": "149:2",
+    "deputado": "Antonio Brito",
+    "similaridade": 0.1684,
+    "fala_a": "A Comissão Externa sobre Propostas para Análise do Enfrentamento da Tuberculose é essencial para acompanhar os compromissos internacionais do Brasil.",
+    "fala_b": "É necessário aumentar o orçamento destinado ao combate à tuberculose.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "24:5",
+    "fala_b_id": "24:6",
+    "deputado": "Domingos Sávio",
+    "similaridade": 0.1679,
+    "fala_a": "Solicita foco em questões de saúde pública em vez de matérias de costume.",
+    "fala_b": "Critica a falta de audiências com a Ministra para discutir saúde pública.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "32:0",
+    "fala_b_id": "32:2",
+    "deputado": "Duda Salabert",
+    "similaridade": 0.1675,
+    "fala_a": "O caso da Braskem em Maceió é o maior crime socioambiental em curso no Brasil.",
+    "fala_b": "Há uma relação íntima entre os crimes ambientais em Maceió e em Minas Gerais, demonstrando um padrão criminoso e irresponsável das mineradoras.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "24:0",
+    "fala_b_id": "24:1",
+    "deputado": "Domingos Sávio",
+    "similaridade": 0.1647,
+    "fala_a": "A transição para o novo modelo tributário deve ser simplificada, objetiva e clara.",
+    "fala_b": "Expressou preocupação com os impactos da transição nos municípios e na vida das empresas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "162:4",
+    "fala_b_id": "162:5",
+    "deputado": "Max Lemos",
+    "similaridade": 0.1638,
+    "fala_a": "Enfatiza a importância da universalização do saneamento e da redução de tarifas.",
+    "fala_b": "Menciona a urgência de investimento no saneamento para melhorar a qualidade de vida e a condição ambiental do país.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "17:5",
+    "fala_b_id": "17:10",
+    "deputado": "Aureo Ribeiro",
+    "similaridade": 0.1635,
+    "fala_a": "Convidou os participantes para expor suas opiniões e agradeceu pela presença.",
+    "fala_b": "Critica a qualidade do serviço ofertado pela ENEL.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "51:0",
+    "fala_b_id": "51:7",
+    "deputado": "Luizianne Lins",
+    "similaridade": 0.1635,
+    "fala_a": "Há um projeto de lei de sua autoria e da Deputada Ana Perugini sobre a economia do cuidado.",
+    "fala_b": "Destacou a importância da Lei Maria da Penha e sua necessidade de atualizações.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "201:0",
+    "fala_b_id": "201:1",
+    "deputado": "Bandeira de Mello",
+    "similaridade": 0.1633,
+    "fala_a": "Questiona a carga tributária sobre as apostas esportivas e sua viabilidade.",
+    "fala_b": "Busca entender como a outorga será paga e a adesão das empresas ao processo de legalização das apostas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "17:1",
+    "fala_b_id": "17:2",
+    "deputado": "Aureo Ribeiro",
+    "similaridade": 0.1621,
+    "fala_a": "Criticou a empresa por desrespeitar a CPI ao buscar audiência com o Ministro do Turismo no mesmo horário da audiência da Comissão.",
+    "fala_b": "Questionou sobre a sustentabilidade dos pacotes da Linha Promo e a relação da empresa com as companhias aéreas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "32:2",
+    "fala_b_id": "32:3",
+    "deputado": "Duda Salabert",
+    "similaridade": 0.1614,
+    "fala_a": "Há uma relação íntima entre os crimes ambientais em Maceió e em Minas Gerais, demonstrando um padrão criminoso e irresponsável das mineradoras.",
+    "fala_b": "Os donos da Braskem deveriam estar presos pelos crimes cometidos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "41:0",
+    "fala_b_id": "41:2",
+    "deputado": "Tarcísio Motta",
+    "similaridade": 0.1599,
+    "fala_a": "O debate sobre a educação indígena é fundamental.",
+    "fala_b": "A necessidade de entender as especificidades da educação em um país multiétnico.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "55:0",
+    "fala_b_id": "55:2",
+    "deputado": "Benedita da Silva",
+    "similaridade": 0.1595,
+    "fala_a": "Expressou a importância da homenagem recebida e a luta pela igualdade racial e pelos direitos humanos.",
+    "fala_b": "Destacou o impacto da violência e da discriminação racial na juventude negra e a necessidade de ações concretas para mitigar esses problemas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "162:0",
+    "fala_b_id": "162:1",
+    "deputado": "Max Lemos",
+    "similaridade": 0.1588,
+    "fala_a": "Relata problemas contínuos da ENEL no Rio de Janeiro.",
+    "fala_b": "Defende a convocação do Presidente da ENEL para a Comissão.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "91:3",
+    "fala_b_id": "91:4",
+    "deputado": "Márcio Jerry",
+    "similaridade": 0.1587,
+    "fala_a": "Enfatizou a necessidade de um federalismo de políticas de defesa para pessoas com deficiência, promovendo uma relação federativa entre União, Estados e Municípios.",
+    "fala_b": "Anunciou a realização de um seminário para debater a inclusão das pessoas com deficiência em nível federal, estadual e municipal.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "192:0",
+    "fala_b_id": "192:1",
+    "deputado": "Caio Vianna",
+    "similaridade": 0.1581,
+    "fala_a": "A blockchain é uma tecnologia promissora para promover transparência, segurança e rastreabilidade nos serviços públicos.",
+    "fala_b": "É fundamental garantir que os dados públicos sejam perenes e auditáveis, sem a necessidade de exclusão.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "15:0",
+    "fala_b_id": "15:2",
+    "deputado": "Andreia Siqueira",
+    "similaridade": 0.1576,
+    "fala_a": "Agradece aos convidados e destaca a importância da audiência pública.",
+    "fala_b": "Destaca a importância da educação, saúde e oportunidades no mercado de trabalho para pessoas com TEA.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "96:5",
+    "fala_b_id": "96:6",
+    "deputado": "Rejane Dias",
+    "similaridade": 0.1571,
+    "fala_a": "Enfatizou a necessidade de estruturar melhor os órgãos responsáveis pela proteção dos povos indígenas e garantir recursos no orçamento para a execução dessas políticas públicas.",
+    "fala_b": "Apoiou a ideia da criação de uma CPI para investigar a violência contra as crianças, mulheres e povos indígenas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "75:0",
+    "fala_b_id": "75:1",
+    "deputado": "Márcio Marinho",
+    "similaridade": 0.1561,
+    "fala_a": "Artes marciais promovem disciplina, respeito, autocontrole e superação pessoal.",
+    "fala_b": "São ferramentas importantes de inclusão social, oferecendo oportunidades de desenvolvimento pessoal e profissional para jovens em situação de vulnerabilidade.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "62:1",
+    "fala_b_id": "62:2",
+    "deputado": "Daniel Trzeciak",
+    "similaridade": 0.1537,
+    "fala_a": "Argumenta que todas as profissões regulamentadas precisam da valorização do diploma.",
+    "fala_b": "Defende que a ausência de diploma prejudica a credibilidade do jornalismo em tempos de fake news.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "17:5",
+    "fala_b_id": "17:11",
+    "deputado": "Aureo Ribeiro",
+    "similaridade": 0.1536,
+    "fala_a": "Convidou os participantes para expor suas opiniões e agradeceu pela presença.",
+    "fala_b": "Defende a necessidade de abrir a discussão sobre os dados apresentados pela ANEEL.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "92:2",
+    "fala_b_id": "92:3",
+    "deputado": "Paulo Fernando",
+    "similaridade": 0.1536,
+    "fala_a": "A questão do suicídio entre os idosos é uma preocupação crescente.",
+    "fala_b": "Proposta para que o tempo de confirmação do voto dos idosos seja aumentado para evitar erros durante as eleições.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "28:0",
+    "fala_b_id": "28:1",
+    "deputado": "Iza Arruda",
+    "similaridade": 0.1534,
+    "fala_a": "Destacou a importância de discutir a violência contra mulheres com deficiência para sensibilizar a sociedade e o aparato estatal.",
+    "fala_b": "Afirmou que a audiência visa discutir soluções práticas para a proteção e bem-estar dessas mulheres.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "186:3",
+    "fala_b_id": "186:5",
+    "deputado": "Silvia Cristina",
+    "similaridade": 0.1533,
+    "fala_a": "Criticou a alta nos preços das passagens aéreas em Rondônia e a falta de respostas das companhias aéreas.",
+    "fala_b": "Defendeu a necessidade de respostas claras e respeito aos passageiros do Norte do Brasil.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "185:0",
+    "fala_b_id": "185:1",
+    "deputado": "Paulão",
+    "similaridade": 0.1522,
+    "fala_a": "A importância de debater as terapias gênicas no tratamento de doenças raras para o setor farmacêutico.",
+    "fala_b": "A necessidade de tornar o conteúdo acessível à sociedade e evitar a criação de lobby no setor.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "40:1",
+    "fala_b_id": "40:2",
+    "deputado": "Juliana Cardoso",
+    "similaridade": 0.152,
+    "fala_a": "A falta de políticas específicas para o ensino médio indígena.",
+    "fala_b": "Os avanços na gestão do Presidente Lula com as cotas indígenas no ensino universitário.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "187:0",
+    "fala_b_id": "187:3",
+    "deputado": "Neto Carletto",
+    "similaridade": 0.1513,
+    "fala_a": "Solicitou a exposição de dados sobre os custos e dificuldades das empresas aéreas.",
+    "fala_b": "Questionou os altos preços das passagens aéreas e a cobrança de bagagem.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "154:0",
+    "fala_b_id": "154:2",
+    "deputado": "Alencar Santana",
+    "similaridade": 0.1511,
+    "fala_a": "Critica o debate sobre a vacinação obrigatória, considerando-o um reflexo da sabotagem do governo anterior.",
+    "fala_b": "Defende a obrigatoriedade da vacinação para proteger a vida das crianças.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "59:0",
+    "fala_b_id": "59:1",
+    "deputado": "Socorro Neri",
+    "similaridade": 0.1494,
+    "fala_a": "Importância do PARFOR para a qualidade da educação básica no Brasil.",
+    "fala_b": "Criticou a expansão da educação a distância para a formação de professores.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "174:0",
+    "fala_b_id": "174:1",
+    "deputado": "Guilherme Boulos",
+    "similaridade": 0.1486,
+    "fala_a": "Defendeu o fortalecimento do programa Minha Casa, Minha Vida Entidades.",
+    "fala_b": "Elogiou o Programa Periferia Viva por levar serviços e infraestrutura para as periferias.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "218:0",
+    "fala_b_id": "218:1",
+    "deputado": "Carlos Abicalil",
+    "similaridade": 0.1467,
+    "fala_a": "As cotas são uma ferramenta fundamental no combate ao racismo estrutural.",
+    "fala_b": "A resistência contra as cotas é intensa, mas a luta pela sua manutenção e aprimoramento deve continuar.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "106:1",
+    "fala_b_id": "106:2",
+    "deputado": "Enio Verri",
+    "similaridade": 0.1465,
+    "fala_a": "A privatização da PETROBRAS não aumentará a concorrência e resultará em maiores custos para a população.",
+    "fala_b": "A audiência pública visa discutir os impactos econômicos e sociais da privatização da SIX em São Mateus do Sul e na região.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "62:0",
+    "fala_b_id": "62:2",
+    "deputado": "Daniel Trzeciak",
+    "similaridade": 0.146,
+    "fala_a": "Critica a decisão do STF de 2009 que dispensou a obrigatoriedade do diploma para jornalistas.",
+    "fala_b": "Defende que a ausência de diploma prejudica a credibilidade do jornalismo em tempos de fake news.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "41:1",
+    "fala_b_id": "41:4",
+    "deputado": "Tarcísio Motta",
+    "similaridade": 0.1453,
+    "fala_a": "As mudanças no ensino médio durante o Governo Temer prejudicaram a qualidade da educação.",
+    "fala_b": "A cultura foi essencial durante a pandemia para a saúde mental da população.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "42:3",
+    "fala_b_id": "42:4",
+    "deputado": "Chico Alencar",
+    "similaridade": 0.144,
+    "fala_a": "Destaca a imprevisibilidade dos tempos atuais e a necessidade de incorporar novas realidades nas políticas públicas.",
+    "fala_b": "Menciona o impacto das guerras na Ucrânia e Gaza no meio ambiente e a importância da centralidade das questões climáticas nas políticas públicas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "80:0",
+    "fala_b_id": "80:2",
+    "deputado": "Rodrigo Agostinho",
+    "similaridade": 0.1438,
+    "fala_a": "Ressaltou que o IBAMA não está se recusando a autorizar a exploração de petróleo na região, mas está seguindo critérios técnicos rigorosos.",
+    "fala_b": "Mencionou a importância de estudos e planos robustos de emergência para garantir a viabilidade ambiental da exploração.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "134:1",
+    "fala_b_id": "134:5",
+    "deputado": "Jorge Goetten",
+    "similaridade": 0.1436,
+    "fala_a": "Lamentou a situação vergonhosa de ter que discutir a manutenção do PERSE.",
+    "fala_b": "A audiência pública visa debater a manutenção da taxa de juros e o impacto da inflação para as micro e pequenas empresas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "34:1",
+    "fala_b_id": "34:2",
+    "deputado": "Henrique Vieira",
+    "similaridade": 0.1431,
+    "fala_a": "Defesa da democracia e pluralidade, afirmando que a extrema direita nega a diversidade e a república.",
+    "fala_b": "Defende a importância da Conferência Nacional de Saúde como instrumento de democracia e participação popular.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "51:3",
+    "fala_b_id": "51:7",
+    "deputado": "Luizianne Lins",
+    "similaridade": 0.14,
+    "fala_a": "Destacou a importância da Constituição de 1988 e a luta contínua pelos direitos da classe trabalhadora, mulheres, população indígena, negra, quilombola e comunidade LGBTQIA+.",
+    "fala_b": "Destacou a importância da Lei Maria da Penha e sua necessidade de atualizações.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "143:0",
+    "fala_b_id": "143:1",
+    "deputado": "Flávio Nogueira",
+    "similaridade": 0.1398,
+    "fala_a": "Parabenizou o Ministro Mauro Vieira pela exposição e destacou a importância da diplomacia brasileira na construção da doutrina da política externa independente.",
+    "fala_b": "Defendeu a continuidade dessa doutrina, que inclui a não aprovação de agressões a países e o respeito à soberania das nações.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "157:1",
+    "fala_b_id": "157:2",
+    "deputado": "Jandira Feghali",
+    "similaridade": 0.1385,
+    "fala_a": "Há resistência nas leis de incentivo ao cinema nacional, tanto no setor quanto no Parlamento.",
+    "fala_b": "A questão das janelas de exibição deve ser debatida para evitar que um único player ocupe muitas salas, prejudicando o cinema brasileiro.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "61:0",
+    "fala_b_id": "61:1",
+    "deputado": "Amaro Neto",
+    "similaridade": 0.1364,
+    "fala_a": "Defende a obrigatoriedade do diploma de jornalismo para garantir um exercício ético, responsável e profissional da profissão.",
+    "fala_b": "Acredita que a graduação em Jornalismo demonstra uma formação específica e dedicada, garantindo o conhecimento técnico e teórico necessário para a prática jornalística.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "79:0",
+    "fala_b_id": "79:1",
+    "deputado": "José Priante",
+    "similaridade": 0.1352,
+    "fala_a": "Presidiu a reunião de audiência pública para debater a exploração de petróleo e gás na foz do Rio Amazonas.",
+    "fala_b": "Anunciou os expositores e convidados da audiência pública.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "3:1",
+    "fala_b_id": "3:2",
+    "deputado": "Arlindo Chinaglia",
+    "similaridade": 0.1329,
+    "fala_a": "Criticou a posição de Israel no conflito com a Palestina, destacando a necessidade de resolver a questão de forma negociada.",
+    "fala_b": "Defendeu a posição histórica da ONU de dois Estados e ressaltou o sofrimento do povo palestino.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "206:0",
+    "fala_b_id": "206:1",
+    "deputado": "Fernanda Pessoa",
+    "similaridade": 0.1329,
+    "fala_a": "É crucial levar o teste do pezinho para todos os hospitais do SUS para garantir a eficácia do diagnóstico precoce.",
+    "fala_b": "O teste deve ser realizado o mais rápido possível, idealmente em até 48 horas após o nascimento.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "82:1",
+    "fala_b_id": "82:3",
+    "deputado": "Ricardo Salles",
+    "similaridade": 0.1313,
+    "fala_a": "Questiona a eficácia do programa de reforma agrária e a gestão das listas de assentados pelo INCRA.",
+    "fala_b": "Reconhece que a gestão Bolsonaro estabeleceu critérios de seleção de famílias e editais para assentamentos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "40:2",
+    "fala_b_id": "40:3",
+    "deputado": "Juliana Cardoso",
+    "similaridade": 0.1311,
+    "fala_a": "Os avanços na gestão do Presidente Lula com as cotas indígenas no ensino universitário.",
+    "fala_b": "A necessidade de subsídios para materiais didáticos e a permanência dos estudantes indígenas nas universidades.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "92:1",
+    "fala_b_id": "92:2",
+    "deputado": "Paulo Fernando",
+    "similaridade": 0.1304,
+    "fala_a": "Expressa preocupação com a dependência tecnológica em crianças e os efeitos na saúde neonatal.",
+    "fala_b": "A questão do suicídio entre os idosos é uma preocupação crescente.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "34:2",
+    "fala_b_id": "34:4",
+    "deputado": "Henrique Vieira",
+    "similaridade": 0.1296,
+    "fala_a": "Defende a importância da Conferência Nacional de Saúde como instrumento de democracia e participação popular.",
+    "fala_b": "Defende a regulação do aborto como medida de saúde pública para reduzir procedimentos inseguros.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "134:3",
+    "fala_b_id": "134:4",
+    "deputado": "Jorge Goetten",
+    "similaridade": 0.1272,
+    "fala_a": "Agradeceu ao Secretário Wolnei e ao Armin Braun pelo apoio prestado em Santa Catarina durante desastres.",
+    "fala_b": "Destacou a importância de uma política pública aliada a um fundo para desastres e uma carreira para a defesa civil.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "145:0",
+    "fala_b_id": "145:1",
+    "deputado": "Julio Lopes",
+    "similaridade": 0.1259,
+    "fala_a": "Elogiou a atuação do governo brasileiro na repatriação de cidadãos e destacou a importância da sustentabilidade global.",
+    "fala_b": "Comentou sobre a necessidade de acordos multilaterais para o desenvolvimento do programa nuclear brasileiro.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "147:1",
+    "fala_b_id": "147:2",
+    "deputado": "Pedro Aihara",
+    "similaridade": 0.1249,
+    "fala_a": "Sugeriu a possibilidade de condicionar até 5% das emendas parlamentares para desastres.",
+    "fala_b": "Defendeu a criação de centros de estudos e pesquisas sobre desastres para fortalecer o sistema de alarmes e monitoramento.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "106:0",
+    "fala_b_id": "106:1",
+    "deputado": "Enio Verri",
+    "similaridade": 0.1236,
+    "fala_a": "Privatizações têm sido prejudiciais para a população brasileira, favorecendo oligopólios privados.",
+    "fala_b": "A privatização da PETROBRAS não aumentará a concorrência e resultará em maiores custos para a população.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "61:0",
+    "fala_b_id": "61:2",
+    "deputado": "Amaro Neto",
+    "similaridade": 0.1216,
+    "fala_a": "Defende a obrigatoriedade do diploma de jornalismo para garantir um exercício ético, responsável e profissional da profissão.",
+    "fala_b": "Argumenta que o diploma confere credibilidade e confiança tanto para veículos de comunicação quanto para o público.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "82:2",
+    "fala_b_id": "82:6",
+    "deputado": "Ricardo Salles",
+    "similaridade": 0.1215,
+    "fala_a": "Defende que a norma administrativa infralegal não deve sobrepor-se aos princípios constitucionais de impessoalidade.",
+    "fala_b": "O licenciamento ambiental deve encontrar maneiras de dizer 'sim' com condicionantes, em vez de apenas negar.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "99:0",
+    "fala_b_id": "99:1",
+    "deputado": "Paulo Teixeira",
+    "similaridade": 0.1207,
+    "fala_a": "A audiência pública foi organizada para debater a extinção de Varas da Justiça do Trabalho.",
+    "fala_b": "A audiência pública teve um papel importante na suspensão do art. 27 da Resolução nº 296 até 2023.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "164:0",
+    "fala_b_id": "164:1",
+    "deputado": "Celso Russomanno",
+    "similaridade": 0.1201,
+    "fala_a": "Relata diversas reclamações de consumidores sobre a falta de energia.",
+    "fala_b": "Critica a falta de investimento e atendimento da ENEL.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "76:6",
+    "fala_b_id": "76:8",
+    "deputado": "Glauber Braga",
+    "similaridade": 0.1181,
+    "fala_a": "Parabenizou a operação de repatriação de brasileiros, mas criticou a posição do Brasil em relação ao Estado de Israel.",
+    "fala_b": "Solicitou o fim imediato dos acordos de cooperação militar e de segurança com Israel.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "76:7",
+    "fala_b_id": "76:8",
+    "deputado": "Glauber Braga",
+    "similaridade": 0.1166,
+    "fala_a": "Questionou por que o Brasil não classifica as ações de Israel como terrorismo, dado o alto número de mortes de civis palestinos.",
+    "fala_b": "Solicitou o fim imediato dos acordos de cooperação militar e de segurança com Israel.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "104:0",
+    "fala_b_id": "104:3",
+    "deputado": "Maria do Rosário",
+    "similaridade": 0.1123,
+    "fala_a": "Destaca a importância da Frente Parlamentar em Defesa dos Direitos da Criança e do Adolescente.",
+    "fala_b": "Enfatiza a importância de políticas estruturantes no tema da renda e a valorização dos conselhos de direitos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "180:1",
+    "fala_b_id": "180:4",
+    "deputado": "Luisa Canziani",
+    "similaridade": 0.1088,
+    "fala_a": "A Comissão de Ciência, Tecnologia e Inovação aprovou a Lei Geral das Atividades Espaciais para trazer mais segurança jurídica à exploração do espaço no Brasil.",
+    "fala_b": "Mencionou a possibilidade de uma segunda rodada de discussões sobre o Marco Legal da Inovação.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "77:0",
+    "fala_b_id": "77:1",
+    "deputado": "Fernanda Melchionna",
+    "similaridade": 0.1085,
+    "fala_a": "Critica a reforma da previdência dos militares enviada pelo Governo Bolsonaro, afirmando que ela foi injusta com a maioria dos servidores das Forças Armadas.",
+    "fala_b": "Defende que a Lei nº 13.954, de 2019, gerou desigualdade e penalizou os militares de patentes mais baixas, enquanto beneficiou o alto escalão.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "90:0",
+    "fala_b_id": "90:2",
+    "deputado": "Castro Neto",
+    "similaridade": 0.1067,
+    "fala_a": "Destacou a importância do debate sobre etarismo, um preconceito que afeta tanto idosos quanto jovens.",
+    "fala_b": "Mencionou a apresentação do Projeto de Lei nº 2.419, de 2023, para especificar as formas de violência contra idosos e acelerar a adoção de medidas protetivas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "193:1",
+    "fala_b_id": "193:2",
+    "deputado": "Matheus Laiola",
+    "similaridade": 0.1065,
+    "fala_a": "Desde o início do mandato, tem trabalhado para implementar uma política nacional de controle populacional.",
+    "fala_b": "É necessário obter orçamento para viabilizar a política pública de proteção animal.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "210:0",
+    "fala_b_id": "210:1",
+    "deputado": "Átila Lira",
+    "similaridade": 0.1059,
+    "fala_a": "O projeto de lei busca criar um novo programa de bolsas para ampliar o acesso dos jovens carentes ao ensino superior.",
+    "fala_b": "O FIES foi transformado em um programa bancário após 2017, o que dificultou a inscrição e conclusão dos cursos pelos alunos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "56:3",
+    "fala_b_id": "56:4",
+    "deputado": "Pastor Henrique Vieira",
+    "similaridade": 0.104,
+    "fala_a": "Dividiu a responsabilidade da audiência pública com a Deputada Ana Paula Lima.",
+    "fala_b": "Participou e coordenou as discussões durante a audiência.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "114:0",
+    "fala_b_id": "114:1",
+    "deputado": "Flávia Morais",
+    "similaridade": 0.104,
+    "fala_a": "Destaca a relevância do tema para criar oportunidades para a juventude e melhorar a legislação para oferecer mais oportunidades aos jovens.",
+    "fala_b": "Enfatiza a necessidade de fortalecer as políticas de incentivo à juventude e acredita na importância da educação técnica profissional.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "29:2",
+    "fala_b_id": "29:3",
+    "deputado": "Tereza Nelma",
+    "similaridade": 0.1034,
+    "fala_a": "Ressaltou a necessidade de um maior número de delegacias especializadas e varas criminais para proteção das mulheres.",
+    "fala_b": "Alertou sobre a falta de pesquisas e políticas públicas direcionadas às mulheres com deficiência.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "218:0",
+    "fala_b_id": "218:2",
+    "deputado": "Carlos Abicalil",
+    "similaridade": 0.1031,
+    "fala_a": "As cotas são uma ferramenta fundamental no combate ao racismo estrutural.",
+    "fala_b": "A implementação das cotas trouxe avanços significativos, mas ainda há desafios a serem enfrentados, como a redução da renda familiar per capita para ampliar a base assistida.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "213:3",
+    "fala_b_id": "213:4",
+    "deputado": "Ana Pimentel",
+    "similaridade": 0.1023,
+    "fala_a": "Ressaltou a importância da audiência para debater e buscar avanços nas políticas públicas de combate à violência contra as mulheres.",
+    "fala_b": "Criticou a naturalização da violência pelo Estado e a polarização entre cidadãos e polícia.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "3:0",
+    "fala_b_id": "3:1",
+    "deputado": "Arlindo Chinaglia",
+    "similaridade": 0.1017,
+    "fala_a": "Criticou a falta de equilíbrio na escolha dos painelistas para a audiência pública.",
+    "fala_b": "Criticou a posição de Israel no conflito com a Palestina, destacando a necessidade de resolver a questão de forma negociada.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "53:3",
+    "fala_b_id": "53:4",
+    "deputado": "Jorge Braz",
+    "similaridade": 0.1011,
+    "fala_a": "O Brasil ainda não tem uma legislação específica sobre o tema.",
+    "fala_b": "A importância de desenvolver uma base legislativa auxiliar no Brasil.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "95:0",
+    "fala_b_id": "95:1",
+    "deputado": "Leleco Pimentel",
+    "similaridade": 0.0993,
+    "fala_a": "Critica as mineradoras pelo contínuo impacto ambiental e social nas bacias hidrográficas.",
+    "fala_b": "Chama atenção para a necessidade de reconhecimento e certificação do tempo de profissão dos pescadores pelo Estado.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "152:1",
+    "fala_b_id": "152:2",
+    "deputado": "Luiz Couto",
+    "similaridade": 0.0969,
+    "fala_a": "Destacou o aumento dos casos de violência contra a mulher conforme dados do Fórum Brasileiro de Segurança Pública.",
+    "fala_b": "Ressaltou a subnotificação como um problema e a necessidade de garantir segurança às vítimas para denunciar.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "147:0",
+    "fala_b_id": "147:1",
+    "deputado": "Pedro Aihara",
+    "similaridade": 0.0937,
+    "fala_a": "Enfatizou a importância de derrubar o veto ao PL 920/23 para garantir recursos contínuos para prevenção e resposta a desastres.",
+    "fala_b": "Sugeriu a possibilidade de condicionar até 5% das emendas parlamentares para desastres.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "104:0",
+    "fala_b_id": "104:1",
+    "deputado": "Maria do Rosário",
+    "similaridade": 0.0936,
+    "fala_a": "Destaca a importância da Frente Parlamentar em Defesa dos Direitos da Criança e do Adolescente.",
+    "fala_b": "Ressalta as obstruções atuais para garantir os direitos básicos das crianças.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "147:0",
+    "fala_b_id": "147:2",
+    "deputado": "Pedro Aihara",
+    "similaridade": 0.0931,
+    "fala_a": "Enfatizou a importância de derrubar o veto ao PL 920/23 para garantir recursos contínuos para prevenção e resposta a desastres.",
+    "fala_b": "Defendeu a criação de centros de estudos e pesquisas sobre desastres para fortalecer o sistema de alarmes e monitoramento.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "104:1",
+    "fala_b_id": "104:3",
+    "deputado": "Maria do Rosário",
+    "similaridade": 0.0909,
+    "fala_a": "Ressalta as obstruções atuais para garantir os direitos básicos das crianças.",
+    "fala_b": "Enfatiza a importância de políticas estruturantes no tema da renda e a valorização dos conselhos de direitos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "218:1",
+    "fala_b_id": "218:2",
+    "deputado": "Carlos Abicalil",
+    "similaridade": 0.0906,
+    "fala_a": "A resistência contra as cotas é intensa, mas a luta pela sua manutenção e aprimoramento deve continuar.",
+    "fala_b": "A implementação das cotas trouxe avanços significativos, mas ainda há desafios a serem enfrentados, como a redução da renda familiar per capita para ampliar a base assistida.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "27:0",
+    "fala_b_id": "27:3",
+    "deputado": "Fernando Mineiro",
+    "similaridade": 0.0879,
+    "fala_a": "Anunciou os especialistas convidados para o debate.",
+    "fala_b": "Sugeriu a realização de audiências públicas para ampliar o debate e considerar os impactos da PEC em todos os níveis de ensino.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "144:4",
+    "fala_b_id": "144:5",
+    "deputado": "Jonas Donizette",
+    "similaridade": 0.0873,
+    "fala_a": "Autor do requerimento que motivou a reunião para debater a mobilidade urbana e a segurança no trânsito.",
+    "fala_b": "Enfatizou a importância de debater o tema sob a perspectiva de ciclistas e pedestres.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "12:0",
+    "fala_b_id": "12:6",
+    "deputado": "Bohn Gass",
+    "similaridade": 0.0848,
+    "fala_a": "Critica a extinção do Ministério do Trabalho pelo governo anterior.",
+    "fala_b": "Criticou o sucateamento do INCRA no governo passado e elogiou os esforços atuais de regularização.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "36:1",
+    "fala_b_id": "36:4",
+    "deputado": "Juninho do Pneu",
+    "similaridade": 0.0837,
+    "fala_a": "A segurança viária deve ser prioridade nas ações públicas, especialmente para pedestres e ciclistas.",
+    "fala_b": "Perguntou sobre as ações da ANAC diante desses atrasos e cancelamentos e as variações de reajuste nas passagens aéreas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "145:1",
+    "fala_b_id": "145:3",
+    "deputado": "Julio Lopes",
+    "similaridade": 0.0837,
+    "fala_a": "Comentou sobre a necessidade de acordos multilaterais para o desenvolvimento do programa nuclear brasileiro.",
+    "fala_b": "Defende a necessidade de investimentos em redes de abastecimento subterrâneas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "12:0",
+    "fala_b_id": "12:4",
+    "deputado": "Bohn Gass",
+    "similaridade": 0.0816,
+    "fala_a": "Critica a extinção do Ministério do Trabalho pelo governo anterior.",
+    "fala_b": "A crítica à alta taxa de juros e à autonomia do Banco Central.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "33:0",
+    "fala_b_id": "33:1",
+    "deputado": "Eduardo Bolsonaro",
+    "similaridade": 0.0813,
+    "fala_a": "Crítica ao Movimento Brasil Livre (MBL) por desestabilizar a democracia ao pregar o voto nulo.",
+    "fala_b": "Defesa de uma oposição mais uníssona e crítica ao governo atual, chamando a atenção para a necessidade de um debate maduro sem acusações de racismo, sexismo, misoginia ou xenofobia.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "140:4",
+    "fala_b_id": "140:5",
+    "deputado": "Ismael Alexandrino",
+    "similaridade": 0.0807,
+    "fala_a": "Propõe uma legislação mais estruturada para urgência e emergência em saúde pública.",
+    "fala_b": "Defende uma discussão ampliada sobre o Sistema Único de Saúde, incluindo o setor privado.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "191:0",
+    "fala_b_id": "191:2",
+    "deputado": "Reginete Bispo",
+    "similaridade": 0.0772,
+    "fala_a": "Declara aberta a reunião para debater os desafios na educação de meninas e mulheres negras.",
+    "fala_b": "Salienta a importância de legislações que garantam a igualdade racial na educação.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "77:1",
+    "fala_b_id": "77:2",
+    "deputado": "Fernanda Melchionna",
+    "similaridade": 0.0677,
+    "fala_a": "Defende que a Lei nº 13.954, de 2019, gerou desigualdade e penalizou os militares de patentes mais baixas, enquanto beneficiou o alto escalão.",
+    "fala_b": "Propõe a realização da audiência pública para debater e lutar pela reparação das injustiças causadas pela referida lei.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "199:1",
+    "fala_b_id": "199:2",
+    "deputado": "Evair Vieira de Melo",
+    "similaridade": 0.0664,
+    "fala_a": "O REVALIDA é necessário para que brasileiros ou estrangeiros formados em medicina no exterior possam trabalhar no Brasil.",
+    "fala_b": "Destacou a importância da criação de mecanismos para autonomia financeira das instituições de ensino no Brasil.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "192:1",
+    "fala_b_id": "192:2",
+    "deputado": "Caio Vianna",
+    "similaridade": 0.0656,
+    "fala_a": "É fundamental garantir que os dados públicos sejam perenes e auditáveis, sem a necessidade de exclusão.",
+    "fala_b": "A utilização de blockchain pode simplificar processos, garantir segurança e reduzir custos, como na transferência de propriedade de veículos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "159:0",
+    "fala_b_id": "159:1",
+    "deputado": "Luiza Erundina",
+    "similaridade": 0.0626,
+    "fala_a": "Defende a atualização do marco legal da Lei nº 9.612, de 1998, devido às mudanças tecnológicas nos últimos 25 anos.",
+    "fala_b": "Ressalta a importância de uma nova lei que contemple as inovações e desafios atuais das rádios comunitárias.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "14:0",
+    "fala_b_id": "14:1",
+    "deputado": "Weliton Prado",
+    "similaridade": 0.0622,
+    "fala_a": "Destaca a importância da audiência pública para debater o Dia Mundial de Conscientização sobre o Autismo.",
+    "fala_b": "A importância da prevenção e rastreamento mamográfico para salvar vidas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "177:0",
+    "fala_b_id": "177:2",
+    "deputado": "Nikolas Ferreira",
+    "similaridade": 0.0616,
+    "fala_a": "Criticou a atuação do Ministro da Justiça em relação aos manifestantes do dia 8 de janeiro.",
+    "fala_b": "Criticou a Ministra por não responder se acredita que um homem pode gestar ou menstruar, questionando sua posição sobre direitos trans.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "107:0",
+    "fala_b_id": "107:1",
+    "deputado": "Felipe Rigoni",
+    "similaridade": 0.0606,
+    "fala_a": "O projeto visa criar um Código de Defesa do Pagador de Impostos, que garanta aos bons contribuintes maior defesa e estabilidade econômica, sem prejudicar a capacidade de fiscalização da Receita.",
+    "fala_b": "Destaca a importância da audiência para ouvir as preocupações e sugestões de diferentes setores para aprimorar o relatório do projeto.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "205:0",
+    "fala_b_id": "205:1",
+    "deputado": "Lafayette de Andrada",
+    "similaridade": 0.06,
+    "fala_a": "A exploração de petróleo na foz do Rio Amazonas deve ser considerada devido ao potencial econômico significativo.",
+    "fala_b": "Pequenas hidrelétricas são essenciais para o sistema elétrico brasileiro e seu licenciamento deve ser facilitado.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "141:0",
+    "fala_b_id": "141:1",
+    "deputado": "Silvia Waiãpi",
+    "similaridade": 0.0549,
+    "fala_a": "Critica a hipocrisia de países desenvolvidos que cobram ações do Brasil enquanto continuam a emitir gases poluentes.",
+    "fala_b": "Destaca as dificuldades enfrentadas pela população do Norte do Brasil devido às políticas ambientais restritivas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "24:2",
+    "fala_b_id": "24:3",
+    "deputado": "Domingos Sávio",
+    "similaridade": 0.049,
+    "fala_a": "Alertou para a necessidade de justiça fiscal e cuidado para não cometer erros que possam prejudicar o País.",
+    "fala_b": "A necessidade de atenção ao setor do leite devido à concorrência predatória das importações.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "155:0",
+    "fala_b_id": "155:2",
+    "deputado": "Osmar Terra",
+    "similaridade": 0.0461,
+    "fala_a": "Critica a obrigatoriedade da vacinação contra a COVID-19 para crianças, argumentando que outras vacinas, como as contra pólio e difteria, imunizam efetivamente, o que não seria o caso da vacina contra a COVID-19.",
+    "fala_b": "Critica o lockdown, afirmando que ele aumentou o contágio em casa.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "56:0",
+    "fala_b_id": "56:2",
+    "deputado": "Pastor Henrique Vieira",
+    "similaridade": 0.0448,
+    "fala_a": "Destacou o compromisso com a pauta da juventude negra e a necessidade de políticas públicas transversais e multidisciplinares.",
+    "fala_b": "Criticou a naturalização da violência e do racismo e a necessidade de uma mudança cultural e estrutural na sociedade brasileira.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "135:0",
+    "fala_b_id": "135:2",
+    "deputado": "Reimont",
+    "similaridade": 0.0405,
+    "fala_a": "Destaca a importância do fortalecimento orçamentário do Ministério dos Direitos Humanos.",
+    "fala_b": "Enfatiza a importância de discutir o envelhecimento com dignidade e a mobilidade urbana adequada para idosos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "181:0",
+    "fala_b_id": "181:2",
+    "deputado": "Tião Medeiros",
+    "similaridade": 0.0381,
+    "fala_a": "Declarou aberta a reunião extraordinária de audiência pública para debater os prejuízos das enchentes nas cidades mais afetadas do Rio Grande do Sul.",
+    "fala_b": "Enfatizou a importância de manter o foco nos temas específicos da audiência para garantir um debate produtivo.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "111:0",
+    "fala_b_id": "111:1",
+    "deputado": "Josenildo",
+    "similaridade": 0.0368,
+    "fala_a": "A audiência pública tem como objetivo debater e ouvir todos os atores envolvidos no PLP 12, incluindo motoristas de aplicativos, entidades representativas, empresas e o governo, para chegar a uma decisão que beneficie a todos.",
+    "fala_b": "A importância de manter a ordem e a calma durante a audiência para garantir um resultado produtivo e positivo.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "144:0",
+    "fala_b_id": "144:1",
+    "deputado": "Jonas Donizette",
+    "similaridade": 0.0363,
+    "fala_a": "Criticou a ausência de alguns autores dos requerimentos durante a audiência e ressaltou a importância de debates construtivos.",
+    "fala_b": "Destacou a importância do Brasil participar de fóruns internacionais de debate de política externa, dadas as dimensões territoriais e econômicas do país.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "42:0",
+    "fala_b_id": "42:4",
+    "deputado": "Chico Alencar",
+    "similaridade": 0.0342,
+    "fala_a": "A maioria dos representantes políticos não reconhece a importância da presença indígena.",
+    "fala_b": "Menciona o impacto das guerras na Ucrânia e Gaza no meio ambiente e a importância da centralidade das questões climáticas nas políticas públicas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "1:0",
+    "fala_b_id": "1:2",
+    "deputado": "Marcel van Hattem",
+    "similaridade": 0.032,
+    "fala_a": "Reforçou a importância da exposição internacional dos Twitter Files para mostrar as ordens ilegais e inconstitucionais de censura no Brasil.",
+    "fala_b": "Destacou a importância de não deixar a tragédia cair no esquecimento e de continuar trabalhando para implementar as soluções prometidas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "0:0",
+    "fala_b_id": "0:1",
+    "deputado": "Lucas Redecker",
+    "similaridade": 0.0,
+    "fala_a": "Destacou a importância da audiência para discutir a censura e a liberdade de expressão no Brasil.",
+    "fala_b": "Agradeceu a presença dos convidados e organizou a sequência de falas dos deputados e convidados.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "1:2",
+    "fala_b_id": "1:3",
+    "deputado": "Marcel van Hattem",
+    "similaridade": 0.0,
+    "fala_a": "Destacou a importância de não deixar a tragédia cair no esquecimento e de continuar trabalhando para implementar as soluções prometidas.",
+    "fala_b": "Agradece a participação de advogados e defensores dos direitos humanos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "1:1",
+    "fala_b_id": "1:3",
+    "deputado": "Marcel van Hattem",
+    "similaridade": 0.0,
+    "fala_a": "Agradeceu ao Deputado Tião Medeiros pela sensibilidade em organizar a audiência pública.",
+    "fala_b": "Agradece a participação de advogados e defensores dos direitos humanos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "3:0",
+    "fala_b_id": "3:2",
+    "deputado": "Arlindo Chinaglia",
+    "similaridade": 0.0,
+    "fala_a": "Criticou a falta de equilíbrio na escolha dos painelistas para a audiência pública.",
+    "fala_b": "Defendeu a posição histórica da ONU de dois Estados e ressaltou o sofrimento do povo palestino.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "4:0",
+    "fala_b_id": "4:1",
+    "deputado": "Mario Frias",
+    "similaridade": 0.0,
+    "fala_a": "Afirmou que o Brasil vive sob uma sombra de incerteza quanto aos limites da democracia.",
+    "fala_b": "Criticou a censura e defendeu que as questões de difamação e acusação devem ser tratadas juridicamente, sem a necessidade de novas leis.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "6:0",
+    "fala_b_id": "6:1",
+    "deputado": "Odair Cunha",
+    "similaridade": 0.0,
+    "fala_a": "Preocupação com a assertividade no diagnóstico do apagão.",
+    "fala_b": "Defesa da retomada do debate sobre a participação do governo na ELETROBRAS.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "7:4",
+    "fala_b_id": "7:5",
+    "deputado": "Capitão Alberto Neto",
+    "similaridade": 0.0,
+    "fala_a": "Defende um ambiente de negócios saudável e questiona a competitividade dos aplicativos com táxis.",
+    "fala_b": "Acredita que o representante do Ministério do Trabalho deve ter mais tempo para explicar a proposta do Governo.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "7:3",
+    "fala_b_id": "7:5",
+    "deputado": "Capitão Alberto Neto",
+    "similaridade": 0.0,
+    "fala_a": "Preocupação com o impacto da regulamentação sobre motoristas de aplicativo, especialmente sobre a criação de sindicatos e piso para hora trabalhada.",
+    "fala_b": "Acredita que o representante do Ministério do Trabalho deve ter mais tempo para explicar a proposta do Governo.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "9:0",
+    "fala_b_id": "9:1",
+    "deputado": "Lindbergh Farias",
+    "similaridade": 0.0,
+    "fala_a": "Reflexão sobre a contradição entre a percepção da população sobre emprego e os dados econômicos positivos.",
+    "fala_b": "Enfatiza a necessidade de focar no crescimento econômico.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "11:0",
+    "fala_b_id": "11:1",
+    "deputado": "Vicentinho",
+    "similaridade": 0.0,
+    "fala_a": "Destaca a importância da política de recuperação do poder aquisitivo do salário mínimo.",
+    "fala_b": "A audiência foi convocada para debater o encerramento ou suspensão das atividades em fábricas do setor automobilístico no Brasil.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "12:5",
+    "fala_b_id": "12:6",
+    "deputado": "Bohn Gass",
+    "similaridade": 0.0,
+    "fala_a": "A defesa da sustentabilidade e da pecuária familiar.",
+    "fala_b": "Criticou o sucateamento do INCRA no governo passado e elogiou os esforços atuais de regularização.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "14:2",
+    "fala_b_id": "14:3",
+    "deputado": "Weliton Prado",
+    "similaridade": 0.0,
+    "fala_a": "A luta pela implementação e cumprimento da Lei dos 30 e dos 60 dias.",
+    "fala_b": "A proposta de criação de um fundo nacional de enfrentamento ao câncer, utilizando recursos novos como acordos judiciais e criptomoedas apreendidas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "14:1",
+    "fala_b_id": "14:3",
+    "deputado": "Weliton Prado",
+    "similaridade": 0.0,
+    "fala_a": "A importância da prevenção e rastreamento mamográfico para salvar vidas.",
+    "fala_b": "A proposta de criação de um fundo nacional de enfrentamento ao câncer, utilizando recursos novos como acordos judiciais e criptomoedas apreendidas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "15:0",
+    "fala_b_id": "15:1",
+    "deputado": "Andreia Siqueira",
+    "similaridade": 0.0,
+    "fala_a": "Agradece aos convidados e destaca a importância da audiência pública.",
+    "fala_b": "Relata seus esforços para promover políticas públicas que garantam a inclusão e desenvolvimento das pessoas com TEA.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "18:0",
+    "fala_b_id": "18:1",
+    "deputado": "Ricardo Silva",
+    "similaridade": 0.0,
+    "fala_a": "Mencionou a necessidade de transparência por parte dos convocados, independentemente de sua fama ou posição social.",
+    "fala_b": "Destacou o caso 123Milhas como emblemático e importante para a investigação da CPI.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "19:1",
+    "fala_b_id": "19:2",
+    "deputado": "Igor Timo",
+    "similaridade": 0.0,
+    "fala_a": "Sugeriu que a recuperação judicial poderia ser um artifício para ganhar tempo e evitar ações judiciais contra a empresa.",
+    "fala_b": "Destacou a importância de tratar a questão com clareza para defender o interesse público.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "19:0",
+    "fala_b_id": "19:2",
+    "deputado": "Igor Timo",
+    "similaridade": 0.0,
+    "fala_a": "Questionou sobre a transparência e a saúde financeira da 123Milhas.",
+    "fala_b": "Destacou a importância de tratar a questão com clareza para defender o interesse público.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "19:0",
+    "fala_b_id": "19:1",
+    "deputado": "Igor Timo",
+    "similaridade": 0.0,
+    "fala_a": "Questionou sobre a transparência e a saúde financeira da 123Milhas.",
+    "fala_b": "Sugeriu que a recuperação judicial poderia ser um artifício para ganhar tempo e evitar ações judiciais contra a empresa.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "21:2",
+    "fala_b_id": "21:3",
+    "deputado": "Pedro Lupion",
+    "similaridade": 0.0,
+    "fala_a": "Defendeu a redução de 60% nas alíquotas de insumos e produtos agropecuários.",
+    "fala_b": "Manifestou-se contra a teoria do cashback na tributação da cesta básica, afirmando que alimento mais barato na gôndola significa melhores preços para o consumidor.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "21:1",
+    "fala_b_id": "21:3",
+    "deputado": "Pedro Lupion",
+    "similaridade": 0.0,
+    "fala_a": "Destacou a importância das imunidades na exportação e do regime específico de combustíveis e biocombustíveis.",
+    "fala_b": "Manifestou-se contra a teoria do cashback na tributação da cesta básica, afirmando que alimento mais barato na gôndola significa melhores preços para o consumidor.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "21:1",
+    "fala_b_id": "21:2",
+    "deputado": "Pedro Lupion",
+    "similaridade": 0.0,
+    "fala_a": "Destacou a importância das imunidades na exportação e do regime específico de combustíveis e biocombustíveis.",
+    "fala_b": "Defendeu a redução de 60% nas alíquotas de insumos e produtos agropecuários.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "25:2",
+    "fala_b_id": "25:3",
+    "deputado": "Aguinaldo Ribeiro",
+    "similaridade": 0.0,
+    "fala_a": "É fundamental que o governo e o legislativo coordenem a tramitação dos projetos complementares com serenidade e segurança.",
+    "fala_b": "A reforma tributária visa criar um ambiente de negócios favorável, gerando emprego e renda, e aumentando a arrecadação para políticas sociais.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "25:1",
+    "fala_b_id": "25:3",
+    "deputado": "Aguinaldo Ribeiro",
+    "similaridade": 0.0,
+    "fala_a": "A regulamentação deve preservar os princípios e conceitos aprovados na emenda constitucional.",
+    "fala_b": "A reforma tributária visa criar um ambiente de negócios favorável, gerando emprego e renda, e aumentando a arrecadação para políticas sociais.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "27:2",
+    "fala_b_id": "27:3",
+    "deputado": "Fernando Mineiro",
+    "similaridade": 0.0,
+    "fala_a": "Destacou a complexidade do tema e a necessidade de ouvir entidades representativas dos professores e conselhos de secretários de educação.",
+    "fala_b": "Sugeriu a realização de audiências públicas para ampliar o debate e considerar os impactos da PEC em todos os níveis de ensino.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "27:1",
+    "fala_b_id": "27:3",
+    "deputado": "Fernando Mineiro",
+    "similaridade": 0.0,
+    "fala_a": "Comentou sobre a importância das informações para o planejamento dos órgãos públicos estaduais, federais e municipais.",
+    "fala_b": "Sugeriu a realização de audiências públicas para ampliar o debate e considerar os impactos da PEC em todos os níveis de ensino.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "38:1",
+    "fala_b_id": "38:2",
+    "deputado": "Jilmar Tatto",
+    "similaridade": 0.0,
+    "fala_a": "Políticas de redução de velocidade podem economizar recursos significativos para o sistema de saúde e previdência.",
+    "fala_b": "É necessário investir em calçadas, transporte alternativo, ciclovias, transporte coletivo e infraestrutura urbana.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "38:0",
+    "fala_b_id": "38:2",
+    "deputado": "Jilmar Tatto",
+    "similaridade": 0.0,
+    "fala_a": "Reduzir a velocidade máxima nas vias urbanas é essencial para diminuir o número de acidentes.",
+    "fala_b": "É necessário investir em calçadas, transporte alternativo, ciclovias, transporte coletivo e infraestrutura urbana.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "40:1",
+    "fala_b_id": "40:3",
+    "deputado": "Juliana Cardoso",
+    "similaridade": 0.0,
+    "fala_a": "A falta de políticas específicas para o ensino médio indígena.",
+    "fala_b": "A necessidade de subsídios para materiais didáticos e a permanência dos estudantes indígenas nas universidades.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "42:2",
+    "fala_b_id": "42:4",
+    "deputado": "Chico Alencar",
+    "similaridade": 0.0,
+    "fala_a": "A educação deve ser uma ferramenta para mudar o modo de viver e promover o bem viver.",
+    "fala_b": "Menciona o impacto das guerras na Ucrânia e Gaza no meio ambiente e a importância da centralidade das questões climáticas nas políticas públicas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "50:1",
+    "fala_b_id": "50:2",
+    "deputado": "Paulo Guedes",
+    "similaridade": 0.0,
+    "fala_a": "Reforçou a necessidade de cobrar ações do Governo Federal e do Governo de Minas.",
+    "fala_b": "Destacou a importância de novos financiamentos, renegociação de dívidas e fornecimento de cestas básicas e sementes.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "50:0",
+    "fala_b_id": "50:2",
+    "deputado": "Paulo Guedes",
+    "similaridade": 0.0,
+    "fala_a": "Parabenizou os participantes pela audiência pública.",
+    "fala_b": "Destacou a importância de novos financiamentos, renegociação de dívidas e fornecimento de cestas básicas e sementes.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "50:0",
+    "fala_b_id": "50:1",
+    "deputado": "Paulo Guedes",
+    "similaridade": 0.0,
+    "fala_a": "Parabenizou os participantes pela audiência pública.",
+    "fala_b": "Reforçou a necessidade de cobrar ações do Governo Federal e do Governo de Minas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "55:0",
+    "fala_b_id": "55:1",
+    "deputado": "Benedita da Silva",
+    "similaridade": 0.0,
+    "fala_a": "Expressou a importância da homenagem recebida e a luta pela igualdade racial e pelos direitos humanos.",
+    "fala_b": "Enfatizou a necessidade de políticas afirmativas para a população negra e a resistência às desigualdades históricas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "57:2",
+    "fala_b_id": "57:3",
+    "deputado": "Ana Paula Lima",
+    "similaridade": 0.0,
+    "fala_a": "Anunciou a presença dos convidados e organizou a ordem das falas.",
+    "fala_b": "Agradeceu a defesa civil nacional pelo trabalho em Santa Catarina.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "57:1",
+    "fala_b_id": "57:3",
+    "deputado": "Ana Paula Lima",
+    "similaridade": 0.0,
+    "fala_a": "Reiterou a importância de debater o aumento dos atos de violência em escolas e creches.",
+    "fala_b": "Agradeceu a defesa civil nacional pelo trabalho em Santa Catarina.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "57:1",
+    "fala_b_id": "57:2",
+    "deputado": "Ana Paula Lima",
+    "similaridade": 0.0,
+    "fala_a": "Reiterou a importância de debater o aumento dos atos de violência em escolas e creches.",
+    "fala_b": "Anunciou a presença dos convidados e organizou a ordem das falas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "63:1",
+    "fala_b_id": "63:2",
+    "deputado": "Eduardo Velloso",
+    "similaridade": 0.0,
+    "fala_a": "Parabenizou a Unilever pelo papel em melhorar a autoestima das mulheres.",
+    "fala_b": "Comentou sobre sua própria experiência de infância com preocupações relacionadas à aparência física.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "63:0",
+    "fala_b_id": "63:2",
+    "deputado": "Eduardo Velloso",
+    "similaridade": 0.0,
+    "fala_a": "A importância do debate sobre a saúde mental de crianças e adolescentes devido ao impacto das redes sociais.",
+    "fala_b": "Comentou sobre sua própria experiência de infância com preocupações relacionadas à aparência física.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "63:0",
+    "fala_b_id": "63:1",
+    "deputado": "Eduardo Velloso",
+    "similaridade": 0.0,
+    "fala_a": "A importância do debate sobre a saúde mental de crianças e adolescentes devido ao impacto das redes sociais.",
+    "fala_b": "Parabenizou a Unilever pelo papel em melhorar a autoestima das mulheres.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "67:0",
+    "fala_b_id": "67:1",
+    "deputado": "Isnaldo Bulhões Jr.",
+    "similaridade": 0.0,
+    "fala_a": "Enfatiza a importância de debates permanentes para buscar segurança na legislação eleitoral.",
+    "fala_b": "Parabeniza a condução do debate e a participação de diversos especialistas na discussão.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "68:0",
+    "fala_b_id": "68:1",
+    "deputado": "Coronel Meira",
+    "similaridade": 0.0,
+    "fala_a": "Destaca a necessidade de unir forças para alcançar um denominador comum em prol do povo brasileiro.",
+    "fala_b": "Esclarece que a audiência visa discutir os PLs nº 1.565, de 2019, e nº 877, de 2022, que alteram a LESTA para regulamentar o serviço de praticagem.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "71:0",
+    "fala_b_id": "71:2",
+    "deputado": "Luiz Lima",
+    "similaridade": 0.0,
+    "fala_a": "A inclusão social se inicia com o fortalecimento pessoal das pessoas com deficiência.",
+    "fala_b": "A Secretaria Nacional de Paradesporto deve ser abraçada e receber um orçamento adequado.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "71:0",
+    "fala_b_id": "71:1",
+    "deputado": "Luiz Lima",
+    "similaridade": 0.0,
+    "fala_a": "A inclusão social se inicia com o fortalecimento pessoal das pessoas com deficiência.",
+    "fala_b": "É importante valorizar os municípios que já têm políticas públicas voltadas ao paradesporto.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "74:2",
+    "fala_b_id": "74:3",
+    "deputado": "Manuel Domingos Neto",
+    "similaridade": 0.0,
+    "fala_a": "Destacou a necessidade de uma reforma simultânea da defesa nacional e da segurança pública.",
+    "fala_b": "Afirmou que as Forças Armadas brasileiras têm um distúrbio de personalidade funcional, não sabendo se são militares ou policiais.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "75:2",
+    "fala_b_id": "75:3",
+    "deputado": "Márcio Marinho",
+    "similaridade": 0.0,
+    "fala_a": "A reunião foi convocada para debater os reajustes dos planos de saúde.",
+    "fala_b": "A Comissão de Defesa do Consumidor atua como mediadora entre consumidores e empresas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "75:1",
+    "fala_b_id": "75:3",
+    "deputado": "Márcio Marinho",
+    "similaridade": 0.0,
+    "fala_a": "São ferramentas importantes de inclusão social, oferecendo oportunidades de desenvolvimento pessoal e profissional para jovens em situação de vulnerabilidade.",
+    "fala_b": "A Comissão de Defesa do Consumidor atua como mediadora entre consumidores e empresas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "77:0",
+    "fala_b_id": "77:2",
+    "deputado": "Fernanda Melchionna",
+    "similaridade": 0.0,
+    "fala_a": "Critica a reforma da previdência dos militares enviada pelo Governo Bolsonaro, afirmando que ela foi injusta com a maioria dos servidores das Forças Armadas.",
+    "fala_b": "Propõe a realização da audiência pública para debater e lutar pela reparação das injustiças causadas pela referida lei.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "78:0",
+    "fala_b_id": "78:1",
+    "deputado": "Albuquerque",
+    "similaridade": 0.0,
+    "fala_a": "Participa na condução dos trabalhos da audiência pública.",
+    "fala_b": "Defende melhorias no sistema de proteção social dos militares.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "83:0",
+    "fala_b_id": "83:1",
+    "deputado": "Defensor Stélio Dener",
+    "similaridade": 0.0,
+    "fala_a": "A Lei Paulo Gustavo é crucial para todos os segmentos culturais e fomenta a cultura em Roraima.",
+    "fala_b": "É importante discutir outras ações para auxiliar o Governo Federal a garantir a aplicação dos recursos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "84:1",
+    "fala_b_id": "84:2",
+    "deputado": "Max Maciel",
+    "similaridade": 0.0,
+    "fala_a": "É necessário equipar auditórios e espaços culturais para democratizar o acesso ao cinema e à produção audiovisual.",
+    "fala_b": "A cultura gera um grande impacto econômico e social, especialmente em territórios periféricos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "84:0",
+    "fala_b_id": "84:2",
+    "deputado": "Max Maciel",
+    "similaridade": 0.0,
+    "fala_a": "A Lei Paulo Gustavo é essencial para a produção audiovisual nas periferias.",
+    "fala_b": "A cultura gera um grande impacto econômico e social, especialmente em territórios periféricos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "86:1",
+    "fala_b_id": "86:2",
+    "deputado": "Carlos Humberto",
+    "similaridade": 0.0,
+    "fala_a": "Criticou a falta de melhorias significativas na BR-101, especialmente no trecho norte.",
+    "fala_b": "Defendeu a repactuação do contrato de concessão com soluções definitivas para os problemas rodoviários.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "86:0",
+    "fala_b_id": "86:2",
+    "deputado": "Carlos Humberto",
+    "similaridade": 0.0,
+    "fala_a": "Reforçou a importância dos túneis no Morro dos Cavalos para a mobilidade e segurança.",
+    "fala_b": "Defendeu a repactuação do contrato de concessão com soluções definitivas para os problemas rodoviários.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "86:0",
+    "fala_b_id": "86:1",
+    "deputado": "Carlos Humberto",
+    "similaridade": 0.0,
+    "fala_a": "Reforçou a importância dos túneis no Morro dos Cavalos para a mobilidade e segurança.",
+    "fala_b": "Criticou a falta de melhorias significativas na BR-101, especialmente no trecho norte.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "87:1",
+    "fala_b_id": "87:2",
+    "deputado": "Soraya Santos",
+    "similaridade": 0.0,
+    "fala_a": "Criticou a inclusão do FUNDEB no arcabouço fiscal.",
+    "fala_b": "Defendeu a associação de tecnologia com o tratamento médico.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "87:0",
+    "fala_b_id": "87:1",
+    "deputado": "Soraya Santos",
+    "similaridade": 0.0,
+    "fala_a": "Enfatizou a importância da tecnologia no tratamento de AIDS no Brasil.",
+    "fala_b": "Criticou a inclusão do FUNDEB no arcabouço fiscal.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "88:5",
+    "fala_b_id": "88:6",
+    "deputado": "Daiana Santos",
+    "similaridade": 0.0,
+    "fala_a": "As disparidades regionais impactam muito todos esses dados que vemos na sociedade.",
+    "fala_b": "Prover vaga para todas as crianças não é algo trivial; é um desafio coletivo.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "88:4",
+    "fala_b_id": "88:6",
+    "deputado": "Daiana Santos",
+    "similaridade": 0.0,
+    "fala_a": "Devemos considerar a diversidade das famílias brasileiras ao criar modelos de creches.",
+    "fala_b": "Prover vaga para todas as crianças não é algo trivial; é um desafio coletivo.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "92:1",
+    "fala_b_id": "92:3",
+    "deputado": "Paulo Fernando",
+    "similaridade": 0.0,
+    "fala_a": "Expressa preocupação com a dependência tecnológica em crianças e os efeitos na saúde neonatal.",
+    "fala_b": "Proposta para que o tempo de confirmação do voto dos idosos seja aumentado para evitar erros durante as eleições.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "93:0",
+    "fala_b_id": "93:1",
+    "deputado": "Diego Garcia",
+    "similaridade": 0.0,
+    "fala_a": "Destacou a importância da audiência pública para discutir o impacto da pandemia no esporte.",
+    "fala_b": "Enfatizou a necessidade de políticas públicas para promover a atividade física como essencial.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "97:0",
+    "fala_b_id": "97:1",
+    "deputado": "Denis Bezerra",
+    "similaridade": 0.0,
+    "fala_a": "Reforçou a importância de combater o idadismo e conscientizar a classe política sobre o envelhecimento populacional.",
+    "fala_b": "Mencionou a necessidade de políticas públicas efetivas para impactar positivamente a vida dos idosos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "98:1",
+    "fala_b_id": "98:2",
+    "deputado": "Rodrigo Coelho",
+    "similaridade": 0.0,
+    "fala_a": "Santa Catarina foi o quarto Estado que mais faturou em viagens ligadas ao turismo religioso em 2021, com mais de 834 milhões de reais.",
+    "fala_b": "Destacou a importância de investimentos em infraestrutura turística, como pavimentação e sinalização.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "98:0",
+    "fala_b_id": "98:2",
+    "deputado": "Rodrigo Coelho",
+    "similaridade": 0.0,
+    "fala_a": "O turismo religioso movimenta cerca de 15 bilhões de reais por ano no Brasil.",
+    "fala_b": "Destacou a importância de investimentos em infraestrutura turística, como pavimentação e sinalização.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "99:1",
+    "fala_b_id": "99:2",
+    "deputado": "Paulo Teixeira",
+    "similaridade": 0.0,
+    "fala_a": "A audiência pública teve um papel importante na suspensão do art. 27 da Resolução nº 296 até 2023.",
+    "fala_b": "Destacou a necessidade de se discutir o acesso à Justiça do Trabalho em todo o Brasil.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "100:0",
+    "fala_b_id": "100:1",
+    "deputado": "Professora Bebel",
+    "similaridade": 0.0,
+    "fala_a": "Ressaltou a importância de garantir o direito de acesso à Justiça do Trabalho em todo o país.",
+    "fala_b": "Criticou a lógica econômica da extinção de varas sem considerar o impacto sobre a classe trabalhadora.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "106:0",
+    "fala_b_id": "106:2",
+    "deputado": "Enio Verri",
+    "similaridade": 0.0,
+    "fala_a": "Privatizações têm sido prejudiciais para a população brasileira, favorecendo oligopólios privados.",
+    "fala_b": "A audiência pública visa discutir os impactos econômicos e sociais da privatização da SIX em São Mateus do Sul e na região.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "109:2",
+    "fala_b_id": "109:4",
+    "deputado": "Augusto Coutinho",
+    "similaridade": 0.0,
+    "fala_a": "A intenção é ouvir todos os setores interessados para construir uma otimização na reunião.",
+    "fala_b": "Agradeceu ao Ministro das Relações Exteriores e ao Ministro da Defesa pela atenção dada aos brasileiros no conflito.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "109:2",
+    "fala_b_id": "109:3",
+    "deputado": "Augusto Coutinho",
+    "similaridade": 0.0,
+    "fala_a": "A intenção é ouvir todos os setores interessados para construir uma otimização na reunião.",
+    "fala_b": "Parabenizou a postura do governo brasileiro em relação ao conflito Israel-Palestina, destacando a eficiência na repatriação de cidadãos brasileiros.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "110:0",
+    "fala_b_id": "110:1",
+    "deputado": "Bosco Costa",
+    "similaridade": 0.0,
+    "fala_a": "A guerra prejudicou o fornecimento de fertilizantes da Rússia, afetando a agricultura no Brasil.",
+    "fala_b": "Os preços dos insumos triplicaram nos últimos dois anos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "115:0",
+    "fala_b_id": "115:2",
+    "deputado": "Fábio Trad",
+    "similaridade": 0.0,
+    "fala_a": "Organizou e presidiu a audiência pública para debater sobre a Política Nacional de Proteção dos Direitos da Pessoa com TDAH.",
+    "fala_b": "Destacou a necessidade de reunir o maior número possível de contribuições e sugestões para elaborar uma lei eficaz, inteligente e justa.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "115:0",
+    "fala_b_id": "115:1",
+    "deputado": "Fábio Trad",
+    "similaridade": 0.0,
+    "fala_a": "Organizou e presidiu a audiência pública para debater sobre a Política Nacional de Proteção dos Direitos da Pessoa com TDAH.",
+    "fala_b": "Agradeceu a contribuição de Yuri Maia e ressaltou a importância de suas sugestões para o aprimoramento do Projeto de Lei nº 2.630/2021.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "116:0",
+    "fala_b_id": "116:2",
+    "deputado": "Capitão Fábio Abreu",
+    "similaridade": 0.0,
+    "fala_a": "Expressou apoio às propostas discutidas na audiência e destacou a importância do tema.",
+    "fala_b": "Ressaltou a necessidade de garantir acesso a medicamentos para pessoas com TDAH.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "116:0",
+    "fala_b_id": "116:1",
+    "deputado": "Capitão Fábio Abreu",
+    "similaridade": 0.0,
+    "fala_a": "Expressou apoio às propostas discutidas na audiência e destacou a importância do tema.",
+    "fala_b": "Questionou a relação entre TDAH e TEA, e a possível conexão entre adoção e predisposição ao TDAH.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "118:1",
+    "fala_b_id": "118:2",
+    "deputado": "Luis Miranda",
+    "similaridade": 0.0,
+    "fala_a": "Os crimes cibernéticos agora incluem manipulação de opinião pública e fake news, além dos tradicionais furtos e invasões de contas bancárias.",
+    "fala_b": "Há uma necessidade urgente de combater a disseminação de desinformação e proteger a democracia.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "118:0",
+    "fala_b_id": "118:2",
+    "deputado": "Luis Miranda",
+    "similaridade": 0.0,
+    "fala_a": "Aumentou a preocupação com crimes cibernéticos, especialmente crimes antidemocráticos.",
+    "fala_b": "Há uma necessidade urgente de combater a disseminação de desinformação e proteger a democracia.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "119:0",
+    "fala_b_id": "119:1",
+    "deputado": "João Daniel",
+    "similaridade": 0.0,
+    "fala_a": "Enfatiza a necessidade de firmeza da diplomacia brasileira em defesa do povo palestino.",
+    "fala_b": "Critica o genocídio financiado pelo imperialismo e pela extrema direita de Israel.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "120:4",
+    "fala_b_id": "120:5",
+    "deputado": "Padre João",
+    "similaridade": 0.0,
+    "fala_a": "O uso de Cannabis medicinal é justificado por sua eficiência comprovada em diversas condições de saúde, beneficiando especialmente os mais pobres que não podem arcar com os altos custos dos medicamentos importados.",
+    "fala_b": "A política pública deve priorizar a produção local, promovendo a inclusão social e a geração de renda para agricultores familiares.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "121:1",
+    "fala_b_id": "121:3",
+    "deputado": "Gilvan da Federal",
+    "similaridade": 0.0,
+    "fala_a": "Defende o direito de Israel se proteger contra ataques do Hamas.",
+    "fala_b": "Criticou a detenção de um jornalista português pela Polícia Federal e questionou se isso se tornaria uma prática comum.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "124:3",
+    "fala_b_id": "124:5",
+    "deputado": "Sanderson",
+    "similaridade": 0.0,
+    "fala_a": "A audiência é histórica e importante para a democracia brasileira.",
+    "fala_b": "Denuncia a desmoralização do ordenamento jurídico brasileiro devido às arbitrariedades nas prisões.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "124:3",
+    "fala_b_id": "124:4",
+    "deputado": "Sanderson",
+    "similaridade": 0.0,
+    "fala_a": "A audiência é histórica e importante para a democracia brasileira.",
+    "fala_b": "As prisões em massa sem individualização são um abuso.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "126:0",
+    "fala_b_id": "126:1",
+    "deputado": "Sargento Gonçalves",
+    "similaridade": 0.0,
+    "fala_a": "Relacionou a fuga de presos em Mossoró a visitas suspeitas e mudanças na direção do presídio.",
+    "fala_b": "Criticou a suspensão do direito de policiais militares adquirirem armas para defesa pessoal.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "127:0",
+    "fala_b_id": "127:1",
+    "deputado": "Delegado Paulo Bilynskyj",
+    "similaridade": 0.0,
+    "fala_a": "Destacou a importância do direito à legítima defesa e criticou restrições ao porte de armas.",
+    "fala_b": "Questionou o Ministro sobre as ações da Polícia Federal e a recomendação de veto ao projeto de lei das saídas temporárias de presos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "132:0",
+    "fala_b_id": "132:1",
+    "deputado": "Robinson Faria",
+    "similaridade": 0.0,
+    "fala_a": "Agradeceu a participação de Doreni Caramori.",
+    "fala_b": "Cedeu a presidência a Jorge Goetten durante a audiência.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "133:0",
+    "fala_b_id": "133:1",
+    "deputado": "Bibo Nunes",
+    "similaridade": 0.0,
+    "fala_a": "Defendeu a manutenção do PERSE.",
+    "fala_b": "Criticou a falta de reconhecimento do turismo como fonte de divisas no Brasil.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "135:0",
+    "fala_b_id": "135:1",
+    "deputado": "Reimont",
+    "similaridade": 0.0,
+    "fala_a": "Destaca a importância do fortalecimento orçamentário do Ministério dos Direitos Humanos.",
+    "fala_b": "Fala sobre a necessidade de políticas públicas que garantam a dignidade e a inclusão dos idosos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "136:1",
+    "fala_b_id": "136:2",
+    "deputado": "Sâmia Bomfim",
+    "similaridade": 0.0,
+    "fala_a": "Discorda da urgência constitucional do projeto, afirmando que 30 dias não são suficientes para um acordo satisfatório.",
+    "fala_b": "Destaca a necessidade de um processo mais amplo de escuta e mobilização dos trabalhadores.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "136:0",
+    "fala_b_id": "136:1",
+    "deputado": "Sâmia Bomfim",
+    "similaridade": 0.0,
+    "fala_a": "Apoia a regulamentação que amplie direitos e possibilidades para trabalhadores de aplicativos.",
+    "fala_b": "Discorda da urgência constitucional do projeto, afirmando que 30 dias não são suficientes para um acordo satisfatório.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "137:1",
+    "fala_b_id": "137:2",
+    "deputado": "Dayany Bittencourt",
+    "similaridade": 0.0,
+    "fala_a": "Reafirma que os motoristas não querem ligação com sindicatos e buscam respeito, dignidade e segurança.",
+    "fala_b": "Defende a rejeição do PLP 12/24.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "137:0",
+    "fala_b_id": "137:2",
+    "deputado": "Dayany Bittencourt",
+    "similaridade": 0.0,
+    "fala_a": "Critica a falta de respeito pela voz dos motoristas na elaboração do projeto.",
+    "fala_b": "Defende a rejeição do PLP 12/24.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "138:0",
+    "fala_b_id": "138:1",
+    "deputado": "Hildo do Candango",
+    "similaridade": 0.0,
+    "fala_a": "Apoia a regulamentação da categoria, mas critica a urgência do projeto.",
+    "fala_b": "Destaca a importância dos motoristas de aplicativo no transporte coletivo e defende sua valorização.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "139:1",
+    "fala_b_id": "139:2",
+    "deputado": "Leo Prates",
+    "similaridade": 0.0,
+    "fala_a": "Salienta a relevância do Ministério do Desenvolvimento Social nas ações de prevenção e auxílio a desastres.",
+    "fala_b": "Parabeniza a Caixa pelo trabalho realizado e questiona como a instituição pretende melhorar ainda mais os processos de indenização.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "139:0",
+    "fala_b_id": "139:2",
+    "deputado": "Leo Prates",
+    "similaridade": 0.0,
+    "fala_a": "Destaca a importância da criação de um arcabouço legal para proteger especialmente os vulneráveis em situações de enchentes e secas.",
+    "fala_b": "Parabeniza a Caixa pelo trabalho realizado e questiona como a instituição pretende melhorar ainda mais os processos de indenização.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "139:0",
+    "fala_b_id": "139:1",
+    "deputado": "Leo Prates",
+    "similaridade": 0.0,
+    "fala_a": "Destaca a importância da criação de um arcabouço legal para proteger especialmente os vulneráveis em situações de enchentes e secas.",
+    "fala_b": "Salienta a relevância do Ministério do Desenvolvimento Social nas ações de prevenção e auxílio a desastres.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "140:3",
+    "fala_b_id": "140:5",
+    "deputado": "Ismael Alexandrino",
+    "similaridade": 0.0,
+    "fala_a": "Educação deve ser um eixo estruturante para políticas públicas.",
+    "fala_b": "Defende uma discussão ampliada sobre o Sistema Único de Saúde, incluindo o setor privado.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "142:0",
+    "fala_b_id": "142:1",
+    "deputado": "Paulo Alexandre Barbosa",
+    "similaridade": 0.0,
+    "fala_a": "Abrir a reunião agradecendo a presença dos integrantes da delegação e destacando a importância dos temas a serem discutidos.",
+    "fala_b": "Perguntou sobre as relações comerciais entre Brasil e Argentina e sobre as prioridades do Brasil na Presidência do G-20.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "146:0",
+    "fala_b_id": "146:1",
+    "deputado": "Carlos Zarattini",
+    "similaridade": 0.0,
+    "fala_a": "Parabenizou a atuação do Itamaraty e do governo brasileiro na busca por soluções pacíficas para conflitos internacionais.",
+    "fala_b": "Solicitou detalhes sobre a negociação do acordo do MERCOSUL com a comunidade europeia e expressou preocupação com as limitações que o acordo pode impor ao desenvolvimento industrial do Brasil.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "148:0",
+    "fala_b_id": "148:1",
+    "deputado": "Vermelho",
+    "similaridade": 0.0,
+    "fala_a": "A importância da simplificação dos processos burocráticos para a liberação de recursos.",
+    "fala_b": "A necessidade de infraestrutura nas estradas vicinais para o escoamento da produção.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "152:2",
+    "fala_b_id": "152:3",
+    "deputado": "Luiz Couto",
+    "similaridade": 0.0,
+    "fala_a": "Ressaltou a subnotificação como um problema e a necessidade de garantir segurança às vítimas para denunciar.",
+    "fala_b": "Criticou o machismo estrutural e a ignorância ecoada no governo anterior.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "152:1",
+    "fala_b_id": "152:3",
+    "deputado": "Luiz Couto",
+    "similaridade": 0.0,
+    "fala_a": "Destacou o aumento dos casos de violência contra a mulher conforme dados do Fórum Brasileiro de Segurança Pública.",
+    "fala_b": "Criticou o machismo estrutural e a ignorância ecoada no governo anterior.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "153:1",
+    "fala_b_id": "153:2",
+    "deputado": "Saulo Pedroso",
+    "similaridade": 0.0,
+    "fala_a": "O Governo precisa mostrar tranquilidade, clareza e objetividade nas suas propostas, e se tiver que fazer alguma mudança, que não seja de maneira abrupta.",
+    "fala_b": "É necessário promover um debate profundo e garantir que todos os players estejam envolvidos na discussão antes de qualquer imposição do Ministério do Trabalho.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "153:0",
+    "fala_b_id": "153:2",
+    "deputado": "Saulo Pedroso",
+    "similaridade": 0.0,
+    "fala_a": "A portaria sinaliza a falta de previsibilidade em relação às ações do Governo e a maneira como tratam as relações entre trabalhador e empregador.",
+    "fala_b": "É necessário promover um debate profundo e garantir que todos os players estejam envolvidos na discussão antes de qualquer imposição do Ministério do Trabalho.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "154:1",
+    "fala_b_id": "154:2",
+    "deputado": "Alencar Santana",
+    "similaridade": 0.0,
+    "fala_a": "Parabeniza a Ministra Nísia Trindade pelo trabalho realizado no Ministério da Saúde.",
+    "fala_b": "Defende a obrigatoriedade da vacinação para proteger a vida das crianças.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "154:0",
+    "fala_b_id": "154:1",
+    "deputado": "Alencar Santana",
+    "similaridade": 0.0,
+    "fala_a": "Critica o debate sobre a vacinação obrigatória, considerando-o um reflexo da sabotagem do governo anterior.",
+    "fala_b": "Parabeniza a Ministra Nísia Trindade pelo trabalho realizado no Ministério da Saúde.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "155:2",
+    "fala_b_id": "155:3",
+    "deputado": "Osmar Terra",
+    "similaridade": 0.0,
+    "fala_a": "Critica o lockdown, afirmando que ele aumentou o contágio em casa.",
+    "fala_b": "Questiona a eficácia das medidas de restrição e argumenta que não há comprovação de sua utilidade.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "155:1",
+    "fala_b_id": "155:3",
+    "deputado": "Osmar Terra",
+    "similaridade": 0.0,
+    "fala_a": "Sugere a realização de uma Comissão Geral para debater o assunto no Plenário.",
+    "fala_b": "Questiona a eficácia das medidas de restrição e argumenta que não há comprovação de sua utilidade.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "157:0",
+    "fala_b_id": "157:2",
+    "deputado": "Jandira Feghali",
+    "similaridade": 0.0,
+    "fala_a": "A regulação do VOD é importante para estabelecer limites e liberdade de difusão e circulação de conteúdos.",
+    "fala_b": "A questão das janelas de exibição deve ser debatida para evitar que um único player ocupe muitas salas, prejudicando o cinema brasileiro.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "157:0",
+    "fala_b_id": "157:1",
+    "deputado": "Jandira Feghali",
+    "similaridade": 0.0,
+    "fala_a": "A regulação do VOD é importante para estabelecer limites e liberdade de difusão e circulação de conteúdos.",
+    "fala_b": "Há resistência nas leis de incentivo ao cinema nacional, tanto no setor quanto no Parlamento.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "158:1",
+    "fala_b_id": "158:2",
+    "deputado": "Jadyel Alencar",
+    "similaridade": 0.0,
+    "fala_a": "Informa que a Frente Parlamentar tem 226 membros, mostrando a relevância do tema.",
+    "fala_b": "Reafirma o compromisso de seguir ouvindo os técnicos e defendendo as rádios comunitárias.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "158:0",
+    "fala_b_id": "158:1",
+    "deputado": "Jadyel Alencar",
+    "similaridade": 0.0,
+    "fala_a": "Enfatiza a importância do debate aberto, inclusivo e transparente sobre as rádios comunitárias.",
+    "fala_b": "Informa que a Frente Parlamentar tem 226 membros, mostrando a relevância do tema.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "159:1",
+    "fala_b_id": "159:2",
+    "deputado": "Luiza Erundina",
+    "similaridade": 0.0,
+    "fala_a": "Ressalta a importância de uma nova lei que contemple as inovações e desafios atuais das rádios comunitárias.",
+    "fala_b": "Pretende recriar a Frente Parlamentar pela democratização dos meios de comunicação no País.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "159:0",
+    "fala_b_id": "159:2",
+    "deputado": "Luiza Erundina",
+    "similaridade": 0.0,
+    "fala_a": "Defende a atualização do marco legal da Lei nº 9.612, de 1998, devido às mudanças tecnológicas nos últimos 25 anos.",
+    "fala_b": "Pretende recriar a Frente Parlamentar pela democratização dos meios de comunicação no País.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "161:1",
+    "fala_b_id": "161:2",
+    "deputado": "Alex Manente",
+    "similaridade": 0.0,
+    "fala_a": "Relata problemas específicos no Grande ABC Paulista devido aos apagões.",
+    "fala_b": "Apoia a criação de uma CPI para investigar a ENEL.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "161:0",
+    "fala_b_id": "161:1",
+    "deputado": "Alex Manente",
+    "similaridade": 0.0,
+    "fala_a": "Critica a ausência do CEO nacional da ENEL na audiência.",
+    "fala_b": "Relata problemas específicos no Grande ABC Paulista devido aos apagões.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "163:1",
+    "fala_b_id": "163:2",
+    "deputado": "Altineu Côrtes",
+    "similaridade": 0.0,
+    "fala_a": "Defende a criação de uma CPI sem embates políticos.",
+    "fala_b": "Aponta problemas graves em São Gonçalo e outras cidades.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "163:0",
+    "fala_b_id": "163:2",
+    "deputado": "Altineu Côrtes",
+    "similaridade": 0.0,
+    "fala_a": "Critica duramente a ENEL pela má prestação de serviços.",
+    "fala_b": "Aponta problemas graves em São Gonçalo e outras cidades.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "163:0",
+    "fala_b_id": "163:1",
+    "deputado": "Altineu Côrtes",
+    "similaridade": 0.0,
+    "fala_a": "Critica duramente a ENEL pela má prestação de serviços.",
+    "fala_b": "Defende a criação de uma CPI sem embates políticos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "164:2",
+    "fala_b_id": "164:3",
+    "deputado": "Celso Russomanno",
+    "similaridade": 0.0,
+    "fala_a": "Afirmou que as plataformas de transporte precisam cumprir a legislação vigente e dar transparência na relação de consumo com os motoristas.",
+    "fala_b": "Propôs a criação de um grupo de trabalho para desenvolver um projeto que concilie os interesses de todas as partes envolvidas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "164:1",
+    "fala_b_id": "164:3",
+    "deputado": "Celso Russomanno",
+    "similaridade": 0.0,
+    "fala_a": "Critica a falta de investimento e atendimento da ENEL.",
+    "fala_b": "Propôs a criação de um grupo de trabalho para desenvolver um projeto que concilie os interesses de todas as partes envolvidas.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "165:0",
+    "fala_b_id": "165:1",
+    "deputado": "Roberto Monteiro Pai",
+    "similaridade": 0.0,
+    "fala_a": "Relata a insatisfação da população de Niterói e São Gonçalo com a falta de luz.",
+    "fala_b": "Critica os altos preços das tarifas de energia.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "171:0",
+    "fala_b_id": "171:1",
+    "deputado": "Acácio Favacho",
+    "similaridade": 0.0,
+    "fala_a": "Enfatizou a importância do Ministério das Cidades e os desafios de liderar uma pasta recriada.",
+    "fala_b": "Destacou a necessidade de leis menos burocráticas e projetos que cheguem à prática.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "172:0",
+    "fala_b_id": "172:1",
+    "deputado": "Joseildo Ramos",
+    "similaridade": 0.0,
+    "fala_a": "Manifestou preocupação com a privatização dos serviços públicos de saneamento.",
+    "fala_b": "Enfatizou a necessidade de financiamento para empresas públicas e autarquias.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "175:1",
+    "fala_b_id": "175:2",
+    "deputado": "Alfredinho",
+    "similaridade": 0.0,
+    "fala_a": "Criticou a burocracia que atrapalha o andamento dos programas habitacionais.",
+    "fala_b": "Sugeriu investimentos em infraestrutura nas periferias.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "175:0",
+    "fala_b_id": "175:2",
+    "deputado": "Alfredinho",
+    "similaridade": 0.0,
+    "fala_a": "Reforçou a importância do programa Minha Casa, Minha Vida Entidades.",
+    "fala_b": "Sugeriu investimentos em infraestrutura nas periferias.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "175:0",
+    "fala_b_id": "175:1",
+    "deputado": "Alfredinho",
+    "similaridade": 0.0,
+    "fala_a": "Reforçou a importância do programa Minha Casa, Minha Vida Entidades.",
+    "fala_b": "Criticou a burocracia que atrapalha o andamento dos programas habitacionais.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "177:1",
+    "fala_b_id": "177:2",
+    "deputado": "Nikolas Ferreira",
+    "similaridade": 0.0,
+    "fala_a": "Afirmou que o Ministro é contundente contra manifestantes, mas omisso em relação ao crime organizado.",
+    "fala_b": "Criticou a Ministra por não responder se acredita que um homem pode gestar ou menstruar, questionando sua posição sobre direitos trans.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "180:3",
+    "fala_b_id": "180:4",
+    "deputado": "Luisa Canziani",
+    "similaridade": 0.0,
+    "fala_a": "Agradeceu aos participantes e destacou a importância das contribuições trazidas pelos palestrantes.",
+    "fala_b": "Mencionou a possibilidade de uma segunda rodada de discussões sobre o Marco Legal da Inovação.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "180:2",
+    "fala_b_id": "180:4",
+    "deputado": "Luisa Canziani",
+    "similaridade": 0.0,
+    "fala_a": "Reconheceu o trabalho da Força Aérea Brasileira na repatriação de brasileiros em Israel.",
+    "fala_b": "Mencionou a possibilidade de uma segunda rodada de discussões sobre o Marco Legal da Inovação.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "181:1",
+    "fala_b_id": "181:2",
+    "deputado": "Tião Medeiros",
+    "similaridade": 0.0,
+    "fala_a": "Agradeceu a presença dos convidados, incluindo os ministros Paulo Pimenta e Waldez Góes, além de prefeitos e outras lideranças.",
+    "fala_b": "Enfatizou a importância de manter o foco nos temas específicos da audiência para garantir um debate produtivo.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "181:0",
+    "fala_b_id": "181:1",
+    "deputado": "Tião Medeiros",
+    "similaridade": 0.0,
+    "fala_a": "Declarou aberta a reunião extraordinária de audiência pública para debater os prejuízos das enchentes nas cidades mais afetadas do Rio Grande do Sul.",
+    "fala_b": "Agradeceu a presença dos convidados, incluindo os ministros Paulo Pimenta e Waldez Góes, além de prefeitos e outras lideranças.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "190:0",
+    "fala_b_id": "190:1",
+    "deputado": "Carlos Veras",
+    "similaridade": 0.0,
+    "fala_a": "Agradeceu a priorização e convocação da audiência pública.",
+    "fala_b": "Destacou a importância do debate sobre a saúde mental no ambiente de trabalho.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "191:2",
+    "fala_b_id": "191:3",
+    "deputado": "Reginete Bispo",
+    "similaridade": 0.0,
+    "fala_a": "Salienta a importância de legislações que garantam a igualdade racial na educação.",
+    "fala_b": "Enfatizou a necessidade de políticas públicas para enfrentar a desigualdade e o racismo.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "193:0",
+    "fala_b_id": "193:2",
+    "deputado": "Matheus Laiola",
+    "similaridade": 0.0,
+    "fala_a": "A principal solução para diminuir o abandono e maus-tratos de animais é a castração.",
+    "fala_b": "É necessário obter orçamento para viabilizar a política pública de proteção animal.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "193:0",
+    "fala_b_id": "193:1",
+    "deputado": "Matheus Laiola",
+    "similaridade": 0.0,
+    "fala_a": "A principal solução para diminuir o abandono e maus-tratos de animais é a castração.",
+    "fala_b": "Desde o início do mandato, tem trabalhado para implementar uma política nacional de controle populacional.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "194:1",
+    "fala_b_id": "194:2",
+    "deputado": "Alice Portugal",
+    "similaridade": 0.0,
+    "fala_a": "A contagem de tempo para aposentadoria para pós-graduandos deve ser garantida, similar ao que é feito com médicos residentes.",
+    "fala_b": "Mencionou que, historicamente, os cursos de quiropraxia no Brasil não tinham uma abordagem curricular ampla.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "194:0",
+    "fala_b_id": "194:2",
+    "deputado": "Alice Portugal",
+    "similaridade": 0.0,
+    "fala_a": "Defende a ampliação da licença parental para pós-graduandos, com ou sem bolsa.",
+    "fala_b": "Mencionou que, historicamente, os cursos de quiropraxia no Brasil não tinham uma abordagem curricular ampla.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "195:1",
+    "fala_b_id": "195:2",
+    "deputado": "Rosângela Azevedo Corrêa",
+    "similaridade": 0.0,
+    "fala_a": "A ciência demonstra a relação entre mudanças climáticas e ações humanas, como a emissão de gases de efeito estufa.",
+    "fala_b": "A principal causa do desmatamento do Cerrado é a expansão agrícola, que contribui com 22% das emissões globais devido ao uso do solo.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "195:0",
+    "fala_b_id": "195:2",
+    "deputado": "Rosângela Azevedo Corrêa",
+    "similaridade": 0.0,
+    "fala_a": "As crises atuais são éticas e profundamente existenciais, além de econômicas, políticas e tecnológicas.",
+    "fala_b": "A principal causa do desmatamento do Cerrado é a expansão agrícola, que contribui com 22% das emissões globais devido ao uso do solo.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "195:0",
+    "fala_b_id": "195:1",
+    "deputado": "Rosângela Azevedo Corrêa",
+    "similaridade": 0.0,
+    "fala_a": "As crises atuais são éticas e profundamente existenciais, além de econômicas, políticas e tecnológicas.",
+    "fala_b": "A ciência demonstra a relação entre mudanças climáticas e ações humanas, como a emissão de gases de efeito estufa.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "197:0",
+    "fala_b_id": "197:1",
+    "deputado": "Helio Lopes",
+    "similaridade": 0.0,
+    "fala_a": "Critica a Resolução nº 715 por abordar temas como legalização da maconha, mudança de sexo em crianças, e aborto.",
+    "fala_b": "Afirma que o Ministério da Saúde virou um Ministério ideológico.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "198:0",
+    "fala_b_id": "198:1",
+    "deputado": "Laura Carneiro",
+    "similaridade": 0.0,
+    "fala_a": "Critica a dificuldade de inscrição para participação na Comissão.",
+    "fala_b": "Questiona a coordenação das inscrições entre as Comissões de Previdência e Saúde.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "199:4",
+    "fala_b_id": "199:5",
+    "deputado": "Evair Vieira de Melo",
+    "similaridade": 0.0,
+    "fala_a": "Pediu esclarecimentos sobre a ampliação das investigações de recursos de COVID no Consórcio Nordeste.",
+    "fala_b": "Cobrou políticas de apoio aos hospitais filantrópicos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "202:0",
+    "fala_b_id": "202:1",
+    "deputado": "Gilson Marques",
+    "similaridade": 0.0,
+    "fala_a": "Abriu a reunião e apresentou os objetivos da audiência pública.",
+    "fala_b": "Destacou a importância de discutir as consequências para o consumidor e as condições de trabalho dos motoristas de aplicativos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "203:1",
+    "fala_b_id": "203:2",
+    "deputado": "Renato Roseno",
+    "similaridade": 0.0,
+    "fala_a": "A transição energética deve considerar a justiça ambiental e climática.",
+    "fala_b": "Há um risco de colonização na produção de hidrogênio verde que beneficia mais a Europa do que as comunidades locais.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "203:0",
+    "fala_b_id": "203:2",
+    "deputado": "Renato Roseno",
+    "similaridade": 0.0,
+    "fala_a": "A energia certa não pode ser produzida do jeito errado.",
+    "fala_b": "Há um risco de colonização na produção de hidrogênio verde que beneficia mais a Europa do que as comunidades locais.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "203:0",
+    "fala_b_id": "203:1",
+    "deputado": "Renato Roseno",
+    "similaridade": 0.0,
+    "fala_a": "A energia certa não pode ser produzida do jeito errado.",
+    "fala_b": "A transição energética deve considerar a justiça ambiental e climática.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "204:0",
+    "fala_b_id": "204:1",
+    "deputado": "Mariana Souza",
+    "similaridade": 0.0,
+    "fala_a": "A transição energética deve ser justa e sustentável, considerando os impactos socioambientais.",
+    "fala_b": "As comunidades tradicionais não podem ser destruídas em nome do desenvolvimento.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "210:1",
+    "fala_b_id": "210:2",
+    "deputado": "Átila Lira",
+    "similaridade": 0.0,
+    "fala_a": "O FIES foi transformado em um programa bancário após 2017, o que dificultou a inscrição e conclusão dos cursos pelos alunos.",
+    "fala_b": "É necessário sensibilizar o governo para a importância do projeto de lei como forma de ampliar o acesso à educação superior.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "211:0",
+    "fala_b_id": "211:1",
+    "deputado": "Raimundo Santos",
+    "similaridade": 0.0,
+    "fala_a": "A reunião foi convocada para discutir os impactos e perspectivas de revisão do novo marco legal da inovação.",
+    "fala_b": "Destacou a importância de aproveitar as sugestões trazidas para aprimorar a lei e garantir seu cumprimento.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "214:0",
+    "fala_b_id": "214:1",
+    "deputado": "José Medeiros",
+    "similaridade": 0.0,
+    "fala_a": "Critica o uso da democracia como justificativa para prisões políticas.",
+    "fala_b": "Defende que criticar o STF e outras instituições não é crime.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "215:1",
+    "fala_b_id": "215:2",
+    "deputado": "Fred Linhares",
+    "similaridade": 0.0,
+    "fala_a": "Denuncia a falta de individualização e a injustiça nas prisões.",
+    "fala_b": "Defende que as famílias dos presos sofrem com a ausência dos seus entes queridos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "215:0",
+    "fala_b_id": "215:2",
+    "deputado": "Fred Linhares",
+    "similaridade": 0.0,
+    "fala_a": "Relata a superlotação e as condições desumanas do Presídio da Papuda.",
+    "fala_b": "Defende que as famílias dos presos sofrem com a ausência dos seus entes queridos.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "215:0",
+    "fala_b_id": "215:1",
+    "deputado": "Fred Linhares",
+    "similaridade": 0.0,
+    "fala_a": "Relata a superlotação e as condições desumanas do Presídio da Papuda.",
+    "fala_b": "Denuncia a falta de individualização e a injustiça nas prisões.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "216:0",
+    "fala_b_id": "216:2",
+    "deputado": "Cabo Gilberto Silva",
+    "similaridade": 0.0,
+    "fala_a": "Critica as prisões arbitrárias e inconstitucionais.",
+    "fala_b": "Argumenta que não houve golpe de Estado, mas sim depredação do patrimônio público.",
+    "mesma_pauta": null,
+    "contradicao": null
+  },
+  {
+    "fala_a_id": "217:0",
+    "fala_b_id": "217:1",
+    "deputado": "Meire Serafim",
+    "similaridade": 0.0,
+    "fala_a": "A distonia é uma condição neurológica debilitante que causa contrações musculares involuntárias, resultando em movimentos repetitivos e posturas anormais.",
+    "fala_b": "Os acessos a tratamentos e recursos através da saúde pública são limitados.",
+    "mesma_pauta": null,
+    "contradicao": null
+  }
+]
