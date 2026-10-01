@@ -4,7 +4,7 @@
     "partido": "PL",
     "estado": "Amapá",
     "posicionamento_politico_partido": "direita",
-    "contradicoes": [
+    "candidatos_divergencia_partidaria": [
       {
         "indice": 1,
         "fala": "Destaca as dificuldades enfrentadas pela população do Norte do Brasil devido às políticas ambientais restritivas.",
@@ -14,12 +14,14 @@
         "origem": "classificador",
         "posicionamento_partido": "direita",
         "posicionamento_partido_pauta": "meio_ambiente",
-        "posicionamento_fala": "centro-esquerda",
+        "posicionamento_fala": "esquerda",
         "score_partido": 0.5,
         "score_fala": -0.5639,
         "distancia": 1.0639,
         "pauta": "meio_ambiente",
         "evidencia_pauta": 0.0212,
+        "review_required": true,
+        "tipo": "candidate_party_divergence",
         "trechos_transcricao": [
           ", então vamos construir de madeira. Não se pode arrancar madeira da floresta, não se pode derrubar árvore. Então nós ficamos sem socorro, sem acesso, sem saneamento, sem saúde, em nome de uma política ambiental para manter a estabilidade climática do mundo, mas em benefício principalmente de países desenvolvidos economicamente.\n A minha preocupação é, primeiro, com o Brasil, com o povo brasileiro, principalmente o povo do Norte, que não tem saneamento básico, que não tem saúde, que não tem ensino de qualidade, um povo cuja possibilidade de sobrevivência, na sua própria região, é dificultada. Eu vejo, tanto no Sul quanto no Sudeste e no Centro-Oeste, homens e mulheres protegidos em seus apartamentos, comendo comida pedida por iFood, com água quente, podendo beber água gelada, em detrimento do povo do Norte.",
           "Eu vejo, tanto no Sul quanto no Sudeste e no Centro-Oeste, homens e mulheres protegidos em seus apartamentos, comendo comida pedida por iFood, com água quente, podendo beber água gelada, em detrimento do povo do Norte. Lá não temos isso. Se eu estiver na minha aldeia, no Itapé, e quiser fazer xixi e cocô, eu vou ter que fazer na água, porque nós não temos saneamento.\n Para quem nós estamos defendendo estabilidade climática, estabilidade econômica, proteção da natureza, proteção do mundo, se o povo do Norte é quem está pagando a conta mais cara para manter a estabilidade econômica e a boa vida em países desenvolvidos economicamente?\n Esta é apenas uma reflexão de uma mulher indígena do Norte brasileiro, a principal área afetada, quando se fala em manutenção do clima.",
@@ -34,7 +36,7 @@
     "partido": "PP",
     "estado": "Piauí",
     "posicionamento_politico_partido": "direita",
-    "contradicoes": [
+    "candidatos_divergencia_partidaria": [
       {
         "indice": 0,
         "fala": "O projeto de lei busca criar um novo programa de bolsas para ampliar o acesso dos jovens carentes ao ensino superior.",
@@ -50,6 +52,8 @@
         "distancia": 1.5118,
         "pauta": "programas_sociais",
         "evidencia_pauta": 0.0205,
+        "review_required": true,
+        "tipo": "candidate_party_divergence",
         "trechos_transcricao": [
           "Mais uma vez, bom dia a todos!\n Esta audiência pública foi solicitada por mim e por alguns Parlamentares, em decorrência de ser um assunto de alta relevância, que trata de ensino superior e de acesso ao ensino superior, e também porque esse projeto de lei altera um programa que é muito forte, o mais forte hoje, o FIES. Na sua implementação, ele faz uma pequena modificação na Lei do FIES.\n A ideia desse projeto de lei, do qual eu sou Relator, é poder criar um novo programa de bolsas para que possamos ampliar o acesso dos jovens ao ensino superior, principalmente dos jovens carentes.\n O que nós temos hoje no Brasil?",
           "Hoje, esse aluno termina entrando no FIES e ele não tem condição de cumpri-lo, o que gera inadimplência, um passivo. Isso termina gerando um problema: o aluno não conclui o curso, o financiamento fica perdido, há um passivo para o Governo, e o aluno vai para as estatísticas de falta de esperança. Se esse aluno for custeado 100%, com acompanhamento, regulamentação, fiscalização, teremos condições de fazer com que ele conclua o seu curso superior em locais aonde as instituições públicas não chegam, com a ampliação do seu acesso.\n A nossa ideia é dobrar a oferta de vagas, através desse programa de apoio ao estudante, um programa que vai ser muito mais barato para a sociedade. Se conseguirmos aumentar 100 mil vagas/ano para esse programa, nós ainda vamos estar muito aquém do que foi oferecido na época do Governo da Dilma, que chegou a 700 mil vagas/ano.\n",

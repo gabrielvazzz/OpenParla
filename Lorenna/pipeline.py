@@ -314,7 +314,7 @@ if __name__ == "__main__":
     )
     parser.add_argument(
         "--output-contradicoes",
-        default=str(DIRETORIO_SAIDAS / "pares_potencialmente_incompativeis.json"),
+        default=str(DIRETORIO_SAIDAS / "contradicoes_falas.json"),
     )
     parser.add_argument(
         "--output-contradicoes-partido",

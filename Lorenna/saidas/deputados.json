@@ -554,8 +554,8 @@
   {
     "nome": "Lindbergh Farias",
     "cargo": "Deputado (Bloco/PT - RJ)",
-    "estado": "",
-    "partido": "",
+    "estado": "Rio de Janeiro",
+    "partido": "PT",
     "opinioes": [
       {
         "opiniao": "Reflexão sobre a contradição entre a percepção da população sobre emprego e os dados econômicos positivos.",
@@ -580,7 +580,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "esquerda",
     "posicionamento_politico_fala": null
   },
   {
@@ -814,8 +814,8 @@
   {
     "nome": "Cezinha de Madureira",
     "cargo": "Deputado Federal (Bloco/PSD - SP)",
-    "estado": "",
-    "partido": "",
+    "estado": "São Paulo",
+    "partido": "PSD",
     "opinioes": [
       {
         "opiniao": "A atuação do Sr. Baigorri na presidência da ANATEL é elogiada pela elegância no atendimento aos parlamentares.",
@@ -829,14 +829,14 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "centro",
     "posicionamento_politico_fala": null
   },
   {
     "nome": "Weliton Prado",
     "cargo": "Deputado, Bloco/SOLIDARIEDADE - MG",
-    "estado": "",
-    "partido": "",
+    "estado": "Minas Gerais",
+    "partido": "SOLIDARIEDADE",
     "opinioes": [
       {
         "opiniao": "Destaca a importância da audiência pública para debater o Dia Mundial de Conscientização sobre o Autismo.",
@@ -883,7 +883,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "centro",
     "posicionamento_politico_fala": null
   },
   {
@@ -1226,8 +1226,8 @@
   {
     "nome": "Igor Timo",
     "cargo": "Deputado pelo Bloco/Podemos - MG",
-    "estado": "",
-    "partido": "",
+    "estado": "Minas Gerais",
+    "partido": "PODE",
     "opinioes": [
       {
         "opiniao": "Questionou sobre a transparência e a saúde financeira da 123Milhas.",
@@ -1263,7 +1263,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "centro",
     "posicionamento_politico_fala": null
   },
   {
@@ -2671,8 +2671,8 @@
   {
     "nome": "Bebeto",
     "cargo": "Deputado Federal (Bloco/PP - RJ)",
-    "estado": "",
-    "partido": "",
+    "estado": "Rio de Janeiro",
+    "partido": "PP",
     "opinioes": [
       {
         "opiniao": "Os acidentes de trânsito são um problema constante nas rodovias e nas capitais brasileiras.",
@@ -2708,7 +2708,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "direita",
     "posicionamento_politico_fala": null
   },
   {
@@ -2932,8 +2932,8 @@
   {
     "nome": "Juliana Cardoso",
     "cargo": "Deputada Federal pelo PT-SP",
-    "estado": "",
-    "partido": "",
+    "estado": "São Paulo",
+    "partido": "PT",
     "opinioes": [
       {
         "opiniao": "A educação nas aldeias guaranis em São Paulo foi uma importante experiência.",
@@ -2980,7 +2980,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "esquerda",
     "posicionamento_politico_fala": null
   },
   {
@@ -3128,8 +3128,8 @@
   {
     "nome": "Chico Alencar",
     "cargo": "Deputado Federal pelo PSOL-RJ",
-    "estado": "",
-    "partido": "",
+    "estado": "Rio de Janeiro",
+    "partido": "PSOL",
     "opinioes": [
       {
         "opiniao": "A maioria dos representantes políticos não reconhece a importância da presença indígena.",
@@ -3187,7 +3187,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "esquerda",
     "posicionamento_politico_fala": null
   },
   {
@@ -3990,8 +3990,8 @@
   {
     "nome": "Leonardo Monteiro",
     "cargo": "Deputado, Bloco/PT - MG",
-    "estado": "",
-    "partido": "",
+    "estado": "Minas Gerais",
+    "partido": "PT",
     "opinioes": [
       {
         "opiniao": "Cumprimentou os participantes e enfatizou a importância do Banco do Nordeste para Minas Gerais.",
@@ -4005,14 +4005,14 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "esquerda",
     "posicionamento_politico_fala": null
   },
   {
     "nome": "Paulo Guedes",
     "cargo": "Deputado, Bloco/PT - MG",
-    "estado": "",
-    "partido": "",
+    "estado": "Minas Gerais",
+    "partido": "PT",
     "opinioes": [
       {
         "opiniao": "Parabenizou os participantes pela audiência pública.",
@@ -4048,7 +4048,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "esquerda",
     "posicionamento_politico_fala": null
   },
   {
@@ -4553,10 +4553,10 @@
   {
     "nome": "Professora Goreth",
     "cargo": "Deputada, Bloco/PDT - AP",
-    "estado": "",
-    "partido": "",
+    "estado": "Amapá",
+    "partido": "PDT",
     "opinioes": [],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "centro-esquerda",
     "posicionamento_politico_fala": null
   },
   {
@@ -4712,8 +4712,8 @@
   {
     "nome": "Eduardo Velloso",
     "cargo": "Deputado, Bloco/UNIÃO - AC",
-    "estado": "",
-    "partido": "",
+    "estado": "Acre",
+    "partido": "UNIÃO",
     "opinioes": [
       {
         "opiniao": "A importância do debate sobre a saúde mental de crianças e adolescentes devido ao impacto das redes sociais.",
@@ -4749,7 +4749,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "centro-direita",
     "posicionamento_politico_fala": null
   },
   {
@@ -4873,8 +4873,8 @@
   {
     "nome": "Isnaldo Bulhões Jr.",
     "cargo": "Deputado do MDB-AL",
-    "estado": "",
-    "partido": "",
+    "estado": "Alagoas",
+    "partido": "MDB",
     "opinioes": [
       {
         "opiniao": "Enfatiza a importância de debates permanentes para buscar segurança na legislação eleitoral.",
@@ -4899,7 +4899,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "centro",
     "posicionamento_politico_fala": null
   },
   {
@@ -5132,8 +5132,8 @@
   {
     "nome": "Romero Rodrigues",
     "cargo": "Presidente, Deputado Bloco/PSC - PB",
-    "estado": "",
-    "partido": "",
+    "estado": "Paraíba",
+    "partido": "PSC",
     "opinioes": [
       {
         "opiniao": "A criação da zona franca ajudará a criar um ambiente favorável à tributação e fortalecerá a vinicultura no Rio Grande do Sul.",
@@ -5158,7 +5158,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "direita",
     "posicionamento_politico_fala": null
   },
   {
@@ -5499,8 +5499,8 @@
   {
     "nome": "José Priante",
     "cargo": "Deputado, Bloco/MDB - PA",
-    "estado": "",
-    "partido": "",
+    "estado": "Pará",
+    "partido": "MDB",
     "opinioes": [
       {
         "opiniao": "Presidiu a reunião de audiência pública para debater a exploração de petróleo e gás na foz do Rio Amazonas.",
@@ -5525,7 +5525,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "centro",
     "posicionamento_politico_fala": null
   },
   {
@@ -5596,10 +5596,10 @@
   {
     "nome": "Zucco",
     "cargo": "Presidente da CPI, Deputado pelo Bloco/REPUBLICANOS - RS",
-    "estado": "",
-    "partido": "",
+    "estado": "Rio Grande do Sul",
+    "partido": "REPUBLICANOS",
     "opinioes": [],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "direita",
     "posicionamento_politico_fala": null
   },
   {
@@ -5692,7 +5692,7 @@
   {
     "nome": "Defensor Stélio Dener",
     "cargo": "Deputado pelo Republicanos de Roraima",
-    "estado": "Roraima",
+    "estado": "",
     "partido": "REPUBLICANOS",
     "opinioes": [
       {
@@ -6189,8 +6189,8 @@
   {
     "nome": "Paulo Fernando",
     "cargo": "Deputado Federal, Bloco/REPUBLICANOS - DF",
-    "estado": "",
-    "partido": "",
+    "estado": "Distrito Federal",
+    "partido": "REPUBLICANOS",
     "opinioes": [
       {
         "opiniao": "Parabeniza a iniciativa da audiência pública e a criação da Frente Parlamentar Mista do Uso Saudável das Tecnologias Digitais.",
@@ -6237,7 +6237,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "direita",
     "posicionamento_politico_fala": null
   },
   {
@@ -6965,8 +6965,8 @@
   {
     "nome": "Felipe Rigoni",
     "cargo": "Deputado, UNIÃO - ES",
-    "estado": "",
-    "partido": "",
+    "estado": "Espírito Santo",
+    "partido": "UNIÃO",
     "opinioes": [
       {
         "opiniao": "O projeto visa criar um Código de Defesa do Pagador de Impostos, que garanta aos bons contribuintes maior defesa e estabilidade econômica, sem prejudicar a capacidade de fiscalização da Receita.",
@@ -6991,7 +6991,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "centro-direita",
     "posicionamento_politico_fala": null
   },
   {
@@ -7911,8 +7911,8 @@
   {
     "nome": "Rafael Pezenti",
     "cargo": "Presidente da audiência, Deputado Bloco/MDB - SC",
-    "estado": "",
-    "partido": "",
+    "estado": "Santa Catarina",
+    "partido": "MDB",
     "opinioes": [
       {
         "opiniao": "O PROAGRO tem sido suporte para milhões de pequenos agricultores e sofreu alterações substanciais desde o ano passado.",
@@ -7937,7 +7937,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "centro",
     "posicionamento_politico_fala": null
   },
   {
@@ -8278,8 +8278,8 @@
   {
     "nome": "Sâmia Bomfim",
     "cargo": "Deputada Federal (Bloco/PSOL - SP)",
-    "estado": "",
-    "partido": "",
+    "estado": "São Paulo",
+    "partido": "PSOL",
     "opinioes": [
       {
         "opiniao": "Apoia a regulamentação que amplie direitos e possibilidades para trabalhadores de aplicativos.",
@@ -8315,14 +8315,14 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "esquerda",
     "posicionamento_politico_fala": null
   },
   {
     "nome": "Dayany Bittencourt",
     "cargo": "Deputada Federal (Bloco/UNIÃO - CE)",
-    "estado": "",
-    "partido": "",
+    "estado": "Ceará",
+    "partido": "UNIÃO",
     "opinioes": [
       {
         "opiniao": "Critica a falta de respeito pela voz dos motoristas na elaboração do projeto.",
@@ -8358,14 +8358,14 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "centro-direita",
     "posicionamento_politico_fala": null
   },
   {
     "nome": "Hildo do Candango",
     "cargo": "Deputado Federal (Bloco/REPUBLICANOS - GO)",
-    "estado": "",
-    "partido": "",
+    "estado": "Goiás",
+    "partido": "REPUBLICANOS",
     "opinioes": [
       {
         "opiniao": "Apoia a regulamentação da categoria, mas critica a urgência do projeto.",
@@ -8390,7 +8390,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "direita",
     "posicionamento_politico_fala": null
   },
   {
@@ -8547,8 +8547,8 @@
   {
     "nome": "Paulo Alexandre Barbosa",
     "cargo": "Presidente da Comissão de Relações Exteriores e de Defesa Nacional da Câmara dos Deputados, Deputado pelo PSDB-SP",
-    "estado": "",
-    "partido": "",
+    "estado": "São Paulo",
+    "partido": "PSDB",
     "opinioes": [
       {
         "opiniao": "Abrir a reunião agradecendo a presença dos integrantes da delegação e destacando a importância dos temas a serem discutidos.",
@@ -8573,14 +8573,14 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "centro",
     "posicionamento_politico_fala": null
   },
   {
     "nome": "Flávio Nogueira",
     "cargo": "Deputado pelo PT-PI",
-    "estado": "",
-    "partido": "",
+    "estado": "Piauí",
+    "partido": "PT",
     "opinioes": [
       {
         "opiniao": "Parabenizou o Ministro Mauro Vieira pela exposição e destacou a importância da diplomacia brasileira na construção da doutrina da política externa independente.",
@@ -8605,7 +8605,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "esquerda",
     "posicionamento_politico_fala": null
   },
   {
@@ -9129,8 +9129,8 @@
   {
     "nome": "Alencar Santana",
     "cargo": "Deputado Federal (Bloco/PT - SP)",
-    "estado": "",
-    "partido": "",
+    "estado": "São Paulo",
+    "partido": "PT",
     "opinioes": [
       {
         "opiniao": "Critica o debate sobre a vacinação obrigatória, considerando-o um reflexo da sabotagem do governo anterior.",
@@ -9166,7 +9166,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "esquerda",
     "posicionamento_politico_fala": null
   },
   {
@@ -9799,8 +9799,8 @@
   {
     "nome": "Mário Heringer",
     "cargo": "Deputado (Bloco/PDT - MG)",
-    "estado": "",
-    "partido": "",
+    "estado": "Minas Gerais",
+    "partido": "PDT",
     "opinioes": [
       {
         "opiniao": "Critica a privatização e aponta problemas na gestão ambiental e energética.",
@@ -9825,7 +9825,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "centro-esquerda",
     "posicionamento_politico_fala": null
   },
   {
@@ -9884,8 +9884,8 @@
   {
     "nome": "Luciene Cavalcante",
     "cargo": "Deputada, Professora, PSOL - SP",
-    "estado": "",
-    "partido": "",
+    "estado": "São Paulo",
+    "partido": "PSOL",
     "opinioes": [
       {
         "opiniao": "A perseguição a professores compromete a educação democrática e cidadã, princípios constitucionais do Brasil.",
@@ -9899,7 +9899,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "esquerda",
     "posicionamento_politico_fala": null
   },
   {
@@ -10108,8 +10108,8 @@
   {
     "nome": "Delegado Éder Mauro",
     "cargo": "Deputado pelo PL-PA",
-    "estado": "",
-    "partido": "",
+    "estado": "Pará",
+    "partido": "PL",
     "opinioes": [
       {
         "opiniao": "Criticou o uso da Polícia Federal pelo Ministro da Justiça e pelo Governo Lula.",
@@ -10134,7 +10134,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "direita",
     "posicionamento_politico_fala": null
   },
   {
@@ -10183,8 +10183,8 @@
   {
     "nome": "Kim Kataguiri",
     "cargo": "Deputado pelo União-SP",
-    "estado": "",
-    "partido": "",
+    "estado": "São Paulo",
+    "partido": "UNIÃO",
     "opinioes": [
       {
         "opiniao": "Criticou a alegação de que não houve cortes no orçamento, destacando que a manutenção nominal do orçamento resulta em cortes reais devido à inflação.",
@@ -10198,7 +10198,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "centro-direita",
     "posicionamento_politico_fala": null
   },
   {
@@ -10646,8 +10646,8 @@
   {
     "nome": "Nicoletti",
     "cargo": "Deputado. Bloco/UNIÃO - RR",
-    "estado": "",
-    "partido": "",
+    "estado": "Roraima",
+    "partido": "UNIÃO",
     "opinioes": [
       {
         "opiniao": "Destacou as dificuldades enfrentadas pelo Estado de Roraima em relação aos voos e preços das passagens aéreas.",
@@ -10683,14 +10683,14 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "centro-direita",
     "posicionamento_politico_fala": null
   },
   {
     "nome": "Lula da Fonte",
     "cargo": "Deputado. Bloco/PP - PE",
-    "estado": "",
-    "partido": "",
+    "estado": "Pernambuco",
+    "partido": "PP",
     "opinioes": [
       {
         "opiniao": "Criticou a alta das passagens aéreas e afirmou que as empresas aéreas praticam oligopólio.",
@@ -10715,7 +10715,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "direita",
     "posicionamento_politico_fala": null
   },
   {
@@ -11291,7 +11291,7 @@
     "nome": "Mariana Souza",
     "cargo": "Deputada Estadual do PSOL de São Paulo",
     "estado": "",
-    "partido": "",
+    "partido": "PSOL",
     "opinioes": [
       {
         "opiniao": "A transição energética deve ser justa e sustentável, considerando os impactos socioambientais.",
@@ -11316,7 +11316,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "esquerda",
     "posicionamento_politico_fala": null
   },
   {
@@ -11473,8 +11473,8 @@
   {
     "nome": "Murillo Gouvea",
     "cargo": "Deputado Federal pelo Bloco/UNIÃO - RJ, Presidente da audiência",
-    "estado": "",
-    "partido": "",
+    "estado": "Rio de Janeiro",
+    "partido": "UNIÃO",
     "opinioes": [
       {
         "opiniao": "Agradeceu pela realização da audiência pública e destacou a importância do debate sobre as doenças raras.",
@@ -11488,7 +11488,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "centro-direita",
     "posicionamento_politico_fala": null
   },
   {
@@ -11569,8 +11569,8 @@
   {
     "nome": "Raimundo Santos",
     "cargo": "Deputado, Bloco/PSD - PA",
-    "estado": "",
-    "partido": "",
+    "estado": "Pará",
+    "partido": "PSD",
     "opinioes": [
       {
         "opiniao": "A reunião foi convocada para discutir os impactos e perspectivas de revisão do novo marco legal da inovação.",
@@ -11595,14 +11595,14 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "centro",
     "posicionamento_politico_fala": null
   },
   {
     "nome": "Vitor Lippi",
     "cargo": "Deputado, Bloco/PSDB - SP",
-    "estado": "",
-    "partido": "",
+    "estado": "São Paulo",
+    "partido": "PSDB",
     "opinioes": [
       {
         "opiniao": "Afirmou que ciência e tecnologia não dão votos, mas geram empregos, renda e desenvolvimento.",
@@ -11627,7 +11627,7 @@
         ]
       }
     ],
-    "posicionamento_politico_partido": "desconhecido",
+    "posicionamento_politico_partido": "centro",
     "posicionamento_politico_fala": null
   },
   {

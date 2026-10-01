@@ -126,6 +126,19 @@ def test_ideology_classifier():
     r = clf.classify("   ")
     assert r.label == "neutra"
 
+    # A discretização efetiva deve respeitar os thresholds documentados, não
+    # apenas o rótulo de maior afinidade na escala contínua.
+    assert IdeologyClassifier._label_from_score(-0.2192) == "centro-esquerda"
+    threshold_clf = object.__new__(IdeologyClassifier)
+    threshold_clf.issue_poles = {
+        "cotas": (np.array([1.0, 0.0]), np.array([0.0, 1.0])),
+    }
+    threshold_clf.neutral_centroid = np.array([0.0, 0.0])
+    threshold_clf.policy_evidence_threshold = 0.0
+    threshold_clf.topic_margin_threshold = 0.0
+    r = threshold_clf._classify_embedding(np.array([1.0, 0.7808]))
+    assert r.label == "centro-esquerda", f"esperado centro-esquerda, veio {r.label}"
+
     # Partido de esquerda + fala inequivocamente à direita.
     opinioes = [{"opiniao": "posição direita", "sessao_id": 7, "assunto": "teste"}]
     conflitos = find_party_contradictions(

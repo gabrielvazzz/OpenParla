@@ -198,7 +198,10 @@ class IdeologyClassifier:
         ideology_score = float(np.clip(raw_score, -1.0, 1.0))
         scores = self._label_scores(ideology_score)
         ranked = sorted(scores.items(), key=lambda item: item[1], reverse=True)
-        top_label, top1 = ranked[0]
+        # A decisão usa os intervalos calibrados em _label_from_score(). As
+        # afinidades em ``scores`` ficam disponíveis apenas para auditoria.
+        top_label = self._label_from_score(ideology_score)
+        top1 = scores[top_label]
         margin = top1 - ranked[1][1]
 
         has_policy_evidence = (

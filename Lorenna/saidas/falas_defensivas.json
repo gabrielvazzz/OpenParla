@@ -14,7 +14,6 @@
         "pauta": null,
         "posicao_fala": "neutra",
         "severidade": "tensao",
-        "case_id": "defensive-speech:fa2739f4064978a1",
         "review_required": true,
         "tipo": "candidate_defensive_speech",
         "trechos_transcricao": [
@@ -41,7 +40,6 @@
         "pauta": null,
         "posicao_fala": "neutra",
         "severidade": "tensao",
-        "case_id": "defensive-speech:bdb6c043eb2bc759",
         "review_required": true,
         "tipo": "candidate_defensive_speech",
         "trechos_transcricao": [
@@ -61,7 +59,6 @@
         "pauta": null,
         "posicao_fala": "neutra",
         "severidade": "tensao",
-        "case_id": "defensive-speech:b7fc8cc1f5d6acf1",
         "review_required": true,
         "tipo": "candidate_defensive_speech",
         "trechos_transcricao": [
@@ -88,7 +85,6 @@
         "pauta": null,
         "posicao_fala": "neutra",
         "severidade": "tensao",
-        "case_id": "defensive-speech:7be28d243ffad286",
         "review_required": true,
         "tipo": "candidate_defensive_speech",
         "trechos_transcricao": [
@@ -115,7 +111,6 @@
         "pauta": null,
         "posicao_fala": "neutra",
         "severidade": "tensao",
-        "case_id": "defensive-speech:9dd79d0afca23134",
         "review_required": true,
         "tipo": "candidate_defensive_speech",
         "trechos_transcricao": [
